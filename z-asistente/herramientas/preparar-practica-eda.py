@@ -15,16 +15,17 @@ from nbclient import NotebookClient
 RAIZ = Path(__file__).resolve().parents[2]
 CLASE = (
     RAIZ
-    / "01_CLASES_APRENDIZAJE_SUPERVISADO"
-    / "U01_C01_2026-10-19_INTRODUCCION_Y_EDA"
+    / "unidades"
+    / "unidad-01-preparacion-de-datos"
+    / "clase-01-2026-10-19-introduccion-y-eda"
 )
 PLANTILLA = (
     RAIZ
-    / "_ASISTENTE"
-    / "PLANTILLAS_ORIGINALES"
-    / "U01_C01_ACTIVIDAD_EDA_CALIFORNIA_HOUSING.ipynb"
+    / "z-asistente"
+    / "plantillas-originales"
+    / "unidad-01-clase-01-actividad-eda-california-housing.ipynb"
 )
-SALIDA = CLASE / "PRACTICA_EDA_CALIFORNIA_HOUSING_RESUELTA.ipynb"
+SALIDA = CLASE / "practica-eda-california-housing-resuelta.ipynb"
 
 
 RESPUESTAS = {
@@ -246,7 +247,7 @@ entrega'''
 
     notebook.cells[51].source = notebook.cells[51].source.replace(
         'entregable_unidad1.csv',
-        'PRACTICA_EDA_DECISIONES.csv',
+        'practica-eda-decisiones.csv',
     )
 
     SALIDA.parent.mkdir(parents=True, exist_ok=True)
@@ -259,7 +260,7 @@ entrega'''
     cliente.execute()
     nbformat.write(notebook, SALIDA)
     print(SALIDA)
-    print(CLASE / "PRACTICA_EDA_DECISIONES.csv")
+    print(CLASE / "practica-eda-decisiones.csv")
 
 
 if __name__ == "__main__":

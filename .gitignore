@@ -4,8 +4,8 @@
 *.mkv
 *.avi
 archivo-videos/
-_procesamiento/
-tmp/
+z-asistente/procesamiento/
+z-asistente/temporal/
 
 # Archivos temporales y entornos locales.
 .venv/

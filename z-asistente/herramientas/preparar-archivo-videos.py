@@ -12,16 +12,16 @@ RAIZ = Path(__file__).resolve().parents[2]
 
 def pares_de_clase() -> list[tuple[Path, Path, str]]:
     pares: list[tuple[Path, Path, str]] = []
-    patron = "U*/_FUENTES_CLASE/_VIDEO_LOCAL/*.mp4"
-    for video in sorted((RAIZ / "01_CLASES_APRENDIZAJE_SUPERVISADO").glob(patron)):
-        carpeta_clase = video.parents[2]
-        fuentes = carpeta_clase / "_FUENTES_CLASE"
-        vtt_es = fuentes / f"{video.stem}_RETRANSCRIPCION_ES.vtt"
-        vtt_original = fuentes / f"{video.stem}_ORIGINAL.vtt"
+    patron = "unidad-*/clase-*/z-video-*.mp4"
+    for video in sorted((RAIZ / "unidades").glob(patron)):
+        carpeta_clase = video.parent
+        base_transcripcion = video.stem.replace("z-video-", "z-transcripcion-", 1)
+        vtt_es = carpeta_clase / f"{base_transcripcion}-es.vtt"
+        vtt_original = carpeta_clase / f"{base_transcripcion}-original.vtt"
         vtt = vtt_es if vtt_es.exists() else vtt_original
         if not vtt.exists():
             raise FileNotFoundError(f"Falta el VTT correspondiente a {video}")
-        ruta_zip = f"{carpeta_clase.name}/{video.stem}"
+        ruta_zip = f"{carpeta_clase.parent.name}/{carpeta_clase.name}/{video.stem}"
         pares.append((video, vtt, ruta_zip))
     return pares
 
