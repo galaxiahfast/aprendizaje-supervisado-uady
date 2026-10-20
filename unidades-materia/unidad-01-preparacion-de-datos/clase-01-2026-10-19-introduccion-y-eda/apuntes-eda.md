@@ -1,4 +1,4 @@
-# Guía rápida de EDA
+# Apuntes de EDA
 
 ## Seis preguntas
 

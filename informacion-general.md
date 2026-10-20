@@ -11,9 +11,9 @@
 
 | Carpeta | Contenido |
 | --- | --- |
-| [unidades de la materia](unidades-materia/guia-unidades.md) | Una carpeta por unidad. Dentro está cada clase con sus apuntes y materiales. |
-| [tareas y prácticas](tareas-practicas/guia-tareas-practicas.md) | Prácticas de clase separadas de las tareas calificables. |
-| [proyectos de la materia](proyectos-materia/guia-proyectos.md) | Proyectos de regresión y clasificación. |
+| [unidades de la materia](unidades-materia/resumen-unidades.md) | Una carpeta por unidad. Dentro está cada clase con sus apuntes y materiales. |
+| [tareas y prácticas](tareas-practicas/resumen-tareas-practicas.md) | Prácticas de clase separadas de las tareas calificables. |
+| [proyectos de la materia](proyectos-materia/resumen-proyectos.md) | Proyectos de regresión y clasificación. |
 
 El [programa y calendario](programa-y-calendario-aprendizaje-supervisado.md) muestra las sesiones,
 los temas previstos, las fechas confirmadas y la forma de evaluación.

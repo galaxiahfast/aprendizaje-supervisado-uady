@@ -2,7 +2,7 @@
 
 Esta sección tiene dos partes:
 
-- [prácticas de clase](practicas-clase/guia-practicas.md): ejercicios para aprender o repasar.
+- [prácticas de clase](practicas-clase/lista-practicas.md): ejercicios para aprender o repasar.
 - [tareas entregables](tareas-entregables/estado-tareas.md): trabajos que sí cuentan para calificación.
 
 ## Estado actual

@@ -14,7 +14,7 @@ Próxima sesión indicada: **20 de octubre de 2026 a las 18:00**
 
 ## Archivos de la clase
 
-- [guía rápida de EDA](guia-rapida-eda.md)
+- [apuntes de EDA](apuntes-eda.md)
 - [presentación de la unidad](presentacion-unidad-01-eda.pdf)
 - [transcripción en español](z-transcripcion-clase-01-2026-10-19-es.vtt)
 - [transcripción original](z-transcripcion-clase-01-2026-10-19-original.vtt)
@@ -22,11 +22,11 @@ Próxima sesión indicada: **20 de octubre de 2026 a las 18:00**
 
 El video `z-video-clase-01-2026-10-19.mp4` está en esta carpeta solo en el equipo. Git no lo sube.
 
-## Minutos que vale la pena ver
+## Minutos y temas
 
-La selección completa dura cerca de **57 minutos**. A velocidad `1.5x` toma unos **38 minutos**.
+Los tramos registrados suman cerca de **57 minutos**. A velocidad `1.5x` duran unos **38 minutos**.
 
-| Minutos | Tema | Motivo |
+| Minutos | Tema | Contenido |
 | --- | --- | --- |
 | `03:31-04:34` | Evaluación | Diferencia las prácticas de los trabajos calificables. |
 | `11:29-20:30` | Aprendizaje supervisado | Explica entradas, salida, pérdida y regularización. |
@@ -39,9 +39,6 @@ La selección completa dura cerca de **57 minutos**. A velocidad `1.5x` toma uno
 | `1:44:48-1:49:20` | Interpretación | Causalidad y variables confusoras. |
 | `1:51:00-1:55:17` | Flujo de EDA | Presenta el proceso completo y la práctica. |
 | `2:08:34-2:09:23` | Entregas | Confirma que la práctica actual no se entrega. |
-
-Si tienes poco tiempo, revisa Anscombe, medidas de centro, tratamiento de atípicos, comparación
-entre Pearson y Spearman, además de la aclaración final sobre entregas.
 
 ## Resumen
 
@@ -62,5 +59,5 @@ estadísticas parecidas aunque sus gráficas sean muy distintas.
 - Una correlación alta no demuestra causalidad.
 - La multicolinealidad puede volver inestable un modelo.
 
-Antes de quitar un dato raro conviene revisar su origen. Después hay que comparar el resultado del
-modelo con el dato y sin él. La decisión debe quedar explicada.
+Sobre los datos raros, el criterio anotado fue revisar su origen antes de eliminarlos. El efecto se
+compara con el dato y sin él. La decisión queda documentada.
