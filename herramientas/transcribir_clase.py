@@ -26,15 +26,22 @@ def main() -> None:
     parser.add_argument("entrada", type=Path)
     parser.add_argument("salida", type=Path, help="Ruta base, sin extensión")
     parser.add_argument("--modelo", default="small")
+    parser.add_argument("--beam-size", type=int, default=5)
+    parser.add_argument("--cpu-threads", type=int, default=0)
+    parser.add_argument("--sin-contexto", action="store_true")
     args = parser.parse_args()
 
-    modelo = WhisperModel(args.modelo, device="cpu", compute_type="int8")
+    opciones_modelo = {"device": "cpu", "compute_type": "int8"}
+    if args.cpu_threads:
+        opciones_modelo["cpu_threads"] = args.cpu_threads
+    modelo = WhisperModel(args.modelo, **opciones_modelo)
     segmentos, informacion = modelo.transcribe(
         str(args.entrada),
         language="es",
-        beam_size=5,
+        beam_size=args.beam_size,
+        best_of=1,
         vad_filter=True,
-        condition_on_previous_text=True,
+        condition_on_previous_text=not args.sin_contexto,
     )
 
     args.salida.parent.mkdir(parents=True, exist_ok=True)
@@ -53,6 +60,10 @@ def main() -> None:
             fin = marca_tiempo(segmento.end)
             vtt.write(f"{indice}\n{inicio} --> {fin}\n{html.escape(contenido)}\n\n")
             texto.write(f"[{inicio}] {contenido}\n")
+            if indice % 100 == 0:
+                vtt.flush()
+                texto.flush()
+                print(f"Progreso: {inicio}", flush=True)
 
     print(
         f"Idioma: {informacion.language} "
