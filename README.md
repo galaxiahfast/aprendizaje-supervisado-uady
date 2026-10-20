@@ -1,74 +1,57 @@
 # Aprendizaje Supervisado
 
-Repositorio de trabajo de la asignatura **Aprendizaje Supervisado**. Aquí se concentran apuntes,
-materiales de clase, actividades, entregables y una ruta corta para estudiar las grabaciones sin
-tener que verlas completas.
+Este es el tablero principal de la materia. Desde aquí se llega a clases, entregas, proyectos y
+programa sin recorrer varias carpetas.
 
-## Lo más importante
+## Estado actual
 
-- El curso consta de **14 sesiones de 2 horas**: 28 horas presenciales.
-- El flujo completo va de los datos crudos a modelos evaluados y listos para producción.
-- La calificación se divide en laboratorios (30 %), miniproyecto de regresión (35 %) y
-  miniproyecto de clasificación (35 %).
-- La [práctica de EDA](unidades/01-preparacion-de-datos/actividades/01-eda-california-housing/)
-  ya está resuelta y ejecutada. El profesor aclaró que esta primera notebook **no se entrega**.
-- Las fechas que no aparecen en los documentos oficiales se marcan como **no publicadas**; no se
-  inventan plazos.
+- **Última clase organizada:** 1 — Introducción y análisis exploratorio de datos (19 oct 2026).
+- **Siguiente clase indicada:** 20 oct 2026, 18:00 — Preprocesamiento de datos.
+- **Entrega activa:** ninguna confirmada.
+- **Importante:** la práctica de California Housing está resuelta para estudiar, pero el profesor
+  aclaró que **no se entrega**.
 
-## Accesos rápidos
+## Entrar a la materia
 
-- [Entregas y estado](ENTREGAS.md)
-- [Calendario temático de las 14 sesiones](CALENDARIO.md)
-- [Ruta rápida de las grabaciones](RUTA-RAPIDA-CLASES.md)
-- [Programa oficial](recursos/programa-oficial/planeacion-didactica.pdf)
-- [Unidades](unidades/)
+| Carpeta | Para qué sirve |
+| --- | --- |
+| [01_CLASES_APRENDIZAJE_SUPERVISADO](01_CLASES_APRENDIZAJE_SUPERVISADO/) | Resumen, minutos clave, apuntes y archivos de cada clase, todo junto. |
+| [02_ACTIVIDADES_Y_ENTREGAS_APRENDIZAJE_SUPERVISADO](02_ACTIVIDADES_Y_ENTREGAS_APRENDIZAJE_SUPERVISADO/) | Qué se entrega, cuándo y en qué estado está. |
+| [03_PROYECTOS_APRENDIZAJE_SUPERVISADO](03_PROYECTOS_APRENDIZAJE_SUPERVISADO/) | Miniproyectos de regresión y clasificación. |
+| [04_PROGRAMA_APRENDIZAJE_SUPERVISADO](04_PROGRAMA_APRENDIZAJE_SUPERVISADO/) | Calendario temático, evaluación y programa oficial. |
 
-## Organización del curso
+La carpeta `_ASISTENTE` contiene plantillas originales, scripts y controles internos. **No necesitas
+abrirla para estudiar ni incluye archivos que debas entregar.**
 
-| Unidad | Sesiones | Contenido | Evidencia principal |
-| --- | ---: | --- | --- |
-| [1. Preparación de datos](unidades/01-preparacion-de-datos/) | 1-3 | EDA, preprocesamiento, ingeniería y selección de variables | Laboratorios |
-| [2. Modelos de regresión](unidades/02-modelos-de-regresion/) | 4-7 | Regresión lineal, regularización, SVR y árboles | Miniproyecto de regresión |
-| [3. Modelos de clasificación](unidades/03-modelos-de-clasificacion/) | 8-12 | Logística, kNN, Bayes, árboles, SVM, MLP y evaluación | Miniproyecto de clasificación |
-| [4. Métodos de ensamble](unidades/04-metodos-de-ensamble/) | 13-14 | Bagging, bosques aleatorios y boosting | Laboratorios del curso |
+## Lo más importante de toda la materia
 
-## Estructura
+El curso cubre el flujo completo: explorar y preparar datos, entrenar modelos de regresión y
+clasificación, evaluarlos y combinar modelos mediante ensambles. La meta no es memorizar el conjunto
+de entrenamiento, sino construir modelos que generalicen a datos nuevos.
 
-```text
-.
-├── README.md
-├── ENTREGAS.md
-├── CALENDARIO.md
-├── RUTA-RAPIDA-CLASES.md
-├── unidades/
-│   ├── 01-preparacion-de-datos/
-│   │   ├── apuntes/
-│   │   ├── clases/
-│   │   ├── actividades/
-│   │   └── materiales/
-│   ├── 02-modelos-de-regresion/
-│   ├── 03-modelos-de-clasificacion/
-│   └── 04-metodos-de-ensamble/
-├── recursos/
-└── herramientas/
-```
+| Evaluación | Valor | Estado |
+| --- | ---: | --- |
+| Ejercicios de laboratorio | 30 % | Aún no se identifica la primera actividad calificable. |
+| Miniproyecto de regresión | 35 % | Instrucciones y fecha pendientes. |
+| Miniproyecto de clasificación | 35 % | Instrucciones y fecha pendientes. |
 
-Cada clase guarda su resumen, minutos clave, `.vtt` y referencias en una carpeta propia. Los videos
-se conservan localmente junto a la clase, pero `*.mp4` está bloqueado por `.gitignore` para que nunca
-se suba a GitHub ni se mezcle con una entrega.
+No se inventan fechas: si el profesor o la plataforma no publicaron una, aparece como **no
+publicada**.
 
-## Forma de trabajo
+## Nomenclatura
 
-1. Guardar cada nueva clase dentro de su unidad y conservar el `.vtt` con fecha y número de sesión.
-2. Resumir conceptos, decisiones del profesor, actividad mencionada y minutos que vale la pena ver.
-3. Resolver las prácticas y evidencias según el documento oficial, sin confundir una notebook de
-   estudio con una entrega calificable.
-4. Ejecutar todo desde cero y registrar la verificación en el README de la actividad.
-5. Actualizar `ENTREGAS.md` únicamente con fechas y estados comprobados.
-6. Hacer commits pequeños y subir cada bloque terminado a `main`.
+- `01_`, `02_`, `03_`, `04_`: carpetas principales para el estudiante, en orden de uso.
+- `U01_C01_FECHA_TEMA`: unidad, número de clase, fecha y tema.
+- `_ASISTENTE` y `_FUENTES_CLASE`: material técnico o de respaldo que no hace falta consultar a
+  diario.
+- Cada nombre dice la materia o el contenido; se evitan nombres aislados como `calendario` o
+  `entregas`.
 
-## Fuente del curso
+Los videos permanecen únicamente en el equipo y están excluidos de GitHub. Los `.vtt` sí se guardan
+como fuente de cada resumen.
 
-Los nombres, temas, ponderaciones y actividades se contrastan con el
-[repositorio oficial del curso](https://github.com/clirlab/supervised-learning-course). El trabajo de
-este repositorio usa explicaciones y decisiones propias; no modifica los materiales originales.
+## Fuente académica
+
+Los temas y ponderaciones se contrastan con el
+[repositorio oficial del curso](https://github.com/clirlab/supervised-learning-course) y con el
+programa entregado por el profesor.
