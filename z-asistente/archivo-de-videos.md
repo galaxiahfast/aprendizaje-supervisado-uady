@@ -1,14 +1,13 @@
 # Archivo personal de videos
 
-Cada grabación se conserva en la misma carpeta que su clase con el prefijo `z-video-`. Su
-transcripción lleva el prefijo `z-transcripcion-`. Los MP4 y el ZIP final están excluidos de GitHub.
+Cada grabación queda dentro de su clase con el prefijo `z-video-`. La transcripción usa el prefijo
+`z-transcripcion-`. Git excluye los MP4 y el ZIP final.
 
 Al terminar el curso se ejecutará:
 
 ```bash
-python z-asistente/herramientas/preparar-archivo-videos.py
+python z-asistente/herramientas-asistente/preparar-archivo-videos.py
 ```
 
-El comando validará cada pareja y generará localmente
-`archivo-videos/aprendizaje-supervisado-videos.zip`. Ese ZIP será para Drive, no para una entrega ni
-para GitHub.
+El resultado será `archivo-videos/aprendizaje-supervisado-videos.zip`. Ese archivo se subirá a Drive.
+No forma parte de una entrega académica.

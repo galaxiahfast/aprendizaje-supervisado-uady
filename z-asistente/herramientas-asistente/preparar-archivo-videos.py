@@ -13,7 +13,7 @@ RAIZ = Path(__file__).resolve().parents[2]
 def pares_de_clase() -> list[tuple[Path, Path, str]]:
     pares: list[tuple[Path, Path, str]] = []
     patron = "unidad-*/clase-*/z-video-*.mp4"
-    for video in sorted((RAIZ / "unidades").glob(patron)):
+    for video in sorted((RAIZ / "unidades-materia").glob(patron)):
         carpeta_clase = video.parent
         base_transcripcion = video.stem.replace("z-video-", "z-transcripcion-", 1)
         vtt_es = carpeta_clase / f"{base_transcripcion}-es.vtt"

@@ -13,11 +13,11 @@ from nbclient import NotebookClient
 
 
 RAIZ = Path(__file__).resolve().parents[2]
-CLASE = (
+PRACTICA = (
     RAIZ
-    / "unidades"
-    / "unidad-01-preparacion-de-datos"
-    / "clase-01-2026-10-19-introduccion-y-eda"
+    / "tareas-practicas"
+    / "practicas-clase"
+    / "practica-01-eda-california-housing"
 )
 PLANTILLA = (
     RAIZ
@@ -25,7 +25,7 @@ PLANTILLA = (
     / "plantillas-originales"
     / "unidad-01-clase-01-actividad-eda-california-housing.ipynb"
 )
-SALIDA = CLASE / "practica-eda-california-housing-resuelta.ipynb"
+SALIDA = PRACTICA / "practica-eda-california-housing-resuelta.ipynb"
 
 
 RESPUESTAS = {
@@ -260,7 +260,7 @@ entrega'''
     cliente.execute()
     nbformat.write(notebook, SALIDA)
     print(SALIDA)
-    print(CLASE / "practica-eda-decisiones.csv")
+    print(PRACTICA / "practica-eda-decisiones.csv")
 
 
 if __name__ == "__main__":
