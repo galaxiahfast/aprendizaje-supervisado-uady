@@ -1,0 +1,9 @@
+variable,pct_atipicos,decision,justificacion
+MedInc,3.3,ninguno,Cola derecha real; conservar para no comprimir la señal socioeconómica. Probar log solo dentro de validación.
+HouseAge,0.0,indicador de tope,"No tiene atípicos por IQR, pero 1 273 filas están censuradas en 52; conservar y marcar el tope."
+AveRooms,2.5,clip en 3·IQR,Los máximos provienen de distritos con pocos hogares e inflan Pearson; el recorte conserva las filas.
+AveBedrms,6.9,clip en 3·IQR,Comparte denominador con AveRooms y unos pocos extremos crean colinealidad aparente.
+Population,5.8,log1p,Es un conteo positivo con cola larga; log1p reduce la escala sin perder distritos.
+AveOccup,3.4,marcar hogares < 10 y clip en 3·IQR,Los máximos representan distritos colectivos y aplastan Pearson; separar 51 filas y limitar el resto.
+Latitude,0.0,ninguno,Rango geográfico acotado y 0 % de atípicos; mantiene la estructura espacial.
+Longitude,0.0,ninguno,Rango geográfico acotado y 0 % de atípicos; se conserva aunque colinee con Latitude.
