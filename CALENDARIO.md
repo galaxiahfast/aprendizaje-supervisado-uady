@@ -1,12 +1,14 @@
 # Calendario temático
 
-La planeación define 14 sesiones, pero no incluye fechas de entrega ni fechas calendario para las
-sesiones futuras. Solo se registra una fecha cuando está respaldada por la grabación o la plataforma.
+La planeación define 14 sesiones. En la primera clase se indicó el horario habitual de **18:00 a
+20:00, lunes, martes, jueves y viernes**. No se completan fechas futuras de manera automática porque
+puede haber cambios o días inhábiles; solo se registra una fecha confirmada en la grabación o la
+plataforma.
 
 | Sesión | Fecha | Unidad | Tema | Laboratorio o actividad |
 | ---: | --- | --- | --- | --- |
 | 1 | **19 oct 2026** | Preparación de datos | Análisis exploratorio de datos (EDA) | EDA de California Housing |
-| 2 | Por confirmar | Preparación de datos | Preprocesamiento de datos | `Pipeline` y `ColumnTransformer` |
+| 2 | **20 oct 2026, 18:00** | Preparación de datos | Preprocesamiento de datos | `Pipeline` y `ColumnTransformer` |
 | 3 | Por confirmar | Preparación de datos | Ingeniería y selección de variables | Comparación de métodos en datos médicos |
 | 4 | Por confirmar | Regresión | Regresión lineal y polinomial | Predicción de precios de viviendas |
 | 5 | Por confirmar | Regresión | Regresión regularizada | Comparación de OLS, Ridge y Lasso |
@@ -22,6 +24,6 @@ sesiones futuras. Solo se registra una fecha cuando está respaldada por la grab
 
 ## Fechas de entrega
 
-No hay fechas exactas publicadas en los materiales oficiales disponibles al **20 de octubre de
-2026**. En cuanto aparezca una fecha en la plataforma o en una grabación, debe agregarse también a
-`ENTREGAS.md` con la fuente y la fecha de verificación.
+No hay fechas exactas de entrega publicadas al **20 de octubre de 2026**. La primera notebook es una
+práctica no entregable. El profesor adelantó que solicitará al menos una actividad por semana, pero
+señalará posteriormente cuáles cuentan y cuándo deben enviarse.

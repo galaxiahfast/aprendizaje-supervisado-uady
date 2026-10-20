@@ -10,23 +10,25 @@ clase y presentaciones de apoyo no forman parte de los archivos que deben enviar
 
 | Evidencia | Valor | Estado | Fecha límite | Ruta |
 | --- | ---: | --- | --- | --- |
-| Ejercicios de laboratorio | 30 % | **En proceso; actividad 1 resuelta y no enviada** | No publicada | [Actividades por unidad](unidades/01-preparacion-de-datos/actividades/) |
-| Miniproyecto de regresión | 35 % | Pendiente de instrucciones | No publicada | [Unidad 2](unidades/02-modelos-de-regresion/) |
-| Miniproyecto de clasificación | 35 % | Pendiente de instrucciones | No publicada | [Unidad 3](unidades/03-modelos-de-clasificacion/) |
+| Ejercicios de laboratorio | 30 % | **Pendiente de la primera actividad indicada como entregable** | No publicada | [Actividades por unidad](unidades/01-preparacion-de-datos/actividades/) |
+| Miniproyecto de regresión | 35 % | Pendiente de instrucciones; se anunciará alrededor del cierre de la semana 2 | No publicada | [Unidad 2](unidades/02-modelos-de-regresion/) |
+| Miniproyecto de clasificación | 35 % | Pendiente de instrucciones; se anunciará al final del curso | No publicada | [Unidad 3](unidades/03-modelos-de-clasificacion/) |
 
-## Evidencia disponible
+## Aclaración de la clase 1
 
-### Unidad 1 - Actividad 1: EDA de California Housing
+La notebook **EDA de California Housing** es una práctica de exploración. Al cierre de la clase, el
+profesor indicó expresamente que **no hay que entregarla**; pidió usarla, visualizarla y llevar dudas
+a la sesión siguiente.
 
-- **Formato:** individual.
-- **Solicitado:** notebook ejecutado y tabla por variable con porcentaje de atípicos, decisión y
-  justificación.
-- **Estado:** resuelta, ejecutada y verificada; todavía no consta como enviada.
-- **Fecha límite:** no aparece una fecha exacta en la planeación, presentación o notebook revisadas.
-- **Archivos listos:** [notebook y CSV](unidades/01-preparacion-de-datos/actividades/01-eda-california-housing/).
+La práctica quedó [resuelta y verificada](unidades/01-preparacion-de-datos/actividades/01-eda-california-housing/)
+para estudiar y formular preguntas, pero no debe subirse como evidencia mientras no cambie la
+indicación. El profesor adelantó que pedirá **al menos una actividad por semana** -una de preparación
+de datos, una de regresión y una de clasificación-, además de los dos miniproyectos. Aún no publicó
+fechas ni señaló cuál será la primera actividad calificable.
 
 ## Antes de marcar una entrega como enviada
 
+- [ ] Confirmar que el profesor haya identificado explícitamente la actividad como entregable.
 - [ ] Confirmar en la plataforma la fecha y el medio de entrega.
 - [ ] Abrir la versión final, reiniciar el kernel y ejecutar todas las celdas.
 - [ ] Verificar que las respuestas escritas y la tabla sean consistentes con los resultados.

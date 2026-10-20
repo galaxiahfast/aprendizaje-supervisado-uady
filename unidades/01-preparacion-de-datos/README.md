@@ -14,13 +14,13 @@ seleccionar variables con criterios reproducibles.
 ## Material disponible
 
 - [Clases y resúmenes](clases/)
-- [Actividad 1 resuelta](actividades/01-eda-california-housing/)
+- [Práctica de EDA resuelta](actividades/01-eda-california-housing/)
 - [Presentación oficial de EDA](materiales/presentacion-unidad-01-eda.pdf)
 
 ## Progreso
 
 - [x] Clase 1 organizada y fuentes separadas.
-- [x] Actividad de California Housing resuelta y ejecutada.
-- [ ] Confirmar fecha y medio de entrega en la plataforma.
+- [x] Práctica de California Housing resuelta y ejecutada; **no se entrega**.
+- [ ] Esperar la primera actividad que el profesor marque como calificable.
 - [ ] Sesión 2: preprocesamiento.
 - [ ] Sesión 3: ingeniería y selección de variables.

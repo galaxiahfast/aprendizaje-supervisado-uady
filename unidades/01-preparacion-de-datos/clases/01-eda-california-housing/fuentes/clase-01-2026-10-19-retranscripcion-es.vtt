@@ -1,0 +1,5666 @@
+WEBVTT
+
+1
+00:00:06.480 --> 00:00:12.320
+lo que decía en mi cierta grabación ya estamos la mayoría aquí se quieren
+
+2
+00:00:12.320 --> 00:00:17.520
+empezamos una vez un tiempo es corto
+
+3
+00:00:20.840 --> 00:00:29.440
+bueno les compartí en la mañana
+
+4
+00:00:29.440 --> 00:00:42.100
+el sitio web en donde está no sé si todos lo vieron
+
+5
+00:01:39.490 --> 00:01:45.170
+para allá. Ok, esto vamos a ya, como Victorioscar no dijeron que estuvieron
+
+6
+00:01:45.170 --> 00:01:52.170
+siendo 19, pues son se seguir usando lo mismo. Aquí en este lugar les voy a ir subiendo
+
+7
+00:01:52.170 --> 00:02:00.890
+todo el material cada semana. Son 14 sesiones por esa semana y media más y menos de
+
+8
+00:02:00.890 --> 00:02:05.670
+todas maneras y les ultima de dos sesiones que no están consideradas como
+
+9
+00:02:05.670 --> 00:02:11.390
+sesiones de curso las necesitan para algún repaso, ya al final el curso o para checar
+
+10
+00:02:11.390 --> 00:02:18.190
+proyectos sin ningún problema nos podemos conectar y hacerlo. La planición idáctica está
+
+11
+00:02:18.190 --> 00:02:26.270
+acá, aquí, cuando reclican el revisarla, es básicamente un curso a prensaje supervisado,
+
+12
+00:02:26.270 --> 00:02:30.270
+Calificación, ¿no?
+
+13
+00:02:30.270 --> 00:02:34.270
+¿Está cooperando con Pantaya profea?
+
+14
+00:02:34.270 --> 00:02:36.270
+No sé.
+
+15
+00:02:36.270 --> 00:02:38.270
+No está muy bien, ¿no?
+
+16
+00:02:40.270 --> 00:02:44.270
+Se muy vidas a parte de donde estaba.
+
+17
+00:02:44.270 --> 00:02:46.270
+Ahí a la ver, ¿no?
+
+18
+00:02:46.270 --> 00:02:48.270
+Ya, gracias.
+
+19
+00:02:48.270 --> 00:02:54.270
+Vale, necesitas que el navegarez en la página web está acá.
+
+20
+00:02:54.270 --> 00:02:58.750
+son 14 sesiciones, que hay sesiones de 2 horas, 6 a 8 lunes, marques,
+
+21
+00:02:58.750 --> 00:03:01.110
+invisibiernes como hasta ahora.
+
+22
+00:03:01.110 --> 00:03:12.190
+En principio, asumo que ya vieron temas de intro para IA y programación.
+
+23
+00:03:12.190 --> 00:03:17.630
+Oskar me compartió su temario, está bastante completo, Victor, no, pero confió
+
+24
+00:03:17.630 --> 00:03:20.070
+mucho en él, así que no da problema.
+
+25
+00:03:20.070 --> 00:03:25.170
+Y cualquier duda que va deteniendo sobre el curso, les voy preguntándose y alubieron este pará
+
+26
+00:03:25.170 --> 00:03:31.410
+ajustándolo. Les decía la plancialidad díctica la encuentro en Jaquah que básicamente les dice
+
+27
+00:03:31.410 --> 00:03:39.590
+cómo se va al curso. Les voy a estar dejando notebooks, no sé si después de cada tema y si
+
+28
+00:03:39.590 --> 00:03:43.870
+es que les dejo después de cada tema, no necesariamente todos estos me les van a tener que
+
+29
+00:03:43.870 --> 00:03:50.830
+entregar, consideran un montón, pero así les ayudan mucho, les dejo el notebook al menos para que
+
+30
+00:03:50.830 --> 00:03:56.830
+ustedes ejecuten, tratan de responder las preguntas y comprenan mejor lo que yo lo que les voy a
+
+31
+00:03:56.830 --> 00:04:03.030
+echar acá a todos los días. En una ciudad, la ser 30% de los notebooks en los servicios de
+
+32
+00:04:03.030 --> 00:04:10.430
+laboratorio y les voy a dejar dos mini proyectos, que sea de tema de regresión y otro que sea tema
+
+33
+00:04:10.430 --> 00:04:17.870
+de clasificación. O sea, en total, es un man 100%. El primero estará más o menos a la mitad
+
+34
+00:04:17.870 --> 00:04:26.630
+del curso. Terminando la segunda semana les puedo dejar el de regresión y, más adelante,
+
+35
+00:04:26.630 --> 00:04:33.990
+al final el curso les puedo dejar de clasificación y ya les doy unos días posterior a la finalización
+
+36
+00:04:33.990 --> 00:04:41.110
+el discurso para que lo puedan completar. Los temas están acá a ya detalladitos, básicamente
+
+37
+00:04:41.110 --> 00:04:50.550
+la primera semana es la parte de preparación de datos. La segunda semana es temas de
+
+38
+00:04:50.550 --> 00:04:57.230
+regresión lineal, polinomial, un poco de regularización en esos modelos lineales,
+
+39
+00:04:57.230 --> 00:04:59.750
+que necesito su puerto vectorial,
+
+40
+00:04:59.750 --> 00:05:02.270
+es en línea líneal y no lineal,
+
+41
+00:05:02.270 --> 00:05:04.550
+y árboles de decisión,
+
+42
+00:05:04.550 --> 00:05:08.910
+todo sin entrar en temas de busting,
+
+43
+00:05:08.910 --> 00:05:10.910
+baguín y todo eso.
+
+44
+00:05:10.910 --> 00:05:14.510
+Terceras semanas serían temas ya de clasificación,
+
+45
+00:05:14.510 --> 00:05:20.870
+como reesionogística, modelo de cabecinas más cercanos,
+
+46
+00:05:20.870 --> 00:05:22.790
+Naiballes,
+
+47
+00:05:22.790 --> 00:05:24.950
+una intro de redes neuronales,
+
+48
+00:05:24.950 --> 00:05:31.770
+ahí en ese momento les preguntaré qué tanto vieron ya de arrenda de ronales y si no podemos
+
+49
+00:05:31.770 --> 00:05:36.830
+altar este tema porque ya lo conocen a protección pues no lo saltamos, la ocupación de parámetros
+
+50
+00:05:36.830 --> 00:05:44.910
+se ajuste parámetros y terminamos con estos dos temas que son métodos de enzamble y métodos
+
+51
+00:05:44.910 --> 00:05:52.550
+de busting, no está busting aquí si está busting busting con algo de salitorios y métodos de
+
+52
+00:05:52.550 --> 00:05:54.550
+de Graydenbust y Niada Bust.
+
+53
+00:05:55.850 --> 00:05:58.350
+¿Qué digamos es lo que es más usado hoy en día?
+
+54
+00:05:59.430 --> 00:06:03.330
+Muchas, si se han cuenta, bueno, los que ya conocen un poquito de,
+
+55
+00:06:03.330 --> 00:06:07.090
+un poquito más, todos estos son temas que se conocen como Machine Learning.
+
+56
+00:06:09.470 --> 00:06:11.630
+¿Qué es parte importante crealo, no?
+
+57
+00:06:12.310 --> 00:06:16.510
+El conocimiento que tener un ingeniero de interés artificial,
+
+58
+00:06:17.190 --> 00:06:21.210
+muy entro hoy en día se va mucho a los grandes modelos del lenguaje, ¿no?
+
+59
+00:06:21.210 --> 00:06:23.770
+lo que está en moda, el dipléarning, la prensa de profundo,
+
+60
+00:06:24.270 --> 00:06:25.970
+modedos de lenguaje, etcétera, etcétera.
+
+61
+00:06:27.090 --> 00:06:29.550
+Pero muchas veces, si yo siempre he visto mucho en eso,
+
+62
+00:06:32.190 --> 00:06:34.850
+a veces se resolveron problemas, no necesitas un modelo de lenguaje,
+
+63
+00:06:35.210 --> 00:06:37.290
+no necesitas una red naral profunda.
+
+64
+00:06:38.250 --> 00:06:40.250
+Es como matar una mosca con un,
+
+65
+00:06:40.950 --> 00:06:42.450
+o sea, con un autobús,
+
+66
+00:06:43.130 --> 00:06:44.210
+es sentido, ¿no?
+
+67
+00:06:44.250 --> 00:06:47.370
+Entonces, si es vital y en muchas aplicaciones,
+
+68
+00:06:47.370 --> 00:06:52.490
+hoy en día, todavía se sigue usando muchos de los modelos de Machine Learning,
+
+69
+00:06:52.490 --> 00:06:59.810
+donde la parte importante es que aquí el humano es el que tiene que entenderlos muy bien.
+
+70
+00:06:59.810 --> 00:07:03.930
+La diferencia con los grandes modelos de lenguajes que ustedes ya han vivido,
+
+71
+00:07:03.930 --> 00:07:11.890
+se conectan, hablan con él, le dicen a hacer metal cosa, con mi prompt y el modelo te quita todo,
+
+72
+00:07:11.890 --> 00:07:18.130
+todo todo la necesidad de que tú entiendes lo que estás haciendo. Lo hace solito. Y pues eso no
+
+73
+00:07:18.130 --> 00:07:25.490
+no sabría. Entonces, si eso modelos de Machine Learning, si necesitan ustedes adentrarse bastante
+
+74
+00:07:25.490 --> 00:07:31.090
+en ellos para utilizarles de forma oficiente. Y se van a dar cuenta que cuando en algún momento
+
+75
+00:07:31.090 --> 00:07:38.250
+subidas su trabajo necesiten resolver algún problema, les va a desayudar no tener que instalar
+
+76
+00:07:38.250 --> 00:07:43.850
+algún modelo de lenguaje en alguna computadora para resolver problemas y simplemente para
+
+77
+00:07:43.850 --> 00:07:50.890
+utilizar algunos modelos más sin learning mucho más sencillo pero suficientemente poderosa
+
+78
+00:07:50.890 --> 00:07:52.570
+para resolver problemas.
+
+79
+00:07:52.570 --> 00:07:59.250
+Entonces, a comenzar hoy, bueno, la prueba de semana son tres temas, preparación de datos
+
+80
+00:07:59.250 --> 00:08:03.850
+y análisis exploratorio que trataremos de completar el día de hoy.
+
+81
+00:08:03.850 --> 00:08:11.850
+después está procedimiento de datos parte 1 y después está procedimiento de datos parte 2 que es la selección de variables.
+
+82
+00:08:11.850 --> 00:08:22.850
+En cada uno de estos ustedes pueden ver que pueden descargar la presentación, pueden descargar el notebook de actividades que les voy a dejar,
+
+83
+00:08:22.850 --> 00:08:26.850
+o pueden irse directo a abrirlo en colad para ejecutarlo.
+
+84
+00:08:26.850 --> 00:08:32.690
+Corta solo he subido tres, no me gusta subir todos de golpe, está siempre voy semana por semana,
+
+85
+00:08:32.690 --> 00:08:39.730
+un tema por tema, los de la semana dos pues se los subiré el fin de semana por si alguien
+
+86
+00:08:39.730 --> 00:08:48.610
+quiere echarle un ojo, ¿sabes? En qué más? Bueno, las clases son de dos horas, no sé cómo los
+
+87
+00:08:48.610 --> 00:08:57.130
+vaya a dimensionar ahorita, yo normalmente uso mucho mi tableta para explicar las cosas,
+
+88
+00:08:57.130 --> 00:09:02.170
+pero creo que por la cantidad de información que hay que cubrir no me va a dar mucho tiempo
+
+89
+00:09:02.170 --> 00:09:06.810
+de eso, no sé, voy adaptando mucho el curso, las primeras días a deponido de la velocidad
+
+90
+00:09:06.810 --> 00:09:13.170
+que voy a avanzar, al menos el día de hoy voy a intentar hacerlo con presentaciones y
+
+91
+00:09:13.170 --> 00:09:18.950
+tocar la tableta y quizás no me de tiempo de checar el notebook y no me da tiempo de
+
+92
+00:09:18.950 --> 00:09:25.030
+checar el notebook y lo se les voy a dejar a ustedes con la intención de que al día siguiente ya
+
+93
+00:09:25.030 --> 00:09:30.630
+que lo hayan revisado si quieren alguna duda me puedan preguntar ya sea el inicio o al final o
+
+94
+00:09:30.630 --> 00:09:36.990
+al final de la clase ya se abrándote cuenta que es bastante intenso los módulos
+
+95
+00:09:36.990 --> 00:09:43.430
+son, aunque son, son cursos de un mes, ese semestre y el próximo semestre
+
+96
+00:09:43.430 --> 00:09:47.950
+va a tener cursos de mes y medio algunos, siguen siendo por la cantidad de temas que
+
+97
+00:09:47.950 --> 00:09:52.750
+cubrir bastante, bastante rápido que se toca a mí y bastante rápido que tienen
+
+98
+00:09:52.750 --> 00:09:58.230
+que dar a ustedes el ritmo. Entonces, por esas razones que no quizás no usen mucho
+
+99
+00:09:58.230 --> 00:10:01.950
+la tableta, pero bueno, que nada falta tratar de usarle.
+
+100
+00:10:01.950 --> 00:10:07.950
+Ok, mucho choro y estoy perdiendo tiempo. Bueno, no me presenté ni nombre es Carlos Britovesa.
+
+101
+00:10:07.950 --> 00:10:15.950
+Ay, a mucha me conocen porque durante el proceso de admisión, estuvieron contacto con Nigo, aparte de con el Dr. Victoruk.
+
+102
+00:10:15.950 --> 00:10:22.950
+Y bueno, yo sé el que está atrás del correo de Postgrado.females también, ¿no? A ver, molestándolos con ciertas cosas.
+
+103
+00:10:22.950 --> 00:10:35.350
+¿Qué más? Creo que es suficiente. Entonces, ustedes son 59. Vamos a manejarlo así.
+
+104
+00:10:35.350 --> 00:10:43.830
+Yo voy haciendo la presentación. A no sé que sea una pregunta muy necesaria interrumparme,
+
+105
+00:10:43.830 --> 00:10:51.670
+sino traten de aguantar los ganas y dejamos un espacio de preguntas en el final, ¿sale?
+
+106
+00:10:51.670 --> 00:10:59.670
+que se ha afluido esto y en el tiempo de terminal material más estos primeros días que no tengo
+
+107
+00:10:59.670 --> 00:11:04.270
+bien dimensionadas las presentaciones y no sé cómo nos va a ir.
+
+108
+00:11:04.270 --> 00:11:10.210
+Vamos a comenzar un poquito de, no estoy seguro si esto lo viene convicto en introducción
+
+109
+00:11:10.210 --> 00:11:15.750
+a la interés artificial, pero crea de alguna breve repaso a que esa prensa es supervisado
+
+110
+00:11:15.750 --> 00:11:22.510
+y obviamente tendré que mostrar un poquito de que es el no supervisado y que es
+
+111
+00:11:22.510 --> 00:11:25.430
+su diferencia con la previsaja por refuerzo.
+
+112
+00:11:28.950 --> 00:11:32.710
+Aprensa es supervisado. ¿Cómo lo explicamos?
+
+113
+00:11:32.710 --> 00:11:40.070
+El básico ambiente es sin matemáticas, es cuando queremos resolver o construir un modelo
+
+114
+00:11:40.070 --> 00:11:47.390
+que me da perdecir alguna respuesta que se acontinúa, que sea el tópico de regresión o un resultado
+
+115
+00:11:47.390 --> 00:11:53.390
+que es discreto, que es el problema de clasificación, como vamos a ver un poco más adelante. Pero yo tengo
+
+116
+00:11:53.390 --> 00:12:00.670
+ya información, si yo tengo datos, solemos decir que ya están etiquetados, si hay que conocemos la
+
+117
+00:12:00.670 --> 00:12:07.630
+respuesta, yo tengo un junto de datos que describen algo, por ejemplo, puede ser una manzana,
+
+118
+00:12:07.630 --> 00:12:14.990
+yo conozco su color, conozco su peso, conozco su área y yo ya sé que esos tres variables
+
+119
+00:12:14.990 --> 00:12:20.790
+representan en Manzana y le puedo poner la etiqueta de Manzana, ya sí diferentes rutas o
+
+120
+00:12:20.790 --> 00:12:27.350
+dijeran sujetos o cualquier otra cosa, yo ya conozco específicamente para un conjunto de variables
+
+121
+00:12:27.350 --> 00:12:35.090
+cuáles su variable es salida y yo puedo predecir por lo tanto su respuesta y esa continua o
+
+122
+00:12:35.090 --> 00:12:43.930
+a discreter. Por el contrario, si yo no tengo la información de qué es o qué clase corresponde
+
+123
+00:12:43.930 --> 00:12:50.050
+a ese conjunto de datos, esa aprendizaje no superisado, en el caso de ejemplo de las manzanas,
+
+124
+00:12:50.050 --> 00:12:57.170
+por ejemplo, de no la cuenta, yo te conozco las tres variales que mencioné, color, área
+
+125
+00:12:57.170 --> 00:13:02.730
+y peso del objeto, pero yo no sé que esos corresponden algo, no sé qué corresponden
+
+126
+00:13:02.730 --> 00:13:09.930
+una manzana. Entonces la prensa genosupervisado, que es lo que sigue el curso que siga al que
+
+127
+00:13:09.930 --> 00:13:17.650
+les diga este, lo puedo tratar a hacer es predecir a qué corresponden, no tanto predecir
+
+128
+00:13:17.650 --> 00:13:23.930
+si no agrupar, por decir, yo conozco que de las 100 manzanas a las que les tomé el peso,
+
+129
+00:13:23.930 --> 00:13:29.950
+a las que les tomé sus dimensiones y su color, las voy agrupar en una sola clase, pero
+
+130
+00:13:29.950 --> 00:13:39.950
+pero ese algoritmo no me va a decir que es una masana, se lo van a decir, estos corresponden a una clase, la que sea, generalmente eso es para agrupación.
+
+131
+00:13:40.950 --> 00:13:48.950
+Y en la prensa de profesos completamente distinto, no? Ahí no tengo datos, en el absoluto con lo que yo puedo iniciar,
+
+132
+00:13:48.950 --> 00:13:54.110
+lo que va a hacer el algoritmo, como vamos a ver un poco más adelante, es
+
+133
+00:13:54.110 --> 00:13:59.330
+va a ir recibiendo información, digamos, en tiempo real, yo le voy a poner una
+
+134
+00:13:59.330 --> 00:14:04.550
+política, una acción y una recompensa. Entonces lo que le voy a decir el al
+
+135
+00:14:04.550 --> 00:14:10.830
+algoritmo es si ejecutas la acción que tú le hijas ejecutar con base a la
+
+136
+00:14:10.830 --> 00:14:15.770
+información que te estoy dando sin correcta, yo te castigo y si es correcta yo
+
+137
+00:14:15.770 --> 00:14:22.310
+todo de una recompensa y la idea es que tú vayas maximizando esa recompensa generalmente
+
+138
+00:14:22.310 --> 00:14:27.710
+el ejemplo clásico es un robot que aprenda a caminar y es el clásico ejemplo del cómo
+
+139
+00:14:27.710 --> 00:14:32.670
+los humanos replicamos eso cuando estamos aprendiendo a caminar, cuando un bebé empieza
+
+140
+00:14:32.670 --> 00:14:40.030
+a caminar, si se cae le duele y por lo tanto es una penalización y si logra dar un
+
+141
+00:14:40.030 --> 00:14:48.030
+pasitos, dos pasitos, es una recompensa, entonces va maximizando la recompensa para no sentir dolor, para no caer.
+
+142
+00:14:49.030 --> 00:14:59.030
+De los tres, digamos que podían completar todo lo que se hace en Machine Learning, o Dios, y quería que incluso en Learning, general, incluso de Learning es son estos tres, ¿no?
+
+143
+00:15:00.030 --> 00:15:04.030
+Y el que vamos a estar viendo en este curso en para tu impilares es el aprendizaje de Provisado,
+
+144
+00:15:04.030 --> 00:15:09.550
+el curso que les diga este es el de no supervisado y no tenemos en este momento un o por refuerzo
+
+145
+00:15:10.270 --> 00:15:15.470
+pero es posible que alguna de las objetivas que se impartan sea a perenizar el proforzo
+
+146
+00:15:18.750 --> 00:15:21.950
+y apostiva dos como pueden ver y me xiendo a veces mucho con esto
+
+147
+00:15:21.950 --> 00:15:26.990
+estoy viendo como no me da tiempo posiblemente matemáticamente como lo describimos
+
+148
+00:15:26.990 --> 00:15:32.990
+vamos a describir de esta forma generalmente ponemos entre corchetes o paréntesis mejor dicho
+
+149
+00:15:32.990 --> 00:15:39.870
+un conjunto unas tuplas que son lo que está dentro del paréntesis, le llamamos x a nuestros
+
+150
+00:15:39.870 --> 00:15:49.750
+datos de entrada y j, la etiqueta de salida, el sub índice yina más para representar o clasificar
+
+151
+00:15:49.750 --> 00:15:55.090
+cuántos datos de entrada tenemos, en el ejemplo o en esta cuadrito que tenemos acá,
+
+152
+00:15:55.090 --> 00:16:02.150
+dice que tenemos en ejemplos, en ejemplos donde esas x pueden ser un vector, lo cual quiere decir que
+
+153
+00:16:02.150 --> 00:16:08.030
+tengo más de un dato entrada, por ejemplo, en el caso de la manzana, X correspondería a un
+
+154
+00:16:08.030 --> 00:16:15.910
+vectorcito de tres entradas donde serían en el color, el peso y el área o superficie de la manzana.
+
+155
+00:16:15.910 --> 00:16:25.470
+Y, ¿Y, ¿Significaría el etiqueta que corresponde a manzana o no manzana? Con esos datos etiquetados,
+
+156
+00:16:25.470 --> 00:16:29.550
+yo voy a construir algo ritmos que lo podemos dar viendo el curso, algo ritmos de aprendizaje,
+
+157
+00:16:29.550 --> 00:16:35.610
+que van a tratar de predecir una fusión que es la que asocia las x con la y
+
+158
+00:16:35.610 --> 00:16:41.970
+de tal forma que el algoritmo se construye, produce un modelo que es esta f estimada
+
+159
+00:16:41.970 --> 00:16:48.550
+y de tal forma que una vez que yo ya entreneo, oya construir mi modelo con base a estos
+
+160
+00:16:48.550 --> 00:16:57.590
+datos, entonces yo puedo dar un dato nuevo, predecir con esta f, su posible valor de
+
+161
+00:16:57.590 --> 00:16:59.910
+ya, su suposible etiqueta, no?
+
+162
+00:16:59.910 --> 00:17:01.230
+Llego rito.
+
+163
+00:17:01.230 --> 00:17:02.430
+Básicamente eso es.
+
+164
+00:17:02.430 --> 00:17:05.670
+Y no vamos a tratar de conflicto a las presentaciones,
+
+165
+00:17:05.670 --> 00:17:07.190
+si no sean matemáticas.
+
+166
+00:17:07.190 --> 00:17:09.990
+Si alguien después más ya quieren conocer un poquito más,
+
+167
+00:17:09.990 --> 00:17:11.670
+puede venir de más información y le puedo
+
+168
+00:17:11.670 --> 00:17:13.590
+porover más información.
+
+169
+00:17:13.590 --> 00:17:17.590
+Pero sé que el grupo es bastante genérico,
+
+170
+00:17:17.590 --> 00:17:18.470
+o no sé cómo llamarle.
+
+171
+00:17:18.470 --> 00:17:24.990
+O sea, hay bastante diferencias entre los diversos elementos
+
+172
+00:17:24.990 --> 00:17:25.910
+de esta clase.
+
+173
+00:17:25.910 --> 00:17:29.710
+Entonces vamos a tratar de mantener todo simple,
+
+174
+00:17:29.710 --> 00:17:31.630
+pero el que quiera conocer un poquito más con todo
+
+175
+00:17:31.630 --> 00:17:36.150
+es que lo podamos expandir un poco más esto con información
+
+176
+00:17:36.150 --> 00:17:38.270
+adicional.
+
+177
+00:17:38.270 --> 00:17:40.550
+OK, básicamente eso es lo que trataremos
+
+178
+00:17:40.550 --> 00:17:41.350
+de hacer.
+
+179
+00:17:41.350 --> 00:17:43.230
+Dado un conjunto de datos etiquetado,
+
+180
+00:17:43.230 --> 00:17:45.430
+vamos a estar construyendo modelos,
+
+181
+00:17:45.430 --> 00:17:49.710
+que tratan de predecir una clase.
+
+182
+00:17:49.710 --> 00:17:53.110
+Básicamente, creo que es la depostiva que tiene las más
+
+183
+00:17:53.110 --> 00:17:55.390
+matemáticas al menos de toda esta presentación.
+
+184
+00:17:55.390 --> 00:17:59.590
+yo lo que quiero es reducir un riesgo o reducir una pérdida.
+
+185
+00:18:00.110 --> 00:18:03.350
+Entonces van a ver que constantemente vamos a estar hablando de pérdidas
+
+186
+00:18:03.390 --> 00:18:07.430
+riesgos generalmente pérdida y generalmente le vamos a representar con
+
+187
+00:18:07.430 --> 00:18:11.270
+esta letra l ni de los en inglés.
+
+188
+00:18:12.030 --> 00:18:14.790
+Entonces, dado un conjunto de datos, que por cierto,
+
+189
+00:18:14.790 --> 00:18:17.310
+si el conjunto de datos es una muestra de todos mis datos.
+
+190
+00:18:18.230 --> 00:18:20.710
+En el ejemplo de las manzanas, yo agarró 100 manzanas,
+
+191
+00:18:21.230 --> 00:18:24.470
+yo puedo construir este conjunto de, pero apenas es una muestra de todas las
+
+192
+00:18:24.470 --> 00:18:29.270
+masaras que existen en el mundo. Es realmente nunca voy a trabajar con todo mi conjunto
+
+193
+00:18:29.270 --> 00:18:34.470
+de azcompleto, sino sólo con una pequeña muestra de eso. Y a partir de esa muestra yo
+
+194
+00:18:34.470 --> 00:18:41.190
+trató de inferir esta función que lo que me vas a asociar son las X con una Y. Es
+
+195
+00:18:41.190 --> 00:18:47.670
+todo, ¿vale? Y bueno, esta F es la original, pero realmente vamos a tener la F gorrito que
+
+196
+00:18:47.670 --> 00:18:53.370
+es lo mejor que puedo hacer, ¿ok? Y lo que quiero hacer es que reducir el riesgo o
+
+197
+00:18:53.370 --> 00:19:01.370
+reducir la pérdida. Generalmente esta efegorrito surge de reducir o minimizar un problema.
+
+198
+00:19:01.370 --> 00:19:07.450
+Yo voy a definir esta función de pérdida. La voy a evaluar en todos los datos que tengo
+
+199
+00:19:07.450 --> 00:19:11.650
+y conjunto de entrenamiento. Puedes abusar palabras que quizás ya conocen quizás no,
+
+200
+00:19:11.650 --> 00:19:16.770
+¿no? Conjunto de entrenamiento son los datos ya conocidos, son estos. Y muchas veces
+
+201
+00:19:16.770 --> 00:19:25.210
+lo que voy a hacer es agregarle algo. Generalmente estos datos aquí X, Y pueden tener ruido, no confío
+
+202
+00:19:25.210 --> 00:19:31.410
+mucho en ellos y por lo tanto puede ser que me den cierto error en mi función de predicción.
+
+203
+00:19:31.410 --> 00:19:37.410
+Entonces, que hago, tengo que de alguna forma corregir ese error que traen y lo que a veces hago es
+
+204
+00:19:37.410 --> 00:19:43.770
+añadir una función que se está o mega que es la que el experto dice. No, aquí tenemos, no
+
+205
+00:19:43.770 --> 00:19:50.970
+en el caso de la masana, yo contratos una agricultora que me va a decir mira, la función que modela o que
+
+206
+00:19:50.970 --> 00:19:59.010
+te modela, que genera alguna característica de ese grupo de masanas sería tal, o vean,
+
+207
+00:19:59.010 --> 00:20:03.410
+te lo agriculto en los tematíquias y en los computación, me lo va a explicar en palabras,
+
+208
+00:20:03.410 --> 00:20:10.170
+yo voy a tener que traducir esas palabras en alguna función que voy a añadir aquí y es la
+
+209
+00:20:10.170 --> 00:20:17.590
+que va a tratar de regularizar la solución de mi modelo, que básicamente regularizar
+
+210
+00:20:17.590 --> 00:20:22.250
+quiere decir que va a ser lo más robusto contra el ruido que puedan tener este conjunto
+
+211
+00:20:22.250 --> 00:20:23.250
+de datos.
+
+212
+00:20:23.250 --> 00:20:29.830
+Entonces básicamente eso es lo que sucede en una modelación en algoritmo de aprendizaje
+
+213
+00:20:29.830 --> 00:20:31.830
+prohibizado.
+
+214
+00:20:31.830 --> 00:20:35.310
+¿Cómo se ven y los diferentes problemas que voy a estar resolviendo en aprendizaje
+
+215
+00:20:35.310 --> 00:20:41.030
+se ven más o menos así. Problemas de regresión es yo tengo datos que son los puntitos,
+
+216
+00:20:41.030 --> 00:20:47.810
+cualquiera de estos puntitos. Si se fijan, hagan de cuenta que los puntitos realmente deberían
+
+217
+00:20:47.810 --> 00:20:54.310
+estar todo sobre la línea verde. Pero, por cuestiones de ruido, generalmente los datos yo los tomo
+
+218
+00:20:54.310 --> 00:21:01.830
+usando por decir a los sensores. O puede ser una encuesta. Entonces el error o el ruido puede ser
+
+219
+00:21:01.830 --> 00:21:07.830
+introducido en mis datos y ya sea por los componentes electrónicos con los que yo estoy
+
+220
+00:21:07.830 --> 00:21:13.330
+recabando esa información o con las personas que recobaron la información que por alguna razón
+
+221
+00:21:13.330 --> 00:21:18.830
+cometieron error, anotaron un número mal, redondiar en un número, etcétera, etcétera.
+
+222
+00:21:18.830 --> 00:21:24.830
+No, el caso es que, aún cuando los datos pudieran o debieran estar todos sobre la línea recta,
+
+223
+00:21:24.830 --> 00:21:30.830
+sobre la línea verde en este caso de la izquierda, en realidad los tengo todos fuera de ella.
+
+224
+00:21:30.830 --> 00:21:38.830
+pero lo que quiero encontrar es el niña verde en este caso simple no y lo que se trata de encontrar es justamente esto.
+
+225
+00:21:38.830 --> 00:21:45.830
+Todos los datos que yo voy a encontrar que son los de la eje vertical G van a ser valores reales van a ser números,
+
+226
+00:21:45.830 --> 00:21:53.830
+no necesariamente enteros van a ser cualquier número 1.1 1.15 menos 5.37,
+
+227
+00:21:53.830 --> 00:21:59.350
+cualquier excel oscuro, por eso se llama que Jet tiene un valor continuo, puede ser cualquier
+
+228
+00:21:59.350 --> 00:22:05.790
+número desde menos infinito hasta infinito. Y lo que uno va a tratar a hacer es minimizar
+
+229
+00:22:05.790 --> 00:22:11.610
+los errores, cuál es el error, Jet, en este caso, lo que aparece acá, esta Jet, son los
+
+230
+00:22:11.610 --> 00:22:18.390
+datos, son los puntitos, F, gorrito aplicada aquí a la F de X, sería tratar de predecir
+
+231
+00:22:18.390 --> 00:22:23.870
+el valor de la idea recta y todas las líneas verticales naranja son el error que estoy
+
+232
+00:22:23.870 --> 00:22:32.350
+cometiendo al predecir la je con respecto a la f gorret. Y el classo que las explicaciones
+
+233
+00:22:32.350 --> 00:22:38.210
+el lo que se conoce con el caso discreto el caso en el que je ya no puede valer cualquier
+
+234
+00:22:38.210 --> 00:22:45.330
+valor entre venos en finito infinito sino que toma valores discretos en este ejemplo
+
+235
+00:22:45.330 --> 00:22:52.410
+automador 0, automador 1. En este caso mis datos son los puntitos de una cuenta ya sean naranjas,
+
+236
+00:22:52.410 --> 00:23:02.570
+o sea no sé color verde, pero el color identifica al 0, por ejemplo naranjas el 0, 1 es el
+
+237
+00:23:02.570 --> 00:23:09.170
+verde cuerte y lo que quiero es encontrar una línea como era el caso de acá, en el caso de
+
+238
+00:23:09.170 --> 00:23:14.570
+de regresión, pero ahora le quiero encontrar una línea que separa las datos, que me separa
+
+239
+00:23:14.570 --> 00:23:22.210
+los puntitos naranja de los puntitos perdos, que se para las clases. La línea divisoria
+
+240
+00:23:22.210 --> 00:23:30.310
+puede ser una línea como está acá, si tengo datos en una dimensión que yo ya no puedo
+
+241
+00:23:30.310 --> 00:23:37.010
+representar en la pantalla, si tengo datos que viven en dimensión 10, entonces le llamo
+
+242
+00:23:37.010 --> 00:23:42.050
+la línea que lo separa, la curva que lo separa le llamó la hiper superficie que los va a separar.
+
+243
+00:23:43.010 --> 00:23:47.370
+Y ya no la puedo representar, pero sigue siendo una superficie que en la mayor
+
+244
+00:23:47.370 --> 00:23:51.730
+los casos es una superficie continua. Imagínense cómo las saben a que separa
+
+245
+00:23:53.250 --> 00:23:54.570
+objetos en fregimensiones.
+
+246
+00:23:57.570 --> 00:24:02.330
+Ejemplos de regresión predice cantidades como el izquierdo, preciosa temperatura, demanda,
+
+247
+00:24:02.330 --> 00:24:09.290
+y los modelos que usan generalmente son lineales, polinomiales, árboles incluso, no son muy buenos,
+
+248
+00:24:09.290 --> 00:24:14.570
+pero se pueden usar árboles de decisión también para la revisión y en clasificación usamos
+
+249
+00:24:14.570 --> 00:24:22.810
+categorías generalmente, no? clases, discretas, como es espán, no es espán, es fraude, no es fraude,
+
+250
+00:24:22.810 --> 00:24:29.170
+etcétera, etcétera, no? y los modelos los típicos son revisión logística, cabecinos más cercanos,
+
+251
+00:24:29.170 --> 00:24:33.170
+valles, máquinas de soporte vectorial por ejemplo,
+
+252
+00:24:33.170 --> 00:24:36.170
+reesneuronales que también podrán estar en la izquierda
+
+253
+00:24:36.170 --> 00:24:41.170
+en los otros. La función de pérdida o la función de riesgo,
+
+254
+00:24:41.170 --> 00:24:44.170
+generalmente le vamos a llamar pérdida, se ve de esta forma,
+
+255
+00:24:44.170 --> 00:24:47.170
+no pueden haber un montón, es esta elefamosa que vamos
+
+256
+00:24:47.170 --> 00:24:50.170
+a estar viendo hasta el cansancio, puedo yo,
+
+257
+00:24:50.170 --> 00:24:54.170
+es una forma de yo de cuantificar el error que está
+
+258
+00:24:54.170 --> 00:24:57.170
+comiendo mi modelo y es el que quiero reducir y quiero
+
+259
+00:24:57.170 --> 00:25:04.850
+y quiero minimizar. En este caso es data una J, la J que debería ser dentro de mis datos conocidos
+
+260
+00:25:04.850 --> 00:25:11.130
+contra la J gorrito que es la que predice mi modelo. Aquí la levo al cuadrado para que cuando
+
+261
+00:25:11.130 --> 00:25:16.850
+yo sume todos y cuantifique el error total, sume solamente positivos. Entonces la puedo
+
+262
+00:25:16.850 --> 00:25:23.490
+elevar al cuadrado, donde puedo sacar la magnitud o el valor absoluto, den cuenta solamente
+
+263
+00:25:23.490 --> 00:25:28.490
+para hacer la positiva y eso me da automáticamente dos funciones de perreía diferentes.
+
+264
+00:25:28.490 --> 00:25:34.490
+Y ese es el error cuadratico medio o el error absoluto.
+
+265
+00:25:34.490 --> 00:25:41.490
+Y gráficamente se ven así y se fijan el de LEMN o el cuadrado tiene en esta forma una parabola
+
+266
+00:25:41.490 --> 00:25:46.490
+y el otro el de valor absoluto trae esta forma naranja.
+
+267
+00:25:46.490 --> 00:25:49.490
+¿Qué es lo que puedo inferrir de esto?
+
+268
+00:25:49.490 --> 00:25:51.770
+Por ejemplo, si yo malejo del valor correcto,
+
+269
+00:25:51.770 --> 00:25:54.530
+como se supone que es en este caso cero,
+
+270
+00:25:54.530 --> 00:25:56.130
+conforme yo malejo más de cero,
+
+271
+00:25:56.130 --> 00:26:00.090
+me penaliza más, me castiga más el modelo.
+
+272
+00:26:00.090 --> 00:26:02.210
+Quiere decir que Outliers van a ser
+
+273
+00:26:02.210 --> 00:26:04.650
+fuertemente penalizados acá.
+
+274
+00:26:04.650 --> 00:26:08.130
+Mientras que en este, también son penalizados, pero no,
+
+275
+00:26:08.130 --> 00:26:10.370
+por ejemplo, si yo comparo el punt,
+
+276
+00:26:10.370 --> 00:26:15.490
+el dos, la curva a este nivel contra la curva a nivel naranja,
+
+277
+00:26:15.490 --> 00:26:18.410
+es una enorme diferencia,
+
+278
+00:26:18.410 --> 00:26:23.010
+el valor que toma la función de perdiada y con forma de alejo más del cero todavía
+
+279
+00:26:23.010 --> 00:26:28.490
+es más y más la diferencia. En clasificación existen diferentes también
+
+280
+00:26:28.490 --> 00:26:35.570
+funciones, vamos a ir viendo poco a poco cada una de ellas. Ejemplo la línea azul es la
+
+281
+00:26:35.570 --> 00:26:40.970
+que se usa en la regresión logística, la línea naranja es la función de
+
+282
+00:26:40.970 --> 00:26:46.010
+perdiada que se usa en el modelo de máquinas de su porto vectorial. Son completamente
+
+283
+00:26:46.010 --> 00:26:50.410
+diferentes, cada una tiene su justificación matemática, su justificación
+
+284
+00:26:50.410 --> 00:26:58.450
+computacional, por ahora nada más quiero que sepan que es diferentes, existen
+
+285
+00:26:58.450 --> 00:27:02.050
+muchas funciones de pérdida, algunas son más populares que otra, pero fácilmente
+
+286
+00:27:02.050 --> 00:27:07.530
+podré mencionar 10 a 20 funciones de pérdida que existen en tanto para
+
+287
+00:27:07.530 --> 00:27:12.770
+regresión o para clasificación. ¿Qué es lo que vamos a estar queriendo hacer?
+
+288
+00:27:12.770 --> 00:27:21.010
+reducir ese error y reducirlo significa como yo voy a trabajar en aprendizaje
+
+289
+00:27:21.010 --> 00:27:24.970
+supervisado, yo tengo un conjunto de datos para los cuales ya conozco la
+
+290
+00:27:24.970 --> 00:27:30.690
+respuesta, entonces generalmente yo hago lo que voy a tratar de generar un modelo
+
+291
+00:27:30.690 --> 00:27:37.650
+que se ajuste bien a esos datos, yo siempre voy a correr un riesgo que tenga un
+
+292
+00:27:37.650 --> 00:27:45.330
+subajuste como se marca acá o que tenga un sobreajuste, ¿vale? Si ya me fijó en los datos de
+
+293
+00:27:45.330 --> 00:27:50.530
+entrenamiento que son la línea verde que está a la calisguierda, ¿qué es lo que puede pasar?
+
+294
+00:27:50.530 --> 00:27:56.410
+Aquí del lado izquierdo, en el eje vertical tengo el error que estoy cometiendo, ¿qué puede pasar?
+
+295
+00:27:56.410 --> 00:28:02.550
+línea verde, tengo un error suficientemente grande, digamos, vamos a poner el punto 2,
+
+296
+00:28:02.550 --> 00:28:07.710
+pues ponen porcentaje un 20 por ciento, 20 por ciento de mis predicciones en
+
+297
+00:28:07.710 --> 00:28:13.010
+estas áreas son erróneas, lo cual es para mi gusto mucho. Yo quisiera que esté
+
+298
+00:28:13.010 --> 00:28:18.850
+aquí abajito cerca del cero, entonces quiere decir que yo puedo elegir un modelo
+
+299
+00:28:18.850 --> 00:28:23.750
+en el que leje vertical modelo a la complejidad del modelo, entonces vamos a
+
+300
+00:28:23.750 --> 00:28:28.250
+suponer que uno es poco complejo, dos es más complejo, tres estávia más
+
+301
+00:28:28.250 --> 00:28:32.750
+complejo, etcétera, etcétera, conforme voy moviendo hacia la derecha, esto
+
+302
+00:28:32.750 --> 00:28:37.090
+ya más y más complejo el modelo. Entonces, qué es lo que me suciera esto? Modellos
+
+303
+00:28:37.090 --> 00:28:44.450
+muy simples cometen mucho raro sobre el conjunto de entrenamientos, pero si yo
+
+304
+00:28:44.450 --> 00:28:50.330
+voy complicando el modelo sobre el conjunto de entrenamiento, mejora cada vez más y más
+
+305
+00:28:50.330 --> 00:28:56.170
+y más, lo cual es muy padre, no? Yo diría, perfecto, voy bien. El problema es que llegamos
+
+306
+00:28:56.170 --> 00:29:01.490
+al fenomeno, quizás algunos o muchos de ellas conocen de que estoy sobre ajustando
+
+307
+00:29:01.490 --> 00:29:08.190
+el modelo. Pásicamente el modelo está memorizando mis datos de entrenamiento y memorizar
+
+308
+00:29:08.190 --> 00:29:12.890
+es malo, ¿no? Es como ustedes cuando hablan, enseñaban de chicos, bueno, si ustedes
+
+309
+00:29:12.890 --> 00:29:18.590
+les enseñaban, pero les decía en memorizar te las tablas de multiplicar de uno al
+
+310
+00:29:18.590 --> 00:29:25.030
+10. Y como ahorita aprendíamos las tardes de multiplicar sin saber cómo utilizarlas,
+
+311
+00:29:25.030 --> 00:29:30.750
+me pede en una multiplicación que tuviera fuera de la tabla el 10, si me te decía cuántas
+
+312
+00:29:30.750 --> 00:29:37.110
+21 por 11 y hasta fuera de mi memoria yo no había manera que podría hacer esa respuesta,
+
+313
+00:29:37.110 --> 00:29:42.270
+¿no? Entonces, que es lo que tratamos los humanos generalizar, aprendo algo pero
+
+314
+00:29:42.270 --> 00:29:48.150
+trato de generalizar, aprender la técnica. Quiero decir eso que pasa, el dato en el ejemplo
+
+315
+00:29:48.150 --> 00:29:53.510
+que se acaba de poner, que es el multiplico 21 por 11 ya no está en datos de entrenamiento,
+
+316
+00:29:53.510 --> 00:30:01.830
+es decir que conforme yo me morizo, cuando me dan un dato nuevo es peor porque yo me morice, no aprendí
+
+317
+00:30:01.830 --> 00:30:08.630
+y los modelos lo que tratamos es que aprendan, no que me morice. Por lo tanto siempre es malo,
+
+318
+00:30:08.630 --> 00:30:17.190
+o como indica esta gráfica construir modelos muy complejos o entrenar demasiado de tal forma que yo
+
+319
+00:30:17.190 --> 00:30:21.950
+sobra juste en mis datos entrenamientos, más y bien un poquito más de esto, ¿no? Por otro lado,
+
+320
+00:30:21.950 --> 00:30:26.990
+Esta gráfica es interesante porque siempre el ruido, el ruido que existe en mi formación,
+
+321
+00:30:26.990 --> 00:30:35.070
+no hay manera de que sea ruidosa, yo logre un resultado en mi conjunto de datos de prueba,
+
+322
+00:30:35.070 --> 00:30:42.350
+o en los datos que nunca había el modelo para construirse, nunca voy a poder mejorar ese nivel
+
+323
+00:30:42.350 --> 00:30:46.110
+que me indica el ruido, que es esta línea puntiada de que está acá.
+
+324
+00:30:46.110 --> 00:30:51.610
+Entonces, no hay manera de que ustedes pidan, no se esfuercen, no se roba la cabeza, nunca van a lograr construir
+
+325
+00:30:51.610 --> 00:30:56.710
+un modelo que logra vencer eso, sobre los datos de ajuste.
+
+326
+00:30:56.710 --> 00:31:01.210
+Solo los datos de entrenamiento, si pueden llegar a tener error 0, nada se los impide.
+
+327
+00:31:01.210 --> 00:31:04.610
+Si ustedes sobra justa, van a lograr tener un error 0.
+
+328
+00:31:04.610 --> 00:31:09.410
+Pero cuando prueben en los datos de que nunca ha visto el modelo, siempre sus resultados,
+
+329
+00:31:09.410 --> 00:31:14.410
+en el mejor caso que sería este puntito, van a estar por encima del valor del ruido.
+
+330
+00:31:14.410 --> 00:31:20.830
+Entonces, si es importante conocerlo porque mucha gente cuando empieza a trabajar modelos
+
+331
+00:31:20.830 --> 00:31:29.090
+de learning trata de lograr el 0 absoluto pensando que construir un modelo o capturar más
+
+332
+00:31:29.090 --> 00:31:35.670
+datos o construir una mejor base de datos, no por mejor me refiero a menos ruidos, sino
+
+333
+00:31:35.670 --> 00:31:39.850
+más grande que va a reducir o generar un mejor modelo.
+
+334
+00:31:39.850 --> 00:31:45.290
+No importa qué añadir más datos o que tengan un mejor modelo, no van a lograr vencer eso.
+
+335
+00:31:45.290 --> 00:31:49.970
+La única forma que les ayudaría mucho es que tengan unos datos con menor ruido.
+
+336
+00:31:49.970 --> 00:31:54.290
+Pero esos datos pues generalmente nunca no existen en la vida real.
+
+337
+00:31:54.290 --> 00:32:00.170
+Más aprendizaje de pervisado, diferencia con aprendizaje de los pervisados,
+
+338
+00:32:00.170 --> 00:32:02.650
+es lo que trata de ilustrar esta gráfica.
+
+339
+00:32:02.650 --> 00:32:08.130
+Aquí a la izquierda tengo un caso de aprendizaje de pervisado,
+
+340
+00:32:08.130 --> 00:32:14.890
+donde yo tengo tres clases, tengo puntitos de tres colores en cada uno tiene
+
+341
+00:32:14.890 --> 00:32:19.130
+alguna alguna significado, pero yo con nosotros sus valores, yo conozco sus clases
+
+342
+00:32:19.130 --> 00:32:24.410
+pero por lo tanto yo puedo construir estas líneas que particiónan todo el dominio
+
+343
+00:32:24.410 --> 00:32:30.530
+en los que están esos datos y en cambio y les puedo asignar la clase no
+
+344
+00:32:30.530 --> 00:32:36.010
+por un puntito verde corresponde a esto que el color vyrginical puntito naranja corresponde
+
+345
+00:32:36.010 --> 00:32:42.130
+se tosa y para diferentes flores en este ejemplo mientras que en el lado derecho la
+
+346
+00:32:42.130 --> 00:32:47.490
+prensaje no supervisado lo único que puedo decir es agruparlos por ejemplo agrupo
+
+347
+00:32:47.490 --> 00:32:53.970
+estos que están acá pero no puedo saber si pertenecen a la flor de flor de ram se tosa
+
+348
+00:32:53.970 --> 00:32:59.170
+estos que están acá los puedo agrupar por color pero no puedo decir que pertenecen
+
+349
+00:32:59.170 --> 00:33:05.570
+al color versículo y así socialmente no lo único que logro es agrupar datos sin poder
+
+350
+00:33:05.570 --> 00:33:12.450
+darles una clasificación en particular a que partenas. Otros aplicaciones que van a ver en
+
+351
+00:33:12.450 --> 00:33:17.690
+el siguiente curso es que se usa mucho aprendizaje no superisado para reducir la dimensionality de los
+
+352
+00:33:17.690 --> 00:33:25.810
+datos o se usa mucho para detectar anomalías, algo muy sad, por ejemplo, en metos de cibral seguridad.
+
+353
+00:33:25.810 --> 00:33:33.330
+Y aprendizaje por refuerzo, como les decía, no hay datos, si se fijan aquí, no aparecen datos.
+
+354
+00:33:33.330 --> 00:33:42.930
+que lo que aparece una gente que va a ejecuitar una acción sobre su entorno, esa entorno le va a
+
+355
+00:33:42.930 --> 00:33:49.490
+regresar hacia la información y con bases de información la gente va a generar una política para
+
+356
+00:33:49.490 --> 00:33:54.330
+combate esa política general la acción y esto va a ser circular, la gente va a ser recibiendo
+
+357
+00:33:54.330 --> 00:33:59.890
+información de su entorno y va a estar generando acciones y esa la idea de esas acciones es que maximicen
+
+358
+00:33:59.890 --> 00:34:06.930
+la recompensa de como tal como se define la recompensa, en este caso digamos
+
+359
+00:34:06.930 --> 00:34:13.090
+es esta fórmula y ese el caso del como les decía del robots, el agente es en este caso el robot,
+
+360
+00:34:13.090 --> 00:34:20.410
+el entorno pues el entorno sobre el cual está caminando, la acción es la acción que ejecuta sus piernas
+
+361
+00:34:20.410 --> 00:34:28.370
+del robot y el balanceo que puedan darle en esas en esas como se llama en esa acción y el
+
+362
+00:34:28.370 --> 00:34:32.890
+lo que le va a regresar es si se cayó, no se cayó, que taratillo se cayó, si la caída fue muy
+
+363
+00:34:32.890 --> 00:34:36.970
+grusca, si el golpe fue muy fuerte, etcétera, se eternó por ponerlo en palabras y con base
+
+364
+00:34:36.970 --> 00:34:42.330
+información la política del robot de la gente va a ejecutar la acción. Puesto en palabras
+
+365
+00:34:42.330 --> 00:34:49.410
+de robots, no, no necesariamente son robots. El ejemplo clásico es por salir de un labrinto.
+
+366
+00:34:49.410 --> 00:34:55.610
+Entonces ahí puedo generar, no sé, en este labrinto simple, no sé, creo que es como tres,
+
+367
+00:34:55.610 --> 00:35:01.090
+bueno, probablemente no sé cuántas formas de salir ahí, ¿no? Pero, dependiente de la ruta que
+
+368
+00:35:01.090 --> 00:35:07.610
+yo tome, ejemplo, esta puede ser la ruta óptima, es la recompensa que voy a obtener. El robot,
+
+369
+00:35:07.610 --> 00:35:14.850
+pues, el robot, puede salir o la gente puede lograr salir por otra ruta, pero no necesariamente
+
+370
+00:35:14.850 --> 00:35:20.330
+esa te da la máxima recompensa. Entonces, el chista que siempre se encontrará la máxima recompensa.
+
+371
+00:35:20.330 --> 00:35:22.330
+Esa es una más como ejemplo no.
+
+372
+00:35:22.330 --> 00:35:25.330
+Es todas diferencias.
+
+373
+00:35:25.330 --> 00:35:29.330
+Aprender en supervisado yo tengo datos, datos etiquetados.
+
+374
+00:35:29.330 --> 00:35:35.330
+O sea cada data X que yo tenga le corresponde una etiqueta y yo la conozco.
+
+375
+00:35:35.330 --> 00:35:40.330
+Yo tengo una retroalimentación a través de la función de pérdida,
+
+376
+00:35:40.330 --> 00:35:49.330
+que es la que voy a aprender. Voy a aprender una función que me va a mapear o me va a asociar los datos X con una etiqueta J.
+
+377
+00:35:49.330 --> 00:35:54.890
+yo quiero minimizar las pérdidas que están definidas de esta forma por
+
+378
+00:35:54.890 --> 00:36:00.850
+esta función de pérdida y algunos ejemplos son diagnóstico o predecir el
+
+379
+00:36:00.850 --> 00:36:06.850
+precio de alo, el aprendizaje observa en no seprizado yo tengo observaciones
+
+380
+00:36:06.850 --> 00:36:13.530
+sin las yes, no tengo etiquetas, no tengo retroalimentación en el absoluto y
+
+381
+00:36:13.530 --> 00:36:19.170
+y qué es lo que voy a aprender, básicamente voy a aprender a grupar estos datos ex, ¿vale?
+
+382
+00:36:20.530 --> 00:36:22.890
+Básicamente, un ejemplo es segmentación de clases.
+
+383
+00:36:22.930 --> 00:36:25.370
+Por ejemplo, Netflix usa eso para segmentarlos,
+
+384
+00:36:25.930 --> 00:36:27.970
+para segmentar las películas que ustedes vean.
+
+385
+00:36:28.010 --> 00:36:31.250
+Es un ejemplo, o sea, por ejemplo, grupo de ciertos grupos de personas
+
+386
+00:36:31.290 --> 00:36:34.410
+que se conecta a tal hora de la noche, que vive en tal lugar del mundo,
+
+387
+00:36:36.490 --> 00:36:40.490
+tiene preferencia por este tipo de películas o este tipo de series.
+
+388
+00:36:40.810 --> 00:36:42.090
+Es un ejemplo simple.
+
+389
+00:36:42.090 --> 00:36:49.690
+y aprendizaje por esfuerzo no tengo datos, solo tengo episodios donde tengo acciones, tengo retroalimentación,
+
+390
+00:36:51.050 --> 00:36:56.330
+tengo políticas y el chistaca es maximizado la recompensa, vale,
+
+391
+00:36:57.370 --> 00:37:02.210
+me estoy tardando demasiado porque mi idea era sólo una breve introducción pero bueno creo que
+
+392
+00:37:02.210 --> 00:37:06.410
+si es importante que los que nunca habían escuchado de aprendizaje superlizado,
+
+393
+00:37:06.410 --> 00:37:08.550
+esto. Entonces, hay que dar unas
+
+394
+00:37:08.550 --> 00:37:10.850
+preguntas rápidas. Por ejemplo, pre-decir
+
+395
+00:37:10.850 --> 00:37:13.390
+el precio de una casa a partir de sus
+
+396
+00:37:13.390 --> 00:37:15.990
+características. ¿Qué me puede decir
+
+397
+00:37:15.990 --> 00:37:21.920
+que esas son? Regresión. Regresión,
+
+398
+00:37:21.920 --> 00:37:23.460
+porque el precio es una variable
+
+399
+00:37:23.460 --> 00:37:26.700
+continuo, ¿no? Y sería que aprendizaje
+
+400
+00:37:26.700 --> 00:37:28.200
+de porisado o no su porisado?
+
+401
+00:37:28.200 --> 00:37:32.440
+Supervisado. Supervisado, porque yo
+
+402
+00:37:32.440 --> 00:37:34.000
+conozco las características, ¿no?
+
+403
+00:37:34.000 --> 00:37:35.700
+Carpíritu y casacillas X.
+
+404
+00:37:35.700 --> 00:37:40.700
+agrupar clientes con baxes con hábitos de compra parecidos.
+
+405
+00:37:40.700 --> 00:37:44.700
+¿Qué es eso? No es supervisado. No es supervisado.
+
+406
+00:37:44.700 --> 00:37:49.700
+Exacto, que es justo lo que vamos a decir que esa agrupar es no supervisado.
+
+407
+00:37:49.700 --> 00:37:56.170
+Clasificar correos como spam usando correos ya etiquetados.
+
+408
+00:37:56.170 --> 00:37:58.170
+supervisado. supervisado.
+
+409
+00:37:58.170 --> 00:38:03.170
+supervisado y clasificación no detralla la palabra lo dijo acá.
+
+410
+00:38:03.170 --> 00:38:06.310
+¿Qué un robot aprenda a caminar? Si ya lo dijimos es...
+
+411
+00:38:06.310 --> 00:38:07.510
+Para esfuerzo.
+
+412
+00:38:07.510 --> 00:38:08.510
+Forzo.
+
+413
+00:38:09.210 --> 00:38:10.210
+¿Es que ha probado?
+
+414
+00:38:11.510 --> 00:38:12.510
+Por refuerzo.
+
+415
+00:38:12.510 --> 00:38:13.510
+Aprensa.
+
+416
+00:38:13.510 --> 00:38:14.510
+Aprensa.
+
+417
+00:38:14.510 --> 00:38:15.310
+Exacto.
+
+418
+00:38:15.310 --> 00:38:16.310
+Aprensa por esfuerzo.
+
+419
+00:38:16.310 --> 00:38:23.010
+Reducir algo que tenga 30 variables o 30 mediciones a solo dos variables.
+
+420
+00:38:25.530 --> 00:38:26.830
+Lecificación.
+
+421
+00:38:26.830 --> 00:38:28.130
+No, son provisadores.
+
+422
+00:38:28.830 --> 00:38:30.610
+Si, no, no es clasificación.
+
+423
+00:38:30.610 --> 00:38:31.530
+Es...
+
+424
+00:38:31.530 --> 00:38:32.530
+Es...
+
+425
+00:38:32.530 --> 00:38:34.650
+De hecho, le llaman al agorismo, le llaman PCA.
+
+426
+00:38:34.650 --> 00:38:41.410
+y esa aprendizaje no supervisado, es una de las aplicaciones más importantes de
+
+427
+00:38:41.410 --> 00:38:46.330
+aprendizaje no supervisado. En la empresa de No Espeercado van a ser dos, una es agrupar
+
+428
+00:38:46.330 --> 00:38:50.250
+y la otra es reducir la dimensionality de un problema.
+
+429
+00:38:50.250 --> 00:38:58.330
+Y detectar fraudes con transacciones llamarcladas como fraude o no fraude, es aprendizaje
+
+430
+00:38:58.330 --> 00:38:59.450
+supervisado.
+
+431
+00:38:59.450 --> 00:39:02.510
+la desabilicación y a
+
+432
+00:39:02.510 --> 00:39:03.850
+prensaje supervisado,
+
+433
+00:39:03.850 --> 00:39:04.850
+exactamente.
+
+434
+00:39:04.850 --> 00:39:07.690
+Ok, ahí está la respuesta acá.
+
+435
+00:39:07.690 --> 00:39:09.190
+Entonces, si básicamente la
+
+436
+00:39:09.190 --> 00:39:10.630
+discusión de todos los
+
+437
+00:39:10.630 --> 00:39:13.830
+que apostiva 12 y apostiva 13,
+
+438
+00:39:13.830 --> 00:39:15.790
+bueno, el curso como está, es como
+
+439
+00:39:15.790 --> 00:39:17.430
+necesidad módulo 1, que es la
+
+440
+00:39:17.430 --> 00:39:19.330
+primera semana, preparar datos,
+
+441
+00:39:19.330 --> 00:39:22.170
+módulo 2, que vamos a ver
+
+442
+00:39:22.170 --> 00:39:23.030
+algoritmos de regresión
+
+443
+00:39:23.030 --> 00:39:25.310
+exclusivamente, módulo 3 vamos
+
+444
+00:39:25.310 --> 00:39:26.030
+a ver algoritmos de
+
+445
+00:39:26.030 --> 00:39:28.470
+clasificación, aquí al finalizamos
+
+446
+00:39:28.470 --> 00:39:34.790
+aquí al finalizar el modelo 2 que las segunas semanas les dejo el primer proyecto, al finalizar
+
+447
+00:39:34.790 --> 00:39:39.550
+esta creo que ya les puede dejar el proyecto y quizás metos de enzamble en realidad se son
+
+448
+00:39:39.550 --> 00:39:43.670
+lo más poderosos pero esas son las últimas dos sesiones, entonces aquí las podes escribir el
+
+449
+00:39:43.670 --> 00:39:49.350
+proyecto aunque lo más útil sería que hagan uso de los métodos que veamos en la última semana que
+
+450
+00:39:49.350 --> 00:39:57.070
+es el modelo 4 y como les dije les dije al inicio es 30% laboratorio, esos conforme le va
+
+451
+00:39:57.070 --> 00:40:02.910
+dejando yo en los notebooks me los van regresando los que yo les diga no todos y se le voy calificando
+
+452
+00:40:02.910 --> 00:40:08.750
+30 y los dos proyectos vale 35 puntos cada uno entonces cada sesión tratar de dejarles una
+
+453
+00:40:08.750 --> 00:40:15.950
+presentación y una actividad en Python un notebook en Python creo que no lo puse aquí pero es
+
+454
+00:40:15.950 --> 00:40:23.470
+básicamente aquí son están saber Python y la biblioteca es que vamos a usar son las de scikit-learn
+
+455
+00:40:23.470 --> 00:40:31.050
+no vamos a usar PyTorch o TensorFlow o algo similar en este curso al menos. Eso
+
+456
+00:40:31.050 --> 00:40:35.230
+generalmente lo van a usar cuando llegan a redes neuronales, muy probablemente
+
+457
+00:40:35.230 --> 00:40:44.110
+está enero. Ok, he estado por la presentación. Si alguien tiene
+
+458
+00:40:44.110 --> 00:40:48.830
+comentarios, es momento hacerlo, y si no, me paso ya a iniciar lo que realmente es el
+
+459
+00:40:48.830 --> 00:40:55.960
+tema del primer tema del modelo uno.
+
+460
+00:40:55.960 --> 00:41:00.460
+Andrés, adelante.
+
+461
+00:41:00.460 --> 00:41:03.440
+Profeta, ahí me suprimada, ahorita que están presentando los
+
+462
+00:41:03.440 --> 00:41:05.580
+tipos de aprendizaje.
+
+463
+00:41:05.580 --> 00:41:11.260
+Hay forma de combinar el aprendizaje por esfuerzo con
+
+464
+00:41:11.260 --> 00:41:16.920
+alguno de los otros dos, con el supervisor o no supervisor.
+
+465
+00:41:16.920 --> 00:41:20.200
+Pues yo no soy muy experto en aprendizaje por refuerzo,
+
+466
+00:41:20.200 --> 00:41:22.200
+pero combinar que es sentido.
+
+467
+00:41:22.200 --> 00:41:28.400
+actíntesis, dependiendo de o sea, tú decías estos políticas con base a algún algoritmo
+
+468
+00:41:28.400 --> 00:41:34.680
+de aprendizaje superhizado o no superhizado, no lo he visto, pero que algunas, por ejemplo,
+
+469
+00:41:34.680 --> 00:41:40.160
+a tus funciones de recompensa sean muy similares a las funciones de riesgo que se usan
+
+470
+00:41:40.160 --> 00:41:45.920
+en superhizado o no superhizado, si hay ciertas similitudes. En ese sentido, si hay cierta
+
+471
+00:41:45.920 --> 00:41:52.080
+cercanía, pero en realidad aprendizaje, por eso, eso está bastante lejano a superhizado,
+
+472
+00:41:52.080 --> 00:41:58.920
+previsado conceptualmente incluso, ¿no? Andrés, adelante.
+
+473
+00:41:58.920 --> 00:42:04.480
+Provenció de dos características ahorita de la parte de cómo
+
+474
+00:42:04.480 --> 00:42:08.680
+relacionar que problema corresponde a aprendizaje supervisado,
+
+475
+00:42:08.680 --> 00:42:13.280
+este en calcó predecir un número también podría ser, ¿no?
+
+476
+00:42:13.280 --> 00:42:17.440
+Para decir un... Claro, si es un número, cualquiera,
+
+477
+00:42:17.440 --> 00:42:24.960
+es regresión totalmente pero eso sería compré con la prensa de supervisado el no supervisado
+
+478
+00:42:24.960 --> 00:42:30.680
+solota grupa o te dimesión a hacer rusas de mesiones no te predice un número en realidad no
+
+479
+00:42:30.680 --> 00:42:47.680
+supervisado dije supervisado si presieron número de regresión ok bueno déjame comienzo es bastante
+
+480
+00:42:47.680 --> 00:42:50.440
+larga la presentación a ver si lo acabamos.
+
+481
+00:42:50.440 --> 00:42:59.020
+OK, básicamente este es un repaso o puede ser que haya muchas cosas nuevas muy
+
+482
+00:42:59.020 --> 00:43:06.760
+parablemente a los chicos para ustedes, pero es un repaso o son las bases de lo que
+
+483
+00:43:06.760 --> 00:43:14.180
+necesitan conocer ustedes para evaluar datos y con bases en información que extraigan
+
+484
+00:43:14.180 --> 00:43:21.020
+de este análisis exploratorio de los datos, ustedes sepan cuáles el mejor modelo o
+
+485
+00:43:21.020 --> 00:43:26.280
+cuáles posiblemente el mejor modelo que deben elegir para resolver el problema.
+
+486
+00:43:26.280 --> 00:43:33.180
+Como les dije al inicio en este tipo de algoritmos que vamos a revisando, mucho lo
+
+487
+00:43:33.180 --> 00:43:39.060
+decir el humano, no le dejamos a la computadora mucha de la decisión.
+
+488
+00:43:39.060 --> 00:43:49.660
+Entonces si es muy importante conocer sus datos, es muy común que si no hace su análisis inicial de tus datos, tú elijas el algoritmo incorrecto.
+
+489
+00:43:49.660 --> 00:43:55.660
+Y ahí estás luchando por tratar de que tu algoritmo mejore o tu modelo como queda llamarle y no mejora.
+
+490
+00:43:55.660 --> 00:44:04.660
+Y las razones que no conocen tus datos y no sabes que esos datos no, no, no, o el modelo no es el mejor para ese datos,
+
+491
+00:44:04.660 --> 00:44:10.060
+o que tus datos tienen un problema que tú necesitas corregir, o que tus datos quizás no tienen
+
+492
+00:44:10.060 --> 00:44:18.500
+un ese problema pero que hay mejores formas de transformar esos datos y representar la información
+
+493
+00:44:18.500 --> 00:44:24.260
+contenida en ellos que va a ser que tu modelo funcionan muchísimo mejor de lo que está funcionando,
+
+494
+00:44:24.260 --> 00:44:33.420
+¿no? Esto generalmente se toca en temas o cursos de instíncias de datos, pero sí es muy importante
+
+495
+00:44:33.420 --> 00:44:37.420
+que al menos para todos los modelos que vamos serviendo si sepan hacer este análisis exploratorio
+
+496
+00:44:37.420 --> 00:44:43.740
+y van a ver que mucho de lo que hay acá es estadística, descriptiva, análisis, univariado y
+
+497
+00:44:43.740 --> 00:44:49.420
+viva variado y algún un poquito, matires de correlaciones un poquito más estadística, y si no lo
+
+498
+00:44:49.420 --> 00:44:56.500
+conocen, lo van a conocer, si ya lo conocen, pues les sirva como repaso, ¿no? Entonces,
+
+499
+00:44:56.500 --> 00:44:59.380
+¿Qué vamos a ver? Lo dividí en cuatro quemas.
+
+500
+00:45:01.340 --> 00:45:03.740
+Estadística escritoriva que es media,
+
+501
+00:45:03.860 --> 00:45:07.300
+aparianza, asimetría y cortosis.
+
+502
+00:45:10.100 --> 00:45:14.340
+Después vamos a ver ciertas representaciones de los datos a través de
+
+503
+00:45:14.340 --> 00:45:20.900
+histogramas, box plots y el IQRE para detectar acta típicos.
+
+504
+00:45:20.900 --> 00:45:27.740
+y después vamos a ver cómo entender la correlación de datos a través de la
+
+505
+00:45:27.740 --> 00:45:33.300
+covarianza y los índices de correlación de person y de Spirman,
+
+506
+00:45:33.300 --> 00:45:38.540
+finalmente cómo representar esas correlaciones a través de la matriz de
+
+507
+00:45:38.540 --> 00:45:45.120
+correlación y mapas de calor y todos lo vamos a ver sobre este conjunto,
+
+508
+00:45:45.120 --> 00:45:50.000
+este dataset, que es el dataset de California Housing, que es un dataset que está
+
+509
+00:45:50.000 --> 00:45:57.000
+disponible en internet super usado para cuestiones de masiler ni otras poses.
+
+510
+00:45:57.000 --> 00:46:10.000
+Ok, ya lo importante, comenzamos con mis datos, ¿no? Si usted está con el estadístico les van a decir la palabra estadístico,
+
+511
+00:46:10.000 --> 00:46:18.000
+o sea, ¿qué estadístico usas? Lo que se ha raro, no? No corre a ver nada si usted cheque, ¿qué estadístico usted dije?
+
+512
+00:46:18.000 --> 00:46:22.400
+que es eso, o sea, estadística, comenzó en una persona que sabe estadística, ¿no? Pero no
+
+513
+00:46:22.400 --> 00:46:27.360
+necesariamente eso. Entonces, muchas veces usan la palabra resumen, que hay una forma de
+
+514
+00:46:27.360 --> 00:46:33.960
+describir o usas la palabra resumen en lugar estadístico, como una forma de describir
+
+515
+00:46:33.960 --> 00:46:39.400
+a algún numerito que te den sin información que están en un conjunto de datos. Y el ejemplo
+
+516
+00:46:39.400 --> 00:46:46.180
+más simple es esta X barra o Y barra que representan, digamos, si tengo un conjunto de datos,
+
+517
+00:46:46.180 --> 00:46:53.100
+imagínense un conjunto una nube de puntos y el medio, la parte del medio, el centro de
+
+518
+00:46:53.100 --> 00:46:58.900
+gravedad como lo suelo en llamar la veces o la media posiblemente, representa todos
+
+519
+00:46:58.900 --> 00:47:06.100
+de conjunto de datos con su media. Es válido, ¿no? O puedo decir, no me convence la representación
+
+520
+00:47:06.100 --> 00:47:12.260
+porque solo me dice el punto medio, pero yo quisiera saber qué tan dispersos están. Entonces
+
+521
+00:47:12.260 --> 00:47:18.480
+en el mismo conjunto de datos que pueden ser 10, pueden ser 100,000 los representas con
+
+522
+00:47:18.480 --> 00:47:24.260
+ese numerito, el centro. Si quiero hablar de la dispersión de todos los datos, uso la desviación
+
+523
+00:47:24.260 --> 00:47:32.060
+estándar o la varianza. Si quiero hablar de qué tan alineados, si tienen algún patrón
+
+524
+00:47:32.060 --> 00:47:39.600
+de esos datos, yo me muere alineados en este momento para no usar la palabra correlación,
+
+525
+00:47:39.600 --> 00:47:44.600
+que tan, por ejemplo, que tan alineados están las X y las Y.
+
+526
+00:47:44.600 --> 00:47:49.600
+Ya alineados a los que han visto un poquito de analicidad y regresión,
+
+527
+00:47:49.600 --> 00:47:56.600
+dicen, ah bueno, se está refiriendo a si todos más o menos se comportan de tal forma que se encerca bien el niar recta,
+
+528
+00:47:56.600 --> 00:47:59.600
+o alguna cerca de la línea curva, ¿no?
+
+529
+00:47:59.600 --> 00:48:03.600
+Entonces, puedo hablar de algún coeficiente que se está R,
+
+530
+00:48:03.600 --> 00:48:09.840
+o cuál es la mejor cool recta o curva si no quiero hablar solamente de algo
+
+531
+00:48:09.840 --> 00:48:14.160
+lineal, que mejor se les ajuste, entonces yo puedo diseñar esta llena.
+
+532
+00:48:14.160 --> 00:48:19.720
+Entonces son formas de tratar de condensar la información que están en la
+
+533
+00:48:19.720 --> 00:48:23.800
+gran tabla, que puede ser muy chica, puede ser muy grande, y tratar de reducirla
+
+534
+00:48:23.800 --> 00:48:30.360
+algo simple, que yo pueda entender. Estamos muy padre, la idea es muy buena, lo
+
+535
+00:48:30.360 --> 00:48:35.520
+para reducir a 3 por ejemplo un conjunto de datos, la pueda reducir a estas 4 cosas. Conozco
+
+536
+00:48:35.520 --> 00:48:43.240
+la media, conozco la varianza, conozco su índice de correlación y conozco la función
+
+537
+00:48:43.240 --> 00:48:49.200
+que los representa. Ya con eso sería suficiente. No siempre es buena idea, es buena idea, pero
+
+538
+00:48:49.200 --> 00:48:54.640
+no hay que tener mucho cuidado con eso. El ejemplo es esto. Imagínense que tienen 4
+
+539
+00:48:54.640 --> 00:49:01.680
+conjunto, entonces es un clásico, tenemos cada conjunto tiene 11 datos, el conjunto uno tiene
+
+540
+00:49:01.680 --> 00:49:14.200
+media 9, tiene su ordenada, tenemos la si 7.5, tiene una varianza de 4.13 y tiene una alineación
+
+541
+00:49:14.200 --> 00:49:22.040
+o coeficiente de correlación de punto 8, lo que eso significa, el conjunto dos también tiene 11 datos
+
+542
+00:49:22.040 --> 00:49:32.750
+y tiene exactamente los mismos valores. El conjunto 3 solo cambia un poquito acá en la
+
+543
+00:49:32.750 --> 00:49:39.750
+variancia y el conjunto 4 cambia un poquito acá en el coeficiente de correlación, nada importante.
+
+544
+00:49:39.750 --> 00:49:47.710
+Uno podría decir que los cuatro conjuntos son exactamente el mismo. Si yo redusco esos conjuntos
+
+545
+00:49:47.710 --> 00:49:53.830
+de 11 elementos cada uno a estos cuatro elementos o estadísticos, ¿no?
+
+546
+00:49:54.830 --> 00:50:01.030
+Lo resulta que no, estos son los cuatro conjuntos, este es el conjunto uno,
+
+547
+00:50:01.030 --> 00:50:08.110
+estos son los 11 puntitos, este es el conjunto dos, este es el conjunto tres y este es el
+
+548
+00:50:08.110 --> 00:50:13.950
+conjunto cuatro. Son conjuntos completamente diferentes, visualmente lo estoy viendo,
+
+549
+00:50:13.950 --> 00:50:20.470
+no? Nada que ver uno con otro. Resulta que los cuatro tienen exactamente la misma, como
+
+550
+00:50:20.470 --> 00:50:25.750
+dice acá, la misma coeficiente correlación, que en ella tenía la misma media y tenía
+
+551
+00:50:25.750 --> 00:50:31.070
+la misma variación. Entonces, generalmente uno, uno, uno tiende a hacer eso, ¿no? Porque
+
+552
+00:50:31.070 --> 00:50:36.550
+es muy difícil trabajar con datos muy grandes. Cuando tenemos miles de puntos o miles de datos,
+
+553
+00:50:36.550 --> 00:50:41.790
+uno quiere representar esos conjuntos de una forma más simple, tomando estadísticos o
+
+554
+00:50:41.790 --> 00:50:51.270
+resumen. Aquí la única intención de esta gráfica es tener cuidado con eso. El reducir,
+
+555
+00:50:51.270 --> 00:50:56.510
+condensar la información que viene en conjunto de datos, muchas veces es útil, como vamos a ver
+
+556
+00:50:56.510 --> 00:51:04.470
+más adelante, pero hay que tener cuidado en utilizarlos. Y este es el ejemplo. Visualmente lo
+
+557
+00:51:04.470 --> 00:51:10.150
+también ustedes. OK, como generalmente trabajo, vamos a
+
+558
+00:51:10.150 --> 00:51:12.190
+otra en la prensa de supervisado.
+
+559
+00:51:12.190 --> 00:51:16.990
+Residimos datos crudos y los inspeccionamos primero,
+
+560
+00:51:16.990 --> 00:51:20.350
+parte muy importante, mucha gente por flojera o por
+
+561
+00:51:20.350 --> 00:51:24.350
+exponenciamiento evita hacer esto y se lanza directamente
+
+562
+00:51:24.350 --> 00:51:28.630
+a construir esto, el modelo. OK, entonces, ¿se llama
+
+563
+00:51:28.630 --> 00:51:31.350
+datos crudos? Primero los exploro.
+
+564
+00:51:31.350 --> 00:51:34.230
+ya que los exploree, decide o qué hacer con ellos.
+
+565
+00:51:35.190 --> 00:51:36.870
+Aplico procesos de limpieza,
+
+566
+00:51:37.550 --> 00:51:40.990
+o sea, los depuro, el imino, los que me estorban,
+
+567
+00:51:40.990 --> 00:51:42.550
+los que no pueden cansar problemas,
+
+568
+00:51:43.230 --> 00:51:45.310
+y posiblemente los transformos.
+
+569
+00:51:45.470 --> 00:51:47.950
+O te van a ver que podemos aplicar ciertas transformaciones
+
+570
+00:51:47.950 --> 00:51:50.310
+que van a ser benéficas para mis datos.
+
+571
+00:51:51.030 --> 00:51:54.110
+Y acá ya he hecho eso, extraigo atributos.
+
+572
+00:51:54.310 --> 00:51:56.990
+En Machine Learning es bien importante eso.
+
+573
+00:51:56.990 --> 00:52:01.750
+yo humano voy a decidir cómo construir estos atributos.
+
+574
+00:52:01.750 --> 00:52:06.590
+Básicamente se leaman las características of features en inglés.
+
+575
+00:52:06.590 --> 00:52:09.590
+En español podemos llamarle características o atributos.
+
+576
+00:52:09.590 --> 00:52:13.510
+Con base a los datos y a limpios y transformados,
+
+577
+00:52:13.510 --> 00:52:17.510
+yo voy a construir diferentes características o atributos
+
+578
+00:52:17.510 --> 00:52:19.550
+que son los que le voy a pasar al modelo.
+
+579
+00:52:19.550 --> 00:52:22.750
+Entonces generalmente al modelo no le paso directamente los datos.
+
+580
+00:52:22.750 --> 00:52:32.270
+en redes neuronales cambió la cosa. En redes neuronales yo puedo hacer esto, pero no voy a
+
+581
+00:52:32.270 --> 00:52:40.030
+construir los atributos. Yo la red neuronal los construye solita. Por eso son las grandes ventajas
+
+582
+00:52:40.030 --> 00:52:47.950
+y desventajas de la red porque la red me evita construir los elige los mejores, pero yo no logró
+
+583
+00:52:47.950 --> 00:52:53.390
+entender esos atributos porque generalmente el humano va a tratar de construir estos atributos
+
+584
+00:52:53.390 --> 00:52:59.950
+con base a su experiencia, con base a cosas que nosotros entendemos. Mientras que la red puede
+
+585
+00:52:59.950 --> 00:53:06.190
+construir atributos que funcionan muy bien pero que no tienen una representación, ya vemos la física
+
+586
+00:53:06.190 --> 00:53:11.070
+o en nuestro mundo real, que para mí humano va a decir, bueno, eso que significa, no tengo ni idea,
+
+587
+00:53:11.070 --> 00:53:18.630
+pero funciona. Pero ¿qué quiere decir que mi modelo va a ser menos interpretativo para mí?
+
+588
+00:53:18.630 --> 00:53:25.030
+O sea, el modelo me va a sacar la respuesta correcta, pero muchas veces yo no voy a entender qué
+
+589
+00:53:25.030 --> 00:53:31.590
+significa eso. Por ejemplo, si yo estoy queriendo maximizar las ventas de mi empresa y mis datos,
+
+590
+00:53:31.590 --> 00:53:38.510
+pues son todas las ventas y todas las cosas que han sido importantes para los agentes de ventas
+
+591
+00:53:38.510 --> 00:53:44.910
+y el modelo va a decir, bueno, si haces esto, tu vas a incrementar tus ventas, pero el hacer esto,
+
+592
+00:53:44.910 --> 00:53:50.750
+que son los atributos, me han decidido, bueno, cómo hago esto, si no me lo estás dando en palabras
+
+593
+00:53:50.750 --> 00:53:58.030
+que yo puedo entender. Entonces, parte importante de la construcción de sus atributos significa para
+
+594
+00:53:58.030 --> 00:54:02.990
+lo mano la interpretabilidad, ¿no? Por esa vez, las redes neuronales y esas profundas, no profundas,
+
+595
+00:54:02.990 --> 00:54:05.790
+no necesariamente son la mejor opción.
+
+596
+00:54:05.790 --> 00:54:09.030
+¿Qué puede pasar también mis variables que son mis datos?
+
+597
+00:54:09.030 --> 00:54:10.670
+¿Pueden tener dos tipos?
+
+598
+00:54:10.670 --> 00:54:14.350
+¿Pueden ser numericas o pueden ser categoriques?
+
+599
+00:54:14.350 --> 00:54:16.350
+Por ejemplo, para la enumerica cualquier número,
+
+600
+00:54:16.350 --> 00:54:17.430
+es hasta fácil entender.
+
+601
+00:54:17.430 --> 00:54:21.110
+Categórica pueden ser color.
+
+602
+00:54:21.110 --> 00:54:23.990
+Es una veralicategórica.
+
+603
+00:54:23.990 --> 00:54:30.520
+Alguna clasificación como que puede ser color.
+
+604
+00:54:30.520 --> 00:54:32.400
+No sé, viene la mentira ahorita.
+
+605
+00:54:32.400 --> 00:54:39.360
+un ano, país por ejemplo, estado, cosas que no se amencen
+
+606
+00:54:39.360 --> 00:54:43.440
+números, que tenemos que asignarles a algún valor numérico.
+
+607
+00:54:43.440 --> 00:54:48.160
+Y de las numéricas, las vamos a devolvir en continuos o discretas.
+
+608
+00:54:48.160 --> 00:54:56.280
+Aquí es lo que está en Metinc, es con base a ejemplos de las variables
+
+609
+00:54:56.280 --> 00:54:58.440
+de la base de datos que vamos a trabajar.
+
+610
+00:54:58.440 --> 00:55:00.800
+Cuales, por ejemplo, son continuos, cuáles ponen que son discretas,
+
+611
+00:55:00.800 --> 00:55:03.220
+cuáles son nominales y cuáles son ordinales.
+
+612
+00:55:03.220 --> 00:55:04.520
+¿Ole?
+
+613
+00:55:04.520 --> 00:55:06.340
+Pues básicamente en el análisis polaratorio,
+
+614
+00:55:06.340 --> 00:55:07.480
+me tengo que hacer preguntas.
+
+615
+00:55:07.480 --> 00:55:08.840
+¿Qué hay?
+
+616
+00:55:08.840 --> 00:55:10.560
+¿Qué está raro?
+
+617
+00:55:10.560 --> 00:55:14.120
+Lo que está raro es lo que voy a eliminar aquí en este proceso
+
+618
+00:55:14.120 --> 00:55:15.720
+del limpieza.
+
+619
+00:55:15.720 --> 00:55:18.520
+¿Y qué se relaciona con qué?
+
+620
+00:55:18.520 --> 00:55:23.040
+Eso me puede ayudar mucho para construirlas atributos.
+
+621
+00:55:23.040 --> 00:55:29.520
+O para elegir el modelo que yo voy a elegir para construir acá.
+
+622
+00:55:29.520 --> 00:55:39.360
+la base de datos que va a estar trabajando es esto, consta de 2640 ejemplos y tiene 1 a
+
+623
+00:55:39.360 --> 00:55:48.600
+ver 1, 2, 3, 4, 5, 6, 7, 8, 9 variables, ¿vale? tengo, entonces tengo 20.640
+
+624
+00:55:48.600 --> 00:55:58.440
+muestras, cada muestra tiene 9 variables, entonces voy a tener una tabla de 2640 filas contra 9
+
+625
+00:55:58.440 --> 00:56:01.380
+columbres y cada una de las
+
+626
+00:56:01.380 --> 00:56:02.940
+representas por ejemplo Metinc
+
+627
+00:56:02.940 --> 00:56:05.680
+representa el ingreso mediano de
+
+628
+00:56:05.680 --> 00:56:08.680
+la población el House H
+
+629
+00:56:08.680 --> 00:56:10.820
+representa la edad de las
+
+630
+00:56:10.820 --> 00:56:12.180
+personas que viven allá con la
+
+631
+00:56:12.180 --> 00:56:13.620
+mediana de las personas que
+
+632
+00:56:13.620 --> 00:56:14.900
+viven allá.
+
+633
+00:56:14.900 --> 00:56:17.420
+Hoveras RUNS representa cuántas
+
+634
+00:56:17.420 --> 00:56:18.960
+habitaciones hay en esa cada
+
+635
+00:56:18.960 --> 00:56:21.260
+casa en promedio.
+
+636
+00:56:21.260 --> 00:56:24.800
+Cuantos dormitorios hay en
+
+637
+00:56:24.800 --> 00:56:26.560
+promedio.
+
+638
+00:56:26.560 --> 00:56:28.120
+Cuantos poblaciones,
+
+639
+00:56:28.120 --> 00:56:37.520
+cuántos habitantes hay en el distrito, digamos, en la colonia de esa población. A ver a
+
+640
+00:56:37.520 --> 00:56:44.100
+su ocupación, cuántos habitantes hay en promedio en cada hogar. Y la atitude en la hojitut
+
+641
+00:56:44.100 --> 00:56:51.760
+es la ubicación geográfica de la casa y Med House Val es el valor de la casa. La
+
+642
+00:56:51.760 --> 00:56:58.600
+idea aquí es que basado se cuantas el ingreso de la familia, cuál es la edad de la familia,
+
+643
+00:56:58.600 --> 00:57:06.600
+cuántas habitaciones y cuantos dormitorios tienen la casa, cuántos habitan la casa, cuántos ocupan la
+
+644
+00:57:06.600 --> 00:57:13.480
+casa y dónde está yo trate de predecir el valor de la casa, básicamente eso se trata
+
+645
+00:57:13.480 --> 00:57:19.880
+esta base de datos. Ok, si empieza a construir mis estadísticos o mis resúmenes,
+
+646
+00:57:19.880 --> 00:57:27.100
+se me voy a los más sencillitos. De todos esos saco la media, la moda y la mediana.
+
+647
+00:57:27.100 --> 00:57:35.060
+Aquí están graficados los 20 mil y cacho, el, con se llama, elementos de esa base de datos.
+
+648
+00:57:35.060 --> 00:57:41.360
+Si yo los grafico en un histograma, ven este ejemplo. Si se han cuenta, tiene un cesto,
+
+649
+00:57:41.360 --> 00:57:48.000
+se esgo hacia la derecha. La moda es que bueno, son, pero esto es únicamente para la primera
+
+650
+00:57:48.000 --> 00:57:55.600
+variable, la del ingreso ingreso de la familia. Quiere decir que generalmente la están 10 mil dólares,
+
+651
+00:57:55.600 --> 00:58:02.400
+una familia está en que vida en esa zona está teniendo 30 mil dólares de ingreso,
+
+652
+00:58:02.400 --> 00:58:09.440
+mi imagino canual es lo más común que es la moda la mediana que es el que está en medio
+
+653
+00:58:09.440 --> 00:58:15.840
+es de 35 mil dólares y la media está en 38 mil dólares las tres pueden ser una buena representación
+
+654
+00:58:15.840 --> 00:58:24.320
+de cuánto ingresa en promedio en las casas que es lo que hay conocer acá lo importante es
+
+655
+00:58:24.320 --> 00:58:30.280
+conocer que un dato puede cambiar completamente todo o pueden afectar un absoluto no que lo que hace
+
+656
+00:58:30.280 --> 00:58:37.280
+que por ejemplo si os digo le voy a añadir uno más, un elemento más está base de datos que va a
+
+657
+00:58:37.280 --> 00:58:47.280
+ganar 400 mil dólares, que es este data, este que está en la gráfica, la agrego una
+
+658
+00:58:47.280 --> 00:58:55.280
+familia que va a tener en ingreso de 400 mil dólares, que pasa la mediana que era aquí 3.5,
+
+659
+00:58:55.280 --> 00:59:01.480
+y cacho 3.53 redondeados 3.6 aquí lo están 10 mil están miles de dólares ya no están 10 mil
+
+660
+00:59:01.480 --> 00:59:17.890
+de 3.6 pasa a 3.64 casi no cambió pero es el este no pero con haberle agregado una sola
+
+661
+00:59:17.890 --> 00:59:27.630
+familia que gana esto la media que estaban 3.7 se me mueve hasta 72 o 7.2 entonces
+
+662
+00:59:27.630 --> 00:59:36.550
+la media es una estadístico o un resumen que es muy sensible a los outliers. Entonces,
+
+663
+00:59:36.550 --> 00:59:41.390
+bien, es importante conocerlo. No, si voy a elegir ese resumen o estadístico como una forma,
+
+664
+00:59:41.390 --> 00:59:45.870
+una forma de entrenar mis datos, una forma de representar la información que está en el
+
+665
+00:59:45.870 --> 00:59:50.950
+conjunto de datos, tenga mucho cuidado que la media porque es muy sensible a los outliers.
+
+666
+00:59:50.950 --> 00:59:55.390
+Hay que saber identificarlos, hay que saber cómo eliminarlos. Si por otro lado, el decidó
+
+667
+00:59:55.390 --> 01:00:00.630
+elegir la media no va a afectarse y la moda mucho menos, porque la moda no
+
+668
+01:00:00.630 --> 01:00:05.110
+le hizo en coquillas porque sigue siendo la más popular y la toca absolutamente
+
+669
+01:00:05.110 --> 01:00:11.750
+el que la cree de 1 de 400 mil. Entonces punto número 1, otro forma de
+
+670
+01:00:11.750 --> 01:00:17.270
+medir o representar los datos es la varianza o la dispersión, la varianza
+
+671
+01:00:17.270 --> 01:00:21.990
+dispersión se va a medir con respecto a la media que tanto me lejo yo de la media
+
+672
+01:00:21.990 --> 01:00:27.230
+me puedo alejar hacia la derecha o me puedo alejar hacia el izquierdo, ¿vale? y la
+
+673
+01:00:27.230 --> 01:00:33.990
+formulita por la varianza es exactamente esta, ¿no? es cada dato que es tanto
+
+674
+01:00:33.990 --> 01:00:40.030
+se leja de la media, ojo, esta media x barita es la media de mi muestra, no es la
+
+675
+01:00:40.030 --> 01:00:45.030
+media del conjunto de datos completo, generalmente a cuando se quede trabajo con
+
+676
+01:00:45.030 --> 01:00:49.830
+muestras, si muchas veces lo que se pone acá es una letra mu, que representa la
+
+677
+01:00:49.830 --> 01:00:56.190
+media de todo el conjunto. Cuando yo estoy trabajando con un subconjunto con
+
+678
+01:00:56.190 --> 01:01:02.430
+nuestra data, es la pongo de disbarriita. Y por eso debido a entre N-1 y N-3N, para poder
+
+679
+01:01:02.430 --> 01:01:07.910
+compensar un poco el hecho de que no estoy utilizando la media de todo el conjunto de
+
+680
+01:01:07.910 --> 01:01:08.910
+datos.
+
+681
+01:01:08.910 --> 01:01:14.590
+El caso es que me sirve para la variación de redes, me sirve para saber qué tanto
+
+682
+01:01:14.590 --> 01:01:23.030
+estoy alejando de la media, que tan dispersos están mis datos en el conjunto completo de datos,
+
+683
+01:01:23.030 --> 01:01:28.990
+o al menos en la muestra. Otras formas de representar esa varianza o disvisión en standard
+
+684
+01:01:28.990 --> 01:01:36.150
+es que lo van a ver muy común, es con este puntaje Z. Esta Z que hago toma la diferencia de un dato
+
+685
+01:01:36.150 --> 01:01:41.870
+con respecto a la media de la muestra y lo divido entre la disvisión standard y eso me va a dar un valor
+
+686
+01:01:41.870 --> 01:01:50.510
+y lo que voy a hacer es decir qué tanto me estoy alejando si por ejemplo mis datos nos
+
+687
+01:01:50.510 --> 01:01:58.230
+puedo representar como general mi estograma que básicamente va a tener esta forma o sea discreto y
+
+688
+01:01:58.230 --> 01:02:07.190
+tiene una forma más o menos de campanita si yo puedo saber que si estás la media los datos a
+
+689
+01:02:07.190 --> 01:02:16.510
+una desviación estándar por esos mu, masigma o mu, menos sigma, tengo el 68% de los datos
+
+690
+01:02:16.510 --> 01:02:24.930
+están a una desviación estándar. El 95% de los datos van a caer a dos desviaciones
+
+691
+01:02:24.930 --> 01:02:33.070
+estándar. El 99.7% de los datos caen a tres desviaciones estándar. Generalmente eso es
+
+692
+01:02:33.070 --> 01:02:35.270
+es muy importante para evaluar mis modelos.
+
+693
+01:02:35.270 --> 01:02:37.670
+Yo siempre voy a querer que mis modelos,
+
+694
+01:02:37.670 --> 01:02:39.670
+si tienen algún margen de error,
+
+695
+01:02:39.670 --> 01:02:41.310
+algún margen de...
+
+696
+01:02:41.310 --> 01:02:44.070
+O cuando ocuparon más bien dos modelos diferentes,
+
+697
+01:02:44.070 --> 01:02:47.390
+si dos modelos caen de una desviación estándar,
+
+698
+01:02:47.390 --> 01:02:49.390
+quiere decir que prácticamente los dos modelos
+
+699
+01:02:49.390 --> 01:02:52.390
+me están dando a mi rispado resultado,
+
+700
+01:02:52.390 --> 01:02:54.750
+aunque en la media del resultado de cada uno de ellos
+
+701
+01:02:54.750 --> 01:02:56.310
+difiera un poco,
+
+702
+01:02:56.310 --> 01:03:00.190
+para que me van a servir este tipo de cosas.
+
+703
+01:03:00.190 --> 01:03:02.230
+Otro ejemplo, otro numerito,
+
+704
+01:03:02.230 --> 01:03:09.230
+cómo se está utilizando constantemente son los cuantiles, los cuartiles y el, como
+
+705
+01:03:09.230 --> 01:03:15.550
+se llama, el índice de que tanto me estoy al el rango intercortílico que es que tanto
+
+706
+01:03:15.550 --> 01:03:22.270
+me estoy alejando de todo son exactamente lo mismo, ¿no? Vamos a leer esto, un cuantil,
+
+707
+01:03:22.270 --> 01:03:27.490
+un cuantil es, te voy a hacer orden a mis datos del x1 al xn, los pongo en orden del
+
+708
+01:03:27.490 --> 01:03:35.970
+menor al mayor y el cuántil de orden P lo que me va a indicar es que fracción estoy dejando
+
+709
+01:03:35.970 --> 01:03:42.970
+al izquierdo de los datos. ejemplo el cuántil lo voy a representar como cumino escu la P aquí
+
+710
+01:03:42.970 --> 01:03:51.370
+por ejemplo tengo q minúscula y tengo punto 25 el este es el cuántil de 0.25 que me está
+
+711
+01:03:51.370 --> 01:03:58.650
+indicando que el 25% de los datos o una cuarta parte de los datos están quedando a la izquierda
+
+712
+01:03:58.650 --> 01:04:07.290
+de este numerito gráficamente es el que está acá, es este verde. Aquí dice de todos los datos que
+
+713
+01:04:07.290 --> 01:04:15.610
+están partidos aquí los puntitos, son 1, 2, 3, 4, 5, 6 y 7 puntitos, 2, el 25% están a la izquierda
+
+714
+01:04:15.610 --> 01:04:24.690
+de este número. Le pueden llamar el cuantil 0.25 o le pueden poner el cuartil 1, que es más fácil,
+
+715
+01:04:24.690 --> 01:04:36.890
+el cu1 corresponde al cuantil 0.25 o le pueden llamar el percentil del 25%. Cualquier el número
+
+716
+01:04:36.890 --> 01:04:41.250
+que les dijeron generalmente, es una comoda más hablar de cuartiles.
+
+717
+01:04:41.250 --> 01:04:50.490
+4.1 es equivalente al 1.0.25 o al presentil del 25%. La diferencia entre
+
+718
+01:04:50.490 --> 01:04:57.530
+cuántil y presentil es que está el expreso como fracción.25, aquí diría 25%
+
+719
+01:04:57.530 --> 01:05:02.730
+¿Qué es 25? Es la única diferencia. Una lo presenta en porcentaje, el otro lo
+
+720
+01:05:02.730 --> 01:05:08.250
+presenta en fracción, o más fácil le ponemos 1, 2, 3, y todo. Solo vamos
+
+721
+01:05:08.250 --> 01:05:16.610
+se trasando con estos. C1, C2 que es la media y C3. Y lo que sí es importante porque después
+
+722
+01:05:16.610 --> 01:05:22.090
+vamos a ver ciertas gráficas, es el rango intercortílico, el rango intercortílico es la diferencia
+
+723
+01:05:22.090 --> 01:05:27.490
+que hay entre C1 y C3. Entonces, todo esto. Desde C1 hasta C3.
+
+724
+01:05:27.490 --> 01:05:34.810
+¿Ok? Te van a ir acostumbrando a eso. Les recomiendo mucho que de una vez que termine
+
+725
+01:05:34.810 --> 01:05:39.450
+la clase hoy o mañana, mañana, o cuando te han tiempo, lean la revisenla y si
+
+726
+01:05:39.450 --> 01:05:41.450
+todo tiene alguna duda me preguntan.
+
+727
+01:05:41.450 --> 01:05:46.050
+Tiene más o menos que ir a acostumbrarnos a manejar estos datos.
+
+728
+01:05:46.050 --> 01:05:51.650
+Graficamente, si yo me regreso a mi histograma de la base de datos que vamos a estar trabajando,
+
+729
+01:05:51.650 --> 01:05:56.090
+después lo van a poder replicar en el notebook.
+
+730
+01:05:56.090 --> 01:06:00.250
+Yo pose acá la mediana y la mediana me va a dar 3.53.
+
+731
+01:06:00.250 --> 01:06:04.610
+el 4t1, o sea el 25% de datos que quedan de este lado,
+
+732
+01:06:05.610 --> 01:06:11.710
+este, que cae en 256 y el 4t3 cae en 4.74
+
+733
+01:06:11.970 --> 01:06:17.330
+y eso lo puedo representar de una forma más fácil con esta graficita, que es el boxplot.
+
+734
+01:06:18.170 --> 01:06:25.670
+El boxplot va a ser un recuadro que es este, que va a ir desde el 4t1 hasta el 4t3,
+
+735
+01:06:25.670 --> 01:06:29.870
+o sea me está representando el rango intercuartílico toda esta caja.
+
+736
+01:06:30.250 --> 01:06:38.410
+la raíta que tiene en medio es la mediana que corresponde justamente acá y estos que son lo que se
+
+737
+01:06:38.410 --> 01:06:44.050
+llaman bigotes, esta raía que se les sale está acá, lo que va a representar aquí no lo dice, pero más
+
+738
+01:06:44.050 --> 01:06:56.970
+adelante lo dice, es el 1.5 del rango intercuartílico, o sea si agarró esta cajita y la copio aquí llegaría como
+
+739
+01:06:56.970 --> 01:07:02.410
+hasta por acá y se después la pongo todavía en la mitad de esa cajita me llega hasta acá.
+
+740
+01:07:02.410 --> 01:07:09.550
+O sea, esta cajita 1.5 veces a la derecha, llega hasta aquí y esta cajita a partir de acá
+
+741
+01:07:09.550 --> 01:07:11.830
+1.5 veces llegaría hasta acá.
+
+742
+01:07:11.830 --> 01:07:20.490
+Te voy a representar que tanto me estoy alejando de mi rango intercoartílico 1.5 veces y eso
+
+743
+01:07:20.490 --> 01:07:25.650
+me va a servir para que todo lo que se salga de los vigotes, por ejemplo todos estos datos
+
+744
+01:07:25.650 --> 01:07:29.070
+que están acá, los voy a tomar como Outliers.
+
+745
+01:07:29.070 --> 01:07:32.730
+Y si mi modelo lo necesita y algunos modelos si lo necesitan,
+
+746
+01:07:32.730 --> 01:07:36.090
+los voy a eliminar, que es parte de la análisis exploratorio
+
+747
+01:07:36.090 --> 01:07:38.170
+y después de la limpieza de mis datos,
+
+748
+01:07:38.170 --> 01:07:40.570
+hay modelos que no les importa que estos los dejes,
+
+749
+01:07:40.570 --> 01:07:44.290
+hay modelos que sí son muy sensibles
+
+750
+01:07:44.290 --> 01:07:47.690
+a que tú conserves todos los Outliers.
+
+751
+01:07:47.690 --> 01:07:50.010
+Entonces, por ejemplo, acá de la izquierda no tengo Outliers,
+
+752
+01:07:50.010 --> 01:07:54.010
+pero acá de la derecha si tengo Outliers.
+
+753
+01:07:54.010 --> 01:07:56.810
+¿Qué otra forma de describir mis datos?
+
+754
+01:07:56.810 --> 01:07:59.290
+Como se están cuenta, yo estoy usando un de un histogramas
+
+755
+01:07:59.290 --> 01:08:01.130
+para presentar datos.
+
+756
+01:08:01.130 --> 01:08:04.810
+Entonces, yo puedo decir, bueno, el histograma es simétrico,
+
+757
+01:08:04.810 --> 01:08:09.610
+como este, o el histograma está cargado hacia la derecha,
+
+758
+01:08:09.610 --> 01:08:11.530
+o está cargado hacia la izquierda.
+
+759
+01:08:11.530 --> 01:08:16.210
+Entonces, básicamente, estoy diciendo si mi histograma es simétrico,
+
+760
+01:08:16.210 --> 01:08:20.890
+es asimétrico negativamente o es asimétrico positivamente.
+
+761
+01:08:20.890 --> 01:08:27.650
+y para eso hay una métrica que es esta formulita, si ustedes calculan esto les va a dar este valor,
+
+762
+01:08:27.650 --> 01:08:35.490
+que se representa con gama, si gama es positivo, para decir que tiene asimetría positiva,
+
+763
+01:08:35.490 --> 01:08:40.650
+y si digo, y si es negativo, pues decir que tiene asimetría negativa.
+
+764
+01:08:40.650 --> 01:08:45.210
+Es todo, es una forma de describir mis datos, si son sesgados,
+
+765
+01:08:45.210 --> 01:08:48.250
+eso más adelante en algunos modelos es importante, ¿no?
+
+766
+01:08:48.250 --> 01:08:52.450
+como represento, qué representación o qué forma tiene mis datos.
+
+767
+01:08:52.450 --> 01:08:58.510
+Aparte de así, me traía, yo tengo otra cosa que es lo que se le llama la CURTOSIS
+
+768
+01:08:58.510 --> 01:09:00.990
+que básicamente me vide algo parecido.
+
+769
+01:09:00.990 --> 01:09:10.910
+Y puedo representar esto o estas curvas, perdón, estas curbitas.
+
+770
+01:09:10.910 --> 01:09:16.710
+Si no las quiero visualizar así, las podría visualizar en términos de este puntaje.
+
+771
+01:09:16.710 --> 01:09:20.750
+a través de estas curvas.
+
+772
+01:09:20.750 --> 01:09:22.750
+Esa me lo voy a brincar un poquito,
+
+773
+01:09:22.750 --> 01:09:24.750
+no generalmente no usamos esa parte,
+
+774
+01:09:24.750 --> 01:09:26.750
+pero nada más,
+
+775
+01:09:26.750 --> 01:09:29.750
+es probablemente que ustedes puedan ver que a través del puntaje Z
+
+776
+01:09:29.750 --> 01:09:31.750
+y con estas gráficas,
+
+777
+01:09:31.750 --> 01:09:33.750
+podríamos también representarse
+
+778
+01:09:33.750 --> 01:09:35.750
+una comusión,
+
+779
+01:09:35.750 --> 01:09:38.750
+si una, la distribución de, de, de los datos
+
+780
+01:09:38.750 --> 01:09:40.750
+tiene cierto césgo o
+
+781
+01:09:40.750 --> 01:09:43.750
+asimetría hacia un lado o hacia el otro.
+
+782
+01:09:43.750 --> 01:09:45.750
+Ok, ¿qué puede pasar?
+
+783
+01:09:45.750 --> 01:09:51.470
+Vamos a presentar un ejemplo, yo tengo estos datos, es este común de datos, 2, 3, 3, 4, 13,
+
+784
+01:09:51.470 --> 01:09:57.150
+su media es 5 y los datos a la distancia de cada uno de esos datos a la media,
+
+785
+01:09:57.150 --> 01:10:06.600
+está de la puedo calcular y la puedo representar aquí, puedo calcular la suma,
+
+786
+01:10:06.600 --> 01:10:13.220
+puedo calcular la suma al cuadrado, puedo calcular el valor absoluto de cada uno
+
+787
+01:10:13.220 --> 01:10:18.460
+no es elevado al cubo, o puedo calcular el cada uno de ellos
+
+788
+01:10:18.460 --> 01:10:19.540
+elevar la parte potencia.
+
+789
+01:10:19.540 --> 01:10:25.670
+Y cada uno de ellos me va a dar estas cantidades.
+
+790
+01:10:25.670 --> 01:10:29.950
+¿Por qué me sirve esto?
+
+791
+01:10:29.950 --> 01:10:35.590
+Si yo checo a cada lado, la distancia al cuadrado
+
+792
+01:10:35.590 --> 01:10:38.390
+me está representando la variancia.
+
+793
+01:10:38.390 --> 01:10:41.750
+La distancia al cubo, que es esta, que calcula acá,
+
+794
+01:10:41.750 --> 01:10:44.430
+me está representando la simetría.
+
+795
+01:10:44.430 --> 01:10:48.530
+y la distancia a la cuarta me está diciendo la cortosis,
+
+796
+01:10:48.530 --> 01:10:53.930
+que es otra forma de cuantificar en cierta forma esa asimetría.
+
+797
+01:10:53.930 --> 01:10:57.430
+Y cada una de ellas me da diferentes valores.
+
+798
+01:10:57.430 --> 01:11:00.370
+Eso me permite conocer un poco más mis datos,
+
+799
+01:11:00.370 --> 01:11:02.030
+como se están comportando, ¿no?
+
+800
+01:11:02.030 --> 01:11:03.590
+¿Qué tan dispersos son?
+
+801
+01:11:03.590 --> 01:11:05.770
+¿Qué tan asimetricos son?
+
+802
+01:11:05.770 --> 01:11:11.050
+¿Qué tan la deados no se llama así son?
+
+803
+01:11:11.050 --> 01:11:17.470
+gráficamente. Entonces, muchas veces uno se centra en calcular completamente la
+
+804
+01:11:17.470 --> 01:11:21.390
+fórmula, por ejemplo acá la simetría, pero es más que suficiente calcular,
+
+805
+01:11:21.390 --> 01:11:23.110
+esta es la D, lo que está acá arriba.
+
+806
+01:11:24.850 --> 01:11:28.470
+Esta D es lo que me está permitiendo graficar espuntualmente por cada dato,
+
+807
+01:11:29.130 --> 01:11:30.630
+como se comportan mis datos, ¿no?
+
+808
+01:11:36.390 --> 01:11:43.030
+¿Y cuál es también, pero ¿Y cuál son sujetas a los outliers y cuál es no?
+
+809
+01:11:43.030 --> 01:11:49.750
+la cortosis, si yo la grafico que es la de y a la cuarta potencia, tiene esta forma,
+
+810
+01:11:51.390 --> 01:11:57.470
+es esto no, de y es esto, él va a la cuarta potencia, me está dando este tipo de graficas,
+
+811
+01:12:00.190 --> 01:12:04.950
+si es muy puntiaguda, si no lo es,
+
+812
+01:12:04.950 --> 01:12:13.580
+es que aquí no tengo una gráfica a ver por ejemplo, déjame regresar un poquito.
+
+813
+01:12:15.820 --> 01:12:24.420
+Por ejemplo, esta tendría una cortosis más baja que esta, porque porque esta es menos esta gráfica
+
+814
+01:12:24.420 --> 01:12:30.660
+es histograma, es menos puntiagudo ignorando que está el aliado y solo tomando en cuenta que es
+
+815
+01:12:30.660 --> 01:12:36.260
+más puntiaguda esta curva, esta tendría una cortosis más alta, esta tendría una cortosis más alta
+
+816
+01:12:36.260 --> 01:12:41.760
+y está atender una cortosis más baja. Lo que mide la cortosis es justamente eso.
+
+817
+01:12:41.760 --> 01:12:49.160
+Qué tan concentrados si usted están los datos alrededor del punto medio.
+
+818
+01:12:49.160 --> 01:12:52.060
+Qué es lo que me voy más básicamente a mi representas gráficas.
+
+819
+01:12:52.060 --> 01:12:57.160
+Esto tiene una cortosis muy alta, la curva roja y conforme va bajando,
+
+820
+01:12:57.160 --> 01:13:04.160
+se van haciendo más y más planas, los histogramas de los datos.
+
+821
+01:13:04.160 --> 01:13:10.000
+o lo puedo representar en escadal logarítmica que me da otra forma de visualizar lo únicamente.
+
+822
+01:13:12.800 --> 01:13:19.320
+Bueno, aquí sí, aquí están ejemplos. Por ejemplo, yo agarro la metinclaberial metinc de mi base de datos.
+
+823
+01:13:19.320 --> 01:13:29.300
+Veo que esta tiene una simetría hacia la izquierda. Esta simétrica,
+
+824
+01:13:29.300 --> 01:13:38.860
+pero tiene outliers, tiene picos, esta tiene una simaterial izquierda, por ejemplo,
+
+825
+01:13:38.860 --> 01:13:45.180
+esta no es más o menos simétrica, pero va a tener una cortosis alta, esta es simétrica y
+
+826
+01:13:45.180 --> 01:13:50.140
+va a tener una cortosis relativamente alta porque no está tan suavizada como esta, que es simétrica
+
+827
+01:13:50.140 --> 01:13:57.620
+en cortosis baja y así sucesivamente, ¿no? Entonces así más o menos podría caracterizando con base a
+
+828
+01:13:57.620 --> 01:14:03.780
+este numerito gamma, el conjunto de datos, si se fijan, puedo, por ejemplo, calcular la
+
+829
+01:14:03.780 --> 01:14:09.500
+media con la mediana, calculo su asimetría, que es un numerito, calculo su furtorsis, que
+
+830
+01:14:09.500 --> 01:14:14.820
+es otro numerito. Entonces de alguna forma estoy condensando toda la información que me
+
+831
+01:14:14.820 --> 01:14:21.940
+está dando los 20 milicachos datos que tengo en esa base de datos. Entonces en resumen,
+
+832
+01:14:21.940 --> 01:14:27.100
+yo puedo agarrar todas mis variables, calcularles sumedianas, su desviación standard,
+
+833
+01:14:27.100 --> 01:14:34.640
+su asimetería, su cortosis, el máximo y el mínimo y podría agarrar, por ejemplo, para
+
+834
+01:14:34.640 --> 01:14:41.180
+poner estas variables, resumir esta variable en únicamente estos siete datos.
+
+835
+01:14:41.180 --> 01:14:51.020
+Ya que tengo todo eso, entonces yo tengo que empezar a pensar qué hacer, por ejemplo, ya
+
+836
+01:14:51.020 --> 01:14:59.860
+ya saqué todos mis métricas, que hago, descubrí que, por ejemplo, esta variable es azimétrica
+
+837
+01:14:59.860 --> 01:15:03.600
+y el modelo que voy a usar en este momento nos hablamos de los modelos, pero resulta que
+
+838
+01:15:03.600 --> 01:15:10.400
+el modelo que quiero usar funciona mal o se comporta mal cuando la variable azimétrica,
+
+839
+01:15:10.400 --> 01:15:12.800
+que puedo hacer?
+
+840
+01:15:12.800 --> 01:15:18.340
+Ya sabiendo que la variable azimétrica, a si yo le aplico la transformación logarínica
+
+841
+01:15:18.340 --> 01:15:24.020
+a todo el conjunto de variables, hasta toda esta variable a todos los datos y lo vuelvo
+
+842
+01:15:24.020 --> 01:15:28.580
+a graficar fíjense cómo se transforma en una variable que es simétrica.
+
+843
+01:15:28.580 --> 01:15:37.920
+Y esto para algunos algoritmos es mucho mejor, entonces quiere decir que yo después de
+
+844
+01:15:37.920 --> 01:15:44.480
+amenálesis exploratorio me doy cuenta que aplicaron a transformación logarítmica esta variable
+
+845
+01:15:44.480 --> 01:15:51.480
+es mejor trabajar con el log de esa variable que trabajar con la variable como está.
+
+846
+01:15:51.480 --> 01:15:58.160
+Por ejemplo, en este caso que es AbraShopvation, es simétrica, no pasa nada, pero si la aplicó
+
+847
+01:15:58.160 --> 01:16:03.480
+la función logarísmica la vuelvo pero con una cortosis más pronunciada.
+
+848
+01:16:03.480 --> 01:16:06.480
+Esto no necesariamente va a beneficiar.
+
+849
+01:16:06.480 --> 01:16:14.720
+Aquí en el ejemplo que tiene creo que hablas un equivoco con con
+
+850
+01:16:14.720 --> 01:16:19.400
+con revisión logística que mejora sustancialmente, pero esto no lo hemos visto
+
+851
+01:16:19.400 --> 01:16:24.640
+no vamos a poner que al momento no vamos a meteron se les pero si es importante
+
+852
+01:16:24.640 --> 01:16:28.640
+conocer esto no muchas veces y tú tienes después de tener ese exploratorio
+
+853
+01:16:28.640 --> 01:16:34.400
+identificas con la variable se comporta mal entonces aplícalo una transformación
+
+854
+01:16:34.400 --> 01:16:37.840
+como en este caso, en este caso una transformación logácnica,
+
+855
+01:16:37.840 --> 01:16:41.800
+ya no usa la variable original, usa la variable con la transformada.
+
+856
+01:16:41.800 --> 01:16:47.040
+Qué otra cosa es importante, cuando yo construyo mis histogramas,
+
+857
+01:16:47.040 --> 01:16:50.160
+la visualización es importante.
+
+858
+01:16:50.160 --> 01:16:56.320
+Si yo lo construyo con pocos elementos, yo a grupo un histograma es básicamente,
+
+859
+01:16:56.320 --> 01:17:00.400
+yo tomo un conjunto de datos y lo a grupo no solo a la barra.
+
+860
+01:17:00.400 --> 01:17:09.240
+Si uso pocas barras, no alcanzo identificar yo el comportamiento. Si uso suficientes barras,
+
+861
+01:17:09.240 --> 01:17:17.080
+ya alcanzo a ver yo una forma. Si uso demasiadas barras, aunque alcanzo a ver la forma, alcanzo
+
+862
+01:17:17.080 --> 01:17:22.960
+a ver que tienen mucho ruido. Entonces también generalmente cuando ustedes elijan el
+
+863
+01:17:22.960 --> 01:17:25.520
+como se llama, como construís el sistema de histogramas,
+
+864
+01:17:25.520 --> 01:17:30.280
+tengan cuidado en usar muy pocos y usar demasiado.
+
+865
+01:17:30.280 --> 01:17:33.520
+Acá hay una realita que es esta, que el ancho,
+
+866
+01:17:33.520 --> 01:17:37.840
+el ancho de cada una de estas barritas del sistema de histograma
+
+867
+01:17:37.840 --> 01:17:41.720
+lo pueden calcular como dos veces el rango intercortílico,
+
+868
+01:17:41.720 --> 01:17:45.480
+que es el IQR, multiplicado o dividido, mejor dicho,
+
+869
+01:17:45.480 --> 01:17:48.440
+entre el número de datos que tengo o la redispada del número
+
+870
+01:17:48.440 --> 01:17:50.280
+de datos que tengo.
+
+871
+01:17:50.280 --> 01:17:56.280
+Entonces para la variable Metinc del conjunto de datos, esto me daría un ancho de punto 16.
+
+872
+01:17:56.280 --> 01:17:57.280
+Acá.
+
+873
+01:17:57.280 --> 01:18:02.280
+Entonces, no forma la que funciona muy bien para no estar adivinando cuántas,
+
+874
+01:18:02.280 --> 01:18:05.280
+cuánto ancho debe tener cada barritad de este.
+
+875
+01:18:05.280 --> 01:18:11.010
+El box plot, esto es lo que les decía de la aserata del valor satípico.
+
+876
+01:18:11.010 --> 01:18:16.010
+El box plot básicamente, en el caso de los migotes, que es esto,
+
+877
+01:18:16.010 --> 01:18:24.490
+esto, me está diciendo es el quartil uno era este punto, peta la izquierda 1.5 veces el
+
+878
+01:18:24.490 --> 01:18:30.050
+rango intercuartílico, me lo va a mandar hasta acá y del lado derecho del Q3 que es este punto,
+
+879
+01:18:31.010 --> 01:18:39.010
+perdón, lo es marqué este, sí está bien, el Q3 es este punto, te vas hacia la derecha igual 1.5 veces
+
+880
+01:18:39.010 --> 01:18:48.090
+el rango intervorte y te llegas acá y todo lo que esté fuera de los migotes son valores atípicos
+
+881
+01:18:48.090 --> 01:18:55.270
+y por lo tanto generalmente los eliminas. Entonces esta gráfica sirve mucho para identificar eso o
+
+882
+01:18:55.270 --> 01:19:02.530
+simplemente si van a programarlo, o sea que en esta realita de construyen este intervalo y todo lo que
+
+883
+01:19:02.530 --> 01:19:08.170
+que se fuera de este intervalo lo eliminan de esos datos para que no les afecte en sus predicciones.
+
+884
+01:19:11.030 --> 01:19:15.990
+Si hacemos esto para diferentes variables, estamos como un ejemplo, por ejemplo para
+
+885
+01:19:15.990 --> 01:19:24.030
+MetInt me quedan el box plot de esta forma. Aquí veo muchos varios datos que están fuera. En
+
+886
+01:19:24.030 --> 01:19:31.190
+el HouseH en esta variable tengo 0 variables atípicos, nada que fuera de los digotes. En el Average
+
+887
+01:19:31.190 --> 01:19:39.430
+rumes tengo un montón aquí de los migotes, tengo un montón de datos atípicos, lo mismo
+
+888
+01:19:39.430 --> 01:19:46.550
+ocurre en population, aquí también en Abra Socopation y aquí no se alcanzan a visualizar,
+
+889
+01:19:46.550 --> 01:19:52.710
+pero aparentemente están acá, son estos puntos acá condensados, aparentemente son mil
+
+890
+01:19:52.710 --> 01:19:58.590
+valores. Entonces, si se fijan, esta base de datos tiene un montón de outliers en cada
+
+891
+01:19:58.590 --> 01:20:03.990
+una de las diferentes variables que están manejamos. Entonces, el este análisis
+
+892
+01:20:03.990 --> 01:20:08.830
+coloratorio me revelaría eso y yo tendría que eliminar todos estos valores,
+
+893
+01:20:08.830 --> 01:20:14.750
+¿no? Todo esto, todos estos 500 11, todos estos 1000, 196, todos estos 7,
+
+894
+01:20:14.750 --> 01:20:21.110
+lo reduco no tanto la base de datos tiene casi 21 mil datos, el peor de los
+
+895
+01:20:21.110 --> 01:20:29.270
+procesionarios, estoy eliminando aproximadamente mil datos 5 a 10 por ciento. ¿Qué pasó, Rodrigo?
+
+896
+01:20:29.270 --> 01:20:37.910
+Hay una pregunta. Cuando dice que los elimina, se refiere a que elimina el correspondiente
+
+897
+01:20:37.910 --> 01:20:43.230
+a la fila completa, ¿no? Es decir, el dato completo no se queda solamente...
+
+898
+01:20:43.230 --> 01:20:46.550
+la declaración gracias.
+
+899
+01:20:46.550 --> 01:21:02.720
+Bueno aquí es un poquito de análisis de que hacer, ¿no? Por ejemplo, si mi dato atípico
+
+900
+01:21:02.720 --> 01:21:13.540
+es un error de captura, o sea que es un valor que no tiene sentido, lo elimino o lo
+
+901
+01:21:13.540 --> 01:21:18.920
+corrijos o sea si fue una error de captura, pero lo puedo corregir, no voy a tomar el dato y
+
+902
+01:21:18.920 --> 01:21:27.120
+corris para ese error, ¿no? Si es un top es algo que no puede existir también, pues lo trato
+
+903
+01:21:27.120 --> 01:21:37.120
+de eliminar y si es un dato real pero raro, aquí es o lo elimino o elijo un modelo que se
+
+904
+01:21:37.120 --> 01:21:40.120
+robusto a trabajar con esos datos.
+
+905
+01:21:40.120 --> 01:21:42.120
+Por ejemplo, si el dato es real,
+
+906
+01:21:42.120 --> 01:21:45.120
+si tiene sentido de eso un dato por el digamos físico,
+
+907
+01:21:45.120 --> 01:21:47.120
+no fue un error de captura.
+
+908
+01:21:47.120 --> 01:21:50.120
+Yo puedo elegir eliminarlo en el dado caso
+
+909
+01:21:50.120 --> 01:21:52.120
+que vaya a trabajar con un modelo que es sensible eso,
+
+910
+01:21:52.120 --> 01:21:55.120
+o lo puedo dejar si voy a trabajar con un modelo
+
+911
+01:21:55.120 --> 01:21:57.120
+que robusto a ese tipo de datos.
+
+912
+01:21:57.120 --> 01:22:00.120
+Por ejemplo, árboles de decisión son bastante robustos
+
+913
+01:22:00.120 --> 01:22:03.120
+a outliers, modelos como reacción linear,
+
+914
+01:22:03.120 --> 01:22:06.120
+reacción logística son super sensibles a outliers.
+
+915
+01:22:06.120 --> 01:22:12.880
+clayers y no quiere decir que autónomas decimente yo me vaya a
+
+916
+01:22:12.880 --> 01:22:18.600
+una árbol de decisión por esa razón porque los árbol de decisión en problemas de
+
+917
+01:22:18.600 --> 01:22:22.560
+regresión sobre todo tienen graves problemas para regresión de entrada te
+
+918
+01:22:22.560 --> 01:22:30.440
+entregan una regresión a pedazos ya veremos eso, pero no es lo mejor
+
+919
+01:22:30.440 --> 01:22:37.240
+dispersión en dispersión la que
+
+920
+01:22:37.240 --> 01:22:40.200
+básicamente la gráfica lo que trata de hacer es
+
+921
+01:22:40.200 --> 01:22:46.500
+ilustrar que igual si yo selecciono mi
+
+922
+01:22:46.500 --> 01:22:50.240
+histograma con los valores incorrectos mi gráfica
+
+923
+01:22:50.240 --> 01:22:51.840
+dispersión puede quedar con esos
+
+924
+01:22:51.840 --> 01:22:57.040
+conocidos mientras que si o sea cuando la
+
+925
+01:22:57.040 --> 01:23:06.460
+la chaquilla lija para mi histograma va a marcar la densidad. Si lo selecciono de forma correcta,
+
+926
+01:23:06.460 --> 01:23:13.640
+o si lo aplicó en la escala logarítmica a esta información, ya el colorado de millegrama
+
+927
+01:23:13.640 --> 01:23:18.340
+dispersión puede quedar mucho mejor, no? Por cierto, se ve grama expresión, si se
+
+928
+01:23:18.340 --> 01:23:22.280
+les dan cuenta, aunque creo que lo toco más adelante, lo que me está tratando en marcar es una
+
+929
+01:23:22.280 --> 01:23:27.520
+tendencia de los datos, por ejemplo Met Ink, graficada contra la barra de la
+
+930
+01:23:27.520 --> 01:23:31.240
+salida, el valor de la casa, lo que me está diciendo es por ejemplo que conforme
+
+931
+01:23:31.240 --> 01:23:35.800
+esta sincrementa pues también sobre la casa, cosas de ese tipo, no? Pero tengo
+
+932
+01:23:35.800 --> 01:23:39.680
+más adelante otro tipo de representación. Bueno, esta es una representación,
+
+933
+01:23:39.680 --> 01:23:44.880
+quisanla la mejor, otra forma representar esta dispersión de los datos, es
+
+934
+01:23:44.880 --> 01:23:50.480
+representarla con los digotes y con los cuatro quartiles que puedo construir yo
+
+935
+01:23:50.480 --> 01:23:55.920
+de mis datos. Entonces, por ejemplo, Met Inc en lugar de representarla contra el laboral
+
+936
+01:23:55.920 --> 01:24:01.400
+salida que es el valor de la casa con diagrama dispersión. Quizás me sea más informativo
+
+937
+01:24:01.400 --> 01:24:08.360
+para cada uno de los partiles genera su, como se llama, su diagrama de caja. Y lo que
+
+938
+01:24:08.360 --> 01:24:15.160
+voy a ver es que por ejemplo el 4.4 no tiene outliers, el 4.3 ya tiene outliers aquí,
+
+939
+01:24:15.160 --> 01:24:20.460
+no muchos, el 4.2 tiene un montón de outliers y el 4.1 es el que tiene más outliers.
+
+940
+01:24:20.460 --> 01:24:26.500
+y ahí elegire y eso lo vamos a servir y lo compruebimos y viendo los diferentes modelos que hacer
+
+941
+01:24:26.500 --> 01:24:33.380
+a respecto, pero digamos acá me lo sección allá por grupos a diferencia de esta diagrama que no me
+
+942
+01:24:33.380 --> 01:24:39.540
+permite más que ver que es que hay cierta dispersión, o sea que esto no está muy alineado a una
+
+943
+01:24:39.540 --> 01:24:46.180
+línea recta por ejemplo, aquí generalmente ya en esta zona se empieza a separar muchísimo los
+
+944
+01:24:46.180 --> 01:24:53.600
+datos comparado con esta sección, por ejemplo. Lo que les decía el diagrama de dispersión
+
+945
+01:24:53.600 --> 01:25:00.900
+es más o menos esto. Yo puedo tratar de replicar la idea de los cuartiles y dividirlo en pedazos,
+
+946
+01:25:00.900 --> 01:25:09.300
+cuatro pedazos que me representan en cierta forma los cuartiles y analizar que suceden cada
+
+947
+01:25:09.300 --> 01:25:17.760
+a estos partes, si se están comportando en correlación positiva, como serían los de este
+
+948
+01:25:17.760 --> 01:25:21.760
+lado o si están comportando en correlación negativa, aquí tratando de no se infiere
+
+949
+01:25:21.760 --> 01:25:31.380
+mucho, pareciera que aquí la comportamiento se en ese sentido. Vean un poquito más rápido
+
+950
+01:25:31.380 --> 01:25:34.820
+porque veo que también se me está acabando del tiempo y apenas voy como en la depostía
+
+951
+01:25:34.820 --> 01:25:41.900
+26 en comen interpretar el signo no el aquí la la
+
+952
+01:25:41.900 --> 01:25:48.500
+la variancia de de cada región por ejemplo dice la variancia es positiva
+
+953
+01:25:48.500 --> 01:25:52.640
+entonces quiere decir que ambas tienen a subir pero no voy para acá aquí
+
+954
+01:25:52.640 --> 01:25:56.900
+quiere decir que si este sub meting sube sube también el valor de la casa no
+
+955
+01:25:56.900 --> 01:26:01.660
+entonces la variancia es positiva aquí era lo mismo si este sube este también
+
+956
+01:26:01.660 --> 01:26:06.420
+entienda subir es como una línea recta que va en esta dirección. Aquí lo que me está diciendo
+
+957
+01:26:06.420 --> 01:26:11.980
+es que la barancia creativa en estos lados, entonces cuando uno sube, la otra la tiene
+
+958
+01:26:11.980 --> 01:26:19.220
+de bajar. Aquí nos alcanza visualizar realmente pero si sube, no pareciera que eso esté
+
+959
+01:26:19.220 --> 01:26:26.980
+bajen, normalmente acá hay una enorme dispersión, no es claro si se baja. Aquí si es más claro,
+
+960
+01:26:26.980 --> 01:26:31.460
+aquí si está sube aparentemente la tendencia es que está trabajando.
+
+961
+01:26:31.460 --> 01:26:37.540
+Obviamente aquí yo no alcanzaría a ver nada, aunque el numerito seguramente el numerito
+
+962
+01:26:37.540 --> 01:26:43.580
+de la varianza me va a indicar que si hay una correlación negativa en tres a dos variables
+
+963
+01:26:43.580 --> 01:26:50.180
+y si es más o menos cero que lo más probable que haya sido el caso en ese puede ser algo
+
+964
+01:26:50.180 --> 01:26:52.980
+negativo pero muy cercano cero es que no hay una tendencia.
+
+965
+01:26:52.980 --> 01:26:55.020
+si Andrés ¿qué pasó?
+
+966
+01:26:55.020 --> 01:26:57.860
+Sera que se está trasladando el centro y por eso está
+
+967
+01:26:57.860 --> 01:26:59.820
+mostrando esa varianza.
+
+968
+01:26:59.820 --> 01:27:01.620
+Sí, pero...
+
+969
+01:27:01.620 --> 01:27:05.100
+Aunque se refiere a que el centro está acá, ¿no?
+
+970
+01:27:05.100 --> 01:27:06.100
+Exacto.
+
+971
+01:27:06.100 --> 01:27:08.340
+Pero yo... bueno, yo...
+
+972
+01:27:08.340 --> 01:27:12.820
+Si es que hay una variancia negativa o una colación negativa,
+
+973
+01:27:12.820 --> 01:27:14.220
+no parece ser mucho, ¿no?
+
+974
+01:27:14.220 --> 01:27:15.980
+O sea, si no voy a hacer izquierda,
+
+975
+01:27:15.980 --> 01:27:18.980
+si, si, tienes a subir los balancitos, ¿no?
+
+976
+01:27:18.980 --> 01:27:20.980
+O sea, si me voy...
+
+977
+01:27:20.980 --> 01:27:42.980
+como por acá si si hay cierta relación hacia arriba ¿no? Sí sí, sí se ve, no es muy claro no porque no no hay una, yo veo mucho más evidente que de aquí del centro por acá, si hay un decremento de aquí voy a la izquierda, tiendas subir, sería una proporción negativa, no sé más un vídeo de edad, bueno, esto es mi percepción.
+
+978
+01:27:42.980 --> 01:28:01.260
+Es más, bueno esta, el correlación, las correlaciones de Pearson, básicamente lo que me trata de representar esto es en un solo numeralito, justamente lo que vamos a criticarla.
+
+979
+01:28:01.260 --> 01:28:05.820
+este tipo de comportamiento de correlacionar una variable con otra o como
+
+980
+01:28:05.820 --> 01:28:10.860
+dije al inicio al linear una variable con otra.
+
+981
+01:28:11.700 --> 01:28:18.940
+Aquí lo que vamos a ver es que este nomenito R, es digamos la
+
+982
+01:28:18.940 --> 01:28:27.660
+la la como se llama la varianza de la conjunta de las variables x y y
+
+983
+01:28:27.660 --> 01:28:33.060
+dividido entre la variancia de x y la variancia de y es así está definido, me va a dar un
+
+984
+01:28:33.060 --> 01:28:40.740
+numerito que me va a indicarse ahí esa alineación o correlación, mientras más cercanos de del 1 es
+
+985
+01:28:40.740 --> 01:28:47.300
+que hay más fuerte correlación entre las dos variables y mientras más pequeño sea, más
+
+986
+01:28:47.300 --> 01:28:55.860
+y más cerca del 0 es más débil, la correlación, correlación va a significar para algunos modelos
+
+987
+01:28:55.860 --> 01:29:05.700
+que las dos varales me están dando la misma información y que me den la misma información
+
+988
+01:29:05.700 --> 01:29:13.940
+es es generalmente malo lo vamos a trasladar eventualmente en términos numericos como que las
+
+989
+01:29:13.940 --> 01:29:20.980
+dos varales son dependientes o linealmente dependientes como diríamos no en matemáticas y cuando
+
+990
+01:29:20.980 --> 01:29:27.620
+tenemos variales que son linealmente dependientes y queremos, eventualmente, los modelos de aprendizaje,
+
+991
+01:29:27.620 --> 01:29:33.500
+algunos modelos que se van a trabajar tienen que resolver sistemas de cocción guiniales para los
+
+992
+01:29:33.500 --> 01:29:39.460
+que se acueran un poquito, vieron al cerebroalinial, saben que eso me va a generar un sistema malcondicionado
+
+993
+01:29:39.460 --> 01:29:45.300
+que me va a dar errores en el resultado, que aunque me pueda rojar un rollo, un error, un error,
+
+994
+01:29:45.300 --> 01:29:49.760
+me va a dar un error, me va a dar perdón un resultado que es poco confiable.
+
+995
+01:29:49.760 --> 01:29:54.460
+Muchas veces incluso el hijo del gorismo me va a dar decir que no pudo,
+
+996
+01:29:54.460 --> 01:30:00.580
+me saca a un an, no convergió un ilcondición en el resultado.
+
+997
+01:30:00.580 --> 01:30:08.580
+Entonces es importante conocer este factor, es muy importante generalmente en el
+
+998
+01:30:08.580 --> 01:30:12.780
+circular todo yo conocer el factor de correlación y a aquellas variables que
+
+999
+01:30:12.780 --> 01:30:18.100
+en muy correlacionadas entre sí, ver que hacer con ellas, posiblemente eliminar una de ellas para
+
+1000
+01:30:18.100 --> 01:30:25.740
+reducir eso. Entonces la r va a estar de menos 1 a 1 mientras más pero lo que va a importar
+
+1001
+01:30:25.740 --> 01:30:35.100
+es el magnitude, o sea el valor absoluto. Si está cerca de 1, hay fuerte correlación, sino
+
+1002
+01:30:35.100 --> 01:30:41.900
+hay baja correlación, muchas veces lo representa o sea reporte también el R al cuadrado,
+
+1003
+01:30:41.900 --> 01:30:49.340
+que es el coeficiente de person. Nada cuenta es para volverlo positivo, cerca de uno esto es muy
+
+1004
+01:30:49.340 --> 01:30:57.100
+muy alta correlación, cerca al cero, poca correlación. Por ejemplo aquí dice, en el ejemplo de
+
+1005
+01:30:57.100 --> 01:31:04.600
+de esta california la variable met ink contra la variable salida dice que tiene una r de punto
+
+1006
+01:31:04.600 --> 01:31:09.040
+69 y tiene una r al cuadrado de punto 47.
+
+1007
+01:31:09.040 --> 01:31:19.020
+Por aquí tenía los rangos, a ver, Déjame de paso aquí, rapidita vez tengo los rangos,
+
+1008
+01:31:19.020 --> 01:31:28.140
+me lo comí o me lo brinque no los veo en este arma gelante punto 47
+
+1009
+01:31:32.500 --> 01:31:34.520
+tiene esta palabra que dice explica
+
+1010
+01:31:36.820 --> 01:31:48.460
+cómo lo explico en este momento básicamente quiere decir que esa variable este término
+
+1011
+01:31:48.460 --> 01:31:53.100
+explica por sus tantricomillas, quiere decir que esta variable, o sea que la variable met
+
+1012
+01:31:53.100 --> 01:32:03.420
+ink tiene una relación con la variable salida, con la que quiero predecir, o sea que para
+
+1013
+01:32:03.420 --> 01:32:08.820
+predicción de esta es relevante conservar met ink.
+
+1014
+01:32:08.820 --> 01:32:15.260
+Entonces básicamente si estoy entre punto 3 y punto 7 en la obtenida que enfrente y no lo
+
+1015
+01:32:15.260 --> 01:32:22.780
+veía, ese es el rango que está buscando. Si está entre punto 3 y punto 7, hay una correlación
+
+1016
+01:32:22.780 --> 01:32:31.980
+importante o suficiente. En este caso punto 47 no es fuerte, pero es suficiente. Quiere decir que
+
+1017
+01:32:31.980 --> 01:32:39.020
+estaba variable, aquí es donde viene la parte interpretativa que les comentaba. Haciendo este análisis
+
+1018
+01:32:39.020 --> 01:32:43.260
+exploratorio y el coefficiente R2 que es el coefficiente
+
+1019
+01:32:43.260 --> 01:32:47.820
+de Pearson, me aparece en este rango. Yo debo conservar esta
+
+1020
+01:32:47.820 --> 01:32:53.460
+variable y para mí es importante porque esa parte de esa
+
+1021
+01:32:53.460 --> 01:32:56.140
+palabra y te explica qué es lo que les decía en el ejemplo
+
+1022
+01:32:56.140 --> 01:33:01.980
+del agente de ventas. Quiero predecir el si una casa suavemdero
+
+1023
+01:33:01.980 --> 01:33:05.540
+o no, o quiero precibir el precio a la casa en este caso no,
+
+1024
+01:33:05.540 --> 01:33:12.640
+quiere decir que cuando el algoritmo me diga, bueno, el precio en la casa va a ser tal y la cierta.
+
+1025
+01:33:13.840 --> 01:33:22.160
+Para mi, el pendedor va a ser importante entender qué cosas influyeron en la decisión del algoritmo.
+
+1026
+01:33:23.480 --> 01:33:30.300
+Y lo que voy a descubrir como pendedor, quizás para explicárselo mi cliente, este voy a decir, mira, el precio de la casa es este,
+
+1027
+01:33:30.300 --> 01:33:35.460
+porque la variable tal van a lo voy a decir la variable, no, quizás me díngua
+
+1028
+01:33:35.460 --> 01:33:43.220
+macarquera pero era creo que el income, no, el midian income, porque es alta
+
+1029
+01:33:43.220 --> 01:33:47.420
+porque las familias que viven en esta colonia tienen un ingreso de tanto
+
+1030
+01:33:47.420 --> 01:33:52.380
+por tanto y bueno quizás para la para si el comparador es el hitista va a
+
+1031
+01:33:52.380 --> 01:33:58.540
+decir bueno yo solo quiero estar rodeado de gente que gane de tan de un tengo
+
+1032
+01:33:58.540 --> 01:34:02.340
+en ingreso no sé de 100 mil pesos para arriba mensuales, por decir algo, ¿no?
+
+1033
+01:34:02.340 --> 01:34:09.700
+Pero para el vendedor es importante conocer qué variables de entrada fueron las
+
+1034
+01:34:09.700 --> 01:34:15.260
+que influyeron en el resultado de salida, probablemente alguna, probablemente
+
+1035
+01:34:15.260 --> 01:34:23.140
+incumvera dado menor que punto tres, yo hubiera influyó poco, ¿no? Yo sé que eso no
+
+1036
+01:34:23.140 --> 01:34:27.220
+es relevante para el comparador, para el, bueno, para el final, por el caso,
+
+1037
+01:34:27.220 --> 01:34:30.980
+y probablemente por el comprador no va a ser relevante esta
+
+1038
+01:34:30.980 --> 01:34:38.140
+esta decisión. Entonces si R2 les da ya ya tienen los rangos no si es
+
+1039
+01:34:38.140 --> 01:34:41.940
+punto tres puede ser no quieres que la eliminen aquí no se
+
+1040
+01:34:41.940 --> 01:34:44.540
+hablando de eliminar una variable existencia hablando de qué
+
+1041
+01:34:44.540 --> 01:34:49.780
+tan tanta importancia va a tener en la decisión que va a tomar el
+
+1042
+01:34:49.780 --> 01:34:55.140
+algoritmo cuando tome la decisión cuando yo lo ejecuto y ya
+
+1043
+01:34:55.140 --> 01:35:02.540
+ya decidiré si la quiero eliminar o no, si es poco relevante la puedo eliminar, si es altamente
+
+1044
+01:35:02.540 --> 01:35:10.640
+relevante la tengo que conservar, no? No sólo me da la relevancia sino que la intuición explicativa de
+
+1045
+01:35:10.640 --> 01:35:16.980
+que tan importante fue sabariable en la toma decisión que el modelo generó. Entonces una R
+
+1046
+01:35:16.980 --> 01:35:22.500
+como decía punto 95 valor cercano a uno se nota gráficamente fuerte correlación
+
+1047
+01:35:22.500 --> 01:35:30.140
+una tengo el caso negativo R negativo si hubo recido menos punto 95 a ver de cuenta que esta
+
+1048
+01:35:30.140 --> 01:35:35.980
+cosa tiene esta dirección pero está fuertemente agrupado alrededor de una línea entonces negativo
+
+1049
+01:35:35.980 --> 01:35:42.220
+cercana menos uno también implica una fuerte agrupación pero con otra pendiente con otra dirección
+
+1050
+01:35:42.220 --> 01:35:49.020
+son no es comparar esta, es compararle con esta. Sin más o menos hay cierta dispersión,
+
+1051
+01:35:49.020 --> 01:35:54.540
+pero se nota una cierta correlación. En este caso positiva, en este caso negativa. Aquí
+
+1052
+01:35:54.540 --> 01:35:59.980
+es de plano, no se ve una muy débil correlación, está en el límite de casi no hay correlación,
+
+1053
+01:35:59.980 --> 01:36:09.220
+está por bajar de punto tres. Aquí no hay correlación, en el absoluto. Aunque ves, ven una fuerte
+
+1054
+01:36:09.220 --> 01:36:15.820
+cercanía a una, como se llama, a una parábola. El confiante person lo que está pidiendo es que
+
+1055
+01:36:15.820 --> 01:36:21.420
+sean se cercan a una línea recta. Entonces generalmente esto usa mucho modelos lineales, no en modelos
+
+1056
+01:36:21.420 --> 01:36:27.540
+no lineales. Entonces eso usa mucho para tomar decisiones cuando vas a trabajar con modelos
+
+1057
+01:36:27.540 --> 01:36:32.980
+lineales, ¿no? Entonces aquí se nota la configuración parábolica, aquí se nota una configuración
+
+1058
+01:36:32.980 --> 01:36:40.060
+circular, o sea no hay como una asociación entre esos y aquí definitivamente a 9 de punto
+
+1059
+01:36:40.060 --> 01:36:46.020
+se en forma de círculo pero con puntos internos, tampoco hay correlación y aquí tampoco.
+
+1060
+01:36:46.020 --> 01:36:50.020
+Entonces lo que vamos a buscar generalmente lo que entregaríamos modelos lineales es que
+
+1061
+01:36:50.020 --> 01:36:59.380
+esta R tenga valores cercanos a 1, o la R adorado tenga valores dentro de 0.3 para arriba y
+
+1062
+01:36:59.380 --> 01:37:10.520
+Y algo importante es que, como se llama, mucho esto.
+
+1063
+01:37:10.520 --> 01:37:14.160
+Yo puedo utilizar rangos para esto.
+
+1064
+01:37:14.160 --> 01:37:15.520
+A ver, ¿por qué?
+
+1065
+01:37:15.520 --> 01:37:23.840
+Porque los rangos me van a decir si es coeficiente, es importante o no.
+
+1066
+01:37:23.840 --> 01:37:26.200
+O tiene cierto césgo, no.
+
+1067
+01:37:26.200 --> 01:37:31.350
+¿Qué lo que dice acá?
+
+1068
+01:37:31.350 --> 01:37:48.350
+en person o la R, tú esas los valores y un dato o una odlayer en este caso puede ser importante cuando calculas el coeficiente, que creo que la formalita estaba aquí.
+
+1069
+01:37:48.350 --> 01:38:03.830
+no es evidente. Bueno, acuercé nada más de esto, no la S de Xe, es la distancia de la
+
+1070
+01:38:03.830 --> 01:38:10.290
+X con respecto a su media y la distancia de las Y es con respecto a su media y eso me
+
+1071
+01:38:10.290 --> 01:38:15.630
+servía para calcular la R en el numerador, o sea que las distancias son, por respecto a
+
+1072
+01:38:15.630 --> 01:38:25.800
+media son importantes y por lo tanto lo que dice aquí es que la suma, la suma media también
+
+1073
+01:38:25.800 --> 01:38:33.800
+es relevante. Si esta, un dato de estos, una distancia perfecta se tenga una XC que se aleja
+
+1074
+01:38:33.800 --> 01:38:41.440
+mucho de la media, esta suma todo el que va a crecer mucho, automáticamente me va a afectar
+
+1075
+01:38:41.440 --> 01:38:48.000
+en el valor del coeficiente. Entonces en ese sentido este, el coeficiente de personas es muy sensible
+
+1076
+01:38:48.000 --> 01:38:55.000
+a outliers. Entonces si lo van a calcular primero a través de la nave separatoria que
+
+1077
+01:38:55.000 --> 01:38:59.800
+hicieron inicialmente eliminan los outliers y entonces es cuando calcuran la guerra y no
+
+1078
+01:38:59.800 --> 01:39:05.000
+lo calcuran con los outliers. O la otra opción es en lugar de utilizar el conducción de
+
+1079
+01:39:05.000 --> 01:39:12.160
+Pearson Calerre utilicione este que es el despirman que te lo va a hacer pero lo va a
+
+1080
+01:39:12.160 --> 01:39:16.720
+hacer dividido en ranch. ¿Ok? ¿Qué lo que van a hacer?
+
+1081
+01:39:16.720 --> 01:39:21.320
+Al despiro, no lo voy a importar a qué distancia estamos datos de su media,
+
+1082
+01:39:21.320 --> 01:39:24.440
+sino únicamente el orden de los datos.
+
+1083
+01:39:24.440 --> 01:39:28.440
+Si no solamente van a decir quién es el mayor, quién es el segundo en importancia,
+
+1084
+01:39:28.440 --> 01:39:30.840
+etcétera, etcétera. Entonces, cómo se hace?
+
+1085
+01:39:30.840 --> 01:39:36.600
+Tomamos los datos, los ordenamos de menor a mayor y reemplazamos cada valor
+
+1086
+01:39:36.600 --> 01:39:45.600
+por su rango, o sea, uno para el menor, dos para el celesigue, tres, etcétera, hasta llegar a n que es el mayor de los datos.
+
+1087
+01:39:45.600 --> 01:39:53.600
+En realidad, los datos nos vamos a replazar por numeritos del uno hasta lene, ordenados del menor a mayor, ¿sabes?
+
+1088
+01:39:53.600 --> 01:40:05.600
+Hacemos exactamente el mismo con las S y vamos a calcular este coeficiente, como el rango de las X o la R del rango de las X por el rango de la S.
+
+1089
+01:40:05.600 --> 01:40:13.560
+por el rango de la SES. Aquí están la también tan mejor. Tengo los datos X, uno, dos, tres,
+
+1090
+01:40:13.560 --> 01:40:20.320
+cuatro, cinco, y ordenaditos, los datos C, dos, tres, cinco, nueve, y el noventa, y
+
+1091
+01:40:20.320 --> 01:40:26.200
+ordenaditos. Pero cuando los ponga, aquí se eficaz, es el dato, el dato crudo. Cuando
+
+1092
+01:40:26.200 --> 01:40:30.600
+yo los ponga ordenados, el uno es el uno, o sea, la SES no cambia, ¿no? Porque eran
+
+1093
+01:40:30.600 --> 01:40:34.920
+el cabo uno al cinco por eso se arpita acá del uno al cinco pero las
+
+1094
+01:40:34.920 --> 01:40:39.720
+diez que eran dos es el más chico el pongo el uno el tres que es el que les
+
+1095
+01:40:39.720 --> 01:40:44.520
+he guía le pongo el dos es el cinco le pongo el tres el nuevo le pongo el
+
+1096
+01:40:44.520 --> 01:40:49.320
+cuatro y el 90 que me causaba problema ahora está el cinco entonces
+
+1097
+01:40:49.320 --> 01:40:54.000
+pareciera que el 90 lo ha cerrado el cinco yo calculo el rango de
+
+1098
+01:40:54.000 --> 01:40:58.720
+X y el rango de ya y calculo mi coeficiente de Spirman me va a dar un
+
+1099
+01:40:58.720 --> 01:41:05.000
+un número muchísimo más chico y ese coeficiente en este caso se vuelve uno para este caso
+
+1100
+01:41:06.160 --> 01:41:13.840
+cuantra el punto 75 que tenía el coeficiente de Pearson, entonces eso me ayuda a tener otra
+
+1101
+01:41:13.840 --> 01:41:23.120
+interpretación, entonces opción 1 el mía de Blires y calculan el coeficiente de Pearson o opción 2
+
+1102
+01:41:23.120 --> 01:41:28.680
+dejan sus aulas y calculan a través de rancos el coficiente de espirma ¿vale?
+
+1103
+01:41:30.160 --> 01:41:33.680
+¿Cómo se ve el coficiente de espirma va a ser diferente ¿no?
+
+1104
+01:41:33.680 --> 01:41:37.600
+Mientras que person aquí te puede dar por ejemplo punto 81 el
+
+1105
+01:41:37.600 --> 01:41:42.600
+espirma te puede dar acá uno, una correlación, si se fijan acá los datos
+
+1106
+01:41:42.600 --> 01:41:47.000
+ya no están de forma lineal sino que en cierta forma es el coficiente
+
+1107
+01:41:47.000 --> 01:41:52.080
+de espirma te permite tener datos ya no representados necesariamente de forma
+
+1108
+01:41:52.080 --> 01:41:58.120
+línea. Y el ejemplo que está acá es de la udlayer, este puntito que está acá, es el
+
+1109
+01:41:58.120 --> 01:42:02.920
+udlayer, aquí están todos mis datos, menos éste que se alejo un montón. El cociente de
+
+1110
+01:42:02.920 --> 01:42:11.240
+pirsante da casi cero, cuando uno ve claramente una correlación aquí, mientras que el espirmante
+
+1111
+01:42:11.240 --> 01:42:16.640
+da 0.73 lo cual tiene cienes de raso sentido, no solamente es un valor grande, sino que aparte
+
+1112
+01:42:16.640 --> 01:42:25.800
+es positivo y es enplica perfectamente que conforme laborable del X sube también la salida
+
+1113
+01:42:25.800 --> 01:42:33.360
+LX sube. Si corrige mucho el utilizado Spirman cuando los datos tienen a los Lakers, hay
+
+1114
+01:42:33.360 --> 01:42:36.800
+en Chiste de no cuenta hacer el análisis exploratorio.
+
+1115
+01:42:36.800 --> 01:42:46.480
+¿Qué más? El hecho de que tengamos grupos también. Aquí ¿Qué puede suceder? Yo puedo
+
+1116
+01:42:46.480 --> 01:42:51.120
+tener una correlación. Estos datos son avances sintéticos, nunca he visto semejante cantidad
+
+1117
+01:42:51.120 --> 01:42:56.880
+de todos, pero el uso está muy bien esto. Yo tengo datos que están agrupados por grupos.
+
+1118
+01:42:56.880 --> 01:43:01.920
+Pero la correlación de todos claramente se ve que cumple esta línea recta. Es como
+
+1119
+01:43:01.920 --> 01:43:06.880
+ya también datos discretos, hay donde cuenta para ciertos instantes de tiempo, haga de cuenta
+
+1120
+01:43:06.880 --> 01:43:12.920
+que es el instante de tiempo uno, el instante de tiempo dos, el instante de tiempo tres y yo voy a
+
+1121
+01:43:12.920 --> 01:43:20.320
+tomar muestras, con no sé, con todos los puntitos vamos a poner que son como 30 puntos, tengo 30
+
+1122
+01:43:20.320 --> 01:43:27.320
+sensores que en el instante uno toman un valor de la misma cosa, como son sensores y el ruido
+
+1123
+01:43:27.320 --> 01:43:32.800
+puede ser que tomen 30 datos diferentes, aquí está exagerado el ruido, pero
+
+1124
+01:43:32.800 --> 01:43:43.460
+puede suceder que tengas y lo mismo curraca y lo mismo curraca. Si yo uso el coeficiente de
+
+1125
+01:43:43.460 --> 01:43:47.960
+piso, esto va a ser completamente cotico.
+
+1126
+01:43:47.960 --> 01:43:51.280
+¿Qué es lo que tengo que hacer?
+
+1127
+01:43:51.280 --> 01:43:57.160
+Tengo que hacer coeficiente de Pearson pero por grupos.
+
+1128
+01:43:57.160 --> 01:44:03.120
+De esa forma, dentro de cada grupo me va a dar el valor correcto.
+
+1129
+01:44:03.120 --> 01:44:07.840
+Por ejemplo, lo vale, me daría a .85,
+
+1130
+01:44:07.840 --> 01:44:12.000
+mientras dentro de cada grupo me daría algo negativo que tiene sentido.
+
+1131
+01:44:12.000 --> 01:44:14.520
+Aquí se ve claramente que esto va hacia la izquierda.
+
+1132
+01:44:14.520 --> 01:44:16.200
+Conforme este sube,
+
+1133
+01:44:16.200 --> 01:44:23.000
+Conforme este baja, este sub. Aquí igual, conforme este baja, este sub.
+
+1134
+01:44:23.000 --> 01:44:30.160
+Te verían localmente o grupalmente tener coeficiente negativos, pero si yo lo calculo a nivel global,
+
+1135
+01:44:30.160 --> 01:44:37.120
+los junto todos los datos y le calculo el coeficiente, me da un coeficiente positivo y fuerte,
+
+1136
+01:44:37.120 --> 01:44:42.720
+que si me representa el comportamiento global, pero no el comportamiento local, ¿no? Entonces,
+
+1137
+01:44:42.720 --> 01:44:48.840
+También eso lo podemos hacer, podemos ir agrupando los datos y por eso también la exploración
+
+1138
+01:44:48.840 --> 01:44:57.320
+de los datos es bastante relevante. Una cosa importante no confundir relación, ya sea que la
+
+1139
+01:44:57.320 --> 01:45:03.280
+calcula en compirse o no con espirram, no implica causalidad. El hecho este es el ejemplo,
+
+1140
+01:45:03.280 --> 01:45:14.840
+Bueno, es un ejemplo, ¿no? Si hay mucho calor, la gente compra muchos helados y no necesariamente
+
+1141
+01:45:14.840 --> 01:45:20.760
+pueden ser suponer que sea una medición cuando hay mucho calor, la gente se mete mucho
+
+1142
+01:45:20.760 --> 01:45:27.830
+a la piscina o se mete al muchal mar para refrescarse y hay muchos hogar. La causalidad es
+
+1143
+01:45:27.830 --> 01:45:33.590
+el calor, pero no el hecho de que ambos incrementan, no sea mucho calor, se incrementan
+
+1144
+01:45:33.590 --> 01:45:37.550
+número de lados de venta de lados, se hay mucho calor sin que menta el número de
+
+1145
+01:45:37.550 --> 01:45:44.350
+auga-mientes. Si yo hiciera una correlación entre estos dos, me daría una R muy grande,
+
+1146
+01:45:44.350 --> 01:45:50.950
+lo que cual podría y interpretarlo como que cuando se venden muchos helados, la gente se
+
+1147
+01:45:50.950 --> 01:45:57.990
+aguas, la gente se aguas, ¿no? Lo que no es cierto. La correlación no implica causalidad.
+
+1148
+01:45:57.990 --> 01:46:07.990
+lecho de que estos dos ten altamente correlacionados, no quiere decir que uno genera o incida en el otro,
+
+1149
+01:46:07.990 --> 01:46:13.990
+cuando la causa realmente viene de otra, lo que es variable, pero es importante conocerlo,
+
+1150
+01:46:13.990 --> 01:46:21.990
+porque como si veis la gente interpretada o reporta, como tengo una alta correlación, una genera a la otra,
+
+1151
+01:46:21.990 --> 01:46:28.390
+y finalmente cuando tengo muchos datos esas todas las correlaciones yo la tengo que representar
+
+1152
+01:46:28.390 --> 01:46:35.910
+de alguna forma gráfica y lo que vamos a estar usando es una matriz, una matriz donde yo voy a
+
+1153
+01:46:35.910 --> 01:46:42.150
+representar todos esos índices de correlación y voy a poner las, incluso las voy a colorear,
+
+1154
+01:46:42.150 --> 01:46:48.310
+por ejemplo Metinc, aquí dice contra sí misma, tiene una alta correlación por eso es el uno,
+
+1155
+01:46:48.310 --> 01:46:57.310
+esto es lo que se conoce como matriz de correlación y el coloréo es como es el mapa de calor mientras más fuerte es el color
+
+1156
+01:46:57.310 --> 01:47:10.310
+más si ya no lo pusieran números más correlación indica laborable no entonces todas si se fijan en la diagonal principal son uno es la correlación de laborable con
+
+1157
+01:47:10.310 --> 01:47:16.630
+si misma, o sea por ejemplo House H está correlacionada con House H que se haría que arribita,
+
+1158
+01:47:16.630 --> 01:47:25.910
+pero lo que sí me indica es por ejemplo la atitud está muy correlacionada con longitud,
+
+1159
+01:47:25.910 --> 01:47:31.270
+es lo cual tiene sentido, ¿no? Aquí me dice longitud está correlacionada con la actitud,
+
+1160
+01:47:31.270 --> 01:47:36.590
+pero cuáles son muy correlacionadas, no sé ver qué te las importantes, por ejemplo,
+
+1161
+01:47:36.590 --> 01:47:47.590
+edad de la casa está correlacionada más o menos con un punto 3 con cuál es la 1 2 3 4 5
+
+1162
+01:47:47.590 --> 01:47:53.970
+es con 1 2 3 4 con population, entonces la edad de la casa aparentemente tiene una
+
+1163
+01:47:53.970 --> 01:47:59.150
+bueno no tiene una fuerte correlación porque es la punta apenas punto 3 pero tiene cierta
+
+1164
+01:47:59.150 --> 01:48:06.430
+correlación con la cantidad de gente que habita ahí. Aparentemente si hay mucha gente,
+
+1165
+01:48:06.430 --> 01:48:14.350
+las casas, pues ya vejeron o hay casas muy viejas, no, puede hacer. Correlación negativa, por
+
+1166
+01:48:14.350 --> 01:48:23.710
+ejemplo, el nuevo minuto Andrés, la Metinc tiene una correlación más o menos fuerte con el número
+
+1167
+01:48:23.710 --> 01:48:28.710
+de más o menos, ¿por qué hace apenas punto tres? O sea, el ingreso medio de las
+
+1168
+01:48:28.710 --> 01:48:33.510
+gente es que evita en la casa si tiene una correlación con el número de cuartos que hay en la casa,
+
+1169
+01:48:33.510 --> 01:48:38.310
+eso sí tiene sentido, ¿no? Mientras más poder económico tiene más cuartos tiene sin tu casa.
+
+1170
+01:48:38.310 --> 01:48:44.990
+Curiosamente no tiene correlación con el número de dormitorios, pero bueno,
+
+1171
+01:48:44.990 --> 01:48:51.630
+está interesante que no haya salido una correlación acá y así pueden ir explorando,
+
+1172
+01:48:51.630 --> 01:48:58.390
+pero esta matriz me da rápidamente una idea de qué está correlacionado con qué y eso me puede
+
+1173
+01:48:58.390 --> 01:49:03.670
+de hecho antes de construir un modelo predecir cuáles son las parales que van a ser importantes para
+
+1174
+01:49:03.670 --> 01:49:09.570
+el modelo y de hecho las que yo tenga con fuerte correlación lo más seguro es que me causen
+
+1175
+01:49:09.570 --> 01:49:15.270
+problemas para ciertos modelos como Lotaragrisham por ejemplo si veo el latitud y el longitud que
+
+1176
+01:49:15.270 --> 01:49:19.190
+de entrada no creo que me sirvan mucho, pero me puedo quedar quizás solo con la
+
+1177
+01:49:19.190 --> 01:49:26.670
+atitud, ¿sí? para que no tenga no tenga porlerios. Aquí está la misma gráfica,
+
+1178
+01:49:26.670 --> 01:49:31.590
+sin colores, aquí lo único que trata de decir esto es que generalmente elija en
+
+1179
+01:49:31.590 --> 01:49:38.630
+colores de este tipo, no generen colores de este tipo porque no van a poder
+
+1180
+01:49:38.630 --> 01:49:44.150
+visualizar nada, ¿no? Elija en algún este mapa de calor que tenga colores decentes.
+
+1181
+01:49:45.270 --> 01:49:55.270
+Más te multicolan con linealidad, muchas veces lo que hacemos se representa los histogramas de esta forma con sus matrices de dispersión.
+
+1182
+01:49:55.270 --> 01:50:03.270
+Por ejemplo, Metinc es como mapa calor, Metinc contra House H, pongo el mapa de dispersión.
+
+1183
+01:50:03.270 --> 01:50:10.670
+ya no pongo el valorcito de la R, sino que simplemente o no simplemente pongo su mapa
+
+1184
+01:50:10.670 --> 01:50:14.830
+dispersión, que también me da una idea de qué tan correlacionadas estén, si no quiero
+
+1185
+01:50:14.830 --> 01:50:21.970
+número, si número no me satisfacil, yo veo la forma de la dispersión de los datos. Por
+
+1186
+01:50:21.970 --> 01:50:28.190
+ejemplo aquí si pudiera ver de nada cuenta que Metinc tiene el ingreso, tiene una cierta
+
+1187
+01:50:28.190 --> 01:50:32.590
+correlación con el número de cuartos, este es el nomarito que me indicaba punto 3 si
+
+1188
+01:50:32.590 --> 01:50:40.510
+no me equivoco, no? Con Abra&#x27;s Rounds, fiera punto 13, este, que el número se ve bajo,
+
+1189
+01:50:40.510 --> 01:50:49.470
+no me, no está cerca de uno, pero si yo veo la gráfica veo que si si hay cierta tendencia,
+
+1190
+01:50:49.470 --> 01:50:55.870
+no, quitando estos outliers, posiblemente si yo quito los outliers, el número va a crecer,
+
+1191
+01:50:55.870 --> 01:51:00.630
+el valor de la R no va a crecer, ahí está afectando a los outliers, que se ve que están
+
+1192
+01:51:00.630 --> 01:51:12.630
+bastante grandes sitios acá. Entonces, receta de apareír concluyendo, podemos calcular
+
+1193
+01:51:12.630 --> 01:51:23.470
+nuestros estadísticos, resumenas como son las medias, medianas, desviaciones estándar, con
+
+1194
+01:51:23.470 --> 01:51:30.810
+como se llama, no hay clinación, ni césgo, como se llama.
+
+1195
+01:51:30.810 --> 01:51:32.810
+Así me tria, perdón.
+
+1196
+01:51:32.810 --> 01:51:37.310
+Portosis, podemos generar nuestras gráficas, de histogramas,
+
+1197
+01:51:37.310 --> 01:51:44.310
+el box plot que les dice mucho, podemos calcular o eliminar nuestros valores
+
+1198
+01:51:44.310 --> 01:51:49.810
+atípicos o aucliders utilizando la regla del rango intercortílico
+
+1199
+01:51:49.810 --> 01:51:51.810
+y con eso decidir cuál se eliminar.
+
+1200
+01:51:51.810 --> 01:51:55.410
+y puedo complementar esto con diagramas de dispersión,
+
+1201
+01:51:55.410 --> 01:52:00.570
+o calcular el coeficiente de person o el coeficiente de Spirman,
+
+1202
+01:52:00.570 --> 01:52:03.810
+o puedo graficar toda mi tableta.
+
+1203
+01:52:03.810 --> 01:52:08.410
+Aquí la tabla es muy útil cuando tengo cierto número de datos,
+
+1204
+01:52:08.410 --> 01:52:10.410
+pero si yo tuviera por ejemplo 1000 contra 1000,
+
+1205
+01:52:10.410 --> 01:52:13.770
+ver una tabla un hitmap con su material de correlación
+
+1206
+01:52:13.770 --> 01:52:15.810
+es prácticamente imposible, ¿no?
+
+1207
+01:52:15.810 --> 01:52:19.410
+Y al final lo que voy a utilizar esto es para tomar decisión
+
+1208
+01:52:19.410 --> 01:52:21.610
+de que eliminar, que no eliminar, ¿no?
+
+1209
+01:52:21.610 --> 01:52:28.490
+Ojo, aquí como dice, como hay un sez el inicio, los resumenes me sirven pero no puedo
+
+1210
+01:52:28.490 --> 01:52:36.690
+confiar, seguramente en ellos, no debo borrar los valores atípicos, solamente por los atípicos,
+
+1211
+01:52:36.690 --> 01:52:42.130
+aquí tengo que decidir esto con base a qué modelo voy a utilizar y saber si se modelos
+
+1212
+01:52:42.130 --> 01:52:46.330
+robustos no atípicos, si el modelo robusto atípicos pues no los elimino porque al fin
+
+1213
+01:52:46.330 --> 01:52:51.530
+el cabo puede ser que traigan información relevante que estoy eliminando.
+
+1214
+01:52:51.530 --> 01:52:57.970
+Este es lo mismo con los topes que me marca acá la regla del Ragnotercualtírico.
+
+1215
+01:52:57.970 --> 01:53:03.730
+Te oque utilizar la concierta conocimiento de causa.
+
+1216
+01:53:03.730 --> 01:53:16.040
+El R o el cociente de correlación no implica causa lidazos y generalmente los estadísticos
+
+1217
+01:53:16.040 --> 01:53:25.600
+habría que calcularos con y sin la, como se llama, los audliers.
+
+1218
+01:53:25.600 --> 01:53:29.960
+Están a ver qué cambia, cambia bastante. Entonces, realmente una vez que los calculas
+
+1219
+01:53:29.960 --> 01:53:36.800
+identificas tus audliers, los eliminas y después los vuelves a recalcular para que tengas
+
+1220
+01:53:36.800 --> 01:53:43.520
+una representación más cercana a real, eso todo en los cuestiones de correlación de tus datos.
+
+1221
+01:53:43.520 --> 01:53:50.600
+son todos usas por ejemplo un coeficiente de R que es no es robusto ante los con solo
+
+1222
+01:53:52.120 --> 01:53:59.400
+los atípicos. Entonces si dan cuenta no hemos empezado con modelos de aprendizaje
+
+1223
+01:53:59.400 --> 01:54:08.520
+sepervizado pero es bien importante conocer qué tipo de datos tenemos y cómo vamos a trabajar con
+
+1224
+01:54:08.520 --> 01:54:13.400
+ese tipo de datos. Si vamos a modificarlos, si vamos a transformar a algunas guardales que se
+
+1225
+01:54:13.400 --> 01:54:19.880
+toma todo en el nombre de listo, vimos solo un ejemplo de cómo si tengo un dato, una variable
+
+1226
+01:54:19.880 --> 01:54:25.560
+que es en su gráfica en su histograma y es asymmétrica, el aplico un logarimo de la vuelvo
+
+1227
+01:54:25.560 --> 01:54:30.680
+simétrica, lo cual me sugiere que en lugar de usar la variable original, use su variable
+
+1228
+01:54:30.680 --> 01:54:38.360
+transformada, eso puede mejorarme las reglas. Entonces, si es bien importante no no no
+
+1229
+01:54:38.360 --> 01:54:47.080
+viar eso y irnos directo a construir el supermodelo que me va a resolver todo. Les voy a dejar un en
+
+1230
+01:54:47.080 --> 01:54:57.480
+en el en la página web del del curso está el notebook, vean lo vean las actividades que tienen
+
+1231
+01:54:57.480 --> 01:55:02.760
+que hacer es básicamente todo lo que hemos visto hoy es un análisis exploratorio del
+
+1232
+01:55:02.760 --> 01:55:08.560
+clavace de datos ¿vale? Y les va a pedir esa actividad a estarte de incompletarlas y si
+
+1233
+01:55:08.560 --> 01:55:16.120
+tienen dudas mañana me platican yo creo que como sería una sola presentación de mañana
+
+1234
+01:55:16.120 --> 01:55:24.440
+no debo tomar tanto tiempo como hoy y me debe dar chance de revisarlos. Por eso vea la
+
+1235
+01:55:24.440 --> 01:55:28.480
+estudios como entendiendo. Perdón, Bicaly, en levanta hermano, pero no sé quién siquiera
+
+1236
+01:55:28.480 --> 01:55:36.480
+preguntar. Aquí de la profesora, de tres preguntas allá en el chat, y la pregunta es
+
+1237
+01:55:36.480 --> 01:55:46.480
+cerrado cuando estaba presentándolo de la relación de los etiquetas del dataset. Population
+
+1238
+01:55:46.480 --> 01:55:53.600
+es más como el vecindario, ¿no? ¿Qué tan denso está el vecindario? Es que mencionó
+
+1239
+01:55:53.600 --> 01:55:56.120
+que era como que cuantas personas viven en la en la casa.
+
+1240
+01:55:57.320 --> 01:55:58.040
+Dije casa?
+
+1241
+01:55:58.520 --> 01:55:58.800
+Sí.
+
+1242
+01:55:59.280 --> 01:56:00.480
+Ah, no, pues lo dije mal.
+
+1243
+01:56:00.520 --> 01:56:04.560
+Si es efectivamente, oye, si hay gente vive en la zona,
+
+1244
+01:56:05.160 --> 01:56:05.880
+en la colonia,
+
+1245
+01:56:05.880 --> 01:56:06.360
+si,
+
+1246
+01:56:08.800 --> 01:56:11.600
+en la arena, yo se pregunta algo, ¿o no sigas terminaste?
+
+1247
+01:56:11.600 --> 01:56:13.040
+Digiste que habían tres preguntas?
+
+1248
+01:56:13.240 --> 01:56:16.360
+Sí, es que al principio de la de la presentación,
+
+1249
+01:56:16.360 --> 01:56:18.040
+mostro una fórmula de varianza.
+
+1250
+01:56:18.560 --> 01:56:20.800
+Este me recordó mucho la función de pérdida.
+
+1251
+01:56:20.800 --> 01:56:28.440
+Entonces, no nos va a preguntar el ser al mismo y luego di que por ahí ha utilizado R para
+
+1252
+01:56:28.440 --> 01:56:33.280
+implicar con relación, obviamente, respetando esta regla que menciona hace un momento.
+
+1253
+01:56:33.280 --> 01:56:39.380
+Tengo poco fresco lo del ágil oral, y entonces una corde de pose no deteta como para
+
+1254
+01:56:39.380 --> 01:56:46.320
+identificar qué tan fuerte es la relación entre estas variables, ¿no?
+
+1255
+01:56:46.320 --> 01:56:52.640
+como parte de la represente. Este, este estoy entendiendo, R, no, no tengo tan presente el tema
+
+1256
+01:56:52.640 --> 01:56:58.440
+de estadística, pero estoy entendiendo que está en la perspectiva estadística para ir interpretando
+
+1257
+01:56:58.440 --> 01:57:04.200
+los datos. Y bueno, lo de la aburianza aquí lo tiene, si se parece, si ciertamente se parece
+
+1258
+01:57:04.200 --> 01:57:09.840
+la formulita. La diferencia es que cuando de funcione perdida, la diferencia es que acá
+
+1259
+01:57:09.840 --> 01:57:13.480
+que hayan reemplazado a la media de los datos por la etiqueta salida.
+
+1260
+01:57:13.480 --> 01:57:21.480
+Aquí realmente tendrías la etiqueta que te predijo contra la etiqueta que sabes de tu
+
+1261
+01:57:21.480 --> 01:57:22.480
+dato de entrenamiento.
+
+1262
+01:57:22.480 --> 01:57:27.120
+La forma que se parece, pero no es sobre las X que son las parales entradas y no sobre la
+
+1263
+01:57:27.120 --> 01:57:34.880
+la verdad es salida y lo de la RSI este chékaté es buscálo buscálo como proficiente irson
+
+1264
+01:57:34.880 --> 01:57:44.240
+es para complementar lo que está acá en la presentación y ahí les va a dar una explicación que
+
+1265
+01:57:44.240 --> 01:57:50.080
+sea más generica más profunda de que como utilizar esa R2 generalmente aparece con
+
+1266
+01:57:50.080 --> 01:57:56.160
+de 32 ser el cuadrado para que es que y los rangos que son de punto tres a punto
+
+1267
+01:57:56.160 --> 01:58:04.160
+siete moderado punto siete es más es fuerte la corralación y arriba a punto tres el R2 es
+
+1268
+01:58:04.160 --> 01:58:11.280
+por bajo y van a ver que el Sike y Tler en les genera casi siempre después de entrenar modelos
+
+1269
+01:58:11.280 --> 01:58:14.880
+les genero un reporte del R2 del cociente personal justamente.
+
+1270
+01:58:14.880 --> 01:58:21.190
+Y gracias por ver los utilidades no portan nada a la parte del modelo entrenar, ¿verdad?
+
+1271
+01:58:21.190 --> 01:58:23.190
+Entonces esos datos se ignoran.
+
+1272
+01:58:23.190 --> 01:58:30.190
+De nada cuenta, si los quieres usar, si sabes que el modelo que vas a entrenar es robusta
+
+1273
+01:58:30.190 --> 01:58:32.190
+o cláilleras, lo puede dejar y si aportan.
+
+1274
+01:58:32.190 --> 01:58:39.190
+Pero si sabes a un modelo que vas a utilizar es muy sensible a un liar, los tienes que eliminar,
+
+1275
+01:58:39.190 --> 01:58:45.190
+aunque pudiera ser que aporten, los tienes que eliminar porque el modelo funciona mal si lo tengas.
+
+1276
+01:58:45.190 --> 01:58:52.030
+Y una última pregunta, ¿por qué la parte de introducción la compartió por algún lado del link?
+
+1277
+01:58:52.030 --> 01:58:55.630
+No, pero no la he subido. La subarratita en la página.
+
+1278
+01:58:55.630 --> 01:58:57.470
+Gracias. Gracias.
+
+1279
+01:58:57.470 --> 01:58:59.070
+Este área me va a apuntar algo.
+
+1280
+01:58:59.070 --> 01:59:00.550
+Sí, profesor, gracias.
+
+1281
+01:59:00.550 --> 01:59:08.430
+Dos preguntas en la página 30, donde tiene Spirman, uno de dos, la idea de usar rangos.
+
+1282
+01:59:08.430 --> 01:59:15.730
+de verdad que me partió bastante en por qué el rango ya quedó uno, dos, tres, cuatro, cinco, entiendo que
+
+1283
+01:59:15.730 --> 01:59:21.590
+empieza a darles valores consecutivos, pero coincide con la X.
+
+1284
+01:59:22.990 --> 01:59:27.830
+Sí, lo que pasa aquí la X, creo que el ejemplo está mal, o sea no está
+
+1285
+01:59:27.830 --> 01:59:33.190
+ilustrativo, ¿no? Porque los rango, los a los valores reales de X son estos, uno, dos, tres,
+
+1286
+01:59:33.190 --> 01:59:35.790
+4 o 5 que si después tú
+
+1287
+01:59:36.670 --> 01:59:41.110
+pones lo transformas a rango, o sea, los ordenas de menor a mayor,
+
+1288
+01:59:41.550 --> 01:59:43.990
+pues te vuelven a quedar uno, dos, tres, cuatro y cinco, no?
+
+1289
+01:59:45.510 --> 01:59:48.710
+Quizás otros números hubieran sido mejor, un mejor ejemplo.
+
+1290
+01:59:48.910 --> 01:59:55.710
+Así como ocurre con la llé, la llé es 2, 3, 5, 9, 90 igual ordenados,
+
+1291
+01:59:55.750 --> 01:59:57.910
+ya están ordenados acá de menor a mayor,
+
+1292
+01:59:58.750 --> 02:00:01.430
+pero cuando tú solo pones el orden en el que va,
+
+1293
+02:00:01.430 --> 02:00:08.030
+el dos es el primero y por lo tanto te pones acá en el rango de y uno y así
+
+1294
+02:00:08.030 --> 02:00:14.670
+especialmente si es lógica si le entendí pero no entendí porque se ok dice que
+
+1295
+02:00:14.670 --> 02:00:18.350
+porque de ejemplo bastante sencillo entonces sería cuestión de ver más
+
+1296
+02:00:18.350 --> 02:00:22.430
+ejemplos correcto bueno el notapásica después nada más ya con estos valores lo
+
+1297
+02:00:22.430 --> 02:00:25.030
+pones acá en esta formulita
+
+1298
+02:00:25.030 --> 02:00:32.390
+está acá abajo, si ya calculas el rango de x, me lo se rango de y te da del tain y la aplicas la
+
+1299
+02:00:32.390 --> 02:00:39.350
+formulita con el número n, el número de datos y te va a dar justamente el valor, este valor que es el que
+
+1300
+02:00:40.390 --> 02:00:45.510
+desverificar que obtienes acá y ese es el cofriente de Spirman
+
+1301
+02:00:45.510 --> 02:00:53.430
+Ok, de acuerdo, gracias. Y la otra es en la matriz de correlación, tiene como, creo
+
+1302
+02:00:53.430 --> 02:01:00.030
+que entre ocho o nueve, o nueve valores en orcruro que número de paginas esa, es la
+
+1303
+02:01:00.030 --> 02:01:07.550
+35. Gracias, esa. Este veo uno, dos, tres, cuatro, cinco, seis, siete, ocho, son nueve.
+
+1304
+02:01:07.550 --> 02:01:13.990
+Mi pregunta aquí es cuántas, varias les dézptimo usar para un entrenamiento.
+
+1305
+02:01:13.990 --> 02:01:19.230
+Empíricamente, la verdad es que yo lo he hecho, pero no tengo una fórmula todavía para
+
+1306
+02:01:19.230 --> 02:01:21.990
+calcular cuántas tres estas y se debe usar, ejemplo.
+
+1307
+02:01:21.990 --> 02:01:26.470
+Hay unos modelos que me permiten usar, creo que 13 máximo.
+
+1308
+02:01:26.470 --> 02:01:33.830
+Pero si le pongo 13, a veces sus métricas quedan más abajo que si usas solamente 7, 8.
+
+1309
+02:01:33.830 --> 02:01:37.790
+Entonces la pregunta es cuál es el criterio para saber cuántas de estas
+
+1310
+02:01:37.790 --> 02:01:43.630
+sedebo de manejar para pasar el entrenamiento del modelo, porque algunas veces
+
+1311
+02:01:43.630 --> 02:01:48.830
+hay varias que tienen muy buena correlación y hay que descartarlas e incluso
+
+1312
+02:01:48.830 --> 02:01:51.830
+para que se vea mejor el entrenamiento.
+
+1313
+02:01:51.830 --> 02:01:55.830
+Cuando veamos los modelos, lo voy a explicar.
+
+1314
+02:01:55.830 --> 02:02:00.830
+No hay una respuesta en este momento de que diga cuántas es la mejor.
+
+1315
+02:02:00.830 --> 02:02:05.150
+De hecho, me extraña que te digas que hay modelos que te limitan a 13.
+
+1316
+02:02:05.350 --> 02:02:12.430
+generalmente eso no ocurre, pero si tienes muchos variales entradas, pues trate a usar todas.
+
+1317
+02:02:12.910 --> 02:02:15.230
+Después hay procesos para ir refinando.
+
+1318
+02:02:15.430 --> 02:02:18.590
+Creo que eso lo vamos a ver en la segunda mañana o pasada mañana.
+
+1319
+02:02:18.790 --> 02:02:21.070
+¿Cómo ir refinando tu base de datos?
+
+1320
+02:02:22.870 --> 02:02:26.910
+A dos o tres estrategias diferentes para saber cuál es eliminar o cuál es no?
+
+1321
+02:02:26.910 --> 02:02:31.430
+incluso sin haber comenzado con haber modelos, pero sí,
+
+1322
+02:02:31.430 --> 02:02:34.550
+aguanta más eso lo vamos a servir más adelante.
+
+1323
+02:02:34.550 --> 02:02:36.150
+Perfecto, muchas gracias.
+
+1324
+02:02:36.150 --> 02:02:39.150
+Alguien más se va a preguntar, pero no.
+
+1325
+02:02:39.150 --> 02:02:40.390
+Sí, nada más.
+
+1326
+02:02:40.390 --> 02:02:42.070
+No, no, no.
+
+1327
+02:02:42.070 --> 02:02:44.070
+Hay por lo más.
+
+1328
+02:02:44.070 --> 02:02:49.150
+Sí, comentó que le aplicaba una transformada una variable.
+
+1329
+02:02:49.150 --> 02:02:52.590
+La tiene que aplicar a todas las variables del conjunto o nada más a ese
+
+1330
+02:02:52.590 --> 02:02:55.270
+en particular que tiene el sesgo.
+
+1331
+02:02:55.270 --> 02:03:00.190
+No, no tanto se es, bueno, terciedes a la asimetria, no?
+
+1332
+02:03:00.190 --> 02:03:04.350
+Solo se le aplica a la que puedes corregir.
+
+1333
+02:03:04.350 --> 02:03:07.550
+Con el ejemplo de asimetria era, esa era asimetrica,
+
+1334
+02:03:07.550 --> 02:03:12.390
+le aplica el logaritmo y la volvisa y métrica solo se le aplica a esa.
+
+1335
+02:03:12.390 --> 02:03:14.710
+Igual vamos a ver un poquito más de eso más adelante,
+
+1336
+02:03:14.710 --> 02:03:15.830
+no se preocupen.
+
+1337
+02:03:15.830 --> 02:03:19.750
+Perdón, de alcanza ver a un aron, alcansó la mano y después a otra persona
+
+1338
+02:03:19.750 --> 02:03:22.230
+que no alcanza a un hombre, pero
+
+1339
+02:03:22.230 --> 02:03:27.230
+a rom se quiere preguntar no se hiciera la persona que interpugieron ahorita
+
+1340
+02:03:27.230 --> 02:03:34.190
+o la propuesta en sí de hecho le escribí en echan es sobre la dinámica de la clase era para preguntarles si sobre
+
+1341
+02:03:34.190 --> 02:03:38.670
+el manejo las asistencias si es posible para las personas estamos trabajando todavía
+
+1342
+02:03:38.670 --> 02:03:42.230
+aosentarnos en algunas sesiones algunos minutos
+
+1343
+02:03:42.230 --> 02:03:48.230
+si aosentarnos en algunas veces si entoria wadi pide 1 o 7 por ciento de asistencia
+
+1344
+02:03:48.230 --> 02:03:53.830
+hay flexibilidad en eso pero traten de aunque sé que pueden ver la grabación después,
+
+1345
+02:03:53.830 --> 02:03:57.230
+se te arroyo pero sí traten de atender lo más que puedan a las clases.
+
+1346
+02:03:58.230 --> 02:04:01.730
+Ya se veo que alguien nos da faltando mucho en el social y le pregunta de qué onda.
+
+1347
+02:04:02.730 --> 02:04:03.730
+Está.
+
+1348
+02:04:04.930 --> 02:04:09.230
+Perdón alguien y después es que no se viene cuento a la presentación en pantalla,
+
+1349
+02:04:09.230 --> 02:04:11.530
+no al canso a ver quién están levantando la mano.
+
+1350
+02:04:11.530 --> 02:04:18.250
+pero mi pregunta era este con respecto a los topes, ¿por qué no había
+
+1351
+02:04:18.250 --> 02:04:27.750
+que ignorar los perdón? Te refiere a el llegrama de Vigote. Al final de las cosas
+
+1352
+02:04:27.750 --> 02:04:31.510
+picas tiene que ir y que no hay que hacer, decí ahí que se tiene que evitar
+
+1353
+02:04:31.510 --> 02:04:41.540
+ignorar los topes.
+
+1354
+02:04:41.540 --> 02:04:53.260
+es que realmente la idea es que si tú tienes tus valores atípicos, déjame regresar a
+
+1355
+02:04:53.260 --> 02:05:13.020
+acá a la llegada mitad, aquí puede ser. Los topes, muchas veces se refieren a ellos como
+
+1356
+02:05:15.020 --> 02:05:18.380
+el bigote que es esta parte, entonces alcanza a ver ahorita ya.
+
+1357
+02:05:18.380 --> 02:05:24.500
+todo lo que esté fuera de este rango como es el ejemplo de este
+
+1358
+02:05:24.500 --> 02:05:28.620
+bigote todo lo que está acá es valoratípico ya no ha
+
+1359
+02:05:28.620 --> 02:05:36.930
+cuenta aquí el chiste es decidir qué haces con eso pero
+
+1360
+02:05:36.930 --> 02:05:40.330
+va a ir a aprender mucho del modelo.
+
+1361
+02:05:40.330 --> 02:05:41.890
+Ok, ok.
+
+1362
+02:05:41.890 --> 02:05:46.170
+Por ahora está más que se conoce idea de que del bigote para acá es
+
+1363
+02:05:46.170 --> 02:05:49.130
+muy probable que necesiten eliminar valores atípicos pero
+
+1364
+02:05:49.130 --> 02:05:54.130
+las que ya conozcan más de modelos ya podrán decidir que hacer con ellos.
+
+1365
+02:05:54.130 --> 02:05:58.130
+Muchas gracias. ¿Qué más ya preguntar?
+
+1366
+02:05:58.130 --> 02:06:05.130
+Yo es una pregunta en su experiencia, ¿cómo se determina así una 9 puntos, tiene una tendencia
+
+1367
+02:06:05.130 --> 02:06:12.130
+lineal o no lineal? ¿Eso es solamente por inspección visual o hay otras tenantes para saberlo?
+
+1368
+02:06:12.130 --> 02:06:13.830
+No, de hecho, la infección visual
+
+1369
+02:06:13.830 --> 02:06:17.830
+solo aplica cuando la puede representar graficamente.
+
+1370
+02:06:17.830 --> 02:06:21.050
+Por ejemplo, si tus datos son en dos dimensiones
+
+1371
+02:06:21.050 --> 02:06:24.030
+o hasta tres, lo puedes visualizar.
+
+1372
+02:06:24.030 --> 02:06:26.930
+Pero si ya tienes 20 dimensiones por si es algo,
+
+1373
+02:06:26.930 --> 02:06:30.250
+imposible que tú graficues de nueve puntos.
+
+1374
+02:06:30.250 --> 02:06:32.610
+Hay técnicas como las que van a ver en la preciana
+
+1375
+02:06:32.610 --> 02:06:37.810
+en los supervisados que te reducen de los 20, digamos, a dos.
+
+1376
+02:06:37.810 --> 02:06:40.170
+Y ya te permita ser una representación.
+
+1377
+02:06:40.170 --> 02:06:45.730
+pero muchas veces la representación es una proyección de los 20 a un plano, pero a
+
+1378
+02:06:45.730 --> 02:06:52.410
+cual plano no es claro, no necesariamente te vas a ser una buena representación.
+
+1379
+02:06:52.410 --> 02:07:00.410
+Entonces, Ryes Goso que lo decidas visualmente, por eso es que existen estos dos coeficientes
+
+1380
+02:07:00.410 --> 02:07:05.290
+de correlación. Lo más sano cuando tienes muchas dimensiones, o sea, cuando tienes
+
+1381
+02:07:05.290 --> 02:07:10.250
+muchos variables entradas, es calcolas tu coeficiente R2 o el coeficiente de
+
+1382
+02:07:10.250 --> 02:07:14.970
+Spirman y con base a eso decides si hay una correlación o no hay una
+
+1383
+02:07:14.970 --> 02:07:21.490
+correlación y la otra es si tú agarras, suponte que dices bueno suena la
+
+1384
+02:07:21.490 --> 02:07:26.210
+acuora del coeficiente que que el mod que la que la comencemos es el
+
+1385
+02:07:26.210 --> 02:07:29.490
+comportamiento es lineal entonces no ha viento a implementar un modelo
+
+1386
+02:07:29.490 --> 02:07:34.170
+Oliminal. Si el modelo oliminal no funciona, quiere decir que la relada hay coficiente
+
+1387
+02:07:34.170 --> 02:07:40.290
+de, de, de, te engaño y te es que irte por otro modelo. No hay la receta secreta,
+
+1388
+02:07:40.290 --> 02:07:45.350
+¿no? Pero siempre si el, ¿qué es lo que sí se da a hacer? Si el coeficiente te dice que hay
+
+1389
+02:07:45.350 --> 02:07:50.650
+un comportamiento o lineal, o te sugiere que hay un comportamiento o lineal, implementa
+
+1390
+02:07:50.650 --> 02:07:56.390
+lineal. Porque los, los geniales son lo más económico que existe. Entonces, no tiene
+
+1391
+02:07:56.390 --> 02:08:02.470
+caso irte por algo más complejo si tú puedes resolverlo con algo simple. Entonces el
+
+1392
+02:08:02.470 --> 02:08:08.230
+coficiente te sugiera el inyalidad implementa al inial. Si no te funcionó al inial, quiere decir que la
+
+1393
+02:08:08.230 --> 02:08:13.270
+sugerencia del coficiente estuvo de alguna forma errónea y te tienes que ir por un modelo más
+
+1394
+02:08:13.270 --> 02:08:19.570
+compras gracias alguien más ya
+
+1395
+02:08:19.570 --> 02:08:21.610
+aprontan pero sí voy a ver por ahí
+
+1396
+02:08:21.610 --> 02:08:30.270
+ok pues estén seguimos mañana
+
+1397
+02:08:30.270 --> 02:08:32.970
+mañana a las seis o sea
+
+1398
+02:08:32.970 --> 02:08:34.970
+los profes disculpe yo se lo tengo
+
+1399
+02:08:34.970 --> 02:08:37.690
+una prena duda si ya tenemos
+
+1400
+02:08:37.690 --> 02:08:39.450
+como fechas de entrega para las
+
+1401
+02:08:39.450 --> 02:08:42.730
+actividades no por lo menos he
+
+1402
+02:08:42.730 --> 02:08:45.970
+puesto no este
+
+1403
+02:08:45.970 --> 02:08:52.730
+¿Qué es lo que sí les voy a pedir una actividad al final de la semana?
+
+1404
+02:08:52.730 --> 02:08:53.970
+¿Cómo les decía?
+
+1405
+02:08:53.970 --> 02:08:55.810
+Ahora te ya les subí uno.
+
+1406
+02:08:55.810 --> 02:08:56.330
+¿Ok?
+
+1407
+02:08:56.330 --> 02:09:02.610
+Esta primera actividad, exploren la, usen la visualicela, no me la tienen que entregar, pueden
+
+1408
+02:09:02.610 --> 02:09:05.130
+hacernas preguntas mañana si quieren.
+
+1409
+02:09:05.130 --> 02:09:11.570
+Pero yo creo que les voy a pedir al menos una actividad por semana y los dos proyectos.
+
+1410
+02:09:11.570 --> 02:09:12.570
+¿Ok?
+
+1411
+02:09:12.570 --> 02:09:17.610
+una por semana que sería una básicamente una de preparación de datos, una de
+
+1412
+02:09:17.610 --> 02:09:22.530
+regresión, una de clasificación y los proyectos.
+
+1413
+02:09:22.530 --> 02:09:31.220
+Pero yo les voy diciendo, tú tranquilo por ahorita. Gracias.
+
+1414
+02:09:31.220 --> 02:09:35.100
+Ok, hasta luego, profe que es casi.
+
+1415
+02:09:35.100 --> 02:09:40.990
+de la verdad, gracias, gracias,
+
+1416
+02:09:40.990 --> 02:09:44.990
+mmm, stop recording.
+

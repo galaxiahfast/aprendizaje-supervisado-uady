@@ -10,8 +10,8 @@ tener que verlas completas.
 - El flujo completo va de los datos crudos a modelos evaluados y listos para producción.
 - La calificación se divide en laboratorios (30 %), miniproyecto de regresión (35 %) y
   miniproyecto de clasificación (35 %).
-- La [Actividad 1 de EDA](unidades/01-preparacion-de-datos/actividades/01-eda-california-housing/)
-  ya está resuelta, ejecutada y separada de los archivos personales de la clase.
+- La [práctica de EDA](unidades/01-preparacion-de-datos/actividades/01-eda-california-housing/)
+  ya está resuelta y ejecutada. El profesor aclaró que esta primera notebook **no se entrega**.
 - Las fechas que no aparecen en los documentos oficiales se marcan como **no publicadas**; no se
   inventan plazos.
 
@@ -61,7 +61,8 @@ se suba a GitHub ni se mezcle con una entrega.
 
 1. Guardar cada nueva clase dentro de su unidad y conservar el `.vtt` con fecha y número de sesión.
 2. Resumir conceptos, decisiones del profesor, actividad mencionada y minutos que vale la pena ver.
-3. Resolver las evidencias según el documento oficial y dejar la plantilla original separada.
+3. Resolver las prácticas y evidencias según el documento oficial, sin confundir una notebook de
+   estudio con una entrega calificable.
 4. Ejecutar todo desde cero y registrar la verificación en el README de la actividad.
 5. Actualizar `ENTREGAS.md` únicamente con fechas y estados comprobados.
 6. Hacer commits pequeños y subir cada bloque terminado a `main`.

@@ -1,16 +1,21 @@
 # Actividad 1 - EDA de California Housing
 
+> **Situación académica:** práctica de estudio. En `2:08:56` de la clase, el profesor aclaró que
+> esta primera notebook se debe explorar, pero **no se entrega**. Se resolvió completa para estudiar
+> y preparar preguntas.
+
 ## Objetivo
 
 Explorar el conjunto California Housing, identificar valores extremos y topes, comparar Pearson
 con Spearman y justificar un tratamiento por cada variable predictora antes de modelar.
 
-## Archivos para entregar
+## Archivos preparados
 
 - [`actividad_eda_california_housing_resuelta.ipynb`](actividad_eda_california_housing_resuelta.ipynb): notebook contestado y ejecutado de principio a fin.
 - [`entregable_unidad1.csv`](entregable_unidad1.csv): tabla solicitada con porcentaje de atípicos, decisión y justificación por variable.
 
-La [plantilla original](plantilla/actividad_eda_california_housing.ipynb) se conserva como referencia y no es la versión que debe subirse.
+La [plantilla original](plantilla/actividad_eda_california_housing.ipynb) se conserva como referencia.
+No debe subirse ninguno de estos archivos mientras la indicación siga siendo “no se entrega”.
 
 ## Cobertura de los criterios
 
