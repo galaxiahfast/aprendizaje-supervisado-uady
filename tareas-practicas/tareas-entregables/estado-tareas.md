@@ -1,6 +1,8 @@
 # Estado de las tareas entregables
 
-No hay una tarea calificable confirmada al 20 de octubre de 2026.
+| Tarea | Clase | Estado | Fecha límite |
+| --- | --- | --- | --- |
+| [Tarea 1 — pipeline de preprocesamiento](tarea-01-pipeline-preprocesamiento/resumen-tarea-01.md) | Clase 2 | Resuelta y ejecutada | No se publicó una fecha posterior |
 
-Cuando se publique una, esta carpeta tendrá sus instrucciones, criterios de evaluación, desarrollo
-y versión final. El nombre seguirá el formato `tarea-01-tema`.
+El material oficial solicita trabajo individual, notebook ejecutado y tabla comparativa. La diapositiva
+indica usar el tiempo restante de la sesión.

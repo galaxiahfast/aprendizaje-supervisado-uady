@@ -1,0 +1,8 @@
+estrategia,RMSE validación,± desv,comentario
+"1. Borrar filas incompletas, sin escalar",96.78,0.91,Pierde 207 filas y conserva escalas incompatibles para KNN.
+"2. Imputar con mediana, sin escalar",96.63,0.42,"Conserva las filas, pero las variables grandes dominan la distancia."
+3. + estandarizar,62.59,1.44,El escalado produce la reducción principal del error.
+4. + one-hot de ocean_proximity,61.2,0.86,La categoría costera agrega una mejora pequeña y medible.
+"5. Como 4, pero con RobustScaler",61.29,1.02,Es resistente a extremos y ofrece un resultado cercano al estándar.
+"6. Como 4, pero imputando con KNNImputer",61.14,0.84,La imputación compleja cambia poco porque solo falta cerca del 1 %.
+"7. Como 4, con indicador de faltante",61.4,0.94,El indicador aporta poca señal cuando la ausencia parece casi aleatoria.

@@ -2,9 +2,9 @@
 
 ## Estado de la materia
 
-- Última clase organizada: **clase 1 — introducción al curso y EDA**.
-- Próxima clase indicada: **20 de octubre de 2026 a las 18:00**.
-- Entrega activa: **ninguna confirmada**.
+- Última clase organizada: **clase 2 — preprocesamiento de datos**.
+- Próxima clase indicada: **jueves 22 de octubre de 2026**.
+- Entrega activa: **tarea 1 de pipeline de preprocesamiento, resuelta**.
 - La práctica de California Housing está resuelta. El profesor aclaró que no se entrega.
 
 ## Dónde está cada cosa
@@ -25,7 +25,7 @@ para estudiar.
 
 | Evidencia | Valor | Estado |
 | --- | ---: | --- |
-| Ejercicios de laboratorio | 30 % | Aún no se identifica la primera tarea calificable |
+| Ejercicios de laboratorio | 30 % | Tarea 1 resuelta. Fecha de envío sin publicar |
 | Miniproyecto de regresión | 35 % | Faltan instrucciones y fecha |
 | Miniproyecto de clasificación | 35 % | Faltan instrucciones y fecha |
 

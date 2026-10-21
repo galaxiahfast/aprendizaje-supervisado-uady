@@ -10,7 +10,9 @@ Esta sección tiene dos partes:
 La [práctica 1 de EDA](practicas-clase/practica-01-eda-california-housing/resumen-practica-01.md) está resuelta. El
 profesor aclaró que **no se entrega**.
 
-Todavía no se publica una tarea calificable ni una fecha límite.
+La [tarea 1 de preprocesamiento](tareas-entregables/tarea-01-pipeline-preprocesamiento/resumen-tarea-01.md)
+está resuelta y ejecutada. El material oficial la marca como actividad individual. No aparece una
+fecha posterior a la sesión.
 
 ## Antes de entregar una tarea
 
