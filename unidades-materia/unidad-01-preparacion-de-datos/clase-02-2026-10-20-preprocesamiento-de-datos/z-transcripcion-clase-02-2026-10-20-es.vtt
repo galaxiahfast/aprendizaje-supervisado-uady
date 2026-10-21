@@ -1,0 +1,5922 @@
+WEBVTT
+
+1
+00:00:05.520 --> 00:00:07.940
+Bueno, ya estamos grabando.
+
+2
+00:00:07.940 --> 00:00:10.520
+Sí que vamos a empezar.
+
+3
+00:00:10.520 --> 00:00:13.700
+En tres más temprano mejor.
+
+4
+00:00:13.700 --> 00:00:18.560
+Si se acabas de emprano, vamos a emprano.
+
+5
+00:00:18.560 --> 00:00:21.660
+Este...
+
+6
+00:00:21.660 --> 00:00:23.800
+Magnifico este.
+
+7
+00:00:23.800 --> 00:00:37.540
+Ok.
+
+8
+00:00:37.540 --> 00:00:38.540
+Sale.
+
+9
+00:00:38.540 --> 00:00:39.540
+Vamos a empezar.
+
+10
+00:00:39.540 --> 00:00:45.840
+Entonces, vamos a continuar un poco de lo que se le analices de datos.
+
+11
+00:00:45.840 --> 00:00:49.640
+y no me escuchas verá.
+
+12
+00:00:49.640 --> 00:00:50.640
+¿Qué?
+
+13
+00:00:50.640 --> 00:00:51.880
+Con las hablas, ¿no?
+
+14
+00:00:51.880 --> 00:00:53.880
+Perfecto.
+
+15
+00:00:53.880 --> 00:00:56.080
+Todavía no te da que gritar.
+
+16
+00:00:56.080 --> 00:01:05.680
+Bueno, y vamos a ver igual un poco de cómo analizar los datos.
+
+17
+00:01:05.680 --> 00:01:13.720
+Por ejemplo, valores faltantes en algunas celdas y esas filas o columnas.
+
+18
+00:01:13.720 --> 00:01:19.700
+como tratar entradas que no sean
+
+19
+00:01:19.700 --> 00:01:20.800
+dumericas, o sea que sean
+
+20
+00:01:20.800 --> 00:01:24.800
+categoricas, como transformar
+
+21
+00:01:24.800 --> 00:01:27.140
+la transformación más básica
+
+22
+00:01:27.140 --> 00:01:28.900
+que se hace los datos, que es el
+
+23
+00:01:28.900 --> 00:01:32.480
+escalamiento y después un poco
+
+24
+00:01:32.480 --> 00:01:34.820
+que se se albieron un poco como
+
+25
+00:01:34.820 --> 00:01:37.320
+es lo mencionar o al menos que
+
+26
+00:01:37.320 --> 00:01:40.220
+durante el entrenamiento en algoritmo
+
+27
+00:01:40.220 --> 00:01:41.520
+generalmente se tengo un
+
+28
+00:01:41.520 --> 00:01:45.720
+conjunto de datos, que he logrado recopilar que iba a ser datos,
+
+29
+00:01:46.240 --> 00:01:50.680
+generalmente no uso todo para entrenar algo mismo,
+
+30
+00:01:50.680 --> 00:01:55.160
+sino que toca hacer una división o partición en diferentes
+
+31
+00:01:55.160 --> 00:01:56.080
+conjuntos.
+
+32
+00:01:56.080 --> 00:01:57.320
+Entonces, ver un poquito de eso.
+
+33
+00:01:58.120 --> 00:02:01.320
+Y al final, me voy a hacer un poco de como usar Python,
+
+34
+00:02:01.360 --> 00:02:06.000
+la biblioteca de Scikit-Lear para construir pipelines,
+
+35
+00:02:06.680 --> 00:02:10.320
+que les pueden ayudar mucho sobre todo a no cometer errores
+
+36
+00:02:10.320 --> 00:02:14.620
+cuando aplican el escalamiento o cualquier otra transformación.
+
+37
+00:02:16.120 --> 00:02:18.620
+Es básicamente, ese es el plan de hoy.
+
+38
+00:02:21.020 --> 00:02:24.320
+Presentaciones a los 40 dipositivas, pero
+
+39
+00:02:24.820 --> 00:02:29.020
+yo creo que no debemos tardar tanto y debe quedar un poco tiempo,
+
+40
+00:02:29.020 --> 00:02:32.320
+un poco más de tiempo que de lo que nos quedó ahí.
+
+41
+00:02:33.320 --> 00:02:35.320
+Ok, vamos a empezar.
+
+42
+00:02:35.320 --> 00:02:36.320
+Ehh...
+
+43
+00:02:37.920 --> 00:02:42.080
+Valores faltantes. Bueno, básicamente lo que es comenté.
+
+44
+00:02:42.080 --> 00:02:44.920
+No te les acuerda decir esto, nada de lo posible.
+
+45
+00:02:48.230 --> 00:02:52.030
+Básicamente, cuando tenemos un conjunto de datos,
+
+46
+00:02:52.030 --> 00:02:56.110
+si nos falta, digamos, tenemos una fila con algunas,
+
+47
+00:02:56.110 --> 00:03:00.030
+en el cual es alguna columna o algunas columnas, no tenemos datos,
+
+48
+00:03:00.030 --> 00:03:04.030
+pero si tenemos que tomar una decisión o borramos toda la fila,
+
+49
+00:03:04.030 --> 00:03:10.630
+o imputamos que es rellenar rellenar las elefaltantes con algo.
+
+50
+00:03:10.630 --> 00:03:16.630
+Y es importante conocer qué sucede cuando tomamos la elección de con que lo rellenamos.
+
+51
+00:03:16.630 --> 00:03:24.630
+Es mucha gente por default lo rellena con la media o con la mediana y como que es lo más
+
+52
+00:03:24.630 --> 00:03:31.430
+como un realizar. Vamos a ver que hay técnicas un poquito mejor, más costosas como
+
+53
+00:03:31.430 --> 00:03:39.950
+todo generalmente, pero que de forma ya vemos las sí menos tu base de datos, eso
+
+54
+00:03:39.950 --> 00:03:44.710
+usaba por ejemplo el evento de cabecinos más cercanos, que es el KNN o un proceso
+
+55
+00:03:44.710 --> 00:03:51.750
+interactivo un poquito más complejo que tiene un algoritmo de regresión
+
+56
+00:03:51.750 --> 00:03:54.670
+lineal ahí adentro.
+
+57
+00:03:54.670 --> 00:03:56.350
+No, vamos a comenzar con esto.
+
+58
+00:03:59.350 --> 00:04:00.710
+Déjame quitar esto con esto,
+
+59
+00:04:00.710 --> 00:04:04.750
+por aquí, nada más.
+
+60
+00:04:04.750 --> 00:04:11.470
+OK, porque es importante procesar los datos.
+
+61
+00:04:11.470 --> 00:04:20.470
+lo que trata de ilustrar la gráfica es en el eje horizontal tenemos cuatro resultados diferentes
+
+62
+00:04:20.770 --> 00:04:30.470
+utilizando el mismo modelo en este caso no se lo se le explicaba muy probablemente ni os les he explicado, pero solo
+
+63
+00:04:30.970 --> 00:04:37.970
+digamos que vamos a usar el modelo KNN lo que eso significa con el parámetro que tiene que es caigual a 10
+
+64
+00:04:37.970 --> 00:04:43.810
+En caso de K&amp;N significa el número de vecinos que va a utilizar para tomar ciertas
+
+65
+00:04:43.810 --> 00:04:46.970
+decisiones durante su entreamiento.
+
+66
+00:04:46.970 --> 00:04:55.390
+Si usamos K&amp;N sobre nuestro dataset que tiene ciertas filas incompletas y esas filas las
+
+67
+00:04:55.390 --> 00:05:02.470
+borramos, yo tengo un error cuadratico medio, que es esto que está acá en la eje vertical,
+
+68
+00:05:02.470 --> 00:05:04.990
+el RMS, el root min square error,
+
+69
+00:05:06.190 --> 00:05:11.790
+que básicamente se encontrar la diferencia de cada dato
+
+70
+00:05:12.070 --> 00:05:16.550
+con respecto a su etiqueta y el baro al cuadrado y sumar todos.
+
+71
+00:05:16.630 --> 00:05:21.230
+Y al final normalizarlo, bueno, sacar el mosa más la media,
+
+72
+00:05:21.310 --> 00:05:24.750
+dividirlo entre el número de datos y sacar la raíz cuadrado.
+
+73
+00:05:25.030 --> 00:05:27.430
+Bueno, es una metrica, no de las más comunes.
+
+74
+00:05:27.510 --> 00:05:29.510
+Y mientras más pequeña esa metrica,
+
+75
+00:05:29.510 --> 00:05:35.510
+mejor ese resultado de mi algoritmo. Entonces en este caso me da un 96.2.
+
+76
+00:05:35.510 --> 00:05:40.510
+Si la decisión que te va a mejorar completamente ciertas filas.
+
+77
+00:05:40.510 --> 00:05:47.510
+Si por otro lado decidí que esos datos faltantes los reemplazo por la mediana,
+
+78
+00:05:47.510 --> 00:05:53.510
+me da 96.4 oficens, como incluso peor a un poco y son valores muy altos.
+
+79
+00:05:53.510 --> 00:06:02.510
+Por el contrario, si decido estándarizar, vamos a ver tres formas diferentes de estándarizar en la práctica de hoy.
+
+80
+00:06:02.510 --> 00:06:07.510
+El RMS cae drásticamente a 61.5.
+
+81
+00:06:07.510 --> 00:06:13.510
+Aquí claramente se nota en este ejemplo al menos, pero es lo más común que suceda,
+
+82
+00:06:13.510 --> 00:06:18.510
+que el estándarizar me va a ayudar mucho a hacer que mi modelo funcione mejor.
+
+83
+00:06:18.510 --> 00:06:25.830
+Entonces, el preprocesar los datos y estandarizarlos en genera muchos beneficios.
+
+84
+00:06:25.830 --> 00:06:30.870
+Aparte, nuestra verdad a 7 más se sigue trabajando con el dataset que comenzamos a trabajar
+
+85
+00:06:30.870 --> 00:06:33.750
+a 7, el California Housing.
+
+86
+00:06:33.750 --> 00:06:40.110
+Con la pequeña diferencia es que el notebook si tengo que ser revisada, el notebook que
+
+87
+00:06:40.110 --> 00:06:48.430
+que trae el site kit learn es un dataset ya depurado ya no no tiene absolutamente ningún
+
+88
+00:06:48.430 --> 00:06:55.470
+dato perdido por ahí ya lo procesaron los de site leer y de hecho también eliminaron
+
+89
+00:06:55.470 --> 00:07:02.750
+esta última variable que se llama ocean proximity que quiere decir que tan cerca estaban
+
+90
+00:07:02.750 --> 00:07:05.470
+los distritos lo están las casas del mar.
+
+91
+00:07:05.470 --> 00:07:11.590
+Esa variable es una variable categorica y la eliminaron por alguna razón en
+
+92
+00:07:11.590 --> 00:07:16.930
+el solquiler y hoy la vamos a recuperar, ¿no? Entonces también en qué pasas si
+
+93
+00:07:16.930 --> 00:07:22.750
+usó la variable categorica y la aplicó una transformación en América, en este
+
+94
+00:07:22.750 --> 00:07:27.190
+caso es el Onehot que luego va a ser la ente lo vamos a ver, bueno resulta que
+
+95
+00:07:27.190 --> 00:07:33.590
+está andalizado y con el Onehot se mantiene en 60.2 o incluso mejor un poquito
+
+96
+00:07:33.590 --> 00:07:38.590
+más porque la nueva variable introduce un poco más de conocimiento entre las bases.
+
+97
+00:07:39.590 --> 00:07:45.470
+Aquí lo importante es remarcar esta parte, que el estándarizar, el preprocesar en los datos, en
+
+98
+00:07:45.470 --> 00:07:53.750
+este caso, su todo centro es la estándarización, él puede producir un error, un modelo que va a
+
+99
+00:07:53.750 --> 00:07:59.470
+reaccionar muchísimo mejor a los nuevos datos que voy arreciendo más adelante. Decí es bien importante,
+
+100
+00:07:59.470 --> 00:08:05.350
+o como les comentaba hier, analizar datos y querer procesarlos.
+
+101
+00:08:05.350 --> 00:08:10.190
+Entonces en este caso en este procedimiento análisis está haciendo el día de hoy más que
+
+102
+00:08:10.190 --> 00:08:15.830
+con que si necesitan estadísticas como a fire, es analizar si tenemos datos perdidos o datos que no
+
+103
+00:08:15.830 --> 00:08:22.430
+deben ser, que están fuera de ser torrango, etcétera, etcétera. El California Housing es lo que les
+
+104
+00:08:22.430 --> 00:08:27.190
+comentaba el verdadero, el original, el no procesado en el
+
+105
+00:08:27.190 --> 00:08:31.950
+notebook del tema de hoy, que está en la aprecia creo que
+
+106
+00:08:31.950 --> 00:08:35.870
+comunidad 2 o 2 o no creo que le puse en la página web.
+
+107
+00:08:35.870 --> 00:08:40.270
+En realidad tiene en esta variable de total vetros,
+
+108
+00:08:40.270 --> 00:08:45.870
+tiene 207 faltantes.
+
+109
+00:08:45.870 --> 00:08:48.910
+Y aparte, la agregarla la variable categorica que se
+
+110
+00:08:48.910 --> 00:08:52.390
+de Ocean proximity, que es que te acercan esta con el mar.
+
+111
+00:08:52.390 --> 00:08:56.430
+Todo lo más sigue siendo igual y el objetivo o lo que queremos
+
+112
+00:08:56.430 --> 00:08:59.630
+predecir sigue siendo el Million House Value, ¿ok?
+
+113
+00:08:59.630 --> 00:09:04.390
+En Ocean proximity esta que es la bralda categórica está
+
+114
+00:09:04.390 --> 00:09:07.910
+descrita de esta forma, es si está a una hora de los
+
+115
+00:09:07.910 --> 00:09:14.070
+sean o si está inlando dentro más más adentro de la tierra
+
+116
+00:09:14.070 --> 00:09:17.510
+ya no lo es a forma, si está cerca de los sean o si está
+
+117
+00:09:17.510 --> 00:09:25.110
+cerca de la Bahía o está en alguna isla. Es lo que significa y lo tiene descrito con palabras.
+
+118
+00:09:25.110 --> 00:09:30.150
+Entonces, no habrá la categorica que eventualmente no hace tener que compartir a una variable
+
+119
+00:09:30.150 --> 00:09:39.880
+numérica. Ok, si analizamos en la base de datos, no preprocesada, generalmente lo que vamos
+
+120
+00:09:39.880 --> 00:09:50.200
+hacer es buscar, por ejemplo, con pandas usando el comando Isna, me va a buscar las que tengan
+
+121
+00:09:50.200 --> 00:09:57.680
+NIN, no tan ober, o podemos encontrar cosas como este en los 999, en la sinterrogración,
+
+122
+00:09:57.680 --> 00:10:05.160
+campos vacíos, etcétera, etcétera, uno tiene que buscar todas esas cosas que sean raras
+
+123
+00:10:05.160 --> 00:10:11.600
+en la base de datos, que no correspondan a o no tengas sentido de, obviamente hay algoritmos
+
+124
+00:10:11.600 --> 00:10:17.080
+como comandos, como ICNA, que se encuentran rápidamente los CNN, pero todos los demás como
+
+125
+00:10:17.080 --> 00:10:24.880
+estos, realmente no tiene que buscarlos a Manita. Díamos que al hicimos y observamos que
+
+126
+00:10:24.880 --> 00:10:33.580
+estaban, que eran 207 faltantes, que comparado contra los de 1.000 y cacho que eran de la base de
+
+127
+00:10:33.580 --> 00:10:39.460
+datos, pues a representa apenas el 1% del topado de los datos, realmente estaba ese datos si tenía
+
+128
+00:10:39.460 --> 00:10:49.300
+datos faltantes, pero es muy pequeño, ¿no? Importante es que si yo grafico el histograma como está
+
+129
+00:10:49.300 --> 00:10:56.060
+a la derecha de los datos completos, digamos, agarró todas las filas que tienen columnas completas,
+
+130
+00:10:56.060 --> 00:11:04.340
+el suistograma o su desear probabilidad está dada por los baritas azulos.
+
+131
+00:11:04.340 --> 00:11:10.580
+Y si yo tomo esos 2007 y también los gráficos al menos para la variable median income,
+
+132
+00:11:10.580 --> 00:11:17.780
+veo que también se corresponde a la alinza forma al menos. No tengo ahí una distribución para
+
+133
+00:11:17.780 --> 00:11:26.540
+esa variable que se parece mucho al midian income de todos los datos que están completos.
+
+134
+00:11:26.540 --> 00:11:31.260
+¿Qué significa esto? Que al menos para midian income para esa variable si yo elimino todos
+
+135
+00:11:31.260 --> 00:11:37.260
+los 207 datos, no voy a perder información. Si fuera una distribución diferente, quiere
+
+136
+00:11:37.260 --> 00:11:42.260
+decir que esos datos me están aportando algún conocimiento, alguna información diferente.
+
+137
+00:11:42.260 --> 00:11:44.880
+y valdría la pena tratar de conservarlos,
+
+138
+00:11:44.880 --> 00:11:49.020
+la delaria la pena hacer tratar de ser algún tipo de imputación, ¿no?
+
+139
+00:11:49.760 --> 00:11:54.780
+En este caso, pues al menos para esa variable, yo tendría que checarlo para todas las restantes variables,
+
+140
+00:11:54.780 --> 00:11:58.960
+todas estas que están acá, y observar ese fenómeno.
+
+141
+00:11:58.960 --> 00:12:02.760
+Y con base a eso, tomar una decisión de ese elimino,
+
+142
+00:12:02.760 --> 00:12:07.520
+si los relleno con alguna técnica o...
+
+143
+00:12:08.600 --> 00:12:11.260
+dejarlos así, pues, definitivamente no.
+
+144
+00:12:11.260 --> 00:12:14.860
+Entonces las primeras que me voy a hacer es cuántos faltan en que columnas,
+
+145
+00:12:15.060 --> 00:12:17.660
+si se parecen las filas y donde faltan,
+
+146
+00:12:18.660 --> 00:12:20.860
+esto como siempre es todo hasta barrito de...
+
+147
+00:12:21.460 --> 00:12:23.660
+que nunca salió como eliminarlo.
+
+148
+00:12:29.090 --> 00:12:30.290
+¿Qué puede suceder?
+
+149
+00:12:31.090 --> 00:12:32.290
+Que los datos...
+
+150
+00:12:32.890 --> 00:12:36.090
+básicamente tienen tres razones de...
+
+151
+00:12:36.690 --> 00:12:40.490
+que no existan, o sea, que alguna sede más en la completada,
+
+152
+00:12:40.490 --> 00:12:42.490
+y lo podemos clasificar la de alguna forma.
+
+153
+00:12:42.490 --> 00:12:46.650
+Y es lo que le llaman, digamos, en el español mecanismo.
+
+154
+00:12:46.650 --> 00:12:51.410
+Este M-car, M-ar y M-dare es...
+
+155
+00:12:51.410 --> 00:12:53.410
+¿Cómo se llama?
+
+156
+00:12:53.410 --> 00:12:54.410
+Es mi...
+
+157
+00:12:54.410 --> 00:12:55.410
+A ver si no lo haría.
+
+158
+00:12:55.410 --> 00:12:59.650
+O sea, se llama Cual era Nisin, complete, atrrando.
+
+159
+00:12:59.650 --> 00:13:01.210
+El A, ¿cómo que atrando?
+
+160
+00:13:01.210 --> 00:13:02.210
+Una segura.
+
+161
+00:13:02.210 --> 00:13:08.130
+El segundo es Nisin atrando y el segundo es Nisin inventando.
+
+162
+00:13:08.130 --> 00:13:10.930
+Lo que lo operante, el primer sí es Nisin.
+
+163
+00:13:10.930 --> 00:13:15.930
+entonces, complete, pero la a que era este R random,
+
+164
+00:13:17.930 --> 00:13:20.030
+a ver, se trampa a ver algo claro,
+
+165
+00:13:20.030 --> 00:13:29.060
+lo que realmente no es para el coder de, de, de,
+
+166
+00:13:29.060 --> 00:13:33.060
+que significaba, como siempre, no,
+
+167
+00:13:33.060 --> 00:13:38.060
+si, mis en a trams y la idea de a, mis en a trando,
+
+168
+00:13:38.060 --> 00:13:41.060
+mis en completar trando y la N,
+
+169
+00:13:41.060 --> 00:13:43.060
+¿No tiene un error de que?
+
+170
+00:13:43.060 --> 00:13:46.060
+Misin not atrando.
+
+171
+00:13:46.060 --> 00:13:50.060
+Está medio confuso la definición, pero básicamente creo que
+
+172
+00:13:50.060 --> 00:13:54.060
+esta columna lo trata explicar, a ver si lo lo hago lo hacer.
+
+173
+00:13:54.060 --> 00:13:59.060
+No creo ni solamente cuando uno ve y analiza algunas variables y
+
+174
+00:13:59.060 --> 00:14:02.060
+la trata clasificar en este caso, es un poco difícil la
+
+175
+00:14:02.060 --> 00:14:07.060
+hicierta mezcla entre, por ejemplo, el M-car y el mar,
+
+176
+00:14:07.060 --> 00:14:10.060
+es realmente difícil decidir cuál es la razón o no.
+
+177
+00:14:10.060 --> 00:14:12.220
+pero vas a tratar de explicarlo, digamos,
+
+178
+00:14:12.220 --> 00:14:16.060
+M-Cars son aquellos variables que están perdidas
+
+179
+00:14:16.060 --> 00:14:19.220
+o que no están ahí por completamente un evento a la Sara.
+
+180
+00:14:19.220 --> 00:14:22.180
+El ejemplo que describo acá es, por ejemplo,
+
+181
+00:14:22.180 --> 00:14:25.860
+yo estoy capturando mis datos con algún tipo de sensor
+
+182
+00:14:25.860 --> 00:14:29.900
+y por una razón completamente ajena a esa variable,
+
+183
+00:14:29.900 --> 00:14:31.460
+a la variable que yo esté capturando.
+
+184
+00:14:31.460 --> 00:14:33.900
+Vamos a poner, por ejemplo, que es temperatura.
+
+185
+00:14:33.900 --> 00:14:36.140
+Yo estoy cada instante de tiempo
+
+186
+00:14:36.140 --> 00:14:38.660
+tomando el valor de la temperatura de una habitación
+
+187
+00:14:38.660 --> 00:14:42.660
+y por alguna razón ajena completamente a la variable temperatura
+
+188
+00:14:42.660 --> 00:14:46.460
+o a alguna otra variable que yo estoy capturando, por ejemplo, puede ser humedad.
+
+189
+00:14:46.460 --> 00:14:49.460
+Yo tengo cesor que captura, humedad y temperatura.
+
+190
+00:14:49.460 --> 00:14:51.860
+Entonces, no... yo pierdo esa variable.
+
+191
+00:14:51.860 --> 00:14:53.860
+Como dice aquí al ejemplo, se fue la luz.
+
+192
+00:14:53.860 --> 00:14:56.660
+Se pared la energía y no logre capturar el dato.
+
+193
+00:14:56.660 --> 00:15:00.060
+El que se ha ido de la energía no depende ni de la variable temperatura
+
+194
+00:15:00.060 --> 00:15:02.860
+ni de la variable humedad,
+
+195
+00:15:02.860 --> 00:15:08.060
+que sería las demás barales que estoy capturando en ese momento.
+
+196
+00:15:08.060 --> 00:15:12.620
+Entonces, eso es que se pierda una variable completamente a la SANA.
+
+197
+00:15:12.620 --> 00:15:17.220
+Que se pierda una variable al azar significa que la variable se está perdiendo,
+
+198
+00:15:17.220 --> 00:15:21.100
+pero es ese evento que ocasionó que se pierda la variable,
+
+199
+00:15:21.100 --> 00:15:26.060
+tiene cierta relación con alguna de las otras variables que estoy analizando.
+
+200
+00:15:26.060 --> 00:15:29.100
+El ejemplo que pone, creo que lo el lustre bastante bien,
+
+201
+00:15:29.100 --> 00:15:32.900
+dice por ejemplo si yo estoy...
+
+202
+00:15:32.900 --> 00:15:36.580
+así de darle una encuesta en grupo de personas,
+
+203
+00:15:36.580 --> 00:15:43.920
+y yo me voy con los vas jóvenes, los jóvenes tienen a responder menos la pregunta de cuánto ganó
+
+204
+00:15:43.920 --> 00:15:51.080
+cuál es su ingreso, digamos, en su trabajo, ¿no? Entonces, hay hay una cierta razón, o sea, el hecho de
+
+205
+00:15:51.080 --> 00:15:57.020
+que no existe la variable, o sea, no existe a los datos para la variable ingreso en mi tableta,
+
+206
+00:15:57.020 --> 00:16:02.100
+la voy a poder correlacionar con la edad de otra variable que también va a estar en esa tabla
+
+207
+00:16:02.100 --> 00:16:04.460
+que en este caso, bueno, en este caso se ve la data, ¿no?
+
+208
+00:16:04.460 --> 00:16:06.300
+Entonces hay una cierta justificación.
+
+209
+00:16:06.300 --> 00:16:10.020
+Se pieren al azar, sí, pero no tan al azar porque están ligadas con
+
+210
+00:16:10.020 --> 00:16:11.100
+algún otro variable.
+
+211
+00:16:11.100 --> 00:16:13.740
+Porque estamos platicando de esto porque dependiendo de la
+
+212
+00:16:13.740 --> 00:16:17.220
+clasificación o al mecanismo que hayan perdido, hay ciertas
+
+213
+00:16:17.220 --> 00:16:20.700
+sugerencias de cómo tratar esas variables, o cómo hacer la
+
+214
+00:16:20.700 --> 00:16:25.020
+imputación, cómo rellenar esos datos.
+
+215
+00:16:25.020 --> 00:16:29.780
+Y el tercero que es el misin note a terrando es cuando el
+
+216
+00:16:29.780 --> 00:16:37.220
+ejemplo más más entendibles cuando la misma variable, la razón por la que no está ahí es
+
+217
+00:16:37.220 --> 00:16:43.340
+depende fuertemente de ella misma. Por ejemplo, si yo hago bien cuesta ya no son los jóvenes,
+
+218
+00:16:43.340 --> 00:16:49.540
+sino quienes ganas más, tienen que declarar, no tienen a no decir cuánto conles ingreso,
+
+219
+00:16:49.540 --> 00:16:54.140
+de cual suelso de ver es algo muy común. Yo gano mucho dinero, no quiero que la gente se
+
+220
+00:16:54.140 --> 00:17:00.100
+estiendo a no responder esa pregunta, pero ahí el hecho de que no la respondan está ligado
+
+221
+00:17:00.100 --> 00:17:06.540
+exactamente, justamente, el abril de ingresos, no está ligada a otra variable dentro de mi encuesta
+
+222
+00:17:06.540 --> 00:17:14.380
+en este ejemplo, ¿no? ¿Qué es lo que suces es que generalmente el borrar aquellas que son
+
+223
+00:17:14.380 --> 00:17:20.460
+completamente atrandos? No me va a generar ni un problema, o sea, los se perdieron, es como que
+
+224
+00:17:20.460 --> 00:17:25.460
+que nunca hubieran existido, no hay información que yo esté perdiendo por eliminarlas, las puedo
+
+225
+00:17:25.460 --> 00:17:30.460
+eliminar. Entonces uno tiene que hacer el análisis de no está este valor, ¿por qué no estará? Si
+
+226
+00:17:30.460 --> 00:17:36.460
+yo uno decide que ser las razones completamente atrandom, entonces las puede borrar sin ningún problema.
+
+227
+00:17:36.460 --> 00:17:43.060
+Si está atrandom en el caso de el mar, generalmente he sido que hacer una imputación, porque si las
+
+228
+00:17:43.060 --> 00:17:49.780
+eliminó, estoy perdiendo información. En este caso, como está correlacionada con otra variable
+
+229
+00:17:49.780 --> 00:17:54.420
+que tengo en mis datos que es colarada de los jóvenes, en el ejemplo que está
+
+230
+00:17:54.420 --> 00:17:59.460
+duplicando. Entonces, quiere decir que de alguna forma yo voy a perder información importante,
+
+231
+00:17:59.460 --> 00:18:03.100
+probablemente que mi modelo pudiera poder aprovechar para ser una buena predicción.
+
+232
+00:18:03.100 --> 00:18:11.180
+Entonces, generalmente, esas no las borramos y tratamos de rellenarlas con algo. Y
+
+233
+00:18:11.180 --> 00:18:16.540
+aquellas que son, dependen de sí mismas, pues ahí sí está difícil, no? Porque en el caso
+
+234
+00:18:16.540 --> 00:18:22.540
+de las mar las vamos a tratar de rellenar pero con información que tenemos de las otras variables
+
+235
+00:18:22.540 --> 00:18:29.140
+de lo que vas a hacer yo me voy a las otras variables a las otras filas checo las que se parezcan
+
+236
+00:18:29.140 --> 00:18:35.620
+en cierta forma al valor perdido y voy a utilizar lo que hay en esos lugares para poder rellenar
+
+237
+00:18:35.620 --> 00:18:40.380
+en la cenda perdida en la fila que tengo perdida pero tengo información adicional que me
+
+238
+00:18:40.380 --> 00:18:45.020
+el interrellenar eso. En cambio aquí, si las pierdo por que no declararon,
+
+239
+00:18:45.220 --> 00:18:48.300
+entonces lo más probable es que no voy a tener absolutamente nada con que rellenar
+
+240
+00:18:48.340 --> 00:18:53.100
+y por lo tanto no por rellenarlos, no hay manera de que yo pueda hacer la imputación
+
+241
+00:18:53.900 --> 00:18:58.740
+por esa razón. Entonces ni intentarlo, intentarlo, pero bueno, eso ya uno lo
+
+242
+00:18:58.740 --> 00:19:04.340
+deduce por lógica. ¿Cómo se ve gráficamente esto? Estas tres gráficas
+
+243
+00:19:04.340 --> 00:19:08.180
+tratan de representar eso. X es la variable observada,
+
+244
+00:19:08.180 --> 00:19:17.100
+ya es la variable faltante. En este caso, podemos, podemos decir, bueno, aquí claramente se ve como
+
+245
+00:19:17.100 --> 00:19:24.140
+todos los datos altantes que son anaranjas, se distribuyen, yo me enclasi, entre todos los
+
+246
+00:19:24.140 --> 00:19:31.340
+datos observados, entonces son completamente las ara, el la gráfica del medio, lo que trata
+
+247
+00:19:31.340 --> 00:19:37.460
+es de ejemplificar, es el caso que platicábamos de que ya es el ingreso, leje vertical, es el ingreso,
+
+248
+00:19:38.180 --> 00:19:43.180
+la edad de los jóvenes. Entonces aquí
+
+249
+00:19:43.180 --> 00:19:47.980
+digamos la parte baja, los jóvenes que tienen edad o los que
+
+250
+00:19:47.980 --> 00:19:50.580
+los jóvenes estarían desvelado, digamos del cero para
+
+251
+00:19:50.580 --> 00:19:53.980
+el izquierda, los adultos y los viejos estarían del cero a la
+
+252
+00:19:53.980 --> 00:19:57.860
+derecha, los adultos si responden, los jóvenes no responden,
+
+253
+00:19:57.860 --> 00:20:01.780
+los más o menos se vería así. Y las barras, lo que ilustran es
+
+254
+00:20:01.780 --> 00:20:05.700
+cómo al rellenar yo esa información con alguna etodo
+
+255
+00:20:05.700 --> 00:20:15.940
+generalmente tiendan modificarse la media de la media real a la media, al rellenar los datos,
+
+256
+00:20:15.940 --> 00:20:21.580
+nada grave en este caso porque apenas si las líneas punteadas y la línea naranja no se
+
+257
+00:20:21.580 --> 00:20:31.580
+envuen mucho. Y el último gráfica, lo que te da a ilustrar es línea X sería el ingreso y
+
+258
+00:20:31.580 --> 00:20:36.580
+línea y también ser ingreso. Entonces aquí lo que estamos viendo es que mientras a mayor
+
+259
+00:20:36.580 --> 00:20:42.780
+a mayor ingreso tenden a responder aquí los los la parte alta, también tienen a no dar
+
+260
+00:20:42.780 --> 00:20:49.060
+esa información, ¿no? Pareciera que estas gráficas serán lo mismo, pero aquí con ese
+
+261
+00:20:49.060 --> 00:20:55.020
+aquí está, digamos, en el ejemplo, es edad de los jóvenes contra así declarados ingresos
+
+262
+00:20:55.020 --> 00:21:00.440
+y aquí está ingreso contra ingreso. Entonces no está claro en la gráfica, pero esa es la
+
+263
+00:21:00.440 --> 00:21:01.440
+interpretación clara.
+
+264
+00:21:01.440 --> 00:21:07.620
+Aquí esta gráfica es muy útil.
+
+265
+00:21:07.620 --> 00:21:14.320
+Esa tome la como una sugerencia, pero cuando quieran tomar decisiones hay por ahí
+
+266
+00:21:14.320 --> 00:21:22.360
+toda una teoría de cómo se gendar esta gráfica, pero es muy interesante tenerla a la mano
+
+267
+00:21:22.360 --> 00:21:27.360
+y para tomar una decisión, por ejemplo, si no ya decidí que voy a borrar, quiero conocer
+
+268
+00:21:27.360 --> 00:21:33.920
+que tanto voy a perder. Por ejemplo, vamos a ver una línea.
+
+269
+00:21:33.920 --> 00:21:39.700
+Esta línea de este color, la primerita, dice que tengo
+
+270
+00:21:39.700 --> 00:21:43.080
+1 por ciento faltante por cara columna.
+
+271
+00:21:43.080 --> 00:21:47.560
+Imagínense que tienes una baserata y tienes columnas a los cuales
+
+272
+00:21:47.560 --> 00:21:51.820
+les falta al menos 1 por ciento de información.
+
+273
+00:21:51.820 --> 00:21:53.820
+O sea, hay ciertos números de filas.
+
+274
+00:21:53.820 --> 00:22:00.820
+digamos en la columna si tenemos 100 filas una de cada 100 no tiene en esa columna información
+
+275
+00:22:00.820 --> 00:22:07.860
+¿vale? Que tenemos mil que les dije que tenemos por ahí ¿cuántas? 10 10 centradas faltantes
+
+276
+00:22:07.860 --> 00:22:15.100
+entre las mil filas en esa columna. Entonces si yo he decidido borrar, dice ok sé que
+
+277
+00:22:15.100 --> 00:22:20.100
+estoy en esta raya que representa el 1 por ciento en cada columna y digamos que mi base de
+
+278
+00:22:20.100 --> 00:22:22.660
+datos es de 20.
+
+279
+00:22:22.660 --> 00:22:31.380
+Ok, tengo 20 columnas en la base de datos. Si yo les he decidido borrar toda esa información,
+
+280
+00:22:31.380 --> 00:22:38.140
+lo que voy a quedar es únicamente con el 80% del total de las filas que tenía.
+
+281
+00:22:38.140 --> 00:22:46.380
+En este caso nos grave, ¿no? Yo borro todas las filas, todas las filas que no tienen entrada,
+
+282
+00:22:46.380 --> 00:22:51.860
+filas, a ver, como lo digo, todas aquellas filas que en al menos alguna columna tengo
+
+283
+00:22:51.860 --> 00:22:57.900
+el 1% de información faltante, entonces no voy a quedar únicamente con el 80% de toda mi tabla,
+
+284
+00:22:57.900 --> 00:23:04.520
+ve de todas las filas, ¿no? Esa me da una rápida regla rápida de decidir si borrar
+
+285
+00:23:04.520 --> 00:23:10.800
+uno, si por ejemplo yo contébilizo que tengo el 5% faltante que sería esta línea verde y tengo
+
+286
+00:23:10.800 --> 00:23:16.520
+20 columnas también en toda mi tabla y borro a que todas aquellas que tienen al menos
+
+287
+00:23:16.520 --> 00:23:24.620
+de 5% de información faltante apenas se me voy a quedar por ahí de un 36, 37% de todas las
+
+288
+00:23:24.620 --> 00:23:30.240
+filas lo que sería grandísimo ¿no? Entonces eso me dice que pues no debes borrar muchas filas,
+
+289
+00:23:30.240 --> 00:23:35.640
+aunque solo tengas el 5% de información perdida en cada columna porque prácticamente te quedes
+
+290
+00:23:35.640 --> 00:23:44.160
+sin datos. Yo le tomo como una regla rápida en la que les va a permitir ustedes decidir
+
+291
+00:23:44.160 --> 00:23:49.880
+rápidamente si va a la pena o no va a la pena borrar. No es solo, no es solo si se fijan
+
+292
+00:23:49.880 --> 00:23:55.720
+observar qué porcentaje de información está perdido por cada una, si no cuantas columnas.
+
+293
+00:23:55.720 --> 00:24:01.720
+Conforme crece número de columnas en mi tabla, más información estoy perdiendo. Por estar borrando
+
+294
+00:24:01.720 --> 00:24:08.000
+en columnas, o sea, un inofensivo tres por ciento que sería esta línea, si yo tengo
+
+295
+00:24:08.000 --> 00:24:13.640
+30 columnas, y ya me queda eso con la mitad de mi tabla, que son menos que es como el 40 y algo por
+
+296
+00:24:13.640 --> 00:24:20.200
+ciento. Entonces, díjelo como una regla. En el caso del California House en que le va a
+
+297
+00:24:20.200 --> 00:24:28.400
+ser altos que tenemos, deteníamos el 1 por ciento y cuantos columnas teníamos como 8, 9,
+
+298
+00:24:28.400 --> 00:24:32.980
+Pero sí, me quedo con esta gráfica, más o menos me quedo por aquí.
+
+299
+00:24:32.980 --> 00:24:38.920
+Quiere decir que estoy perdiendo, si me voy por acá, como un 4% que no corresponde que
+
+300
+00:24:38.920 --> 00:24:41.020
+el 1%, pero es por la gráfica.
+
+301
+00:24:41.020 --> 00:24:50.010
+Sí, que es que alguien no solo a mano, ¿es ideas de la pregunta?
+
+302
+00:24:50.010 --> 00:24:54.350
+No sé, te escucha o yo no escucho.
+
+303
+00:24:54.350 --> 00:24:57.650
+OK, sigo de antes.
+
+304
+00:24:57.650 --> 00:25:03.250
+OK, más o menos sabemos, tenemos una cierta inocción
+
+305
+00:25:03.250 --> 00:25:08.610
+de cuando decidimos borrar o cuando si imputar o rellenarse
+
+306
+00:25:08.610 --> 00:25:10.930
+los que tienen soltantes.
+
+307
+00:25:10.930 --> 00:25:11.890
+Ahora, ¿qué pasa?
+
+308
+00:25:11.890 --> 00:25:14.050
+Yo tengo que decidir con qué la voy a rellenar.
+
+309
+00:25:14.050 --> 00:25:18.490
+Las estrategias más comunes rellenar con la media o rellenar
+
+310
+00:25:18.490 --> 00:25:23.810
+con la mediana o rellenar con la moda o rellenar con un valor
+
+311
+00:25:23.810 --> 00:25:24.650
+constante.
+
+312
+00:25:24.650 --> 00:25:25.690
+Esa es las clásicas, no?
+
+313
+00:25:25.690 --> 00:25:27.890
+No es a las mejores, pero son las clásicas.
+
+314
+00:25:27.890 --> 00:25:31.970
+Cuando usarlas aquí también, la tablita es trámenlo como algo
+
+315
+00:25:31.970 --> 00:25:34.170
+que se ha obtenido por experiencia.
+
+316
+00:25:34.170 --> 00:25:40.010
+Si mis datos, y aquí entra un poco de lo que hicimos ayer, no?
+
+317
+00:25:40.010 --> 00:25:45.930
+Si yo ya encontré que para la variable de interés,
+
+318
+00:25:45.930 --> 00:25:49.690
+la que la cuesta es que le fijan una de las del California Housing,
+
+319
+00:25:49.690 --> 00:25:52.890
+cualquiera de ellas, hagan suistograma,
+
+320
+00:25:52.890 --> 00:25:58.170
+chequen si su distribución suistograma es simétrico,
+
+321
+00:25:58.170 --> 00:26:01.570
+y calculen su, bueno, viendo el histograma,
+
+322
+00:26:01.570 --> 00:26:04.210
+poder darlo, pero también viendo el diagrama de caja que vimos
+
+323
+00:26:04.210 --> 00:26:08.210
+ayer, de antes, si tienen muchos outliers, muchos valores atípicos.
+
+324
+00:26:08.210 --> 00:26:13.530
+Bueno, si es simétrico, y no tiene valores atípicos o outliers,
+
+325
+00:26:13.530 --> 00:26:19.410
+pueden rellenar, sin ningún problema con la media.
+
+326
+00:26:19.410 --> 00:26:25.730
+Por otro lado, si subareable es asimétrica o tiene valores atípicos
+
+327
+00:26:25.730 --> 00:26:29.270
+a utilidades, ambos en ambos casos son casos numericos.
+
+328
+00:26:29.270 --> 00:26:31.410
+Entonces en lugar de rellenar con la mediana,
+
+329
+00:26:31.410 --> 00:26:35.710
+yo por loco la media rellenen con la mediana.
+
+330
+00:26:35.710 --> 00:26:39.210
+De lo contrario, ¿qué es lo que pasa cuando tenemos valores atípicos?
+
+331
+00:26:39.210 --> 00:26:42.850
+De rellenar con la media va a ser que las rellenar con la media,
+
+332
+00:26:42.850 --> 00:26:46.650
+de hecho, perdón, que la media total del nuevo valor
+
+333
+00:26:46.650 --> 00:26:51.050
+se va a correr hacia la izquierda o hacia la derecha.
+
+334
+00:26:51.050 --> 00:26:54.890
+Si tengo variables categoricas, entonces relleno con la moda.
+
+335
+00:26:56.930 --> 00:27:02.050
+Y en el caso de que el faltante no tiene significado,
+
+336
+00:27:03.450 --> 00:27:06.050
+o sea, como explicarlo,
+
+337
+00:27:12.790 --> 00:27:13.390
+no,
+
+338
+00:27:15.190 --> 00:27:16.550
+o sea, hay cosas como esto, ¿no?
+
+339
+00:27:16.870 --> 00:27:20.590
+Como hay un valor vacío, hay un cero,
+
+340
+00:27:20.590 --> 00:27:22.430
+hay cosas que no tienen mucho sentido,
+
+341
+00:27:22.430 --> 00:27:26.990
+no lo podés poner un valor constante, aunque eso generalmente es raro a ver recomendado.
+
+342
+00:27:26.990 --> 00:27:32.190
+¿Qué es lo que sucede si aquí está en la derecha lo que les comentaba?
+
+343
+00:27:32.190 --> 00:27:40.150
+Si agregamos muchos puntos iguales, lo que va a suceder, ahora no está estorbando esto
+
+344
+00:27:40.150 --> 00:27:47.500
+a barritas, en la mano, la avance se me va a encoger.
+
+345
+00:27:47.500 --> 00:27:51.660
+Por otro lado también son cosas que normalmente pasan, ¿no?
+
+346
+00:27:51.660 --> 00:27:58.540
+el hecho de rellenar y hacer comedia moda o mediana, incluso si yo sigo estas recomendaciones,
+
+347
+00:27:58.540 --> 00:28:03.140
+lo que va a pasar es que la varianza de mis datos va cambiadas.
+
+348
+00:28:03.140 --> 00:28:09.740
+Generalmente se va a encoger porque estoy agregando más información igualita, ¿no?
+
+349
+00:28:09.740 --> 00:28:14.980
+Lo cual quiere ser que hay menos dispersión en entero datos, pues se agregando datos que
+
+350
+00:28:14.980 --> 00:28:18.420
+están viscarcándose entre sí, básicamente no tiene distancia, tiene distancia cero,
+
+351
+00:28:18.420 --> 00:28:19.420
+¿no?
+
+352
+00:28:19.420 --> 00:28:23.100
+relaciones también se debilitan porque el valor que estoy en
+
+353
+00:28:23.100 --> 00:28:25.900
+el diendo no depende de las demás variables, simplemente lo estoy
+
+354
+00:28:25.900 --> 00:28:28.500
+añadiendo ahí como algo que pudo haber estado.
+
+355
+00:28:28.500 --> 00:28:33.380
+Y la otra cosa que puede pasar es que una es que yo relleno a sus
+
+356
+00:28:33.380 --> 00:28:38.340
+datos, yo si tenía datos perdidos ya no voy a poder distinguir
+
+357
+00:28:38.340 --> 00:28:42.260
+cuáles son reales y cuáles realmente son artesciales, no que yo
+
+358
+00:28:42.260 --> 00:28:43.060
+no rellene.
+
+359
+00:28:43.060 --> 00:28:46.980
+Entonces por esa razón muchas veces lo que hacemos es ponerle un
+
+360
+00:28:46.980 --> 00:28:54.000
+marcador, creo que está en la siguiente depositora para indicar que ese valor yo lo rellené con
+
+361
+00:28:54.000 --> 00:29:00.940
+algún dato. Es siempre importante acordarse si esa fila tenía algún dato perdido, básicamente
+
+362
+00:29:00.940 --> 00:29:06.860
+yo les pongo un añado una columna extra y la marco para indicar este era un valor faltante,
+
+363
+00:29:06.860 --> 00:29:12.140
+porque luego cuando yo hago mi análisis de resultados pudiera ser que ya se caigan con
+
+364
+00:29:12.140 --> 00:29:13.980
+lo que me puso ahora lo
+
+365
+00:29:13.980 --> 00:29:15.180
+correcto.
+
+366
+00:29:15.180 --> 00:29:17.820
+Un poquito regresando al al
+
+367
+00:29:17.820 --> 00:29:19.620
+lo que estamos haciendo de los
+
+368
+00:29:19.620 --> 00:29:21.260
+métodos de imputación o de
+
+369
+00:29:21.260 --> 00:29:22.260
+relleno.
+
+370
+00:29:22.260 --> 00:29:23.860
+Este es este ejemplo lo que
+
+371
+00:29:23.860 --> 00:29:25.260
+trata de hacer es esto.
+
+372
+00:29:25.260 --> 00:29:28.020
+Construyo en el eje X
+
+373
+00:29:28.020 --> 00:29:29.260
+variables este.
+
+374
+00:29:29.260 --> 00:29:31.100
+Es que si no, no, no, no,
+
+375
+00:29:31.100 --> 00:29:34.100
+no, no, no, no, no, no, no,
+
+376
+00:29:34.100 --> 00:29:35.700
+no, no, no, no, no, no, no,
+
+377
+00:29:35.700 --> 00:29:37.140
+no, no, no, no, no, no, no,
+
+378
+00:29:37.140 --> 00:29:39.140
+no, no, no, no, no, no, no,
+
+379
+00:29:39.140 --> 00:29:41.140
+no, no, no, no, no, no, no, no,
+
+380
+00:29:41.140 --> 00:29:45.060
+este de forma artificial. Yo digamos
+
+381
+00:29:45.060 --> 00:29:49.140
+construyo números del cero hasta el 10 a la 4,
+
+382
+00:29:49.140 --> 00:29:53.220
+andar por acá más o menos. Y lo que voy a hacer es la
+
+383
+00:29:53.220 --> 00:29:57.820
+línea naranja indica con qué la debería rellenar,
+
+384
+00:29:57.820 --> 00:29:59.860
+no por decir algo si estuviera a este puntito,
+
+385
+00:29:59.860 --> 00:30:01.500
+donde voy a poner el punto rojo,
+
+386
+00:30:01.500 --> 00:30:03.620
+cuenta que este punto rojo está perdido.
+
+387
+00:30:04.180 --> 00:30:07.220
+Bueno, quiere decir que debería haber un 10 a la 2.
+
+388
+00:30:08.060 --> 00:30:10.940
+Yo lo relleno con 10 a la 2, que sería la correcto,
+
+389
+00:30:10.940 --> 00:30:12.940
+pues cae en la línea de araca, ¿no?
+
+390
+00:30:12.940 --> 00:30:15.780
+Y así es cualquier puntito que lo hija aquí,
+
+391
+00:30:15.780 --> 00:30:17.500
+que podría ser un valor perdido.
+
+392
+00:30:17.500 --> 00:30:21.220
+Yo el valor correcto debería poner suolaría de araca.
+
+393
+00:30:21.220 --> 00:30:24.060
+¿Qué pasa si todos los que están perdidos,
+
+394
+00:30:24.060 --> 00:30:25.500
+los relleno con el miso valor,
+
+395
+00:30:25.500 --> 00:30:27.660
+que salgo cerca, no, que será,
+
+396
+00:30:27.660 --> 00:30:31.220
+algo así, 10 a la 13,000, algo así como 700.
+
+397
+00:30:31.220 --> 00:30:33.900
+Todos los voy a rellenar con el miso valor.
+
+398
+00:30:33.900 --> 00:30:37.660
+Es el 20%, es experimento lo que hizo fue.
+
+399
+00:30:37.660 --> 00:30:44.980
+tomo el laborable total veterans, elimina el 20% de sabreable y lo voy a rellenar.
+
+400
+00:30:44.980 --> 00:30:52.220
+Son en total 4.134 valores de los 20.000 más o menos que tiene la base de datos, 20.000
+
+401
+00:30:52.220 --> 00:30:53.220
+cachos.
+
+402
+00:30:53.220 --> 00:30:57.220
+Entonces voy a agarrar 4.000, los voy a eliminar y los voy a rellenar con este número.
+
+403
+00:30:57.220 --> 00:31:00.820
+¿Qué es lo que sucede?
+
+404
+00:31:00.820 --> 00:31:05.420
+Si yo aplico el modelo de KNN para hacer una predicción,
+
+405
+00:31:05.520 --> 00:31:08.740
+voy a tener un error de 460, el error cuadrático medio.
+
+406
+00:31:08.820 --> 00:31:10.420
+Lo que eso significa es muy alto.
+
+407
+00:31:11.620 --> 00:31:14.620
+Si los rellenos en lugar de con la media,
+
+408
+00:31:14.700 --> 00:31:17.420
+los rellenos con la mediana, que en este caso están muy cerca,
+
+409
+00:31:17.820 --> 00:31:21.420
+aquí se ve claramente que la línea está muy cerca de esta.
+
+410
+00:31:22.140 --> 00:31:25.100
+Entonces, el error baja un poquito,
+
+411
+00:31:25.180 --> 00:31:27.060
+pero no baja, de hecho, sube,
+
+412
+00:31:27.380 --> 00:31:30.260
+pero se mantiene muy cercano al error que tenía con el
+
+413
+00:31:30.260 --> 00:31:32.260
+con la media. Entonces generalmente,
+
+414
+00:31:32.260 --> 00:31:37.260
+qué es lo que yo hago? Yo tengo que utilizar un método más complejo
+
+415
+00:31:37.260 --> 00:31:42.260
+para evitar eso. Y dos métodos que vamos a ver hoy,
+
+416
+00:31:42.260 --> 00:31:46.260
+es el método de KNN y el método de MySphere,
+
+417
+00:31:46.260 --> 00:31:49.260
+es un métod iterativo. Lo siguiente es que como ahora es diferente.
+
+418
+00:31:49.260 --> 00:31:53.260
+Si por ejemplo, yo tengo el valor perdido a 10 a la 2,
+
+419
+00:31:53.260 --> 00:31:56.260
+aparentemente yo lo estoy rellenando con el puntito que está acá.
+
+420
+00:31:56.260 --> 00:31:59.620
+Yo creo que lo puedo manipular un poco, aquí se alcanza a ver.
+
+421
+00:31:59.620 --> 00:32:02.700
+Si esto se ha perdido, lo estoy rellenando con este.
+
+422
+00:32:02.700 --> 00:32:06.300
+No es el valor correcto que debería ser este,
+
+423
+00:32:06.300 --> 00:32:08.860
+pero al menos se está rellenándolo con algo
+
+424
+00:32:08.860 --> 00:32:13.660
+que no es la media que andaría por aquí.
+
+425
+00:32:13.660 --> 00:32:17.740
+En este lado, es el relleno es muy malo,
+
+426
+00:32:17.740 --> 00:32:19.820
+pero cercanos a estos valores,
+
+427
+00:32:19.820 --> 00:32:22.380
+si se fijan los valores con los que estoy rellenando,
+
+428
+00:32:22.380 --> 00:32:23.860
+todos los datos perdidos,
+
+429
+00:32:23.860 --> 00:32:25.540
+están muy cerca del niadaranja,
+
+430
+00:32:25.540 --> 00:32:29.820
+estoy haciendo un relleno bastante bueno.
+
+431
+00:32:29.820 --> 00:32:32.300
+Ese es el método KNN, no me he visto como funciona,
+
+432
+00:32:32.300 --> 00:32:36.260
+pero digamos que hay otra lo que importa es que sepan que existe.
+
+433
+00:32:36.260 --> 00:32:41.420
+Y lo hacen de esta forma, el RMS baja muchísimo a 88.
+
+434
+00:32:41.420 --> 00:32:45.180
+O sea, el cuando ya aplica un modelo de prensión sobre esos datos,
+
+435
+00:32:45.180 --> 00:32:48.820
+mi modelo va a funcionar muchísimo mejor.
+
+436
+00:32:48.820 --> 00:32:51.260
+Y si ya aplico esto, otro que se llama maíz,
+
+437
+00:32:51.260 --> 00:32:55.460
+es una especie de reacción lineal aplicada de forma iterativa,
+
+438
+00:32:55.660 --> 00:32:57.820
+incluso el RMS de mi modelo,
+
+439
+00:32:57.820 --> 00:33:00.460
+de mi modelo proyectivo va a bajar mucho más.
+
+440
+00:33:00.660 --> 00:33:02.460
+Seguimos sin hablar de modelos,
+
+441
+00:33:02.460 --> 00:33:03.500
+no hasta ahora se lo digo,
+
+442
+00:33:03.500 --> 00:33:04.460
+aplica un modelo,
+
+443
+00:33:04.460 --> 00:33:07.260
+en este caso el modelo que se usó es KNN,
+
+444
+00:33:07.260 --> 00:33:09.660
+que es básicamente lo mismo que se usaba acá para rellenar,
+
+445
+00:33:09.660 --> 00:33:11.060
+pero para predicción,
+
+446
+00:33:11.060 --> 00:33:13.460
+usamos igual KNN.
+
+447
+00:33:13.460 --> 00:33:14.460
+Es irrelevante.
+
+448
+00:33:14.460 --> 00:33:16.860
+El chista aquí es que los modelos,
+
+449
+00:33:16.860 --> 00:33:19.860
+si yo hago una imputación o relleno de celdas,
+
+450
+00:33:19.860 --> 00:33:26.720
+ya no con lo clásico que es media o mediana sino con metodos más sofisticados, definitivamente yo
+
+451
+00:33:26.720 --> 00:33:33.320
+logró este muchísimo mejor resultados con mi base de datos. Yo no ha cuenta el hecho que yo
+
+452
+00:33:33.320 --> 00:33:39.320
+puedo haber hecho que ya el logrado se ve este relleno depende de que en de mucho de que mis
+
+453
+00:33:39.320 --> 00:33:47.120
+mis los datos perdidos son de este tipo no regresar a apierta acá, son al menos estos el MR.
+
+454
+00:33:47.120 --> 00:33:53.880
+porque porque tengo información de otras variables que me están permitiendo realizar ese relleno.
+
+455
+00:33:53.880 --> 00:33:58.920
+Qué quiere decir que la información que tengo las otras variables son las que usan el método
+
+456
+00:33:58.920 --> 00:34:02.800
+KNN o el método de regreso lineal para lograr hacer esa rellena.
+
+457
+00:34:02.800 --> 00:34:07.640
+Hoy, obviamente estos métodos son muy costosos, son mucho más costosos que solo
+
+458
+00:34:07.640 --> 00:34:14.080
+lo replazar con una simple media o una simple media, ¿no? Pero se nota, se nota ese
+
+459
+00:34:14.080 --> 00:34:17.580
+evidente que la mejora es sustancial.
+
+460
+00:34:17.580 --> 00:34:25.520
+Más aún, si yo agarro la variable, que es la que con la que el lustre lo lo posivan
+
+461
+00:34:25.520 --> 00:34:31.900
+anterior, tengo total veterans. Aquí es como se ve su histograma con una
+
+462
+00:34:31.900 --> 00:34:38.700
+desviaciones standard de cuatro veintiuno. Si yo relleno con la media y la y todos los cuatro
+
+463
+00:34:38.700 --> 00:34:45.420
+minicachos datos perdidos los pongo en la miso valor de pronto me aparece este pico aquí en ormen.
+
+464
+00:34:47.260 --> 00:34:52.460
+Sigue siendo el mismo formato pero aparece este pico enorme y que lo que va a pasar cuando
+
+465
+00:34:52.460 --> 00:34:57.500
+lo calcula las veaciones standard y hacen modifico. Se ha sido un estadístico importante de mis datos
+
+466
+00:34:57.500 --> 00:35:04.940
+que estoy afectando considerablemente al bajarlo de 421 a 137. No se aprecia aquí, pero
+
+467
+00:35:04.940 --> 00:35:10.060
+debería haberse un poquito como que esta curva se compactó un poco más que este.
+
+468
+00:35:11.580 --> 00:35:16.460
+Pero como el cambio no es tan drástico, no se le aconse a aprecer mucho. Y por otro lado,
+
+469
+00:35:16.460 --> 00:35:23.020
+lo relleno con un método un poco más sofisticado como el KNN. Veo que la curva verde se
+
+470
+00:35:23.020 --> 00:35:29.220
+se parece muchísimo a la curva azul y si calcula desviaciones standard con la base de datos
+
+471
+00:35:29.220 --> 00:35:36.300
+ya con datos rellenados, se veo que está prácticamente muy cercana 413 a lo que debería
+
+472
+00:35:36.300 --> 00:35:42.680
+ser que son los valores verderos con los 4.000 cacho valores reales puestos ahí.
+
+473
+00:35:42.680 --> 00:35:50.180
+El mensaje es si pueden usar ustedes para imputar metos obsticados sino media moda
+
+474
+00:35:50.180 --> 00:35:53.500
+o mediana usan eso.
+
+475
+00:35:53.500 --> 00:35:58.340
+OK, un poquito más de eso igual es que pasa con la desviación estándar y con la
+
+476
+00:35:58.340 --> 00:36:01.100
+correlación, que es la que hemos mencionado.
+
+477
+00:36:01.100 --> 00:36:07.500
+En este caso, yo tengo graficado de este lado en la desviación estándar.
+
+478
+00:36:07.500 --> 00:36:14.300
+En la desviación estándar del caso real está acá en el uno.
+
+479
+00:36:14.300 --> 00:36:22.140
+y si yo relleno por media se me cae a 0.87, si se relleno con la mediana se me cae a 0.88,
+
+480
+00:36:22.540 --> 00:36:31.620
+si yo relleno con KNN me mantengo muy cerca del 1 en 0.98 y se relleno con el métoditarativo obtengo 0.99,
+
+481
+00:36:32.060 --> 00:36:33.580
+que es también muy cercana al 1.
+
+482
+00:36:33.860 --> 00:36:41.780
+Y en la correlación, por ejemplo, al menos de la variable total veterans contra la variable Households,
+
+483
+00:36:41.780 --> 00:36:47.620
+y lo puedo verificar en otros. Aquí lo que estás haciendo es que la correlación entre
+
+484
+00:36:47.620 --> 00:36:52.900
+estas dos con los datos reales completos, sin haber eliminado los cuatro milicachos datos,
+
+485
+00:36:52.900 --> 00:36:58.500
+es una correlación de punto 98, están altamente correlacionados. Si yo le quito sus cuatro milicachos
+
+486
+00:36:58.500 --> 00:37:04.420
+datos y los relleno con media o relleno con media, la correlación se me cae a punto 85, sigue
+
+487
+00:37:04.420 --> 00:37:10.900
+siendo fuerte, pero es considerado un menor. Y si los relleno con estos dos se más se preserva,
+
+488
+00:37:10.900 --> 00:37:15.620
+Entonces lo que estoy viendo es que esos dos métodos me preservan las iglesias de standard,
+
+489
+00:37:15.620 --> 00:37:25.380
+me presentan, me preservan por lo que por relación, no me afectan la simetría de mi histograma
+
+490
+00:37:25.380 --> 00:37:34.220
+de mi variable, no me cuento, es confirmación de que para procesar los datos de forma correcta,
+
+491
+00:37:34.220 --> 00:37:38.500
+me mantienen de preservar los estadísticos reales o cercanos a los reales de lo que
+
+492
+00:37:38.500 --> 00:37:50.260
+tendría ni basadas. El KNN una aflicación hace rápida de cómo funciona, es checa,
+
+493
+00:37:50.260 --> 00:37:57.580
+primero la fila que le falta un dato. De ahí lo que hace es ni de la distancia con las
+
+494
+00:37:57.580 --> 00:38:05.140
+demás filas que sí tienen esa información. Lo es de entrada, si os dan cuenta que tenemos
+
+495
+00:38:05.140 --> 00:38:11.060
+el caso M.A.R. el mar, yo tengo que tener la información que necesito en algún otro lado.
+
+496
+00:38:11.060 --> 00:38:17.620
+Entonces, ya localice aquellas filas que sí tienen la información de la columna, que esta
+
+497
+00:38:17.620 --> 00:38:22.400
+fila faltante no tiene. Entonces, de todas las filas que sí tienen la información que pueden
+
+498
+00:38:22.400 --> 00:38:27.980
+ser cientos o miles, sin las edad se los es grande, yo tomo las que estén más cercanas, las
+
+499
+00:38:27.980 --> 00:38:32.180
+más cercanas de acuerdo a la distancia que yo definan, lo que se entienda por distancia,
+
+500
+00:38:32.180 --> 00:38:38.980
+las que sean más parecidas a la fila que donde tengo el dato faltante.
+
+501
+00:38:38.980 --> 00:38:41.740
+Hoy me entusias utilizando los variables que se tengo.
+
+502
+00:38:41.740 --> 00:38:45.220
+Tomo las camas cercanas y hago un promedio.
+
+503
+00:38:45.220 --> 00:38:53.060
+Hago un promedio del dato faltante de esas cafilas y lo que hago es reemplazar ese valor
+
+504
+00:38:53.060 --> 00:38:58.660
+en el dato faltante de la fila donde tengo el dato faltante, que es mucho raro, ¿no?
+
+505
+00:38:58.660 --> 00:39:01.260
+Creo que sí se entiende, ¿no?
+
+506
+00:39:01.260 --> 00:39:07.980
+sí se entiende la idea. Entonces, relativamente simple, solo busco similitudes con otras filas,
+
+507
+00:39:07.980 --> 00:39:15.460
+elijo, el número caque, yo decida 5, 4, 10, generalmente 10 y hago un promedio y pup ya lo
+
+508
+00:39:15.460 --> 00:39:23.820
+reemplazan. Es realmente que NMS es bastante poco costoso y da, como ya se ya se encuentra la gráfica
+
+509
+00:39:23.820 --> 00:39:30.020
+en teriores, están muy buenos resultados. Por otro lado, la impotación iterativa es un poco más
+
+510
+00:39:30.020 --> 00:39:35.360
+compleja, porque es todo un proceso iterativo. Lo que voy a hacer es primero tengo mi
+
+511
+00:39:35.360 --> 00:39:41.120
+dato faltante, busco la información en las otras columnas y comienzo con la media.
+
+512
+00:39:41.120 --> 00:39:45.760
+Más que realmente es algo muy parecido a lo que hizo KNN, pero yo quiero
+
+513
+00:39:45.760 --> 00:39:52.140
+refinar un poquito más, entonces agarró y digo, ok, ya rellené con la media, pero la media es una
+
+514
+00:39:52.140 --> 00:39:58.940
+aproximación bastante en pura. Entonces, ¿qué hago? Construyo una regresión lineal
+
+515
+00:40:00.020 --> 00:40:08.340
+usando aquellas filas donde la columna si tiene el valor correcto o si tiene valores y digamos
+
+516
+00:40:08.340 --> 00:40:14.100
+construyo una especie de regresión lineal multivariada y obtengo valor que me predices a esa
+
+517
+00:40:14.100 --> 00:40:20.260
+regresión lineal y entonces reemplaz el valor que le había puesto en media con el nuevo valor que tengo
+
+518
+00:40:20.260 --> 00:40:27.300
+automáticamente ya rellené un valor en una columna, quiere decir que ya tengo ya recupero un
+
+519
+00:40:27.300 --> 00:40:31.160
+un poquito de información. Cuando yo me pasa la siguiente columna con algún otro dato
+
+520
+00:40:31.160 --> 00:40:38.140
+faltante, voy a utilizar esa información que obtuve, que es artificial pero que ya la
+
+521
+00:40:38.140 --> 00:40:45.420
+puse ahí, hago el mismo proceso para rellenar laborales faltantes en la otra columna y ya tengo
+
+522
+00:40:45.420 --> 00:40:49.660
+un dato más. Si tengo otra columna, una tercera columna con datos faltantes hago el mismo
+
+523
+00:40:49.660 --> 00:40:55.500
+proceso pero ya estoy utilizando la información artificial que generé en la columna 1 y en la
+
+524
+00:40:55.500 --> 00:41:00.900
+a dos. Entonces al terminar digamos, es un tres columnas que tienen datos faltantes. Cuando yo termine
+
+525
+00:41:00.900 --> 00:41:08.380
+que procesarlas tres me regreso a checar el valor de la columna uno porque ya tengo ahora el valor de la
+
+526
+00:41:08.380 --> 00:41:14.820
+columna dos y el columna tres. Entonces voy refinando constantemente hasta que dejan de cambiar los valores
+
+527
+00:41:14.820 --> 00:41:22.500
+lo que estoy dando al ejemplo acá y digamos ya se estabilizaron y ese es el valor que me voy a quedar.
+
+528
+00:41:22.500 --> 00:41:27.500
+básicamente si esta tablita le llamamos rondas su literaciones, no? Inicialmente
+
+529
+00:41:27.500 --> 00:41:34.500
+reemplazo con la media, obtengo este valor y en la siguiente ronda ya que utilicé información
+
+530
+00:41:34.500 --> 00:41:42.500
+de las otras filas, entonces ya cambia 48, después en la segunda ronda cambia 470 y así
+
+531
+00:41:42.500 --> 00:41:47.500
+es ya menta hasta que veamos que se va estabilizando el valor y ya me quedo yo después
+
+532
+00:41:47.500 --> 00:41:51.980
+quedo yo después de ser de una mediteración, es por rondas con ese valor. Si se
+
+533
+00:41:51.980 --> 00:41:56.500
+dan cuenta de eso es algo costoso, tengo que estar haciendo diferentes rondas.
+
+534
+00:41:56.500 --> 00:42:02.300
+Generalmente esto me da mejor resultados que KNN, como de hecho vimos en las
+
+535
+00:42:02.300 --> 00:42:06.820
+aciones de los enteriores, pero muchas veces no son sustantivos, no? Si yo me
+
+536
+00:42:06.820 --> 00:42:10.420
+regreso rápidamente acá, si yo por ejemplo me la hace en correlación,
+
+537
+00:42:10.420 --> 00:42:16.540
+prácticamente KNN con un solo replacear con el valor de los, el valor por medio de los
+
+538
+00:42:16.540 --> 00:42:23.820
+cabecinos más cercanos y a precerval, de precerbol y la correlación, que era punto 98 y lo mismo
+
+539
+00:42:23.820 --> 00:42:29.740
+pasa con las guías de la miscana. Estas puntos eran uno mejor que esta, pero tuve que charme no
+
+540
+00:42:29.740 --> 00:42:34.620
+sé 5 días rondas lo cual puede ser que no vale que lo penosa, todos estén con miles datos,
+
+541
+00:42:34.620 --> 00:42:41.900
+tu recomendación pueden utilizar KNN inicialmente y si aún así no les queda, bueno,
+
+542
+00:42:41.900 --> 00:42:48.620
+resultados pueden intentar utilizar el el maíz o métodileraquivo de de
+
+543
+00:42:48.620 --> 00:42:59.930
+reacción lineal. Otra cosa. Adelante Rodrigo, ¿Pero qué ya se parece una pausa?
+
+544
+00:42:59.930 --> 00:43:06.770
+Sí, una pregunta sobre la ronda. ¿Qué me queda claro que es está
+
+545
+00:43:06.770 --> 00:43:10.570
+usando reacción lineal para obtener una variable? Pero no lo que hago muy claro que
+
+546
+00:43:10.570 --> 00:43:15.210
+pasaba. Aquí se requiere con que una variable artificial de las sacanigenar pueden
+
+547
+00:43:15.210 --> 00:43:19.210
+que va a afectar la otra. No es que
+
+548
+00:43:19.210 --> 00:43:21.210
+va a cubrir el proceso de la ronda.
+
+549
+00:43:21.210 --> 00:43:24.210
+Lo que pasa es que digamos que
+
+550
+00:43:24.210 --> 00:43:26.210
+inicias componiendo lo balón, el
+
+551
+00:43:26.210 --> 00:43:27.210
+388.
+
+552
+00:43:27.210 --> 00:43:28.210
+Ame bien.
+
+553
+00:43:28.210 --> 00:43:30.210
+Después agarras y, y, y, y,
+
+554
+00:43:30.210 --> 00:43:33.210
+usa ese valor 388 para rellenar
+
+555
+00:43:33.210 --> 00:43:36.210
+el valor fortante pero de otra
+
+556
+00:43:36.210 --> 00:43:37.210
+columna.
+
+557
+00:43:37.210 --> 00:43:39.210
+Entonces digamos que en la otra
+
+558
+00:43:39.210 --> 00:43:41.210
+columna te da ahora 320. Es esta.
+
+559
+00:43:41.210 --> 00:43:43.210
+La otra columna es Households y
+
+560
+00:43:43.210 --> 00:43:46.090
+tres veinte que antes no tenías para volver a hacer tu
+
+561
+00:43:46.090 --> 00:43:51.260
+revisión lineal para total veterans. Entonces ahora me
+
+562
+00:43:51.260 --> 00:43:53.540
+suita que en la siguiente ronda entonces ya tienes
+
+563
+00:43:53.540 --> 00:43:56.500
+cuatro noventa y ocho para ya tiene siete cuatro noventa y ocho.
+
+564
+00:43:57.020 --> 00:44:00.500
+Tú en Household en la roda anterior usaste tres o ochenta y ocho para
+
+565
+00:44:00.500 --> 00:44:03.860
+obtener tres veinte ahora usas el cuatro noventa y ocho y te
+
+566
+00:44:03.860 --> 00:44:07.020
+da cuatro treinta y siete y así eso es ya mente no ahora este
+
+567
+00:44:07.020 --> 00:44:09.980
+cuatro treinta y siete lo vas a usar acá para obtener
+
+568
+00:44:09.980 --> 00:44:13.180
+cuatro setenta y así te vas hasta que hasta que ambos se
+
+569
+00:44:13.180 --> 00:44:18.180
+estabilición. Estamos buscando un pozo en el polito, no estamos
+
+570
+00:44:18.180 --> 00:44:21.180
+buscando converga nada más. Algo así, exacto.
+
+571
+00:44:21.180 --> 00:44:24.180
+Ok. Andrés, ¿ya se apronta algo?
+
+572
+00:44:24.180 --> 00:44:29.180
+Sí, qué frustrante de ver el trase a hacer, es como que aceptable tener estos
+
+573
+00:44:29.180 --> 00:44:35.180
+huecos de información para todavía considerarlo como pues candidato a
+
+574
+00:44:35.180 --> 00:44:37.180
+prepropresusar.
+
+575
+00:44:37.180 --> 00:44:41.180
+Bueno, ahí tendemos que arreglaros a esto que está platicando.
+
+576
+00:44:41.180 --> 00:44:44.520
+anteriormente, no, hay conciertas reglitas.
+
+577
+00:44:44.520 --> 00:44:50.100
+Si, si, este, a ver, esta puede ser útil, no?
+
+578
+00:44:50.100 --> 00:44:55.400
+Si yo tengo el 5% de mis filas perdidas, como dice acá,
+
+579
+00:44:55.400 --> 00:45:00.140
+y aparte de esas filas caen en la clasificación de que están perdidas por cuestiones completamente
+
+580
+00:45:00.140 --> 00:45:05.800
+aleatorias, las eliminó ni me esfuerzo en tratar de rellenarlas, ¿vale?
+
+581
+00:45:05.800 --> 00:45:11.120
+Si yo he decidido que todas esas filas o datos soltantes no son en cara, o sea, no son completamente
+
+582
+00:45:11.120 --> 00:45:17.880
+electorias, sino que no están ahí por alguna razón relevante y ligada a otras variables de
+
+583
+00:45:17.880 --> 00:45:23.280
+vida a 7. Entonces yo tengo que hacer un esfuerzo por rellenarlas. Aquí también depende
+
+584
+00:45:23.280 --> 00:45:29.200
+mucho de de de cuánto poder computacional tengas. Si no tienes mucho poder computacional,
+
+585
+00:45:29.200 --> 00:45:33.840
+pues ni modos no te quedan otra más que rellenar con tu media o con moda lo cual nos
+
+586
+00:45:33.840 --> 00:45:40.400
+nada costoso. Pero sabes que te va a afectar, ¿no? Te va a modificar las viaciones standard,
+
+587
+00:45:40.400 --> 00:45:47.160
+te va a modificar la correlación, te va a modificar posiblemente la histograma de tus datos.
+
+588
+00:45:47.160 --> 00:45:52.800
+Si tienes suficientemente poder computacional y tu base datos no es muy grande, pues realmente
+
+589
+00:45:52.800 --> 00:45:57.520
+no es muy costoso intentar al menos un KNN para hacerlo.
+
+590
+00:45:57.520 --> 00:46:02.450
+Entonces básicamente es la regla.
+
+591
+00:46:02.450 --> 00:46:09.930
+No hay como que un brazo decir si yo ya perdí el 30% de mi data set tiene datos faltantes.
+
+592
+00:46:09.930 --> 00:46:13.730
+no voy a tratar de rescatarlo, ¿no? Porque te dirías esta gráficita.
+
+593
+00:46:13.930 --> 00:46:20.210
+Si, por ejemplo, sacas la gráficita y dices, bueno, mis columnas son 25 y tengo
+
+594
+00:46:20.210 --> 00:46:25.210
+en cada columna aproximadamente el 5% de los datos faltantes, lo cual es bien poquito,
+
+595
+00:46:25.210 --> 00:46:29.730
+¿no? Pero si no lo he estado tratando de rescatar y los eliminas estaría
+
+596
+00:46:29.730 --> 00:46:37.890
+llendotear 25. Con 5%, estarías perdiendo el 80% de todas tus silas.
+
+597
+00:46:37.890 --> 00:46:41.770
+estás prácticamente borrando todo tu dataset.
+
+598
+00:46:41.770 --> 00:46:45.330
+Entonces sí hay que hacer un esfuerzo por rescatarlas.
+
+599
+00:46:45.330 --> 00:46:52.010
+Si ya determinaste que tus variables perdidas son por eventos aleatorios,
+
+600
+00:46:52.010 --> 00:46:58.930
+pero que tienen cierta relación con los demás variables de tu dataset.
+
+601
+00:46:58.930 --> 00:47:01.770
+Y sobre todo si no puedes conseguir más variables, ¿no?
+
+602
+00:47:01.770 --> 00:47:03.730
+Porque muchas veces lo que uno dice, bueno, no los conseguí,
+
+603
+00:47:03.730 --> 00:47:07.170
+rápido en experimentos, si es reproducible, pues lo vuelvo a hacer.
+
+604
+00:47:07.170 --> 00:47:10.370
+Pero muchas veces el experimento no reproducible o reproducirlo
+
+605
+00:47:10.370 --> 00:47:13.170
+tiene mucho costo o lleva mucho tiempo.
+
+606
+00:47:13.170 --> 00:47:15.810
+Hay muchísimos factores que inciden en esto.
+
+607
+00:47:18.570 --> 00:47:19.050
+Gracias.
+
+608
+00:47:19.050 --> 00:47:19.930
+Buenísimo.
+
+609
+00:47:19.930 --> 00:47:22.690
+Salen.
+
+610
+00:47:22.690 --> 00:47:23.570
+¿Dónde estábamos?
+
+611
+00:47:23.570 --> 00:47:27.130
+Ah, bueno, aquí lo que les mencionaba es finalmente es que yo
+
+612
+00:47:27.130 --> 00:47:31.170
+pudiera ser que no que quieren.
+
+613
+00:47:31.170 --> 00:47:35.250
+Así que tomo la decisión de reemplazar un dato.
+
+614
+00:47:35.250 --> 00:47:38.290
+Entonces, por ejemplo, aquí digo, bueno, tenía el dotatverro,
+
+615
+00:47:38.290 --> 00:47:43.890
+tenía este dato como NAN y decidí utilizar el método que se me antojo
+
+616
+00:47:43.890 --> 00:47:46.050
+y ahora tiene 435.
+
+617
+00:47:46.050 --> 00:47:48.570
+Pero es, muchas veces, si es importante marcar.
+
+618
+00:47:48.570 --> 00:47:53.250
+Es el 435, es realmente un dato artificial.
+
+619
+00:47:53.250 --> 00:47:58.690
+Entonces, si es recomendable y no es nada costoso añadir una columna,
+
+620
+00:47:58.690 --> 00:48:02.210
+que solo les va a servir como guía para que ustedes recuerden
+
+621
+00:48:02.210 --> 00:48:03.810
+que ese dato era faltante.
+
+622
+00:48:03.810 --> 00:48:06.810
+Entonces le ponen cero si no hay ni un dato faltante,
+
+623
+00:48:06.810 --> 00:48:08.530
+uno si es dato faltante.
+
+624
+00:48:08.530 --> 00:48:08.850
+¿Por qué?
+
+625
+00:48:08.850 --> 00:48:11.690
+¿Por qué no es que ustedes ya preprocesaron su data set?
+
+626
+00:48:11.690 --> 00:48:14.530
+Cuando hayan la partición para entrenar su modelo,
+
+627
+00:48:14.530 --> 00:48:19.090
+puede ser que este dato se me vaya al conjunto de prueba,
+
+628
+00:48:19.090 --> 00:48:20.730
+por ejemplo.
+
+629
+00:48:20.730 --> 00:48:23.090
+Y ya entrenar mi modelo con datos, digamos,
+
+630
+00:48:23.090 --> 00:48:25.610
+que no tenía nada faltante.
+
+631
+00:48:25.610 --> 00:48:28.050
+Y cuando llegue a la predicción,
+
+632
+00:48:28.050 --> 00:48:32.210
+puede ser que la predicción no salga mal por ese dato
+
+633
+00:48:32.210 --> 00:48:37.250
+que metí de forma artificial. Entonces eso les permite hacer un análisis un
+
+634
+00:48:37.250 --> 00:48:42.090
+poquito más sofisticado de bueno ok mi modelo está fallando, no sé tengo en
+
+635
+00:48:42.090 --> 00:48:49.970
+mi data ser de prueba 100 datos, Resident Evil, falló en 20 y la tiene 80. Pero si yo
+
+636
+00:48:49.970 --> 00:48:54.970
+tengo esta columna adicional y digo bueno pero esos 20 que falló los 20 eran
+
+637
+00:48:54.970 --> 00:49:00.690
+datos imputados. Bueno entonces quiere decir que igual y lo que hice mal fue mi modelo
+
+638
+00:49:00.690 --> 00:49:08.290
+no es que esté mal sino que yo rellené incorrectamente los datos. Entonces no estoy prediciendo, mi modelo no
+
+639
+00:49:08.290 --> 00:49:14.770
+preice bien, pero porque yo artificialmente metí esos datos, ¿no? Entonces sí es importante
+
+640
+00:49:14.770 --> 00:49:20.850
+eventualmente hacer de la manera de que sea posible porque luego hay bases datos enormes en los que no
+
+641
+00:49:20.850 --> 00:49:29.730
+no puede ser uno por uno de los datos, ¿no? ¿Esta es un pregunta inocente, ¿no? Porque supongo que
+
+642
+00:49:29.730 --> 00:49:33.250
+que puede causar muchos problemas, pero no existe el
+
+643
+00:49:33.250 --> 00:49:40.170
+acernativo igual de simplemente no rellenar los datos y si no
+
+644
+00:49:40.170 --> 00:49:42.690
+estamos usando, si estamos construyendo nuestro propio modelo,
+
+645
+00:49:42.690 --> 00:49:46.850
+pues simplemente a la hora de trabajar cierta variable, ignorar
+
+646
+00:49:46.850 --> 00:49:50.290
+solamente los datos faltantes, solamente las pulinas que faltan
+
+647
+00:49:50.290 --> 00:49:55.090
+para ese cálculo con ese con ese con ese con ese dato, con
+
+648
+00:49:55.090 --> 00:49:57.650
+ese con esa variado en mi explico, es decir, el lugar de tratar de
+
+649
+00:49:57.650 --> 00:50:00.690
+rellenarlos, esquivarlo lo más posible durante los carpetes.
+
+650
+00:50:00.690 --> 00:50:08.450
+Tiendo que puede ser muy complejo y es muy específico para lo que estamos
+
+651
+00:50:08.450 --> 00:50:13.130
+movedando, pero en caso de que no se un modelo tan complejo o que no hay una cantidad
+
+652
+00:50:13.130 --> 00:50:16.410
+muy grande de variables, podríamos en ocasiones hacer eso.
+
+653
+00:50:16.410 --> 00:50:21.490
+Simplemente si quiero calcular cómo interactuar la variable A con la B solamente,
+
+654
+00:50:21.490 --> 00:50:25.730
+en el caso en el que me falta la variable A o la B, simplemente ignoró en ese cálculo
+
+655
+00:50:25.730 --> 00:50:34.330
+esos datos. ¿Pas tantas? Por ignorar, te refieres a que alguna fila la ignoras o que ignoras,
+
+656
+00:50:34.330 --> 00:50:43.850
+antes de ignorar nada más el valor de esa columna. Ignorar la fila, sí la fila cuando cuando
+
+657
+00:50:43.850 --> 00:50:47.010
+cuando cuando puedo, pocos palabras.
+
+658
+00:50:47.010 --> 00:50:48.010
+¿No?
+
+659
+00:50:48.010 --> 00:50:52.690
+Entonces básicamente si vas a eliminar las filas, si la puedes eliminar, de no a cuenta,
+
+660
+00:50:52.690 --> 00:50:58.650
+o sea, si la razón para el que se perdió ese dato, o no está presente ese dato, es completamente
+
+661
+00:50:58.650 --> 00:51:04.610
+aleatoria, no te va a afectar. Si la razón es que es aleatoria, o sea que hay una razón
+
+662
+00:51:04.610 --> 00:51:10.690
+ahí interna dentro de todo el dato a ser por la que no está, si lo eliminas, es valido.
+
+663
+00:51:10.690 --> 00:51:15.930
+Pero puede ser que esté estuérdido en información que haga que tu modelo funcionen mal o funcionen
+
+664
+00:51:15.930 --> 00:51:22.490
+un poquito peor. Entonces, es valido completamente, como dices, los elimino, entreno mi modelo con lo que tengo.
+
+665
+00:51:22.490 --> 00:51:28.050
+Y si mi modelo sale bien, pues a todo dar y a la hice, no, quiere decir que no perdí información.
+
+666
+00:51:28.050 --> 00:51:37.490
+Pero si sale mal, vale la pena, entonces que regrese, y es de, de recuperarlos para ver si esa información era importante
+
+667
+00:51:37.490 --> 00:51:39.970
+y al eliminar la perdista.
+
+668
+00:51:39.970 --> 00:51:42.210
+Quizás, ¿de momento es?
+
+669
+00:51:42.210 --> 00:51:44.510
+eso en proceso iterativo siempre.
+
+670
+00:51:44.510 --> 00:51:47.890
+Sí, quizás no me expliqué bien, no me refiero a eliminar el
+
+671
+00:51:47.890 --> 00:51:50.130
+dato de la base de datos, porque eso lo tiene en el
+
+672
+00:51:50.130 --> 00:51:52.450
+principio y en el momento en el caso de los que si podemos
+
+673
+00:51:52.450 --> 00:51:56.370
+hacer eso si es un porcentaje bajo, pero me refiero si
+
+674
+00:51:56.370 --> 00:51:59.730
+es el hablo desde el pregunto desde el ignorancia no, si no
+
+675
+00:51:59.730 --> 00:52:03.370
+existe modelos o uno podría desarrollar un modelo que
+
+676
+00:52:03.370 --> 00:52:07.070
+sin borrar los datos de la base de datos, al hacer los
+
+677
+00:52:07.070 --> 00:52:10.290
+cálculos pueda considerar los faltantes e ignorar los en el
+
+678
+00:52:10.290 --> 00:52:12.130
+momento de cálculo solamente
+
+679
+00:52:12.130 --> 00:52:12.850
+en el mundo en ese variable
+
+680
+00:52:12.850 --> 00:52:13.970
+está involucrado así.
+
+681
+00:52:14.770 --> 00:52:16.730
+Que yo sepan, no, al menos igual
+
+682
+00:52:16.730 --> 00:52:17.970
+si existe, pero yo nunca lo he
+
+683
+00:52:17.970 --> 00:52:18.970
+visto.
+
+684
+00:52:18.970 --> 00:52:21.130
+OK, por alguna razón de ser
+
+685
+00:52:21.130 --> 00:52:22.970
+que no existan, ¿no?
+
+686
+00:52:22.970 --> 00:52:24.930
+Pues, pues, me imagino que
+
+687
+00:52:24.930 --> 00:52:26.570
+ya implica mucha complejidad.
+
+688
+00:52:26.570 --> 00:52:27.050
+OK.
+
+689
+00:52:27.050 --> 00:52:29.210
+Pero si, si, una pregunta que
+
+690
+00:52:29.210 --> 00:52:30.210
+va a haber apenas el.
+
+691
+00:52:30.210 --> 00:52:31.050
+Gracias.
+
+692
+00:52:31.050 --> 00:52:32.410
+Vale, ahora le gracias.
+
+693
+00:52:32.410 --> 00:52:35.490
+Es, OK, vamos a pasar a
+
+694
+00:52:35.490 --> 00:52:36.970
+categoricas.
+
+695
+00:52:36.970 --> 00:52:37.610
+¿Qué pasas?
+
+696
+00:52:37.610 --> 00:52:38.930
+Y como en este caso tengo
+
+697
+00:52:38.930 --> 00:52:45.370
+Ocean proximity en el abacidad de los teléfones housing que tengo es nominal no perdón
+
+698
+00:52:45.370 --> 00:52:51.410
+ni nada es categorica. Ya habíamos visto más o menos como se ve no son palabras como
+
+699
+00:52:51.410 --> 00:52:59.330
+hice inland, nearby y no sé cuál es otras. Hay dos tipos no la variable puede ser categorica
+
+700
+00:52:59.330 --> 00:53:05.610
+sin orden o sea le llamamos nominal o categorica con orden. Entonces por ejemplo la de
+
+701
+00:53:05.610 --> 00:53:11.050
+proximity, ocean proximity es claramente sin orden porque eso es lo mismo que si está dentro de tierra
+
+702
+00:53:11.050 --> 00:53:16.610
+o no tiene cierto orden, no? Estábamos como que esta verdad no hay sin orden, porque si está cerca de la
+
+703
+00:53:16.610 --> 00:53:21.890
+baía, si estás dentro de la tierra puede ser que estés un poquito más lejos, pero las otras serán
+
+704
+00:53:21.890 --> 00:53:26.770
+creo que en una isla y la otra serán a nombre que, entonces como que hay cierto orden, pero no es muy
+
+705
+00:53:26.770 --> 00:53:33.950
+claro, podemos decir que no tiene orden o variables como color, si yo te digo rojo verde y azul, no
+
+706
+00:53:33.950 --> 00:53:39.310
+absolutamente no hay ni un orden, no? Cada una es independiente de las demás. Pero hay
+
+707
+00:53:39.310 --> 00:53:44.950
+variables que si tienen orden que son categoricas, como por ejemplo, catallas, el pequeño mediano
+
+708
+00:53:44.950 --> 00:53:52.470
+grande o niveles de estudios, primaria secundaria licenciatura, entonces que el orden sin
+
+709
+00:53:52.470 --> 00:53:57.590
+importa. Entonces ahí tenemos que saber cómo tratarlas, ¿no? Como transformamos algo que es
+
+710
+00:53:57.590 --> 00:54:01.390
+categorico, o sea, está descrito con palabras letras, pero no números.
+
+711
+00:54:02.030 --> 00:54:06.230
+Entonces, una opción es ponerle un número por cada categoría.
+
+712
+00:54:06.990 --> 00:54:10.190
+Si es orvilinal, pues podemos utilizar, o sea, si hay un cierta orden,
+
+713
+00:54:10.190 --> 00:54:12.590
+podemos utilizar enteros, ¿no? 1, 2, 3, 4.
+
+714
+00:54:13.190 --> 00:54:18.470
+Y automáticamente, como hay un orden, por ejemplo, si al pequeño le pongo 1,
+
+715
+00:54:18.470 --> 00:54:21.990
+al mediano le pongo 2, si al grande, talla, grande le pongo 3,
+
+716
+00:54:22.670 --> 00:54:24.750
+sigue representando esos números enteros,
+
+717
+00:54:24.750 --> 00:54:28.550
+es ese orden que trae en plícita laborable ordinal.
+
+718
+00:54:28.550 --> 00:54:32.910
+Si por ejemplo por el contrario a los colores les pongo uno, dos y tres,
+
+719
+00:54:32.910 --> 00:54:35.110
+al ver rojo verde y azul.
+
+720
+00:54:35.110 --> 00:54:39.230
+No tiene orden, pero ponerle uno, dos y tres automáticamente
+
+721
+00:54:39.230 --> 00:54:41.950
+va a hacer que el algoritmo crea cayon orden,
+
+722
+00:54:41.950 --> 00:54:45.070
+porque tienen un orden y no se lo meten en un orden.
+
+723
+00:54:45.070 --> 00:54:49.630
+La distancia entre uno y dos y entre dos y tres es uno.
+
+724
+00:54:49.630 --> 00:54:52.950
+Y entonces el algoritmo podría pensar que rojo está en la misma distancia
+
+725
+00:54:52.950 --> 00:54:58.990
+ese camarillo y amarillo está la misma distancia que te dije, creo que azul, pero que la distancia
+
+726
+00:54:58.990 --> 00:55:03.430
+entra amarillo y azul es dos lo cual no tiene sentido. Entonces hay que tener muy
+
+727
+00:55:03.430 --> 00:55:08.910
+cuidado cómo representamos los variables categoricas dependiendo si son ordinales, son
+
+728
+00:55:08.910 --> 00:55:15.990
+dominales dentro de nuestro algoritmo. Entonces si sean ordinales perfectamente válidos
+
+729
+00:55:15.990 --> 00:55:22.390
+utilizar enteros, ¿vale? Si no son, si son nominales, entonces yo creo que tener un método
+
+730
+00:55:22.390 --> 00:55:28.430
+que me permita evitar esos problemas que me da en la signar y los enteros, que el método
+
+731
+00:55:28.430 --> 00:55:34.110
+que vamos a ver es este que se conoce como Onehot. ¿Qué tal es más toqueceso? Bueno,
+
+732
+00:55:34.110 --> 00:55:40.430
+esto es más, básicamente lo que les expliqué no, aquí tenemos las cinco categorías del
+
+733
+00:55:40.430 --> 00:55:47.030
+a Ushan Proximity, que eran a una hora de los Eano, dentro de tierra, en una isla cerca de la
+
+734
+00:55:47.030 --> 00:55:53.430
+Bahía y cerca de los Eano. Si hay cierto como que ordenen, yo podrá medir de ordenarlas,
+
+735
+00:55:53.430 --> 00:55:59.710
+pero probablemente no, no, no, no, no implica, no, algunas como inlando me dice inlando que
+
+736
+00:55:59.710 --> 00:56:04.890
+tan dentro de la tierra estoy, en una isla tampoco me dice que si la isla está más lejana
+
+737
+00:56:04.890 --> 00:56:10.610
+que a una hora de lo sea, no, no la hice, la puedes dar a dos horas y ser más alejada que esta.
+
+738
+00:56:10.610 --> 00:56:14.410
+El hecho, si yo las codifico como uno, dos, tres, cuatro,
+
+739
+00:56:14.410 --> 00:56:17.810
+le estoy agregando conceptos, no se lo de orden,
+
+740
+00:56:17.810 --> 00:56:22.410
+sino le estoy agregando conceptos como distancia, ¿vale?
+
+741
+00:56:22.410 --> 00:56:24.890
+Trabajad que tener mucho cuidado con eso.
+
+742
+00:56:24.890 --> 00:56:27.210
+¿Qué es lo que se sugiere hacer?
+
+743
+00:56:27.210 --> 00:56:30.490
+Utilizar este tipo de codificación que es Onehot.
+
+744
+00:56:30.490 --> 00:56:32.690
+Onehot es muy súper simple.
+
+745
+00:56:32.690 --> 00:56:37.250
+hay otras, no? Yo otro es muy parecido a un bajón, pero por hoy vamos a ver esa.
+
+746
+00:56:37.250 --> 00:56:41.530
+Bueno, lo que hago, a cada una le voy a poner un uno,
+
+747
+00:56:41.530 --> 00:56:45.130
+o sea voy a crear vectores o arreglos de números,
+
+748
+00:56:45.130 --> 00:56:50.010
+por el hornyr vey le voy a poner 0, 0, 0, 1.
+
+749
+00:56:50.010 --> 00:56:55.850
+Al inland le voy a poner 0, 1, 0, 1.
+
+750
+00:56:55.850 --> 00:57:00.250
+Entonces hago como que mi tableta donde mis filas son igualitas a las columnas
+
+751
+00:57:00.250 --> 00:57:05.490
+y lo que voy a hacer es donde coincidan, por ejemplo, coincida al inland con inland, le pongo el 1,
+
+752
+00:57:05.490 --> 00:57:14.730
+donde coincida 1 o 1 hora de alceano a 1 hora de alceano, le pongo 1. Y toda la de más o 0 es una
+
+753
+00:57:14.730 --> 00:57:21.530
+forma muy fácil y si yo puedo calcular la distancia del 0 0 0 1 al 0 1 0 0,
+
+754
+00:57:21.530 --> 00:57:32.770
+dependiendo de cómo defina yo la matemáticamente la función distancia, van a encontrar que esta
+
+755
+00:57:32.770 --> 00:57:39.050
+estadístancia uno de esta y esta también estadístancia uno de esta. Entonces, no me va a generar de
+
+756
+00:57:39.050 --> 00:57:45.130
+forma artificial ciertos el One-Hot no me va a generar de forma artificial el concepto de distancia
+
+757
+00:57:45.130 --> 00:57:49.130
+dentro de algoritmo por lo tanto el algoritmo no va a penalizar más una que otras, ¿no?
+
+758
+00:57:51.130 --> 00:57:55.850
+Un dato interesante es que si tengo cinco variables como es acá,
+
+759
+00:57:57.450 --> 00:58:01.930
+es lo que pasa, no? Yo podría poner una adicional como Niro Ocean, la pongo aquí,
+
+760
+00:58:01.930 --> 00:58:06.970
+escribo a Cabacito Niro Ocean y le pongo uno adicional, pero realiano la necesito,
+
+761
+00:58:07.610 --> 00:58:12.730
+porque qué es lo que va a pasar siempre voy a obtener el que es el todo ser. Entonces,
+
+762
+00:58:12.730 --> 00:58:18.970
+con si tengo 5 con 4 de ellas que ponga así de esta forma con los 1&#x27;s y yo sé que lo que
+
+763
+00:58:18.970 --> 00:58:22.570
+resta es 0, 0, 0, 0, 0, 0 es cualquier otra cosa.
+
+764
+00:58:24.170 --> 00:58:28.050
+Entonces eso generalmente lo hacemos como dice aquí en
+
+765
+00:58:28.050 --> 00:58:34.810
+Zant, evitamos lo que le man la Trump a la refeticia, no? No introduzco una variable adicional
+
+766
+00:58:34.810 --> 00:58:42.370
+porque si lo hubiera puesto a nir ocean, por ejemplo el 0, 0, 0, 0, 4, 0 y en uno,
+
+767
+00:58:42.370 --> 00:58:49.090
+automáticamente me queda la posibilidad de todos seros y es mi variable artigisión.
+
+768
+00:58:49.090 --> 00:58:53.330
+Invió no la quieran, entonces mejor dejo el todo cerro para nir ocean o cualquier
+
+769
+00:58:53.330 --> 00:58:58.770
+otra que pueda haber elegido, cualquiera de ellas pueda haber sido el 4, 0 y la restante es 4
+
+770
+00:58:58.770 --> 00:59:02.570
+con forma de cohesificación de 0 y 1.
+
+771
+00:59:02.570 --> 00:59:05.530
+Entonces, recomendable utilizar esta cohesificación
+
+772
+00:59:05.530 --> 00:59:06.770
+Juan Ocean,
+
+773
+00:59:06.770 --> 00:59:09.170
+Liu Wang Ocean, Juan Hot,
+
+774
+00:59:09.170 --> 00:59:11.690
+y la ventaja es eso, ¿no?
+
+775
+00:59:11.690 --> 00:59:19.690
+Que no introduce el efecto de distancia.
+
+776
+00:59:19.690 --> 00:59:22.290
+Si tampoco introduce el efecto de orden,
+
+777
+00:59:22.290 --> 00:59:23.690
+porque si se dan cuenta,
+
+778
+00:59:23.690 --> 00:59:25.250
+aquí no hay realmente un orden.
+
+779
+00:59:25.250 --> 00:59:26.330
+El 0, 0, 0, 1,
+
+780
+00:59:26.330 --> 00:59:29.810
+no piensen los que los que no se han trabajado con
+
+781
+00:59:29.810 --> 00:59:34.690
+números binarios, no piensen que el uno es el bit menos significativo y que por lo tanto el
+
+782
+00:59:34.690 --> 00:59:38.770
+0, 0, 0, 1 es más gran, es más chico que el 0, 0, 1, 0, no?
+
+783
+00:59:38.770 --> 00:59:42.650
+Y lo transforman a números decimales.
+
+784
+00:59:42.650 --> 00:59:48.730
+No, aquí no hay una relación, el 0, 0, 0, 1, no quiere decir que se anima chico ni más grande que el 0, 0, 0, 0.
+
+785
+00:59:48.730 --> 00:59:54.890
+Y así sucesivamente, este, sí tiene una pregunta rápida para no...
+
+786
+00:59:54.890 --> 01:00:01.460
+¿Qué pasó? No se escucha. Bueno, bueno.
+
+787
+01:00:01.460 --> 01:00:08.080
+Yo, maestro, tiene una pregunta.
+
+788
+01:00:08.080 --> 01:00:14.080
+¿Es que tiene alguna implicación a la hora del modelo, del modelado,
+
+789
+01:00:14.080 --> 01:00:20.080
+el que esta variable le aplicamos el One-Hot, porque vamos a tener más de una variable?
+
+790
+01:00:20.080 --> 01:00:23.080
+¿Se ha tenido algún costo para el modelo?
+
+791
+01:00:23.080 --> 01:00:33.080
+¿Costo computacional de referencia o costo de que dependiendo de la representación que yo el hija es como va a funcionar el modelo.
+
+792
+01:00:33.080 --> 01:00:42.080
+Si es lo segundo, si hay varias formas de utilizar codificación de categoricas a categoricas.
+
+793
+01:00:42.080 --> 01:00:52.080
+Esta es la más común, Juan Jot, pero fácil existen cuatro o cinco más y sí tienen impacto, dependiendo de cuál el hija es como va a funcionar el modelo.
+
+794
+01:00:52.080 --> 01:01:00.200
+model. Después si quieren el espacio, un documentito donde les muestra lo cual son las otras,
+
+795
+01:01:00.200 --> 01:01:07.640
+pero sí tienen efecto que si lo puedes predecir, no lo puedes predecir. Entonces realmente
+
+796
+01:01:07.640 --> 01:01:12.600
+muchas veces hay que probar, probar con varias. La que tal mundo usa, quizás por comodidad,
+
+797
+01:01:12.600 --> 01:01:18.680
+por qué es la más popular, por lo que sea, es esta. Pero sí existe en otras formas de codificar
+
+798
+01:01:18.680 --> 01:01:25.640
+para los categoricas que tratan de representar mejor o introducir menos sesgos cuando funcionan el modelo.
+
+799
+01:01:29.180 --> 01:01:30.420
+En alguien vacía pronto.
+
+800
+01:01:31.780 --> 01:01:34.140
+Sí, profe, nada más como comentar de igual.
+
+801
+01:01:34.220 --> 01:01:40.740
+Sí se utiliza mucho ésta, pero sí se trata de que las categorías que haya no son más de cinco, seis.
+
+802
+01:01:41.260 --> 01:01:45.060
+Depende mucho de lo hace datos, por que si no te metes en un problema o tal hora del martum modelo.
+
+803
+01:01:45.660 --> 01:01:49.660
+Entonces si tienes más de 20, 20 categorías, sí se reduce.
+
+804
+01:01:49.660 --> 01:01:54.980
+o si se hace un momento así, pero si se trata de que agarrar las más significativas y además
+
+805
+01:01:54.980 --> 01:01:59.820
+ponemos como otras y te bitas muchos problemas en el futuro, pero sí.
+
+806
+01:01:59.820 --> 01:02:06.300
+Sí, es verdad, eso no lo mencioné, es algo que sí pasa, no sí tengo cien
+
+807
+01:02:06.300 --> 01:02:10.060
+varias categoricas y introduciría automático, man, se dan cuenta, estoy
+
+808
+01:02:10.060 --> 01:02:15.940
+introduciendo, están introduciendo cien, cien columnas adicionales a mi base de datos,
+
+809
+01:02:15.940 --> 01:02:20.460
+No, entonces, es inmanejable, completamente.
+
+810
+01:02:20.460 --> 01:02:23.380
+¿Otra pregunta por ahí, Rafael?
+
+811
+01:02:23.380 --> 01:02:25.700
+Sí, bueno, estaba relacionado mucho con esto.
+
+812
+01:02:25.700 --> 01:02:27.900
+Ni va a preguntar cómo representábamos el valor,
+
+813
+01:02:27.900 --> 01:02:31.860
+ya he convertido y lo manejábamos todo en el mismo campo,
+
+814
+01:02:31.860 --> 01:02:35.780
+como 0, 0, 0, 1, 0, como cadena de texto.
+
+815
+01:02:35.780 --> 01:02:38.620
+O sea, llegaba a las columnas, pero ya me respondió.
+
+816
+01:02:38.620 --> 01:02:40.660
+OK.
+
+817
+01:02:40.660 --> 01:02:45.220
+¿Algo más?
+
+818
+01:02:45.220 --> 01:02:45.960
+No.
+
+819
+01:02:45.960 --> 01:02:46.460
+Pergeto.
+
+820
+01:02:48.980 --> 01:02:53.550
+Es muy abrínco.
+
+821
+01:02:53.550 --> 01:02:56.550
+OK, creo que aquí de hecho es algo de lo que mencionaron.
+
+822
+01:02:56.550 --> 01:03:00.550
+Si tengo muchas, voy a tener problemas.
+
+823
+01:03:00.550 --> 01:03:07.990
+La vez de jamás es porbo, es de que postidas.
+
+824
+01:03:07.990 --> 01:03:10.990
+Bueno, así que hago. ¿Qué opciones tengo?
+
+825
+01:03:10.990 --> 01:03:13.990
+Es que su otro contenido, categoría raras.
+
+826
+01:03:13.990 --> 01:03:17.990
+O no raras en la no voxianca, raras, sino que sean escasas.
+
+827
+01:03:17.990 --> 01:03:22.290
+o tenga pocas datos de esa categoría.
+
+828
+01:03:24.590 --> 01:03:27.350
+Opciones que tengo es representar con frecuencia,
+
+829
+01:03:29.950 --> 01:03:32.790
+pongo básicamente la proporción de filas que hay en esa categoría,
+
+830
+01:03:33.190 --> 01:03:34.290
+las puedo agrupar.
+
+831
+01:03:34.550 --> 01:03:35.990
+Eso es algo...
+
+832
+01:03:36.310 --> 01:03:39.710
+Bueno, está un entro en un tema que es un dato,
+
+833
+01:03:39.950 --> 01:03:41.630
+es una base de datos no balanceada,
+
+834
+01:03:42.430 --> 01:03:45.950
+en las que tengo mucho información de ciertos variables,
+
+835
+01:03:45.950 --> 01:03:47.030
+pero tengo poca de otras.
+
+836
+01:03:47.030 --> 01:03:51.670
+muchas veces el tener muy poca de otras y esto aplica para los
+
+837
+01:03:51.670 --> 01:03:55.670
+Númericas o Categóricas, me genera problemas y no hay manera
+
+838
+01:03:55.670 --> 01:04:00.270
+aunque existen técnicas para hacer aumentación de datos,
+
+839
+01:04:00.270 --> 01:04:04.790
+muchas veces no son viables, entonces es mucho mejor
+
+840
+01:04:04.790 --> 01:04:10.470
+en la medida de los casos agrupar, agrupar esas variables que tengo
+
+841
+01:04:10.470 --> 01:04:19.550
+como raras y las opciones que tengo es, por ejemplo, decir qué tantas filas tengo de esa o cuál es
+
+842
+01:04:19.550 --> 01:04:26.470
+el promedio de toda esa categoría utilizando ese en ese grupo o hacer una tabla hash que básicamente
+
+843
+01:04:26.470 --> 01:04:36.390
+va a transformar la categoría en un número entero que es una tabla hash es generalmente para una cadena
+
+844
+01:04:36.390 --> 01:04:41.430
+finita pero en este caso diríamos una cadena interpretada como un número finito, un número
+
+845
+01:04:41.430 --> 01:04:42.670
+entero.
+
+846
+01:04:42.670 --> 01:04:46.390
+Pásicamente eso, ¿no?
+
+847
+01:04:46.390 --> 01:04:51.750
+Mucho veces es conveniente a grupar, a grupar, es que tengo poquites.
+
+848
+01:04:51.750 --> 01:05:02.960
+No está muy relacionada a categorías, pero sí puede suceder que digamos en base en la
+
+849
+01:05:02.960 --> 01:05:05.820
+la parte de la partición para
+
+850
+01:05:05.820 --> 01:05:07.760
+platicar, sigue comentando un poquito
+
+851
+01:05:07.760 --> 01:05:08.460
+de eso.
+
+852
+01:05:08.460 --> 01:05:12.600
+OK, escalar, esto sí es bien importante
+
+853
+01:05:12.600 --> 01:05:14.100
+y no había llegado esto.
+
+854
+01:05:14.100 --> 01:05:15.860
+Bueno, llevamos una orica chica,
+
+855
+01:05:15.860 --> 01:05:18.100
+si da tiempo de cubrir esto tranquilamente.
+
+856
+01:05:18.100 --> 01:05:22.100
+OK, entonces yo vimos, lo que vimos,
+
+857
+01:05:22.100 --> 01:05:24.000
+pero esta parte es muy importante.
+
+858
+01:05:24.000 --> 01:05:25.700
+¿Por qué necesito escalar?
+
+859
+01:05:25.700 --> 01:05:27.340
+Escalar mis variables.
+
+860
+01:05:27.340 --> 01:05:32.520
+Vamos a checar a estos datos que están
+
+861
+01:05:32.520 --> 01:05:35.860
+están acá que son de la base de datos de California Housing.
+
+862
+01:05:35.860 --> 01:05:39.140
+Por ejemplo, media en Incom, si yo la analizo, voy a ver,
+
+863
+01:05:39.140 --> 01:05:42.820
+voy a checar que el menor valor posible que apareces punto 5
+
+864
+01:05:42.820 --> 01:05:46.700
+y el máximo es 15.
+
+865
+01:05:46.700 --> 01:05:51.180
+Otras como Total Rules y Population están en el mínimo
+
+866
+01:05:51.180 --> 01:05:53.940
+de dos y el máximo es 39 milicachos.
+
+867
+01:05:53.940 --> 01:05:55.420
+Yo tengo a lo donde miles.
+
+868
+01:05:55.420 --> 01:05:58.340
+Entonces la escala de ésta está en lejísimos,
+
+869
+01:05:58.340 --> 01:05:59.860
+quizás de estas dos tan cercanas.
+
+870
+01:05:59.860 --> 01:06:05.300
+ese empiece a distanciar, pero estas otras dos, su escala, el rango en que están definiaces
+
+871
+01:06:05.300 --> 01:06:10.540
+enorme. Y como los modelos trabajan mucho con distancias, o dependiendo de muchos modelos
+
+872
+01:06:10.540 --> 01:06:18.040
+trabajan con distancias para poder hacer expresiones, entonces el hecho de que estas variables
+
+873
+01:06:18.040 --> 01:06:23.060
+tengan una escala diferente a estas les va a afectar mucho. Y eso es bien importante conocer
+
+874
+01:06:23.060 --> 01:06:34.700
+lo porque horre escalamos o elegimos un modelo que no sea sensible a la escala.
+
+875
+01:06:34.700 --> 01:06:39.780
+Por ejemplo, acá hay unas recomendaciones. Modeles basados en distancias como
+
+876
+01:06:39.780 --> 01:06:43.500
+cabecinos más cercanos, camédias, máquinas, eso es por territorial.
+
+877
+01:06:43.500 --> 01:06:48.100
+Esos son muy sensibles a la escala de los datos.
+
+878
+01:06:48.100 --> 01:06:54.500
+Entonces, si voy a usar o decidir usar esos métodos, tengo que rescalar todos a que
+
+879
+01:06:54.500 --> 01:07:02.340
+estén en la misma escala. Si no, también meto pasados en el gradiente, el gradiente es
+
+880
+01:07:02.340 --> 01:07:06.820
+la razón de cambio, y por lo tanto, si por ejemplo, tengo un dato de dos y el que les sigue
+
+881
+01:07:06.820 --> 01:07:11.620
+es 39 mil, pero la razón de cambio sería 39 mil menos dos.
+
+882
+01:07:11.620 --> 01:07:18.000
+más o menos, es comparada con la razón de cambio de punto 5 a 15 que es 15.5, es un
+
+883
+01:07:18.000 --> 01:07:23.700
+gradiente muchísimo más grande. Dos métodos basados en gradiente también sufren cuando las escallas
+
+884
+01:07:23.700 --> 01:07:29.260
+son muy variables en basadatas. Si tengo métodos de regularización, la regularización,
+
+885
+01:07:29.260 --> 01:07:33.540
+cuando veamos esos métodos van a ver que también depende de la escala, entonces también sufren.
+
+886
+01:07:33.540 --> 01:07:39.520
+El algoritmo de no superisado, de pcd también sufren. Todos estos sufren prácticamente
+
+887
+01:07:39.520 --> 01:07:46.080
+y todo eso. Lo que no sufre, de sufre menos son árboles de decisión que únicamente
+
+888
+01:07:46.080 --> 01:07:51.160
+es en comparación y toma de decisión para definir un brales para ir haciendo
+
+889
+01:07:51.160 --> 01:07:56.640
+construido el árbol. Esas no sufren con la escala. Ustedes, si tienen esta base de datos,
+
+890
+01:07:56.640 --> 01:08:01.200
+la meten directamente en árboles de decisión y no van a tener problema.
+
+891
+01:08:01.200 --> 01:08:06.360
+Vosques elatorios que básicamente son tan basados en árboles de decisión, por lo tanto,
+
+892
+01:08:06.360 --> 01:08:09.000
+tampoco sufran y métodos de busting.
+
+893
+01:08:09.000 --> 01:08:11.360
+Principalmente yo creo que aquí están pensando en
+
+894
+01:08:11.360 --> 01:08:14.300
+entrando forest también o quizás a la busto.
+
+895
+01:08:14.300 --> 01:08:17.760
+No sufren mucho tampoco en es.
+
+896
+01:08:17.760 --> 01:08:21.380
+Generalmente recomendación, como seguramente van a estar
+
+897
+01:08:21.380 --> 01:08:24.300
+probando varios métodos unos basados en distancia,
+
+898
+01:08:24.300 --> 01:08:25.900
+sobre adientes y otros no,
+
+899
+01:08:25.900 --> 01:08:28.040
+y van a ser comparaciones entre ellos.
+
+900
+01:08:28.040 --> 01:08:30.980
+No se corrompa la cabeza, rescale en sus datos,
+
+901
+01:08:30.980 --> 01:08:34.820
+no tienen un gran costo y así ya no se preocupan de que
+
+902
+01:08:34.820 --> 01:08:39.380
+si el método macoró el método depende de escalas o no depende de escalas, ¿no?
+
+903
+01:08:39.380 --> 01:08:46.100
+Entonces por eso, mi razón, pues vamos a ver diferentes métodos de escalamiento.
+
+904
+01:08:46.100 --> 01:08:52.420
+Un ejército aquí con la gráfica es más si no tengo escalas, por ejemplo, tengo la variable
+
+905
+01:08:52.420 --> 01:08:58.900
+population, la gráfico en contra de milia en income, la escala de milia en income va de 0 a 12,
+
+906
+01:08:58.900 --> 01:09:04.540
+la depopulación son las que vale miles, es cualquier puntito que yo tenga aquí,
+
+907
+01:09:04.540 --> 01:09:12.820
+es por ejemplo todos estos, las estrellas son la media de los vecinos más cercanos de este
+
+908
+01:09:12.820 --> 01:09:21.220
+puntito, si yo comparo estas estos dos puntos veo que tengo en esta escala una distancia de
+
+909
+01:09:21.220 --> 01:09:27.860
+no sé más o menos seis y ambos y todos estos puntos corresponden al mismo nivel de población,
+
+910
+01:09:27.860 --> 01:09:36.340
+si yo rescalo esto, rescalo as variable de population, a la aplicó algún tipo de escalamiento,
+
+911
+01:09:37.860 --> 01:09:43.300
+me cambia la escala ya no va a estar de miles, ya va a estar en este caso de menos 2 a 4,
+
+912
+01:09:43.300 --> 01:09:50.260
+que tiene un rango aquí de 6 y si se fijan también el eje vertical cambia de menos 2 a 4 que
+
+913
+01:09:50.260 --> 01:09:57.020
+en el mismo rango. Esa era los puntos que antes estaban alejados, se mantienen bastante cercanos.
+
+914
+01:09:57.020 --> 01:10:06.540
+Entonces la sensación de distancia o proporciones ya no la afecta tanto o ya no la afecta a los
+
+915
+01:10:06.540 --> 01:10:13.940
+modelos basados en distancia en los gradientes. ¿Cuáles son los tres métodos típicos de escalar?
+
+916
+01:10:13.940 --> 01:10:22.180
+el estereo del método de estándar, el método de máximos y mínimos y el escalamiento robusto.
+
+917
+01:10:23.540 --> 01:10:29.780
+¿Cuál es la formulita? El dato escalado va a ser igual al dato que tenía a la X,
+
+918
+01:10:29.780 --> 01:10:40.300
+al cual le voy a restar la media de todo ese dato. Si tengo 100 datos de la variable X,
+
+919
+01:10:40.300 --> 01:10:44.180
+y se van a hacer, bueno, así, saco la media de todos esos 100 datos,
+
+920
+01:10:44.660 --> 01:10:47.260
+saco la desviación de estándar de los 100,
+
+921
+01:10:47.740 --> 01:10:49.940
+y entonces a cada uno de los datos,
+
+922
+01:10:49.940 --> 01:10:52.540
+de cada uno 100 datos, le voy a restar su media,
+
+923
+01:10:53.220 --> 01:10:57.060
+le voy a restar la media de todo el grupo y le voy a dividir
+
+924
+01:10:57.060 --> 01:10:59.060
+entre la desviación estándar.
+
+925
+01:11:00.060 --> 01:11:02.020
+Eso va a ser un rescalamiento, ¿ok?
+
+926
+01:11:02.820 --> 01:11:03.980
+¿Qué me ayuda esto?
+
+927
+01:11:03.980 --> 01:11:05.380
+Automáticamente,
+
+928
+01:11:06.460 --> 01:11:09.060
+todo toda la variable me va a quedar con media 0,
+
+929
+01:11:09.060 --> 01:11:11.380
+con desviaciones, tan dar como.
+
+930
+01:11:11.380 --> 01:11:15.080
+Ok, y no está restricida, no está resistir de algo de
+
+931
+01:11:15.080 --> 01:11:17.100
+intervalo, pues aquí dice 100 minutos.
+
+932
+01:11:17.100 --> 01:11:20.940
+Y puede tener valores en círrestrensión.
+
+933
+01:11:20.940 --> 01:11:27.120
+El escalamiento, perdón, de máximos y mínimos, lo que va a tratar de
+
+934
+01:11:27.120 --> 01:11:30.620
+es de restringir todo al intervalo 01.
+
+935
+01:11:30.620 --> 01:11:34.580
+Entonces, que lo que hago, encuentro el mínimo valor,
+
+936
+01:11:34.580 --> 01:11:37.620
+ponce así con el ejemplo de los 100, tengo 100 datos de la misma
+
+937
+01:11:37.620 --> 01:11:43.900
+variable, encuentro el mínimo, encuentro el máximo, entonces a cada uno de los datos, uno por
+
+938
+01:11:43.900 --> 01:11:49.860
+uno le voy restando el mínimo y le voy a dividir entre la diferencia del máximo y el mínimo. Es
+
+939
+01:11:49.860 --> 01:11:56.500
+automáticamente me lo manda al rango de 0-1, ahí si no estoy tocando la media, no estoy tocando
+
+940
+01:11:56.500 --> 01:12:02.460
+la desviación estándar en el absoluto. Y simplemente lo estoy mandando a un rango diferente
+
+941
+01:12:02.460 --> 01:12:09.640
+es uno y el escalamento a robusto es en el que lugar de restarle la media como corria acá le voy a
+
+942
+01:12:09.640 --> 01:12:14.940
+restarle a mediana igual de mis 100 datos calcura la mediana a cada uno de ellos voy a restarle a
+
+943
+01:12:14.940 --> 01:12:21.180
+la mediana y después le voy a restarle que era el 1 o menos 3 que era el rango intercuarquírico
+
+944
+01:12:21.180 --> 01:12:28.620
+que vimos ayer y esto lo que va a hacer es que de esa variable ya no va a tener media 0 sino que
+
+945
+01:12:28.620 --> 01:12:34.420
+va a tener mediana cero y ya no la defileción estándar sino su rango intercorte hílico el
+
+946
+01:12:34.420 --> 01:12:40.980
+incurre va a ser uno y también si sin límites no. Entonces generalmente estos dos son los más
+
+947
+01:12:40.980 --> 01:12:44.140
+usados el estándar y el robusto.
+
+948
+01:12:47.860 --> 01:12:54.460
+Básicamente la idea es como dice el recuadro acá abajo, tú le restas algo que representa el centro
+
+949
+01:12:54.460 --> 01:12:59.020
+de los datos y lo divides entre tu métrica de dispersión.
+
+950
+01:12:59.540 --> 01:13:01.940
+En que o sea, en la disviación está anda en este caso,
+
+951
+01:13:01.940 --> 01:13:06.940
+represento la dispersión o el rango intercualtírico es otra métrica de dispersión,
+
+952
+01:13:07.420 --> 01:13:10.940
+y el centro está representado al carribo por la mería y acá arriba
+
+953
+01:13:10.940 --> 01:13:13.220
+acabamos por donde está la retirada por la meriana.
+
+954
+01:13:13.500 --> 01:13:14.980
+Entonces, básicamente, es la misma idea.
+
+955
+01:13:16.820 --> 01:13:20.020
+Parta importante que, a ver si me alcanza tiempo en mencionar
+
+956
+01:13:20.020 --> 01:13:29.620
+es esto. Cuando ustedes rescalen van a tener que tener cuidado de qué van a rescalar, ¿no?
+
+957
+01:13:29.620 --> 01:13:37.140
+Generalmente si ustedes tienen todos su conjunto de datos y ese conjunto de datos van a
+
+958
+01:13:37.140 --> 01:13:45.260
+dividirlo en entrenamiento, validación y prueba, ustedes van a rescalar únicamente sobre el
+
+959
+01:13:45.260 --> 01:13:54.820
+conjunto de entrenamiento. No rescalan ni prueba ni concieron y ni validación.
+
+960
+01:13:54.820 --> 01:14:00.060
+Perdón. ¿Por qué? ¿Qué pasa? Si yo rescalo todo mi data 7,
+
+961
+01:14:00.060 --> 01:14:03.780
+es que lo voy a ver. Creo que lo tengo una deposidad más adelante. Si yo rescalo,
+
+962
+01:14:03.780 --> 01:14:07.660
+bueno, una vez lo practico porque si la tengo, pero por ahorita quién se con esa
+
+963
+01:14:07.660 --> 01:14:11.380
+idea, ya es bien importante. Cuando ustedes apliquen su rescalamiento,
+
+964
+01:14:11.380 --> 01:14:17.220
+aplicarlo una vez que hayan hecho la partición y solo lo van a hacer sobre el
+
+965
+01:14:17.220 --> 01:14:20.940
+conjunto de herramienta. Yo he un tablet y quedamos un poquito más del porqué.
+
+966
+01:14:20.940 --> 01:14:27.300
+¿Qué pasa si yo hago mi rescalamiento? Fíjese. El dataset original para al
+
+967
+01:14:27.300 --> 01:14:32.300
+medio, al menos para la variable aquí de MediaNincom tiene esta distribución.
+
+968
+01:14:32.300 --> 01:14:39.260
+Con este mínimo, con este máximo, esta es la distribución original. Si hago el
+
+969
+01:14:39.260 --> 01:14:49.260
+rescalamiento standard cambia obviamente el máximo y el mínimo pero preserva perfectamente la distribución de los datos
+
+970
+01:14:50.260 --> 01:14:57.260
+la escala cambia, fíjense, cambia el eje horizontal cambia en los valores pero la forma no cambia
+
+971
+01:14:57.260 --> 01:15:10.260
+Si aplico el minmax es scalar, tampoco cambia la forma y se aplico en robusto, tampoco cambia la forma.
+
+972
+01:15:10.260 --> 01:15:16.260
+Quiere decir que no estoy quitando, como dice acá el recuadro,
+
+973
+01:15:16.260 --> 01:15:25.680
+escalar no me afecta, no modifica la simetría o a simetría de mis datos y tampoco evita o
+
+974
+01:15:25.680 --> 01:15:33.860
+reduce las colas, los datos atípicos o los outliers. Los datos originales tenían outliers
+
+975
+01:15:33.860 --> 01:15:43.380
+que se ven acá, a tijar que se ven, ¿vale? Y tenía una cierta inclination hacia la izquierda,
+
+976
+01:15:43.380 --> 01:15:46.980
+Esas simétrico, negativo, tiene una cola muy larga,
+
+977
+01:15:46.980 --> 01:15:51.220
+se tiene un valor de kurtosis grande, tiene outliers claramente
+
+978
+01:15:51.220 --> 01:15:53.060
+y el rescalamiento lo preserva.
+
+979
+01:15:53.060 --> 01:15:56.900
+Eso no te ayuda ningún tipo de rescalamiento,
+
+980
+01:15:56.900 --> 01:15:58.300
+te va a ayudar en ese sentido.
+
+981
+01:15:58.300 --> 01:16:01.380
+Si todavía tienes asimetrías y tienes outliers,
+
+982
+01:16:01.380 --> 01:16:03.820
+entonces tú tienes que aplicar transformaciones
+
+983
+01:16:03.820 --> 01:16:07.340
+o tienes que hacer recorte de esos outliers
+
+984
+01:16:07.340 --> 01:16:09.620
+para que no te afecten el modelo, ¿no?
+
+985
+01:16:09.620 --> 01:16:11.700
+Pero lo que sí te va a ayudar,
+
+986
+01:16:11.700 --> 01:16:15.740
+en otras cosas, en el modelo va a funcionar mejor,
+
+987
+01:16:15.740 --> 01:16:19.940
+sobre todo a peidos que están basados en cuestiones de distancias.
+
+988
+01:16:19.940 --> 01:16:21.540
+Bueno, eso es que la resuelta lo forma.
+
+989
+01:16:21.540 --> 01:16:23.340
+Ahora, ¿qué pasa?
+
+990
+01:16:23.340 --> 01:16:28.340
+¿Cómo puedo comparar los tres?
+
+991
+01:16:28.340 --> 01:16:32.460
+Si yo, ¿cuál es el ejemplo acá que hago?
+
+992
+01:16:32.460 --> 01:16:37.900
+Yo tengo 200 datos,
+
+993
+01:16:37.900 --> 01:16:39.620
+que son los que están gráficados acá en azul,
+
+994
+01:16:39.620 --> 01:16:42.660
+y este es su histograma.
+
+995
+01:16:42.660 --> 01:16:52.780
+¿Y qué pasa si esos 200 datos le agrego un solo dato que está con valor 500?
+
+996
+01:16:52.780 --> 01:16:53.780
+¿Vale?
+
+997
+01:16:53.780 --> 01:16:54.780
+O sea, muy lejos.
+
+998
+01:16:54.780 --> 01:16:55.780
+Es este puntito.
+
+999
+01:16:55.780 --> 01:16:58.020
+Este puntito que está acá.
+
+1000
+01:16:58.020 --> 01:16:59.860
+¿OK?
+
+1001
+01:16:59.860 --> 01:17:07.900
+Cuando yo hago el rescalamiento, perdón, este…
+
+1002
+01:17:07.900 --> 01:17:21.650
+Si yo aplico el rescalamiento sin el dato típico, me queda de esta forma.
+
+1003
+01:17:21.650 --> 01:17:24.810
+Bueno, aquí, obviamente no tengo para comparar como a la antes, pero ya vimos que lo
+
+1004
+01:17:24.810 --> 01:17:25.810
+preserva.
+
+1005
+01:17:25.810 --> 01:17:34.690
+O sea, el rescalamiento de estándar, el escalador estándar, asuman que sin este valor
+
+1006
+01:17:34.690 --> 01:17:37.330
+atípico hubiera quedado exactamente de la misma forma.
+
+1007
+01:17:37.330 --> 01:17:44.890
+tal y como me muestran esto, no? Aquí lo hice, este es el original y el escalador estándar me preservó la forma.
+
+1008
+01:17:44.890 --> 01:17:53.630
+Aquí no tengo la anterior, pero crean que es este. Pero si yo le agrego un valor atípico, un solo valor atípico suficientemente lejano,
+
+1009
+01:17:53.630 --> 01:18:01.470
+al hacer la escalación con el escalador estándar, me cambia completamente la forma, esa es la distribución araca.
+
+1010
+01:18:01.470 --> 01:18:05.430
+ya me vuelve esos datos con una
+
+1011
+01:18:05.430 --> 01:18:10.790
+cortosis mucho más pequeña, se ya no tengo las colas, no es bueno, no por esa razón
+
+1012
+01:18:10.790 --> 01:18:16.750
+de decir a que en el mejor o no, aquí lo importante es notar que me transforma, me transforma,
+
+1013
+01:18:16.750 --> 01:18:22.510
+el escalador está a andar, la representación o el histograma o la iniciada de probabilidad
+
+1014
+01:18:22.510 --> 01:18:30.510
+de estos datos, el escalador de máximos y mínimos también lo transforma, está al anterior y ahora
+
+1015
+01:18:30.510 --> 01:18:35.070
+queda de esta forma. No solo cambia la forma, sino que incluso se traslada hacia la izquierda.
+
+1016
+01:18:35.070 --> 01:18:42.830
+Y en cambio el escalador robusto a que en el que yo le restaba la mediana y lo dividía entre
+
+1017
+01:18:42.830 --> 01:18:49.430
+el rango intercortílico me preserva, me preserva, no importa que tenga un rango atípico aquí,
+
+1018
+01:18:49.430 --> 01:18:59.870
+me está preservando tanto la forma como la posición de mis datos. ¿Por qué? Porque la media es muy
+
+1019
+01:18:59.870 --> 01:19:08.310
+susceptible a datos atípicos y como este escalador está basado en restar en
+
+1020
+01:19:08.310 --> 01:19:13.390
+la media si yo le meto un palabra típico esta media cambia completamente y la
+
+1021
+01:19:13.390 --> 01:19:16.630
+diversión está andar completamente también cambia completamente y entonces ya
+
+1022
+01:19:16.630 --> 01:19:21.870
+todo se se deforma en cambio la media Ana y robustaba los atípicos por
+
+1023
+01:19:21.870 --> 01:19:29.030
+ese esténo se ve afectado por por por ese valor entonces igual recomendación si
+
+1024
+01:19:29.030 --> 01:19:34.310
+ustedes no han quitado esas datos atípicos por la razón que sea, usen escalamento
+
+1025
+01:19:34.310 --> 01:19:38.510
+robusto. Si ustedes hicieron sus análisis por aterrardatos y
+
+1026
+01:19:38.510 --> 01:19:43.270
+identificaron los datos atípicos, ya los eliminaron. Entonces pueden
+
+1027
+01:19:43.270 --> 01:19:48.110
+utilizar generalmente el escalador estándar, que es el generalmente la gente
+
+1028
+01:19:48.110 --> 01:19:51.910
+hubio que usar más estado de estándar, aunque muchas veces no se
+
+1029
+01:19:51.910 --> 01:19:54.790
+una vez que sí, ya, eliminamos, o no es eliminado.
+
+1030
+01:19:57.750 --> 01:19:59.750
+Y aquí es un ejemplo de qué lo que suceden,
+
+1031
+01:19:59.750 --> 01:20:02.630
+a lo que los diferentes es resultados.
+
+1032
+01:20:02.630 --> 01:20:04.510
+Si yo den cuenta, yo apnico modelo,
+
+1033
+01:20:04.510 --> 01:20:08.350
+el que sea, en den cuenta usarando KNN para los datos,
+
+1034
+01:20:08.350 --> 01:20:09.270
+para cualquier dato.
+
+1035
+01:20:09.270 --> 01:20:11.550
+Es un ejemplo más de lo que pasa.
+
+1036
+01:20:11.550 --> 01:20:16.430
+Si yo aplico mi modelo sobre mis datos sin escalar,
+
+1037
+01:20:16.430 --> 01:20:21.750
+yo tengo valores de R2, que son lo que me ni de qué tan bueno
+
+1038
+01:20:21.750 --> 01:20:24.870
+el modelo de muy bajos.
+
+1039
+01:20:24.870 --> 01:20:29.670
+K&amp;N que es un de lo basado en distancias,
+
+1040
+01:20:29.670 --> 01:20:32.350
+o sea, que le importa mucho a la distancia,
+
+1041
+01:20:32.350 --> 01:20:34.870
+al no haber rescalado, os estoy obtendiendo
+
+1042
+01:20:34.870 --> 01:20:37.710
+en alrededor de 0.31 locales malísimo,
+
+1043
+01:20:37.710 --> 01:20:40.150
+y si utilizo una árbol de decisión,
+
+1044
+01:20:40.150 --> 01:20:42.990
+que yo sé que es un modelo que no depende de las distancias,
+
+1045
+01:20:42.990 --> 01:20:47.550
+no le importa, obtiene 0.68 sin haberlo rescalado.
+
+1046
+01:20:47.550 --> 01:20:50.390
+O sea, si se dan cuenta, este modelo no es sensible al
+
+1047
+01:20:50.390 --> 01:20:57.630
+escalamiento. Por otro lado, si yo rescalo utilizando standard, veo que KN ya funciona muy bien,
+
+1048
+01:20:57.630 --> 01:21:03.350
+incluso el logra superar una el boledecición con punto 71, y el árbol de decisión y la hizo
+
+1049
+01:21:03.350 --> 01:21:09.990
+cosquillas el escalamento no sigue siendo 68. Si nos vamos a las otras dos gráficas,
+
+1050
+01:21:09.990 --> 01:21:16.630
+veo que con una verde que es el árbol de decisión, nunca se ve afectada por ningún tipo de
+
+1051
+01:21:16.630 --> 01:21:20.970
+escalamiento, porque como les había comentado, no le importan las distancias, no le importan
+
+1052
+01:21:20.970 --> 01:21:26.830
+las escalas, solo definen brales. Sin embargo, cada NN que es un método basado en distancias,
+
+1053
+01:21:26.830 --> 01:21:32.470
+sí se ve muy afectado si no escalo y se comporta más o menos similar en este caso, punto
+
+1054
+01:21:32.470 --> 01:21:39.350
+71, punto 69, punto 69, independientemente del tipo de escalamiento que utiliza, en
+
+1055
+01:21:39.350 --> 01:21:42.910
+este caso, en los tres funcionaron bastante bien.
+
+1056
+01:21:42.910 --> 01:21:52.550
+Pues aquí vamos a resaltar la importancia de una a ser bien análisis, estándarizar o la otra
+
+1057
+01:21:52.550 --> 01:21:57.510
+es el hecho de que yo conozca que en modelos son los que son robustos a ciertas cosas, como en
+
+1058
+01:21:57.510 --> 01:22:03.670
+este caso, en los pasados en distancia son muy susceptibles a las escales de mi tablo.
+
+1059
+01:22:03.670 --> 01:22:09.510
+Entonces, ya no sé si información, voy a estar y decidí utilizar un modelo de bastantes,
+
+1060
+01:22:09.510 --> 01:22:17.510
+ahí voy a estar dándome topestotando a ajustarlo y no es que el modelo se amaló, sino simplemente
+
+1061
+01:22:17.510 --> 01:22:28.390
+los datos no están preparados para funcionar en ese modelo. Ok, ya no estamos sacando el final,
+
+1062
+01:22:28.390 --> 01:22:36.270
+ya me estoy dando a funco. Ok, validación, prueba y enteramiento, ¿cómo dividir nuestros datos?
+
+1063
+01:22:36.270 --> 01:22:39.950
+este, que ya han platicado un poquito de eso, ¿no?
+
+1064
+01:22:39.950 --> 01:22:43.950
+Quizás por experiencia por lo que hayan visto de un
+
+1065
+01:22:43.950 --> 01:22:47.710
+tener potencial, han tenido un poco de experiencia en esto, ¿no?
+
+1066
+01:22:47.710 --> 01:22:52.110
+Si yo tengo mis datos, generalmente, o nunca, o nunca,
+
+1067
+01:22:52.110 --> 01:22:54.510
+me voy a agarrar todos para entrenar un modelo.
+
+1068
+01:22:54.510 --> 01:22:58.270
+Yo siempre voy a hacer una partición, voy a reservar un número
+
+1069
+01:22:58.270 --> 01:23:03.150
+bastante grande para entrenar los datos, después voy a
+
+1070
+01:23:03.150 --> 01:23:11.590
+reservar otro conjunto generalmente más chico, 20% en este caso, para hacer datos de validación,
+
+1071
+01:23:11.590 --> 01:23:20.070
+o sea, conforme mi modelo está entrenándose, yo voy probando ese modelo sobre los datos de
+
+1072
+01:23:20.070 --> 01:23:26.230
+validación, no a los que estoy usando para entrenar, solo estoy usando los para verificar
+
+1073
+01:23:26.230 --> 01:23:32.590
+cómo estás comportando ese modelo, una vez que ya se he terminado de entrenar, entonces
+
+1074
+01:23:32.590 --> 01:23:41.550
+yo elijo, digamos, el mejor momento o el mejor conjunto de parámetros, con los que
+
+1075
+01:23:41.550 --> 01:23:47.950
+funciones en modelo sobre este conjunto de evaluación, pero como estoy usando ese conjunto
+
+1076
+01:23:47.950 --> 01:23:56.110
+de evaluación para elegir esos parámetros con los que enten en el modelo. Entonces,
+
+1077
+01:23:56.110 --> 01:24:00.830
+en cierta forma ya los utilice y entonces ahora te va a verificar sobre un conjunto
+
+1078
+01:24:00.830 --> 01:24:07.630
+completamente diferente, que nunca le decimos vio el modelo, que es el conjunto prueba,
+
+1079
+01:24:07.630 --> 01:24:11.750
+que es el lo reservé también, es suficiente, el frente pequeño, y la más lo reservé
+
+1080
+01:24:11.750 --> 01:24:13.990
+para hacer mi prueba final.
+
+1081
+01:24:13.990 --> 01:24:21.830
+Entonces, normalmente, son rees neuronales, entreno con estos, voy verificando el proceso
+
+1082
+01:24:21.830 --> 01:24:27.470
+con esto y una vez que terminó el proceso, me regreso por rees neuronales que están
+
+1083
+01:24:27.470 --> 01:24:33.870
+basado en diferentes épocas y teraciones, me regresa la iteración en la que se comportó mejor
+
+1084
+01:24:33.870 --> 01:24:40.350
+sobre el conjunto de validación, tomo los parámetros con los que funcionan mejor, me quedo con
+
+1085
+01:24:40.350 --> 01:24:47.470
+esos y lo prevo finalmente sobre el conjunto prueba, a ver si se preserva el comportamiento que pasó
+
+1086
+01:24:47.470 --> 01:24:55.270
+acá aquí, es básicamente eso, de lo contrario y me quedo solo con el conjunto de entrenamiento,
+
+1087
+01:24:55.270 --> 01:24:59.770
+el modelo va a ser generalmente todos los modelos lobran tener un funcionamiento
+
+1088
+01:24:59.770 --> 01:25:04.950
+suficientemente bueno o casi perfecto, pero visto que yo, y eso es una reino
+
+1089
+01:25:04.950 --> 01:25:09.870
+reonal de que les sientes de puso de entrenamiento o que las fisientes
+
+1090
+01:25:09.870 --> 01:25:13.390
+interacciones para entrenar algún modelo exiterativo, llegan a
+
+1091
+01:25:13.390 --> 01:25:18.390
+memorizar datos, entonces por eso se reservan los conjuntos.
+
+1092
+01:25:18.390 --> 01:25:21.990
+Esta más imágenes la gráfica de lo que les platicaba es,
+
+1093
+01:25:21.990 --> 01:25:28.430
+es, de nedido el modelo con respecto al error cuadro de comedia, el ejemplito es igual
+
+1094
+01:25:28.430 --> 01:25:33.990
+el de los cabecinos más cercanos, usando esta cosa, normalmente con formellón empieza
+
+1095
+01:25:33.990 --> 01:25:43.920
+a entrenar, este es el entrenamiento, el error cuadrático medio, este, a ver, es como
+
+1096
+01:25:43.920 --> 01:25:50.880
+está esto, en palidación, bajando, a ver cuando el mod, cuando lo está en entrenamiento
+
+1097
+01:25:50.880 --> 01:25:57.640
+tiene un error casi cero es cuando es perfecto, cuando es casi cero, en el conjunto
+
+1098
+01:25:57.640 --> 01:26:04.720
+validación, aquí el error este putito es error cero quiere decir que memorizo los
+
+1099
+01:26:04.720 --> 01:26:09.880
+datos, como los memorizo cuando los pruebo en otro conjunto que es el devalidación,
+
+1100
+01:26:09.880 --> 01:26:18.600
+pues se comporta bastante mal, conforme va subiendo el error del conjunto entrenamiento,
+
+1101
+01:26:18.600 --> 01:26:24.480
+decir que estoy generalizando, ya no estoy memorizando, en el conjunto de validación veo
+
+1102
+01:26:24.480 --> 01:26:30.720
+que empieza a disminuir, va a llegar un punto en el que digamos los dos más o menos van a ser muy
+
+1103
+01:26:30.720 --> 01:26:38.320
+parecidos, aquí en este caso el hijo este punto, vamos a decir que este es el mejor para mí,
+
+1104
+01:26:38.320 --> 01:26:44.680
+de hecho creo que sí es el mejor sobre el conjunto de validación, está entre este punto y este otro
+
+1105
+01:26:44.680 --> 01:26:51.800
+punto creo que este es el está tapado por el recuadrote es verde pero vamos a
+
+1106
+01:26:51.800 --> 01:26:58.400
+suponer que este puntito es tan poquito más abajo que este puntito, es el menor valor, el menor RMS
+
+1107
+01:26:58.400 --> 01:27:06.240
+sobre el conjunto de validación es 60 y se logró acá. Por ello, seguí entrenando y veo que este
+
+1108
+01:27:06.240 --> 01:27:13.000
+hecho empieza a subir, este sigue entrorando, que lo que un comportamiento más o menos parecido,
+
+1109
+01:27:13.000 --> 01:27:21.000
+Entonces yo elijo este punto, este punto durante el proceso de intermento y lo elijo con base al conjunto validación.
+
+1110
+01:27:21.000 --> 01:27:29.000
+Ahora, una vez que yo termino eso y ya elegí este punto, entonces toquece un hipervas sobre el conjunto prueba, una vez se alegido.
+
+1111
+01:27:29.000 --> 01:27:37.000
+Y en este caso coincide que el conjunto prueba me da más o menos un valor RMS muy cercano a lo que era el conjunto de validación.
+
+1112
+01:27:37.000 --> 01:27:42.280
+de evaluación, eso es lo que en realidad es una esperaria que una vez que yo te he visto un
+
+1113
+01:27:42.280 --> 01:27:49.600
+comportamiento, la métrica que ustedes elijan en este caso es RMS, cuando ustedes prueben
+
+1114
+01:27:49.600 --> 01:27:55.160
+sobre el conjunto prueba, les den muy cerca al conjunto de evaluación. De lo contrario,
+
+1115
+01:27:55.160 --> 01:28:00.960
+pues, quiere decir que no funcionó. Si se les cae mucho en la métrica, quiere decir que algo
+
+1116
+01:28:00.960 --> 01:28:05.120
+algo se se veía por ahí y este conjunto de evaluación en realidad en vez de dando información
+
+1117
+01:28:05.120 --> 01:28:10.600
+en la ronia y lo que pueda haber sucedido es que yo he cometido en error y de alguna forma
+
+1118
+01:28:10.600 --> 01:28:16.800
+yo la he pasado información al conjunto de validación que está haciendo que mi predicción
+
+1119
+01:28:16.800 --> 01:28:25.680
+sea más optimista de lo que te hubiera hecho y justamente a eso iba con este funciona.
+
+1120
+01:28:25.680 --> 01:28:30.880
+Me toma regreso esta quiero llegar a esa parte no, no, no, déjame checorrar más.
+
+1121
+01:28:30.880 --> 01:28:32.880
+Ok, esto, todo te apostivos.
+
+1122
+01:28:32.880 --> 01:28:35.380
+Por tanto, muy allego a ese punto, ¿no?
+
+1123
+01:28:35.380 --> 01:28:40.320
+A veces por falta de cuidado, podemos pasar la información
+
+1124
+01:28:40.320 --> 01:28:43.420
+inadvertidamente al algoritmo,
+
+1125
+01:28:43.420 --> 01:28:45.220
+a través del conjunto de validación,
+
+1126
+01:28:45.220 --> 01:28:46.720
+incluso el conjunto de prueba,
+
+1127
+01:28:46.720 --> 01:28:50.620
+que haya que mis predicciones ahí sean muy buenas o muy...
+
+1128
+01:28:50.620 --> 01:28:52.020
+generalmente muy buenas, ¿no?
+
+1129
+01:28:52.020 --> 01:28:53.420
+Y que sean engañosos.
+
+1130
+01:28:53.420 --> 01:28:56.100
+Antes de llegar a ese detalle,
+
+1131
+01:28:56.100 --> 01:28:58.400
+es el proceso de división.
+
+1132
+01:28:58.400 --> 01:29:01.400
+Hay formas generalmente la gente usa siempre esto.
+
+1133
+01:29:01.400 --> 01:29:02.960
+Yo lo he dividido de forma aleatoria.
+
+1134
+01:29:02.960 --> 01:29:05.880
+Tengo por decir algo 100 datos.
+
+1135
+01:29:05.880 --> 01:29:09.120
+Voy a reservar 60 para entrenamiento, 20 por avalidad,
+
+1136
+01:29:09.120 --> 01:29:11.760
+si yo 20 por prueba.
+
+1137
+01:29:11.760 --> 01:29:13.440
+Y de forma aleatoria lo se lijo, ¿no?
+
+1138
+01:29:13.440 --> 01:29:17.840
+Eso es lo clásico, eso es lo más usado.
+
+1139
+01:29:17.840 --> 01:29:18.960
+¿Qué puede pasar?
+
+1140
+01:29:18.960 --> 01:29:21.880
+Si yo tengo alguna clase,
+
+1141
+01:29:21.880 --> 01:29:24.760
+si hagan de cuenta que todo el teo dos clases,
+
+1142
+01:29:24.760 --> 01:29:26.800
+eso es lo que tengo dos colores.
+
+1143
+01:29:26.800 --> 01:29:31.960
+voy a tengo 100 datos y solo tengo dos opciones, rojo y verde.
+
+1144
+01:29:32.160 --> 01:29:37.720
+Pero tengo 80 casos que me representan el rojo y solo tengo 20 que me representan el verde.
+
+1145
+01:29:37.920 --> 01:29:41.960
+Si hago mi división de forma aleatoria,
+
+1146
+01:29:42.160 --> 01:29:47.760
+pudiera suceder, pudiera suceder que en el conjunto de entrenamiento ya no me he quedado
+
+1147
+01:29:47.960 --> 01:29:51.680
+una proporción de 80, de rojos y verdes,
+
+1148
+01:29:51.880 --> 01:29:55.200
+sino que me quede probablemente 95, 5.
+
+1149
+01:29:55.200 --> 01:30:02.640
+ya casi todos los rojos se fueron a mi conjunto de entrenamiento y entonces quiere decir que en el conjunto de validación y en el conjunto de prueba
+
+1150
+01:30:02.640 --> 01:30:10.820
+va a haber un desbalance también, así todos los rojos se fueron para acá, entonces ya no quedaron rojos en el conjunto de prueba y
+
+1151
+01:30:10.820 --> 01:30:19.200
+o probablemente ya no me llegaron al conjunto de validación, pues hay que tener mucho cuidado con eso cuando las clases son balanceadas,
+
+1152
+01:30:19.200 --> 01:30:26.880
+Entonces generalmente la partición aleatoria es recomendada, pero si tengo una clase o
+
+1153
+01:30:26.880 --> 01:30:32.400
+unas clases que están pocamente representadas o son raras, entonces yo debo utilizar esto
+
+1154
+01:30:32.400 --> 01:30:39.840
+que es partición estatishizada, que esta partición es tradificada lo que va a ser el algoritmo
+
+1155
+01:30:39.840 --> 01:30:48.360
+es asegurarse que cuando ejecute la partición, las proporciones de las clases en el conjunto
+
+1156
+01:30:48.360 --> 01:30:53.400
+entrenamiento del conjunto de validación y en el conjunto de prueba sean las mismas.
+
+1157
+01:30:53.400 --> 01:30:56.160
+Se mantengan las proporciones.
+
+1158
+01:30:56.160 --> 01:31:01.160
+De esa forma, yo tengo las mismas proporciones y por lo tanto, de tener los mismos resultados.
+
+1159
+01:31:01.160 --> 01:31:07.120
+Y en otro caso, cuando tengo datos que son temporales, hay que tener mucho cuidado también,
+
+1160
+01:31:07.120 --> 01:31:12.600
+porque en serio ese tiempo, datos que tiene cierta temporalidad, pues yo tengo que entrenar
+
+1161
+01:31:12.600 --> 01:31:17.360
+como dice acá con el pasado, porque lo que quiero para decir es el futuro.
+
+1162
+01:31:17.360 --> 01:31:19.560
+El futuro obviamente yo ya tengo un conjunto de datos,
+
+1163
+01:31:19.560 --> 01:31:22.880
+que está en tiempo temporizados,
+
+1164
+01:31:22.880 --> 01:31:26.920
+y luego no sé, no voy a agarrar datos de lo que es mi futuro,
+
+1165
+01:31:26.920 --> 01:31:30.160
+y les voy a meter en el conjunto de entrenamiento,
+
+1166
+01:31:30.160 --> 01:31:33.640
+porque automáticamente estoy pasando información del futuro
+
+1167
+01:31:33.640 --> 01:31:35.240
+al conjunto de entrenamiento,
+
+1168
+01:31:35.240 --> 01:31:40.480
+y va a funcionar mucho mejor de lo que debería, ¿no?
+
+1169
+01:31:40.480 --> 01:31:43.600
+Ya conoce las respuestas.
+
+1170
+01:31:43.600 --> 01:31:46.440
+OK.
+
+1171
+01:31:46.440 --> 01:31:49.000
+Entonces, esto más o menos, no, no, no, no, estás.
+
+1172
+01:31:49.000 --> 01:31:50.640
+OK, ya dividí.
+
+1173
+01:31:50.640 --> 01:31:52.360
+Ya hice mi partición.
+
+1174
+01:31:52.360 --> 01:31:54.440
+Ya tengo mi partición inicial.
+
+1175
+01:31:54.440 --> 01:31:58.200
+Ya tengo por hacer algo 60% de mis datos y los vale
+
+1176
+01:31:58.200 --> 01:31:59.760
+de entrenamiento.
+
+1177
+01:31:59.760 --> 01:32:02.960
+OK, voy a trabajar ahora solo con entrenamiento.
+
+1178
+01:32:02.960 --> 01:32:06.280
+Generalmente, tampoco es buena idea agarrar ese 60%
+
+1179
+01:32:06.280 --> 01:32:10.320
+que ya decidi usar y entrenar todo.
+
+1180
+01:32:10.320 --> 01:32:11.480
+Con todo eso.
+
+1181
+01:32:11.480 --> 01:32:12.160
+¿Qué es lo que voy a hacer?
+
+1182
+01:32:12.160 --> 01:32:15.720
+Si lo voy a hacer así, pero lo que voy a hacer es reparticionarlo
+
+1183
+01:32:15.720 --> 01:32:21.420
+en pedacitos y de ahí voy a agarrar mi o bueno quizás los estoy diciendo mal.
+
+1184
+01:32:21.420 --> 01:32:28.340
+Vamos a regresar acá en esta gráfica. Si yo agarré 60% de entrenamiento y 20% de validación,
+
+1185
+01:32:28.340 --> 01:32:38.680
+digamos que junto todos estos dos y tengo un 80%. Ya que tengo 80%, voy a agarrar 80% y de cinco
+
+1186
+01:32:38.680 --> 01:32:43.600
+diferentes formas, son 10 diferentes formas de forma aleatoria los voy a construir.
+
+1187
+01:32:43.600 --> 01:32:46.400
+en tal forma que me quede algo como esto.
+
+1188
+01:32:46.400 --> 01:32:51.440
+En la primera partición, el 20% de los, digamos,
+
+1189
+01:32:51.440 --> 01:32:54.680
+este primer conjunto de datos me queda por avalidación
+
+1190
+01:32:54.680 --> 01:32:58.680
+y el 60% me queda para entrenamiento.
+
+1191
+01:32:58.680 --> 01:33:02.160
+Y después ya lo dividí en cinco cachitos es 80%.
+
+1192
+01:33:02.160 --> 01:33:04.640
+Después agarró, este lo dejo ahora para entrenamiento
+
+1193
+01:33:04.640 --> 01:33:06.480
+y uso este para avalidación.
+
+1194
+01:33:06.480 --> 01:33:10.080
+Y así sucesivamente no voy cambiando el conjunto avalidación
+
+1195
+01:33:10.080 --> 01:33:12.720
+de tal forma que no siempre sea el mismo.
+
+1196
+01:33:12.720 --> 01:33:17.080
+al final lo que voy a tener es ser son cinco horores diferentes porque van cambiando
+
+1197
+01:33:17.080 --> 01:33:24.000
+los conjuntos y lo que voy a hacer es tomar un promedio de estos como el resultado de
+
+1198
+01:33:24.000 --> 01:33:29.500
+mi entrenamiento. Eso también lo que me permite es no solamente tengo la media sino que
+
+1199
+01:33:29.500 --> 01:33:35.000
+poco aljó la desviación estándar de estos cinco y lo que me lo que me está diciendo es
+
+1200
+01:33:35.000 --> 01:33:41.280
+que tantos cambia el que tanto está cambiando el resultado conforme voy cambiando los datos.
+
+1201
+01:33:41.280 --> 01:33:46.320
+Entonces normalmente uno esperaría que si yo tengo por ser algo en la metrica de violencia
+
+1202
+01:33:46.320 --> 01:33:52.360
+RMS por decir algo de 80, lo tengas digamos más menos una desviación está andar cuando
+
+1203
+01:33:52.360 --> 01:33:53.360
+mucho.
+
+1204
+01:33:53.360 --> 01:33:57.280
+Si yo tengo una desviación está andar muy grande, quiere decir que algo está sucediendo
+
+1205
+01:33:57.280 --> 01:34:01.760
+mal y no puedo confiar en el resultado del algoritmo.
+
+1206
+01:34:01.760 --> 01:34:07.840
+Entonces, esto es algo que todavía veo que hay mucha gente, te dice, ya entran en algoritmo
+
+1207
+01:34:07.840 --> 01:34:12.840
+y tuve un RMS del punto 9, es maravilloso en el gorismo.
+
+1208
+01:34:12.840 --> 01:34:14.920
+Y no te dan la disvivencia en esta andara.
+
+1209
+01:34:14.920 --> 01:34:18.120
+La puede ser que hayas tenido mucha suerte
+
+1210
+01:34:18.120 --> 01:34:21.040
+y digamos que en esta partición de acá arriba,
+
+1211
+01:34:21.040 --> 01:34:24.120
+en tu conjunto de evaluación quedó muy bonito
+
+1212
+01:34:24.120 --> 01:34:27.280
+porque si van a deslazar porque lo hiciste de forma leatoria,
+
+1213
+01:34:27.280 --> 01:34:29.880
+y esta conjunto de evaluación quedó muy amado
+
+1214
+01:34:29.880 --> 01:34:32.520
+para que todo el gorismo funcione con un punto 9.
+
+1215
+01:34:32.520 --> 01:34:35.640
+Pero si después se hubiera probado con este que está acá abajo,
+
+1216
+01:34:35.640 --> 01:34:37.240
+igual yo tuviera quedado un punto 8.
+
+1217
+01:34:37.240 --> 01:34:39.160
+Entonces el punto nuevo y no es real,
+
+1218
+01:34:39.160 --> 01:34:42.200
+han a ser que me entregues el promedio de cinco corridas
+
+1219
+01:34:42.200 --> 01:34:44.560
+y me entregues las 10 versiones de standard.
+
+1220
+01:34:44.560 --> 01:34:46.920
+Entonces no cometen ese rol siempre
+
+1221
+01:34:46.920 --> 01:34:48.720
+que es lo que haban validación cruzada,
+
+1222
+01:34:48.720 --> 01:34:50.320
+que es esta técnica,
+
+1223
+01:34:50.320 --> 01:34:52.120
+validación cruzada de caparticiones,
+
+1224
+01:34:52.120 --> 01:34:56.800
+generalmente, que los habituales que sean cinco o 10 particiones.
+
+1225
+01:34:56.800 --> 01:34:58.840
+Eso se hace mucho en las regionales,
+
+1226
+01:34:58.840 --> 01:35:00.880
+pero no es exclusiva en las regionales.
+
+1227
+01:35:00.880 --> 01:35:04.560
+Ustedes pueden hacerlo en cualquier modelo
+
+1228
+01:35:04.560 --> 01:35:08.400
+que usted ois delisán para entrenar y para que reporten
+
+1229
+01:35:08.400 --> 01:35:15.840
+ser resultados sea algo estadísticamente representativo.
+
+1230
+01:35:15.840 --> 01:35:18.320
+Ahora sí, regraís un poquito a lo que les comentaba.
+
+1231
+01:35:18.320 --> 01:35:19.320
+¿Qué puede pasar?
+
+1232
+01:35:19.320 --> 01:35:24.480
+Eso de Fuga datos o data leakage.
+
+1233
+01:35:24.480 --> 01:35:29.200
+Por ejemplo, cuando dice rescalamiento,
+
+1234
+01:35:29.200 --> 01:35:33.320
+que sería este parte para procesar.
+
+1235
+01:35:33.320 --> 01:35:41.660
+Yo estoy cansado de procesando, voy a rescalar y para rescalar ya vi que o calculo la media o calculo la mediana o calculo la
+
+1236
+01:35:41.660 --> 01:35:51.540
+desviación estándar o calculo mi rámico intercortílico. No sé, el caso que calculo algunos estadísticos o resúmenes que me van a servir para
+
+1237
+01:35:51.540 --> 01:35:54.900
+rescalar o preprocesar mis datos, ¿vale?
+
+1238
+01:35:55.300 --> 01:35:58.260
+Si yo lo hago sobre todo el conjunto
+
+1239
+01:35:58.460 --> 01:36:01.420
+completito, la rescalo mi
+
+1240
+01:36:01.620 --> 01:36:04.740
+mi conjunto completito, después lo
+
+1241
+01:36:04.940 --> 01:36:07.380
+particiono y una parte de esa
+
+1242
+01:36:07.580 --> 01:36:09.540
+de esa parte, la mando para
+
+1243
+01:36:09.740 --> 01:36:11.140
+validación y la mando para prueba.
+
+1244
+01:36:12.340 --> 01:36:15.420
+Ya lo rescale con información
+
+1245
+01:36:15.940 --> 01:36:17.060
+de entrenamiento,
+
+1246
+01:36:17.940 --> 01:36:19.980
+quiere decir que ese rescalamiento
+
+1247
+01:36:19.980 --> 01:36:21.580
+en plícitamente el estado de
+
+1248
+01:36:21.580 --> 01:36:23.820
+información a los conjuntos que
+
+1249
+01:36:23.820 --> 01:36:26.020
+llaman de avalidación ya prueba.
+
+1250
+01:36:26.500 --> 01:36:28.100
+No le estoy pasando datos, pero
+
+1251
+01:36:28.100 --> 01:36:30.180
+implicitamente les estoy pasando
+
+1252
+01:36:30.180 --> 01:36:32.580
+la media, la mediana o el rango
+
+1253
+01:36:32.580 --> 01:36:34.300
+intercuartílico o la desviación
+
+1254
+01:36:34.300 --> 01:36:36.660
+estándar de el conjunto
+
+1255
+01:36:36.660 --> 01:36:38.700
+entrenamiento y pareciera que no,
+
+1256
+01:36:38.900 --> 01:36:40.660
+pero esa información valiosísima
+
+1257
+01:36:40.660 --> 01:36:43.180
+para el algoritmo que nosotros
+
+1258
+01:36:43.180 --> 01:36:44.380
+no nos damos cuenta que le estamos
+
+1259
+01:36:44.380 --> 01:36:46.460
+pasando y el algoritmo tiende
+
+1260
+01:36:46.580 --> 01:36:49.140
+a funcionar como dice ahí
+
+1261
+01:36:49.140 --> 01:36:58.460
+demasiado optimistamente. Entonces lo correcto que es, bueno, los otras razones antes de pasar
+
+1262
+01:36:58.460 --> 01:37:09.020
+eso. Las otras razones de que yo le pase información incorrecta es esta, que una columna que ya
+
+1263
+01:37:09.020 --> 01:37:16.260
+contiene la respuesta, si la estoy pasando al, como se llama, al entrenamiento. Por ejemplo,
+
+1264
+01:37:16.260 --> 01:37:22.740
+el ejemplo que está acá, si hay una columna que dice 10 traslado, yo quiero predecir si habrá
+
+1265
+01:37:22.740 --> 01:37:29.060
+alguna demora en algún proceso, pues obviamente la columna de 10 traslado me está indicando exactamente
+
+1266
+01:37:29.060 --> 01:37:33.380
+lo que quiero predecir, quiere decir que es el columna no se le le voy a pasar el entrenamiento,
+
+1267
+01:37:33.380 --> 01:37:37.780
+le tengo que eliminar, desde eso es un error de muchas personas que pueden competer,
+
+1268
+01:37:39.460 --> 01:37:42.980
+crearme más de los seguidos, más es muchísimo más como un héroque tren,
+
+1269
+01:37:42.980 --> 01:37:47.980
+no, a dar raro. Esa todo jueves gente que se avienta a ser
+
+1270
+01:37:47.980 --> 01:37:53.980
+utilizar los grimos de ella, pero son de otra área, no?
+
+1271
+01:37:53.980 --> 01:37:55.980
+Es un área no relacionada con insiniencia de villas,
+
+1272
+01:37:55.980 --> 01:38:00.980
+maquimápicas o estadísticas, que no tienen cuidado y no
+
+1273
+01:38:00.980 --> 01:38:03.980
+entienden mucho cómo funciona esto y dije,
+
+1274
+01:38:03.980 --> 01:38:06.980
+hoy mira su verdad, super bien, pero le estás pasando
+
+1275
+01:38:06.980 --> 01:38:11.980
+información valiosa para para el grimo. Aquí es donde hay,
+
+1276
+01:38:11.980 --> 01:38:14.980
+aquí es donde hay, a veces hay que meterse
+
+1277
+01:38:14.980 --> 01:38:16.980
+entender que son las variables.
+
+1278
+01:38:16.980 --> 01:38:18.980
+A mí me haces de ello mucho trabajando con gente de la
+
+1279
+01:38:18.980 --> 01:38:23.980
+era de la salud, en el que ciertas variables,
+
+1280
+01:38:23.980 --> 01:38:28.480
+que son médicas, que a veces no entendemos,
+
+1281
+01:38:28.480 --> 01:38:29.980
+te están dando la respuesta ya.
+
+1282
+01:38:32.980 --> 01:38:35.980
+No sé por ejemplo, cuando se acuerdan cuando la época de
+
+1283
+01:38:35.980 --> 01:38:38.980
+COVID, que sacaron las predicciones y que les decía a
+
+1284
+01:38:38.980 --> 01:38:51.580
+estudios y si antes si era si pertenso, era fiabético y era ovezo, tenías altas probabilidades
+
+1285
+01:38:51.580 --> 01:39:00.580
+de de sufrir algo grave por por COVID ¿no? Entonces de alguna forma esas esas variables, si no tenemos
+
+1286
+01:39:00.580 --> 01:39:06.660
+cuidado, están andos ya la respuesta en este caso no eran en el caso, ¿no? Pero ahí es donde
+
+1287
+01:39:06.660 --> 01:39:12.420
+a veces hay que meterse también en un piso de conocimiento del fenómeno que estamos estudiando,
+
+1288
+01:39:12.420 --> 01:39:19.700
+para entender si esas variables que son médicas, ofísicas o mecánicas de alguna forma le están dando
+
+1289
+01:39:19.700 --> 01:39:24.180
+ya la respuesta al algoritmo. Y es muy po... o hay que preguntar con la gente que estamos trabajando
+
+1290
+01:39:24.180 --> 01:39:31.100
+para saber si esas variables tienen una relación fuerte con el fenómeno que estamos atablando de
+
+1291
+01:39:31.100 --> 01:39:34.540
+el Brexit. La otra es este jugador temporal que es en
+
+1292
+01:39:34.540 --> 01:39:37.340
+ser este tiempo, es lo que les comentaba, metros datos que
+
+1293
+01:39:37.340 --> 01:39:40.020
+son del futuro y se les metan el pasado, obviamente ya les
+
+1294
+01:39:40.020 --> 01:39:42.980
+estoy dando la respuesta al algoritmo. O duplicados,
+
+1295
+01:39:42.980 --> 01:39:46.180
+esa puede ser accidental que una fila que está en los
+
+1296
+01:39:46.180 --> 01:39:48.580
+conjuntos de tratamiento lo ponga también en la conjunto
+
+1297
+01:39:48.580 --> 01:39:52.140
+de prueba por error y automáticamente el algoritmo
+
+1298
+01:39:52.140 --> 01:39:55.020
+le utiliza para para aprender muchísimo mejor de lo que
+
+1299
+01:39:55.020 --> 01:39:58.500
+debería, ¿no? La más importante, la más sutile se está en
+
+1300
+01:39:58.500 --> 01:40:00.460
+el proceso de ambiental, que es la que quería tocar con un
+
+1301
+01:40:00.460 --> 01:40:03.800
+un poquito más de cuidado ¿no? ¿Qué es lo que normalmente… ¿Qué es lo que
+
+1302
+01:40:03.800 --> 01:40:07.780
+sigue tenemos a hacer? Está descrito acá, ¿no? Voy a magnificar.
+
+1303
+01:40:07.780 --> 01:40:14.820
+Y ¿qué es lo que sigue tenemos a hacer es tomo mis datos los divido primero en entrenamiento
+
+1304
+01:40:14.820 --> 01:40:21.180
+prueba y validación? Calculo los estadísticos, esa cuando se media, no media, no media, no
+
+1305
+01:40:21.180 --> 01:40:28.980
+de rano intercorteídico de su vez a escandar, calculo solamente sobre el conjunto de entrenamiento,
+
+1306
+01:40:28.980 --> 01:40:36.940
+informa los datos del conjunto entreamiento o al horrescalo y después, qué es lo que voy
+
+1307
+01:40:36.940 --> 01:40:44.970
+a hacer, transformar validación y prueba con esos mismos estadísticos. ¿Qué es lo que no
+
+1308
+01:40:44.970 --> 01:40:54.320
+debo hacer? Primero calcular los estadísticos en todos los datos luego divido y entonces
+
+1309
+01:40:54.320 --> 01:41:03.920
+en treno y evaluó. Sí, no sé si alcanza a ver las sutilesas. Si yo hago esto y transformo todos
+
+1310
+01:41:03.920 --> 01:41:09.400
+los datos aquí está como que es conmigo, dijo, cálculo estadísticos debería decir transformo
+
+1311
+01:41:09.400 --> 01:41:17.960
+divido y entonces entre no y evaluó. La diferencia acá está en que calculo estadísticos solo sobre
+
+1312
+01:41:17.960 --> 01:41:23.940
+entrenamiento, transformos solo entrenamiento, entreno y ya que termine de
+
+1313
+01:41:23.940 --> 01:41:30.600
+entrenar, pero si puedo usar estadísticos para rescalar mis datos, pero ya no van a
+
+1314
+01:41:30.600 --> 01:41:33.940
+afectar en el conjunto de entrenamiento, si los voy a usar porque tengo que
+
+1315
+01:41:33.940 --> 01:41:39.000
+rescalarlos igualito que hice con los entrenamientos, pero lo sé haciendo al final
+
+1316
+01:41:39.000 --> 01:41:45.720
+ya que el algoritmo nunca los vio, entrenó con los de entrenamiento sin conocer esos
+
+1317
+01:41:45.720 --> 01:41:52.720
+datos, pero cuando voy a hacer la prueba, entonces si los puedo utilizar para que sea la misma
+
+1318
+01:41:52.720 --> 01:41:57.840
+transformación que aplicar el entrenamiento, es la que estoy aplicando a los datos de prueba,
+
+1319
+01:41:57.840 --> 01:42:01.520
+pero nunca lo vio el algoritmo.
+
+1320
+01:42:01.520 --> 01:42:04.560
+Ok, entonces ¿qué es lo que puede pasar?
+
+1321
+01:42:04.560 --> 01:42:13.320
+Ejemplo, si tomo todos calcúlo mis estadísticos y si solo calculo sobre el conjunto de
+
+1322
+01:42:13.320 --> 01:42:17.320
+de este herramiento, vean como
+
+1323
+01:42:17.320 --> 01:42:19.320
+cambian los estadísticos en este caso
+
+1324
+01:42:19.320 --> 01:42:23.320
+medianas y y de diez años está
+
+1325
+01:42:23.320 --> 01:42:27.320
+dando. Entonces los estoy los
+
+1326
+01:42:27.320 --> 01:42:31.320
+estoy modificando en el
+
+1327
+01:42:31.320 --> 01:42:33.320
+entrenamiento. En salón mi conjunto
+
+1328
+01:42:33.320 --> 01:42:35.320
+entrenamiento ya tendría una media
+
+1329
+01:42:35.320 --> 01:42:37.320
+de cuatro punto cinco y dos
+
+1330
+01:42:37.320 --> 01:42:39.320
+punto tres. Pero si hubiera
+
+1331
+01:42:39.320 --> 01:42:41.320
+entrenado todos y después partizó
+
+1332
+01:42:41.320 --> 01:42:45.160
+diferente al 4.5 y tenía la disviesa en standard red 10.8.
+
+1333
+01:42:45.160 --> 01:42:49.380
+Entonces hay que tener mucho cuidado con eso.
+
+1334
+01:42:49.380 --> 01:42:52.420
+Es un ejemplo aleatorio para que vean el efecto.
+
+1335
+01:42:52.420 --> 01:42:54.020
+Aquí es completamente aleatorio.
+
+1336
+01:42:54.020 --> 01:43:00.320
+Yo genero 100 filas con 2.000 columnas que son puro ruido.
+
+1337
+01:43:00.320 --> 01:43:02.260
+2.000 columnas de puro ruido.
+
+1338
+01:43:02.260 --> 01:43:03.960
+No hay nada que predecir acá.
+
+1339
+01:43:03.960 --> 01:43:07.660
+Aquí la predicción que me de dar es el azar.
+
+1340
+01:43:07.660 --> 01:43:09.780
+Es 0.5.
+
+1341
+01:43:09.780 --> 01:43:11.300
+¿Qué hago?
+
+1342
+01:43:11.300 --> 01:43:29.860
+si yo aplico validación cruzada con transformación sobre el conjunto, o sea, si yo transformo entre
+
+1343
+01:43:29.860 --> 01:43:37.740
+y pruebas sobre el conjunto de prueba, los resultados me van a dar una predicción,
+
+1344
+01:43:37.740 --> 01:43:45.900
+cuya media anda por punto 85. No es posible esto porque los datos son
+
+1345
+01:43:45.900 --> 01:43:51.820
+por ruido, su media está en punto 5, que es el azar, entonces no hay manera de que
+
+1346
+01:43:51.820 --> 01:43:57.060
+mi algoritmo pueda predecir ruido, predecir algo que es por la probabilidad punto 5,
+
+1347
+01:43:57.060 --> 01:44:00.660
+lo pueda preciir con la probabilidad de punto 85.
+
+1348
+01:44:00.660 --> 01:44:04.060
+¿Qué es lo que pasó que hacer la transformación?
+
+1349
+01:44:04.060 --> 01:44:08.060
+Yo introduce información de los datos de entrenamiento
+
+1350
+01:44:08.060 --> 01:44:09.860
+que no deberían el conjunto de prueba.
+
+1351
+01:44:09.860 --> 01:44:13.060
+Por otro lado, si lo hago de forma correcta,
+
+1352
+01:44:13.060 --> 01:44:17.060
+no aplico la transformación más que el conjunto de entrenamiento
+
+1353
+01:44:17.060 --> 01:44:19.060
+y después lo pruebas sobre el conjunto de prueba,
+
+1354
+01:44:19.060 --> 01:44:22.060
+obtengo el resultado correcto.
+
+1355
+01:44:22.060 --> 01:44:26.060
+Yo tengo un punto 5 de predicción que es malísimo,
+
+1356
+01:44:26.060 --> 01:44:30.940
+por aquí lo que me trataba de ilustrar es que yo sabía que era punto 5 lo que tenía que obtener
+
+1357
+01:44:30.940 --> 01:44:37.740
+porque es ruido lo que le han tenido como datos de aprendizaje. Aquí lo que se trata de ilustrar
+
+1358
+01:44:37.740 --> 01:44:50.460
+es que el cometiste el error de que sin no intencionalmente introdujiste información al conjunto
+
+1359
+01:44:50.460 --> 01:44:53.220
+entrenamiento que no deberías haber
+
+1360
+01:44:53.220 --> 01:44:55.020
+interrocido, ¿no?
+
+1361
+01:44:55.020 --> 01:44:58.380
+¿Qué fue básicamente calcular la media,
+
+1362
+01:44:58.380 --> 01:45:01.140
+los estadísticos, sobre todo el conjunto?
+
+1363
+01:45:01.140 --> 01:45:04.180
+Entonces el proceso correcto cuál es?
+
+1364
+01:45:04.180 --> 01:45:05.820
+Particiono.
+
+1365
+01:45:05.820 --> 01:45:06.700
+OK?
+
+1366
+01:45:06.700 --> 01:45:08.340
+Debido mis datos.
+
+1367
+01:45:08.340 --> 01:45:12.420
+Sobre este conjunto aprendo mis estadísticos.
+
+1368
+01:45:12.420 --> 01:45:13.060
+¿Sale?
+
+1369
+01:45:13.060 --> 01:45:15.300
+Aquí hago un entrenamiento.
+
+1370
+01:45:15.300 --> 01:45:18.300
+Transformo y el entregar.
+
+1371
+01:45:18.300 --> 01:45:18.700
+OK?
+
+1372
+01:45:18.700 --> 01:45:25.120
+aquí tengo estos estadísticos, esos estadísticos que aprendí aquí me los brinco y si los
+
+1373
+01:45:25.120 --> 01:45:32.480
+mando al conjunto o validación, pero son los de entrenamiento, no son los de todo el conjunto.
+
+1374
+01:45:32.480 --> 01:45:39.360
+Entonces, esta media y esta sigma solo corresponden a este conjunto. Entonces ya que termine de entrenar,
+
+1375
+01:45:39.360 --> 01:45:46.600
+usos esos dos parámetros para transformar y pruebas sobre mi conjunto o validación o usos los
+
+1376
+01:45:46.600 --> 01:45:50.100
+mismos para transformar y pruebo sobre el conjunto prueba.
+
+1377
+01:45:50.100 --> 01:45:56.280
+Generalmente hay dos errores que cometen. O calculo la media y la
+
+1378
+01:45:56.280 --> 01:46:02.080
+decisión estándar sobre todos estos tres sumados o lo que alguna
+
+1379
+01:46:02.080 --> 01:46:07.240
+gente hace incorrectamente también es calculo correctamente sobre
+
+1380
+01:46:07.240 --> 01:46:12.320
+entrenamientos de dos, entreno y después calculen aquí la
+
+1381
+01:46:12.320 --> 01:46:18.960
+en el año y la media y la visión estándar, pero sobre el conjunto de validación, lo cual también
+
+1382
+01:46:18.960 --> 01:46:24.680
+es incorrecto porque tus datos de entrenamiento fueron transformados con estas dos estadísticos.
+
+1383
+01:46:24.680 --> 01:46:29.680
+Entonces tú tienes que preservar la misma transformación cuando hagas tu prueba de validación,
+
+1384
+01:46:29.680 --> 01:46:34.240
+de lo contrario está haciendo incorrecto, ¿no? Entonces este de garnita creo que es el que les sirve más.
+
+1385
+01:46:34.240 --> 01:46:41.320
+Entonces, dividen calculan estadísticos para transformar, transforman y entrenan,
+
+1386
+01:46:41.320 --> 01:46:45.920
+ya que terminan el entrenamiento, usan los estadísticos para transformar sus dos conjuntos de
+
+1387
+01:46:45.920 --> 01:46:51.720
+valedación y prueba y prevan aquí. Y de esa forma ya no estás desgado sus resultados.
+
+1388
+01:46:52.720 --> 01:46:55.520
+¿Cómo hacen esto de forma computacional?
+
+1389
+01:46:58.520 --> 01:47:03.720
+Utilizando estas, estos bibliotecas de Python,
+
+1390
+01:47:03.720 --> 01:47:12.360
+el inputter o simple inputter, el standard scaler, en el caso de transformaciones standard y por
+
+1391
+01:47:12.360 --> 01:47:17.160
+ejemplo, puedo utilizar un modelo como el KNN que se le queda en el estado usando acá, no.
+
+1392
+01:47:17.160 --> 01:47:25.640
+El pueden considerar un pipeline utilizando la biblioteca de pipe. Aquí está creo que mejorcito
+
+1393
+01:47:25.640 --> 01:47:34.200
+como estás explicado. Por ejemplo, si tengo habitable, habitable original, la de, como se
+
+1394
+01:47:34.200 --> 01:47:40.400
+llama, el California Housing. Tengo 8 berarigas, una categorica, es lo que voy a hacer,
+
+1395
+01:47:42.880 --> 01:47:49.720
+agarro vibrarías categoricas, encuentro todos los datos que están perdidos. En este caso,
+
+1396
+01:47:49.720 --> 01:47:56.800
+los voy a rellenar con la mediana, hago esta transformación, agarro mi data
+
+1397
+01:47:56.800 --> 01:48:04.000
+categórico, si tengo datos perdidos lo voy a rellenar con el data más
+
+1398
+01:48:04.000 --> 01:48:09.680
+fuente, hago la transformación en Juan Cote encoder y los vuelvo a juntar,
+
+1399
+01:48:09.680 --> 01:48:16.040
+sale, ya tengo hoy matriz con todas mis variables categóricas, se suma 13 porque
+
+1400
+01:48:16.040 --> 01:48:22.680
+tenía ocho numericas y la categorica va a aportar en este caso cinco columnas
+
+1401
+01:48:22.680 --> 01:48:29.920
+adicionales de las cinco clases que va a tener la categorica que en este caso era la de
+
+1402
+01:48:29.920 --> 01:48:36.960
+Ocean, de tan cercadas de Oceano, que habían cinco opciones, ¿no? Entonces me está
+
+1403
+01:48:36.960 --> 01:48:42.920
+agregando mis, ahora mi tabla se convierte en cinco y bueno el código lo pueden revisar
+
+1404
+01:48:42.920 --> 01:48:47.080
+tranquilamente más adelante para que no te chance de si tienen algunas dudas ya está
+
+1405
+01:48:47.080 --> 01:48:56.950
+por terminar. Revíciel.lo también está en el en el como se llama en el en el notebook que
+
+1406
+01:48:56.950 --> 01:49:01.950
+les pasa está bastante simple entender no no creo que tengan un problema se los puse aquí en
+
+1407
+01:49:01.950 --> 01:49:07.110
+la pronunciación por si nos estaba tiempo pero checan aquí si quieren y después checan
+
+1408
+01:49:07.110 --> 01:49:12.390
+en el en el notebook porque aquí les da el proceso como debe ser no como construy el pipeline
+
+1409
+01:49:12.390 --> 01:49:19.490
+básicamente y ese es el mismo pipeline quizás yo detení a remarcar esto, ¿no?
+
+1410
+01:49:21.490 --> 01:49:28.010
+Ok, digamos que tengo mi pipe numérico, mi pipe de categoricas, agro la imputación,
+
+1411
+01:49:28.010 --> 01:49:35.090
+hago mi transformación de categoricas anuméricas, después los conjunto, el Yamoprep,
+
+1412
+01:49:35.090 --> 01:49:40.990
+los paraun ponse a los uno, se lo construyó mi modelo,
+
+1413
+01:49:40.990 --> 01:49:45.890
+eligiendo los datos ya unificados que en la matriz de 13 seleccionó mi modelo acá,
+
+1414
+01:49:45.890 --> 01:49:50.890
+y después aquí hago mi partición, hago mi partición en datos de entrenamiento,
+
+1415
+01:49:50.890 --> 01:49:55.670
+datos de prueba, salida de entrenamiento, salida de prueba, en este caso no tengo otra
+
+1416
+01:49:55.670 --> 01:50:13.470
+de la evaluación. Tengo transformación aquí, estoy buscando donde está la transformación,
+
+1417
+01:50:13.470 --> 01:50:21.020
+no tengo transformación acá. Ok, queríamos estar a veces aparte, pero luego que no está.
+
+1418
+01:50:21.020 --> 01:50:28.660
+Bueno, la única transformación es esta, no? A ver le he hecho acá. Pero no es la transformación
+
+1419
+01:50:28.660 --> 01:50:31.120
+queremos estarles de, vamos a ir hasta el escalador acá.
+
+1420
+01:50:34.120 --> 01:50:45.450
+A ver, para K&amp;N y Vido, aplico.
+
+1421
+01:51:03.620 --> 01:51:07.020
+OK, sí está bien.
+
+1422
+01:51:07.440 --> 01:51:11.240
+Pero aquí más grande lo que querían,
+
+1423
+01:51:11.240 --> 01:51:13.580
+porque es ver cómo se lo explicaba.
+
+1424
+01:51:13.580 --> 01:51:17.720
+Cuando yo defino aquí el pipeline, lo que le estoy diciendo a este,
+
+1425
+01:51:18.540 --> 01:51:20.520
+básicamente es con a tu recibas sus datos,
+
+1426
+01:51:21.140 --> 01:51:23.960
+lo vas a rellenar con la mediana y lo vas a rescalar
+
+1427
+01:51:23.960 --> 01:51:28.920
+con el escalador estándar, ¿no? Vamos a poner que es eso y lo mismo ocurre algo similar para
+
+1428
+01:51:28.920 --> 01:51:35.000
+los datos categoricos. Eso es lo que va a ser el proceso después si ona más el hijo del modelo
+
+1429
+01:51:35.000 --> 01:51:43.040
+acá, ¿sabes? Con el pipeline, que definí y entonces hago mi partición. Entonces cuando realmente
+
+1430
+01:51:43.040 --> 01:51:50.800
+yo jalo al modelo, es aquí en el fit. El fit lo está haciendo con el conjunto de entrenamiento
+
+1431
+01:51:50.800 --> 01:51:59.000
+utilizando este pipeline. O sea, aquí es donde ya le paso los datos y como ya definí el pipeline para
+
+1432
+01:51:59.000 --> 01:52:07.080
+este modelo, automáticamente le va a aplicar la importación y el escalamiento que yo le dije,
+
+1433
+01:52:07.080 --> 01:52:14.300
+pero lo va a hacer únicamente sobre el documentalamiento. Entonces aquí va a ser el ajuste y cuando vaya a
+
+1434
+01:52:14.300 --> 01:52:21.820
+hacer, quitando esto de la parte de la búsqueda de Grid, cuando vaya a ser la prueba,
+
+1435
+01:52:21.820 --> 01:52:34.390
+esto está sobre los datos de la puse en la parte, no veo dónde hacer la prueba, para
+
+1436
+01:52:34.390 --> 01:52:35.630
+lo que he de con entrenamiento.
+
+1437
+01:52:35.630 --> 01:52:44.430
+Ya no usa esto, es el Pro, no está da, cuando pongas el escor, pero cuando pongas el escor,
+
+1438
+01:52:44.430 --> 01:52:48.110
+automáticamente como el modelo ya tiene definido el pipeline,
+
+1439
+01:52:48.870 --> 01:52:51.550
+ya lo aprendió sobre los datos de entrenamiento,
+
+1440
+01:52:51.550 --> 01:52:56.070
+que es lo que ocurrió acá, se los va a aplicar a los datos de prueba,
+
+1441
+01:52:56.270 --> 01:53:00.070
+pero va a aplicar ese rescalamiento y esa imputación,
+
+1442
+01:53:00.510 --> 01:53:04.390
+la misma, pero ya con los parámetros que aprendió aquí en el fit
+
+1443
+01:53:04.990 --> 01:53:06.510
+sobre los datos de entrenamiento.
+
+1444
+01:53:07.710 --> 01:53:11.110
+Entonces aquí está en plícito, aquí no se ve eso,
+
+1445
+01:53:11.110 --> 01:53:15.870
+pero automáticamente no es transparente, no?
+
+1446
+01:53:15.870 --> 01:53:21.510
+Porque dice, pareciera que el modelo va a agarrar los datos de prueba y va a calcular su propia
+
+1447
+01:53:21.510 --> 01:53:26.350
+desviación estándar y va a ser su propia, pues ya va.
+
+1448
+01:53:26.350 --> 01:53:32.650
+Rescalamiento, utilizan sus datos, pero no, como ya hice el fit aquí, lo hice sobre el entrenamiento.
+
+1449
+01:53:32.650 --> 01:53:38.590
+Ya tengo yo en las desviaciones estándar, ya tengo la media, hago mis rescalamiento estándar
+
+1450
+01:53:38.590 --> 01:53:42.310
+con esos datos y cuando calcula el escorso sobre estos datos de prueba,
+
+1451
+01:53:42.310 --> 01:53:45.770
+uso implicitamente ya usa esos datos.
+
+1452
+01:53:45.770 --> 01:53:49.310
+De hecho, esto se puede hacer, este feat lo podemos hacer,
+
+1453
+01:53:49.310 --> 01:53:53.590
+si nos al pipeline de forma más expandida, pero lo general,
+
+1454
+01:53:53.590 --> 01:53:57.790
+para no cometer errores es construir el pipeline y automáticamente ya esta
+
+1455
+01:53:57.790 --> 01:54:01.990
+instrucción te protege de que no cometes el error de hacerlo sobre
+
+1456
+01:54:01.990 --> 01:54:06.130
+los datos de valedación de prueba o a ver utilizado otros datos,
+
+1457
+01:54:06.130 --> 01:54:08.690
+otros estadísticos de otro conjunto de datos, ¿vale?
+
+1458
+01:54:08.690 --> 01:54:12.370
+Check-in los que han dudado, si lo platicamos,
+
+1459
+01:54:12.370 --> 01:54:16.770
+pues así como estoy viendo mañana lo pasaba, pero bueno,
+
+1460
+01:54:16.770 --> 01:54:22.770
+sí yo creo que ya con eso cubrimos, cubrimos en el tema de hoy,
+
+1461
+01:54:22.770 --> 01:54:26.610
+y pues hay unos minutitos por si alguien tiene que comentar algo, igual que bien,
+
+1462
+01:54:26.610 --> 01:54:39.280
+¿no? Perfecto. Todos nos vemos mañana.
+
+1463
+01:54:39.280 --> 01:54:43.100
+¿Déjame? ¿Vos es jueves?
+
+1464
+01:54:43.100 --> 01:54:45.300
+Ah, tienes razón. Qué bueno que me la cuerdas.
+
+1465
+01:54:45.300 --> 01:54:47.220
+Maia, diez de descanso.
+
+1466
+01:54:47.220 --> 01:54:50.080
+Es de sí. No veo si jueves.
+
+1467
+01:54:50.080 --> 01:54:52.060
+Eh...
+
+1468
+01:54:52.060 --> 01:54:53.480
+Ah, perfecto.
+
+1469
+01:54:53.480 --> 01:54:54.520
+No, si no es jueves.
+
+1470
+01:54:54.520 --> 01:54:56.660
+Ya si alguien tiene alguna duda también para mandar un correo,
+
+1471
+01:54:56.660 --> 01:55:00.500
+contar con Fueza o preguntar acá en el Teams,
+
+1472
+01:55:00.500 --> 01:55:02.100
+cualquier duda que voy entiendo,
+
+1473
+01:55:02.100 --> 01:55:04.840
+y tratar de responderse las
+
+1474
+01:55:04.840 --> 01:55:07.620
+lo más pronto posible.
+
+1475
+01:55:07.620 --> 01:55:09.620
+Bueno, pues nos vemos.
+
+1476
+01:55:10.620 --> 01:55:12.620
+¿Qué procede? ¿Atajuela es procede?
+
+1477
+01:55:12.620 --> 01:55:13.620
+Gracias por vernos.
+
+1478
+01:55:13.620 --> 01:55:14.620
+Gracias por vernos.
+
+1479
+01:55:14.620 --> 01:55:16.620
+Gracias por vernos.
+
+1480
+01:55:16.620 --> 01:55:17.620
+Gracias.
+

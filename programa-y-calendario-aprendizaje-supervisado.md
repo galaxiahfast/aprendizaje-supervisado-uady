@@ -7,7 +7,7 @@ lunes, martes, jueves y viernes. Solo se registran fechas confirmadas.
 | ---: | --- | --- | --- |
 | 1 | 19 oct 2026 | Preparación de datos | Análisis exploratorio de datos |
 | 2 | 20 oct 2026, 18:00 | Preparación de datos | Preprocesamiento de datos |
-| 3 | Por confirmar | Preparación de datos | Ingeniería y selección de variables |
+| 3 | 22 oct 2026 | Preparación de datos | Ingeniería y selección de variables |
 | 4 | Por confirmar | Regresión | Regresión lineal y polinomial |
 | 5 | Por confirmar | Regresión | Regresión regularizada |
 | 6 | Por confirmar | Regresión | Máquinas de vectores de soporte |
@@ -21,4 +21,4 @@ lunes, martes, jueves y viernes. Solo se registran fechas confirmadas.
 | 14 | Por confirmar | Ensamble | AdaBoost, Gradient Boosting y XGBoost |
 
 El [programa oficial](programa-oficial-aprendizaje-supervisado.pdf) contiene la planeación completa.
-Las fechas de entrega siguen pendientes al 20 de octubre de 2026.
+La tarea de la clase 2 no muestra una fecha posterior. Las fechas de los demás trabajos siguen pendientes.
