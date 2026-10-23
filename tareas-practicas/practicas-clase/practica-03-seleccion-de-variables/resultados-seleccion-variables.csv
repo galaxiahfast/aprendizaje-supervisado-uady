@@ -1,0 +1,6 @@
+método,k,exactitud_cv,sensibilidad_cv,variables,comentario
+Línea base (30 variables),30,0.978,0.961,todas,Referencia con toda la información y mayor costo de medición.
+Filtro: información mutua,8,0.949,0.924,mean radius; mean perimeter; mean area; mean concave points; worst radius; worst perimeter; worst area; worst concave points,"Filtro rápido que capta relaciones no lineales, pero revisa cada variable sola."
+Filtro: ANOVA F,8,0.949,0.92,mean radius; mean perimeter; mean area; mean concave points; worst radius; worst perimeter; worst area; worst concave points,"Filtro rápido para relaciones lineales, sensible a información redundante."
+Envoltura: RFE,8,0.962,0.943,radius error; area error; worst radius; worst texture; worst perimeter; worst area; worst smoothness; worst concave points,Busca un subconjunto complementario mediante reentrenamientos sucesivos.
+Integrado: Lasso,8,0.973,0.953,mean concave points; radius error; worst radius; worst texture; worst area; worst smoothness; worst concave points; worst symmetry,Selecciona durante el ajuste y puede alternar entre variables correlacionadas.
