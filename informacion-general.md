@@ -2,9 +2,9 @@
 
 ## Estado de la materia
 
-- Última clase organizada: **clase 2 — preprocesamiento de datos**.
-- Próxima clase indicada: **jueves 22 de octubre de 2026**.
-- Entrega activa: **tarea 1 de pipeline de preprocesamiento, resuelta**.
+- Última clase organizada: **clase 3 — ingeniería y selección de variables**.
+- Próxima clase del calendario: **viernes 23 de octubre de 2026**.
+- Entrega activa: **laboratorio integrador, pendiente de recibir el notebook oficial**.
 - La práctica de California Housing está resuelta. El profesor aclaró que no se entrega.
 
 ## Dónde está cada cosa
@@ -25,7 +25,7 @@ para estudiar.
 
 | Evidencia | Valor | Estado |
 | --- | ---: | --- |
-| Ejercicios de laboratorio | 30 % | Tarea 1 resuelta. Fecha de envío sin publicar |
+| Ejercicios de laboratorio | 30 % | Primer laboratorio anunciado para el 30 oct 2026 |
 | Miniproyecto de regresión | 35 % | Faltan instrucciones y fecha |
 | Miniproyecto de clasificación | 35 % | Faltan instrucciones y fecha |
 

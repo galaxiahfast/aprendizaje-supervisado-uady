@@ -12,8 +12,8 @@ RAIZ = Path(__file__).resolve().parents[2]
 TAREA = (
     RAIZ
     / "tareas-practicas"
-    / "tareas-entregables"
-    / "tarea-01-pipeline-preprocesamiento"
+    / "practicas-clase"
+    / "practica-02-pipeline-preprocesamiento"
 )
 PLANTILLA = (
     RAIZ
@@ -21,7 +21,7 @@ PLANTILLA = (
     / "plantillas-originales"
     / "unidad-01-clase-02-actividad-preprocesamiento.ipynb"
 )
-SALIDA = TAREA / "tarea-01-pipeline-preprocesamiento-resuelta.ipynb"
+SALIDA = TAREA / "practica-02-pipeline-preprocesamiento-resuelta.ipynb"
 
 
 RESPUESTAS = {
@@ -220,7 +220,7 @@ tabla_final["comentario"] = comentarios
 tabla_final'''
     notebook.cells[38].source = notebook.cells[38].source.replace(
         'entregable_unidad2.csv',
-        'entregable-unidad-02.csv',
+        'resultados-preprocesamiento-datos.csv',
     )
     notebook.cells[39].source = notebook.cells[39].source.replace(
         'mejor = "..."',
@@ -237,7 +237,7 @@ tabla_final'''
     cliente.execute()
     nbformat.write(notebook, SALIDA)
     print(SALIDA)
-    print(TAREA / "entregable-unidad-02.csv")
+    print(TAREA / "resultados-preprocesamiento-datos.csv")
 
 
 if __name__ == "__main__":

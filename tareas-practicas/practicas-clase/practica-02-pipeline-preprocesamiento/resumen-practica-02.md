@@ -1,18 +1,18 @@
-# Tarea 1 — pipeline de preprocesamiento
+# Práctica 2 — pipeline de preprocesamiento
 
 Clase relacionada: **clase 2 del 20 de octubre de 2026**
 
-Estado: **resuelta y ejecutada**
+Estado: **resuelta y ejecutada. No se entrega**
 
-Fecha límite: **no se publicó una fecha posterior**. El material indica realizarla durante el tiempo
-restante de la sesión.
+El 22 de octubre el profesor aclaró que los tres notebooks de la primera semana son para practicar.
+El entregable será otro notebook integrador.
 
-## Archivos para entregar
+## Archivos de la práctica
 
-- [notebook resuelto](tarea-01-pipeline-preprocesamiento-resuelta.ipynb)
-- [tabla comparativa](entregable-unidad-02.csv)
+- [notebook resuelto](practica-02-pipeline-preprocesamiento-resuelta.ipynb)
+- [tabla comparativa](resultados-preprocesamiento-datos.csv)
 
-No se deben incluir apuntes, transcripciones, videos, presentaciones ni plantillas originales.
+Estos archivos sirven para estudiar y preparar el laboratorio integrador.
 
 ## Criterios cubiertos
 

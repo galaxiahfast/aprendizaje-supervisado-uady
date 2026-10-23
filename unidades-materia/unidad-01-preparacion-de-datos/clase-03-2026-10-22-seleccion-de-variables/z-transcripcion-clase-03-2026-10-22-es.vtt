@@ -1,0 +1,5230 @@
+WEBVTT
+
+1
+00:00:12.560 --> 00:00:14.860
+yo ya se está grabando.
+
+2
+00:00:14.860 --> 00:00:22.180
+¿Se escucha?
+
+3
+00:00:22.180 --> 00:00:24.460
+¿No?
+
+4
+00:00:24.460 --> 00:00:26.220
+Pero yo recibo un poco de eco.
+
+5
+00:00:26.220 --> 00:00:43.690
+Bueno, vamos a hacerlo.
+
+6
+00:00:43.690 --> 00:00:47.190
+Ok, vamos a hacer una pre-indulada.
+
+7
+00:00:47.190 --> 00:00:51.550
+¿Tácil? ¿Se me interrojo?
+
+8
+00:00:51.550 --> 00:00:53.550
+¿No?
+
+9
+00:00:53.550 --> 00:01:02.860
+Si no escuchan eco, ahí está bien por ustedes.
+
+10
+00:01:02.860 --> 00:01:09.650
+Se le�, como saber, para...
+
+11
+00:01:09.650 --> 00:01:10.650
+para...
+
+12
+00:01:12.850 --> 00:01:32.190
+Ahí debe estar bien ya.
+
+13
+00:01:32.190 --> 00:01:33.790
+Yo ahora me lo llamo a escuchinar.
+
+14
+00:01:33.790 --> 00:01:41.310
+Bueno, vamos a comenzar.
+
+15
+00:01:41.310 --> 00:01:48.700
+La idea, hoy es ver un poco de...
+
+16
+00:01:48.700 --> 00:01:50.700
+como...
+
+17
+00:01:50.700 --> 00:01:52.500
+como seleccionar en otras variables.
+
+18
+00:01:52.500 --> 00:01:56.960
+Hay básicamente tres nato,
+
+19
+00:01:56.960 --> 00:01:59.460
+vamos a realizar las tres que ya existen.
+
+20
+00:01:59.460 --> 00:02:08.940
+existen. Una pues va a ser un poco con las bases de lo que hemos estado realizando los
+
+21
+00:02:08.940 --> 00:02:17.520
+diez anteriores, es utilizando ciertos estadísticos o resumenes que es lo que permitirán
+
+22
+00:02:17.520 --> 00:02:26.700
+decidir cuáles variables vale la pena y cuáles no eliminan. Pero que de alguna forma, como
+
+23
+00:02:26.700 --> 00:02:33.640
+solo voy a agarrar mis datos y sacar esas estadísticas y tomar una dissenso sobre ellos sin ejecutar
+
+24
+00:02:33.640 --> 00:02:41.400
+ni un modelo. En realidad no son tan confiables como podríamos oponer.
+
+25
+00:02:41.400 --> 00:02:46.700
+Les hemos hablado un poquito de si las varales tienen esta correlación.
+
+26
+00:02:46.700 --> 00:02:55.340
+vemos, vimos ya datos tipo de correlación o menos, compir son, espirman, que son las
+
+27
+00:02:55.340 --> 00:03:04.120
+verales ones y métricas etc. que se tienen outliers, puede decir que tipo.
+
+28
+00:03:04.120 --> 00:03:10.340
+Y más bueno que tenemos unas ciertas recetas para combates información, elegir un modelo
+
+29
+00:03:10.340 --> 00:03:19.040
+asumir si el modelo se va a comportar bien o suficientemente bien, pero en realidad
+
+30
+00:03:19.040 --> 00:03:25.180
+es siete un conjunto grande variable no puedo predecir con bastante
+
+31
+00:03:25.180 --> 00:03:30.900
+exactitud si es separable es me van a ser útil son lo que sí sirve es son
+
+32
+00:03:30.900 --> 00:03:35.980
+muy útiles para que se tengo un número bastante grande variable puedo utilizar
+
+33
+00:03:35.980 --> 00:03:40.740
+y sobre todo bueno tengo muchas reales, en el mismo tiempo tengo muchísimos datos,
+
+34
+00:03:40.740 --> 00:03:47.180
+si me sirve como un filtro inicial para descartar rápidamente algunos datos,
+
+35
+00:03:47.180 --> 00:03:50.180
+si hay granos variables y reducir un poco de mi dataset.
+
+36
+00:03:50.180 --> 00:03:54.980
+Es lo que va a ser más el método de filtros,
+
+37
+00:03:54.980 --> 00:04:00.580
+vamos a usar variantes, a correlación, y formación mutua, creamos listo y otros
+
+38
+00:04:00.580 --> 00:04:07.140
+de los estadísticos que hemos laticado los días anteriores.
+
+39
+00:04:07.140 --> 00:04:15.380
+El otro método que se conoce con el método de envoltura es básicamente yo voy a elegir
+
+40
+00:04:15.380 --> 00:04:20.140
+un modelo, o sea algún algoritmo de Machine Learning, de Table Learning.
+
+41
+00:04:20.140 --> 00:04:26.360
+Voy a tomar mi conjunto grande de variables, voy a tomar un subconjunto, voy a probar
+
+42
+00:04:26.360 --> 00:04:32.280
+ese método sobre sus conjuntos, veo cómo funciona y después provo sobre otro
+
+43
+00:04:32.280 --> 00:04:37.840
+sub conjuntos, veo cómo funciona o en donde cada sub conjuntos va a ir cambiando por
+
+44
+00:04:37.840 --> 00:04:44.660
+respecto al anterior. La técnica más usada es o comienzo con todas y lo voy
+
+45
+00:04:44.660 --> 00:04:49.880
+quitando una por una o comienzo con una y lo voy a agregar andando una por una
+
+46
+00:04:49.880 --> 00:04:57.180
+y voy viendo cómo se comporta el modelo. Esa forma ya sobre el modelo que le
+
+47
+00:04:57.180 --> 00:05:01.980
+en particular, voy a tener información realmente de cómo se está confortando el modelo.
+
+48
+00:05:01.980 --> 00:05:08.940
+Como podemos imaginar, si yo tengo, por ejemplo, 30 variables, al menos tendré que ejecutar
+
+49
+00:05:08.940 --> 00:05:16.060
+30 corridas del modelo, pero como una corrida no es suficiente y generalmente hacemos validación
+
+50
+00:05:16.060 --> 00:05:26.460
+cruzada de 5 o 10 pledges. Si elijo de 5 por 30 ya tendría que hacer 60, 100 sin 50,
+
+51
+00:05:27.180 --> 00:05:34.540
+150 corridas, entonces ese método es bastante suficiente, pero costoso
+
+52
+00:05:34.540 --> 00:05:40.060
+computationalmente, sobre todo si tengo muchos datos, ahí es donde una
+
+53
+00:05:40.060 --> 00:05:46.280
+combinación de una primera eliminación con el método de filtrado y después
+
+54
+00:05:46.280 --> 00:05:49.180
+aplicar este método sobre lo que me quede es cuando se empiezan a
+
+55
+00:05:49.180 --> 00:05:55.300
+combinar estas de forma bastante suficiente y el tercer método es un método
+
+56
+00:05:55.300 --> 00:05:58.980
+que implica algo que conocemos regularización como regularización.
+
+57
+00:05:58.980 --> 00:06:02.060
+Es decir, les explico un poquito más de eso, ¿no?
+
+58
+00:06:02.060 --> 00:06:08.060
+En este caso, en pantalla está únicamente vamos a ver hoy el método Lazo.
+
+59
+00:06:08.060 --> 00:06:16.660
+El método Lazo es lo que va a ser es que conforme en la algoritmos está aplicando
+
+60
+00:06:16.660 --> 00:06:21.420
+sobre el conjunto variables, pues ahí contobre las completas.
+
+61
+00:06:21.420 --> 00:06:27.140
+al final me va a entregar un reporte, no solo me va a aprender a hacer lo que te hagas
+
+62
+00:06:27.140 --> 00:06:32.840
+de diferencia de la situación, sino que al final me va a entregar un reporte de cuáles
+
+63
+00:06:32.840 --> 00:06:37.320
+son las varales que son más importantes. Es el reporte que le va a entregar a través
+
+64
+00:06:37.320 --> 00:06:43.920
+de los coeficientes del modelo. La regoración lazo lo que va a forzar es que algunos coeficientes
+
+65
+00:06:43.920 --> 00:06:51.060
+se hagan ser lo cual indicaría que esa variable particular es el coeficiente de esa variable
+
+66
+00:06:51.060 --> 00:06:56.900
+no es relevante para el modelo, únicamente para ese modelo.
+
+67
+00:06:56.900 --> 00:06:59.980
+No quiere decir que para otros modelos, no lo sé.
+
+68
+00:06:59.980 --> 00:07:02.620
+Es una forma bastante, es con una sola corrida,
+
+69
+00:07:02.620 --> 00:07:06.700
+podríamos rápidamente inferir cuáles son los variables
+
+70
+00:07:06.700 --> 00:07:10.100
+que el ese modelo, para ese modelo no se es importante.
+
+71
+00:07:10.100 --> 00:07:12.580
+Y como se pueden dar cuenta, pues realmente no vamos
+
+72
+00:07:12.580 --> 00:07:15.220
+a tener una sola respuesta.
+
+73
+00:07:15.220 --> 00:07:18.540
+Si aplicamos los tres modelos, podemos hacer el final.
+
+74
+00:07:18.540 --> 00:07:25.980
+para dar cuenta que si hay cierta coherencia, las tres metodología eventualmente como que
+
+75
+00:07:25.980 --> 00:07:30.980
+tienen a converger las mismas, no aniciar a meter las mismas, pero al menos verán
+
+76
+00:07:30.980 --> 00:07:37.180
+una aldea bastante robusta de cuáles son las importantes y son las que deberían no
+
+77
+00:07:37.180 --> 00:07:42.520
+ser variables, ¿no? Ese no es solo ayuda para conservar las y yo tengo de dataset ya
+
+78
+00:07:42.520 --> 00:07:49.400
+construido, bueno, pues tendría que desechar un montón de formación, pero también me
+
+79
+00:07:49.400 --> 00:07:54.520
+indica que si voy a seguir creciendo el dataset, por lo que me dice, es mirar si tenías
+
+80
+00:07:54.520 --> 00:08:00.960
+30 variables, el modelo funciona bien con 5, desde a partir de ahora ya no tienes que seguir
+
+81
+00:08:00.960 --> 00:08:07.480
+recolectando las otras 25 variables, en lo cual simplifica mucho también el proceso de
+
+82
+00:08:07.480 --> 00:08:10.360
+crear la base de datos.
+
+83
+00:08:10.360 --> 00:08:16.200
+OK, básicamente esa es la idea del día de hoy.
+
+84
+00:08:16.200 --> 00:08:23.040
+En torno a algo en la pantalla.
+
+85
+00:08:23.040 --> 00:08:26.580
+Es de OK.
+
+86
+00:08:26.580 --> 00:08:30.580
+Esta gráfica, que es lo que trata de ilustrar.
+
+87
+00:08:30.580 --> 00:08:34.120
+Vamos a trabajando con una base de datos nueva.
+
+88
+00:08:34.120 --> 00:08:36.360
+Es una base de datos que es utilizado para hacer
+
+89
+00:08:36.360 --> 00:08:38.200
+el diagnóstico en cáncer.
+
+90
+00:08:38.200 --> 00:08:42.520
+Es también supercomo, utilizada en muchos cursos.
+
+91
+00:08:42.520 --> 00:08:47.240
+es una variable, esta por lo menos es un dataset que tiene 30 variables,
+
+92
+00:08:53.650 --> 00:08:55.530
+muy aquí tengo 30 variables,
+
+93
+00:08:58.530 --> 00:09:00.610
+y qué es lo que representa la gráfica,
+
+94
+00:09:01.050 --> 00:09:04.010
+a partir de este corte, digamos,
+
+95
+00:09:04.330 --> 00:09:08.450
+en el, por lo menos, la 30 variables en la columna en el Pro,
+
+96
+00:09:08.930 --> 00:09:12.610
+en el eje que estengo el número de columnas que estoy utilizando,
+
+97
+00:09:13.250 --> 00:09:17.290
+y en el eje que ya tengo la métrica en este caso de exactitud
+
+98
+00:09:17.290 --> 00:09:23.450
+que me indica que tan bueno es ser albrido. De entrada que notamos, aquí dice que ya tengo 30
+
+99
+00:09:23.450 --> 00:09:31.010
+variables. Si uso una variable, como sería el caso, si no es de como con una variable, es más que
+
+100
+00:09:31.010 --> 00:09:38.490
+es suficiente para tener ya arriba de 90% de exactitude. Realmente, este va a ser datos para
+
+101
+00:09:38.490 --> 00:09:44.530
+ser acerque con una variable, hay una variable que está fuertemente por relación a la predicción,
+
+102
+00:09:44.530 --> 00:09:50.650
+que sería prácticamente suficiente esa para hacer una módula proyección. Si voy a ni
+
+103
+00:09:50.650 --> 00:09:56.190
+a diéndole variables, aquí tengo tres líneas porque tengo tres algoritmos diferentes.
+
+104
+00:09:56.190 --> 00:10:02.290
+Cabe sí, nos más cercanos, con caigo a las 5, el método de reacción logística y un
+
+105
+00:10:02.290 --> 00:10:09.510
+bosque elatorio. Lo que no to es que con forma voy a cregando variables, de hecho van peorando.
+
+106
+00:10:09.510 --> 00:10:15.510
+es el cuándo la línea verde que es el bosque alatorio que más o menos se conserva bastante estable.
+
+107
+00:10:15.510 --> 00:10:22.510
+Las otras dos las necesitan una caída y digamos que en este corte es el corte de la 30 que tengo.
+
+108
+00:10:22.510 --> 00:10:33.510
+A partir de ahí yo artificialmente le voy agregando columnas hasta llegar a 400 columnas y en esas columnas únicamente voy a poner ruido.
+
+109
+00:10:33.510 --> 00:10:38.070
+con el ruido, información que no es absolutamente relevante para el diagnóstico.
+
+110
+00:10:38.070 --> 00:10:40.270
+Y ¿qué es lo que sucede?
+
+111
+00:10:40.270 --> 00:10:46.310
+El todo los algoritmos, incluso random forest, tiene acarme poco.
+
+112
+00:10:46.310 --> 00:10:49.710
+Pero en general, todos los algoritmos empiezan a priorar.
+
+113
+00:10:49.710 --> 00:10:55.710
+Este lo que me trata de decir o ilustrar es que tener información de más,
+
+114
+00:10:55.710 --> 00:11:01.590
+me es, me es torba, hace que los algoritmos empeoran.
+
+115
+00:11:01.590 --> 00:11:06.810
+Entonces, es remarco un poco la importancia de que si una vez 7 de una base de datos construida,
+
+116
+00:11:06.810 --> 00:11:11.010
+yo realmente tengo el contra al cual es el número variable ideal para que me algodimos
+
+117
+00:11:11.010 --> 00:11:12.590
+funciones por la óptima.
+
+118
+00:11:15.150 --> 00:11:20.050
+O sea, no importa, bueno, obviamente en las del 30 para la derecha no le iba a agregar información
+
+119
+00:11:20.050 --> 00:11:26.210
+útil porque se supone que la idea es demostrar que toda la información inutil no solamente
+
+120
+00:11:26.210 --> 00:11:30.250
+no ayuda sino que empeora las cosas.
+
+121
+00:11:30.250 --> 00:11:33.610
+¿Qué es lo que puede ser ver en una situación real?
+
+122
+00:11:33.610 --> 00:11:38.850
+Hay información que no a todos recolectamos, que no nos sirve y el hecho de que esté presente
+
+123
+00:11:38.850 --> 00:11:46.010
+va a ser que empeore el pensamiento del algoritmo.
+
+124
+00:11:46.010 --> 00:11:52.490
+Ok, entonces en particular el conjunto de datos que tenemos vamos a trabajar en esta sesión.
+
+125
+00:11:52.490 --> 00:12:03.250
+es algo para el sí cancer son métricas extraídas de imágenes son imágenes de biopsias de
+
+126
+00:12:03.250 --> 00:12:10.630
+personas con piscín o pacientes con piscín cancer y hay etiquetados en total son
+
+127
+00:12:10.630 --> 00:12:18.850
+con 569 pacientes de los cuales 222 se les había detectado ya
+
+128
+00:12:18.850 --> 00:12:27.410
+a un tumor de cáncer y 357 que son o que no tienen presencia de cáncer ¿vale?
+
+129
+00:12:27.410 --> 00:12:36.190
+Es de aparte de esas imágenes extraen métricas como cuando se visualiza
+
+130
+00:12:36.190 --> 00:12:41.770
+en un imagen, o se trata de diagnósticar,
+
+131
+00:12:41.770 --> 00:12:43.970
+si hay algún tumor benignomalignor,
+
+132
+00:12:43.970 --> 00:12:46.010
+generalmente son los médicos observan
+
+133
+00:12:46.010 --> 00:12:48.290
+ciertas regiones para ellos,
+
+134
+00:12:48.290 --> 00:12:49.410
+les llama la atención,
+
+135
+00:12:49.410 --> 00:12:51.650
+son relevantes para el diagnóstico.
+
+136
+00:12:51.650 --> 00:12:53.450
+Y en esas regiones, generalmente,
+
+137
+00:12:53.450 --> 00:12:55.450
+lo que es básicamente el tumor,
+
+138
+00:12:55.450 --> 00:12:58.810
+lo que ellos notan o les ayuda
+
+139
+00:12:58.810 --> 00:13:02.450
+de mucha diagnóstica son cosas como el tamaño,
+
+140
+00:13:02.450 --> 00:13:05.690
+llámese el radio, el perímetro,
+
+141
+00:13:05.690 --> 00:13:12.530
+el área del tumor, pero no solamente de sonó, a veces, les importa mucho la textura,
+
+142
+00:13:12.530 --> 00:13:18.490
+en este caso estaría representada por tonos de grises, cierta regularidad del contorno
+
+143
+00:13:18.490 --> 00:13:25.570
+que rodea el tumor, que son las metrugueses de su cosa como suabilidad y compacidad. Si
+
+144
+00:13:25.570 --> 00:13:33.810
+el contorno durante el potorno que cierra el tumor, tiene ciertas endiduras y asancón cabas
+
+145
+00:13:33.810 --> 00:13:42.810
+convexas, es una metrata que se llama concavidad y marcar que tantos puntos con cabostino.
+
+146
+00:13:42.810 --> 00:13:50.810
+Y finalmente tiene cierta simétria, entonces generalmente los tumores que tienen una textura
+
+147
+00:13:50.810 --> 00:13:58.810
+como decirlo es bastante irregular, que su comprenar regularidad se contorno es bastante
+
+148
+00:13:58.810 --> 00:14:02.850
+y regular también, o sea, tiene mucha irregularidad del contorno,
+
+149
+00:14:02.850 --> 00:14:07.250
+el perimetro a área horradio perdiera en las tres médicas lo mismo es grande,
+
+150
+00:14:07.250 --> 00:14:12.250
+entonces, como los médicos visualmente infieren si una persona tiene
+
+151
+00:14:12.250 --> 00:14:16.220
+algo tu forma libre o venida.
+
+152
+00:14:16.220 --> 00:14:21.260
+Bueno, entonces esas imágenes se transforman en una base de datos,
+
+153
+00:14:21.260 --> 00:14:25.020
+en general son de todas esas ecestanas que hacen,
+
+154
+00:14:25.020 --> 00:14:27.860
+30 y se construye el base de datos, no?
+
+155
+00:14:27.860 --> 00:14:36.020
+Por ejemplo, la media, el error, el peor valor, el carbonedellas, o de alguna de ellas, etcétera, etcétera.
+
+156
+00:14:36.020 --> 00:14:38.340
+Entonces, ¿qué lo vamos a hacer?
+
+157
+00:14:38.340 --> 00:14:43.660
+Normalmente tenemos nuestro ciudad, nos trajar con este dataset, con cualquier otro.
+
+158
+00:14:43.660 --> 00:14:50.500
+Tengo mis vanales originales y voy a querer entrenar algún modelo o algoritmo para hacer
+
+159
+00:14:50.500 --> 00:14:57.300
+antes de pasar estas directamente para acá lo que voy a hacer es como ya vimos
+
+160
+00:14:57.300 --> 00:14:59.700
+simplemente voy a hacer una análisis de un paratorio
+
+161
+00:15:00.300 --> 00:15:09.260
+de mis datos, uno vez que ya se dan a descobertadio, que básicamente sacar mis estadísticos, lo que voy a empezar a hacer es
+
+162
+00:15:09.260 --> 00:15:16.140
+crear algunas otras columnas, digamos, y las 30 columnas que tengo probablemente,
+
+163
+00:15:16.140 --> 00:15:21.500
+a pesar de los con un poco de contraición, ya dije, si agrego más columnas, esto es malo.
+
+164
+00:15:21.500 --> 00:15:29.020
+Bueno, si es malo, siempre cuando esas columnas no me da ni a la información, si es relevante para la
+
+165
+00:15:29.020 --> 00:15:33.540
+tradición. Si esas columnas que estoy añadiendo sí tienen información
+
+166
+00:15:33.540 --> 00:15:37.580
+balosa, pues entonces obviamente si las voy a añadir, yo una vez que ya he
+
+167
+00:15:37.580 --> 00:15:41.500
+las ha añadido, entonces voy a hacer una revisión de todas las que me quedaron,
+
+168
+00:15:41.500 --> 00:15:48.100
+la estrenta original es en este caso y digamos cinco que yo el añadí y ya
+
+169
+00:15:48.100 --> 00:15:52.460
+decidiré cuál es ese eliminar, ¿no? Incluso las que le añadí, no se
+
+170
+00:15:52.460 --> 00:15:57.500
+veces son por inclusión, por experiencia, y dice, bueno, yo creo que esta
+
+171
+00:15:57.500 --> 00:16:00.620
+variable puede ayudarme le añado y eventualmente después con
+
+172
+00:16:00.620 --> 00:16:03.000
+algunas de las tres técnicas que platican el inicio,
+
+173
+00:16:03.000 --> 00:16:06.280
+decidos si se quedan a lo que quedan.
+
+174
+00:16:06.280 --> 00:16:09.500
+Entonces, lo más que vamos a ver es crear variables.
+
+175
+00:16:09.500 --> 00:16:13.500
+Y como menciona acá es, generalmente,
+
+176
+00:16:13.500 --> 00:16:17.480
+crear variables voy a hacer razones o proporciones
+
+177
+00:16:17.480 --> 00:16:21.740
+entre variables, voy a hacer transformaciones tipo
+
+178
+00:16:21.740 --> 00:16:24.540
+logarítmicas, raíz cuadrada, exponenciales,
+
+179
+00:16:24.540 --> 00:16:30.580
+que cuándo es lo que eso me ayuda a mejorar la simutría de una variable y
+
+180
+00:16:30.580 --> 00:16:37.540
+posiblemente voy a hacer una combinación de algún conjunto variable a través
+
+181
+00:16:37.540 --> 00:16:43.940
+de formulitas o polinaumios, no? No te veamos un poquito de esos como se construye.
+
+182
+00:16:43.940 --> 00:16:49.940
+La idea es que creemos un conjunto de pequeños variables que la porten más
+
+183
+00:16:49.940 --> 00:16:55.900
+información a esto o sea, lo vamos a crear por aquí de los vignales, pero muchas veces el algoritmo,
+
+184
+00:16:55.900 --> 00:17:00.900
+las originales no les hicieron por nada, pero estas transformaciones opcreadas, nuevas
+
+185
+00:17:00.900 --> 00:17:06.100
+escuffron creadas le dan más información. Al final que va a pasar, se lo tenían muchas y todo
+
+186
+00:17:06.100 --> 00:17:10.580
+el año de más, todo el dinero todavía más colombia. Lo he hecho que pasar al proceso de selección,
+
+187
+00:17:11.580 --> 00:17:17.620
+proceso de selección, puede utilizar alguno de estos tres filtro de cultura o el azo que
+
+188
+00:17:17.620 --> 00:17:21.620
+lo que se le pinte grado para el decir cuales de esas se quedan y cuál es lo
+
+189
+00:17:21.620 --> 00:17:26.620
+entonces comenzamos con creación, creación es
+
+190
+00:17:26.620 --> 00:17:31.620
+generalmente las más comunes son estas, si yo tengo un par de variables como puede
+
+191
+00:17:31.620 --> 00:17:36.620
+ser como dice a CaliJanto, no es que yo tengo peso y la talla de una persona,
+
+192
+00:17:36.620 --> 00:17:42.620
+no es eso si es información pero muchas veces si yo saco la proporción por ejemplo
+
+193
+00:17:42.620 --> 00:17:48.020
+lo con este caso, si tengo el peso y tengo la talla, entonces lo que puedo hacer es calcularlo
+
+194
+00:17:48.020 --> 00:17:55.360
+el índice más acorpural. Entonces ahí es muy probable que el algoritmo sea más,
+
+195
+00:17:55.360 --> 00:18:01.540
+les sea más útil el EMC que si yo le doy por separado para su talla, de entrada porque cuando
+
+196
+00:18:01.540 --> 00:18:09.860
+yo calcularo proporciones, una proporción es la sonida de si pierde, o las escalas se
+
+197
+00:18:09.860 --> 00:18:15.180
+producen el local maillot bastante ya vimos cómo estándarización que no se
+
+198
+00:18:15.180 --> 00:18:20.120
+veces regresar al intervalo ser unos y es por máximos y mínimos o quitar la media y
+
+199
+00:18:20.120 --> 00:18:24.260
+dividir entre las 10 y el estándar o cualquier otra media de dispersión me va a
+
+200
+00:18:24.260 --> 00:18:29.300
+ayudar pues más o menos sucede lo mismo si encuentro una proporción y la
+
+201
+00:18:29.300 --> 00:18:34.700
+integral de entrada yo dos variables la presume en una sola y muchas veces esa
+
+202
+00:18:34.700 --> 00:18:42.820
+una sola me indica más que las dos variables procesolas, sin de forma similar, si yo tengo otras dos
+
+203
+00:18:42.820 --> 00:18:50.500
+variables, por ejemplo como dice la tablita dice, tengo la presión antes y la presión después,
+
+204
+00:18:50.500 --> 00:18:57.940
+porción después y presión antes, pues el dato de la presión puede ser que no me sirva, pero la
+
+205
+00:18:57.940 --> 00:19:05.200
+diferencia de precio, muchas veces es más útil. La razón de cambio es que es
+
+206
+00:19:05.200 --> 00:19:13.020
+en ser generalmente más informativas que los parales es sino. Si yo le digo
+
+207
+00:19:13.020 --> 00:19:19.620
+pase de 0 a 100 kilómetros por hora, pues la razón de cambio es el ejemplo no.
+
+208
+00:19:19.620 --> 00:19:26.460
+Es 100, pero si pase de 100 a 200, es la misma razón de cambio, pero quizás me
+
+209
+00:19:26.460 --> 00:19:30.900
+de más información de esa proporción de qué tanto cambié.
+
+210
+00:19:30.900 --> 00:19:33.060
+Los diferencias o cambios son relevantes,
+
+211
+00:19:33.060 --> 00:19:36.500
+o por carar nuevas columnas a través de encontrar la diferencia
+
+212
+00:19:36.500 --> 00:19:39.220
+de un par de ellas o de varias de ellas.
+
+213
+00:19:39.220 --> 00:19:43.780
+También puedo resumir columnas haciendo promedios aquí
+
+214
+00:19:43.780 --> 00:19:46.620
+desagregados, pero es bastante promedios.
+
+215
+00:19:46.620 --> 00:19:48.620
+Me estoy yo tengo, no sé, todos tres columnas,
+
+216
+00:19:48.620 --> 00:19:52.860
+que dan información o dos o tres cilas, en este caso,
+
+217
+00:19:52.860 --> 00:19:58.300
+que dan información de un cierre grupo de personas, igual que pueda agrupar ese conjunto de personas,
+
+218
+00:19:58.300 --> 00:20:03.340
+no sé las que viven en tal colonia, o las que son del mismo sexo, las que son de ciertas
+
+219
+00:20:03.340 --> 00:20:10.500
+edades, conjuntos edades y esas propias, conocen más o por medio, me permite conjuntar información
+
+220
+00:20:10.500 --> 00:20:18.740
+en una sola variable. Fecha, por ejemplo, si les digo el primero de aero de el 2016,
+
+221
+00:20:18.740 --> 00:20:23.420
+y si bueno me dice nada, ¿no? O sea, si les digo el uno, el dos, el tres, el cuatro,
+
+222
+00:20:23.420 --> 00:20:27.260
+no me dice mucho, al igual uno no lo va a decir nada. Por otro lado, se le digo el
+
+223
+00:20:27.260 --> 00:20:32.180
+unes partes mercolores, jueves, entonces ya sabes que tía de la semana o si le digo
+
+224
+00:20:32.180 --> 00:20:37.780
+semana uno, son una dos, o si le digo a mes o si le digo año, es más, es más informativo
+
+225
+00:20:37.780 --> 00:20:43.020
+que decir la fecha, exacto. Entonces muchas veces, si tenamos fechas, transformen las
+
+226
+00:20:43.020 --> 00:20:47.460
+fratócias de su interés a ver que día de la semana que en vez del año ocurrió cierto,
+
+227
+00:20:47.460 --> 00:20:55.700
+lo que esta acción del año corregalgo es más informativo utilizar tiempos que fechas.
+
+228
+00:20:56.900 --> 00:21:02.020
+Transformaciones, lo pierdimos un poquito, la logarítmica y la raíz cuadrada,
+
+229
+00:21:03.220 --> 00:21:10.780
+este te lo dan a eliminar a semetrias en mis datos de outliers.
+
+230
+00:21:11.740 --> 00:21:16.260
+Los reinis tienen una variable después de esencial y es partoario y ya se identificarán
+
+231
+00:21:16.260 --> 00:21:22.660
+que es el simétrica, o que tienen muchos audios, pueden construir una nueva variable,
+
+232
+00:21:22.660 --> 00:21:29.620
+a partir de esa, aplicando logarithmo, aplicando RAIS4D.
+
+233
+00:21:29.620 --> 00:21:32.780
+Eventualmente uno está agregando, digamos que, yo,
+
+234
+00:21:32.780 --> 00:21:35.580
+pienso identificar si hay alguna razón de cambio,
+
+235
+00:21:35.580 --> 00:21:38.860
+si hay alguna diferencia, si hay algún promedio que puede hacer,
+
+236
+00:21:38.860 --> 00:21:42.100
+si hay fechas que puedo transformar en tiempo,
+
+237
+00:21:42.100 --> 00:21:49.200
+si hay datos que tienen asemetría sus anatípicos que pueden mejorar con transformaciones, no lo
+
+238
+00:21:49.200 --> 00:21:53.920
+voy aplicando y voy desapareciendo las originales, voy construyendo más y les voy añadiendo
+
+239
+00:21:53.920 --> 00:22:00.220
+a mi más edad, suave suave todo en el minumana, simplemente estoy añadiendo a los asedados.
+
+240
+00:22:00.220 --> 00:22:05.720
+Discritización es igual, genero rangos, a veces más informativo generar rangos, que
+
+241
+00:22:05.720 --> 00:22:12.880
+1 por 1. Entrada a 1 por 1 si tengo muchos, una incedat, si tengo de, no sé, de
+
+242
+00:22:12.880 --> 00:22:21.760
+sea 80 años, es más o menos de la primera vida en general de los personas. Son 80 diferentes
+
+243
+00:22:21.760 --> 00:22:27.680
+rángos así rángos, ¿no? Aún algoritmo de mi trasmás, seleccivo le pidas que sea, es
+
+244
+00:22:27.680 --> 00:22:33.720
+más complejo, me pago comienzo a por agrupar por rángos de edades, como aquí niño adulto
+
+245
+00:22:33.720 --> 00:22:40.520
+mayor y después te vas a refirando alguno de esos sitios interés a más ser un poquito más
+
+246
+00:22:40.520 --> 00:22:45.320
+electivo, pero siempre es muy bueno comenzar agrupando cosas.
+
+247
+00:22:45.320 --> 00:22:50.680
+En interacciones esto puede ser muy muy informativo, si le tengo dos variables, como aquí
+
+248
+00:22:50.680 --> 00:22:58.180
+de representan este son el X2 y sé que una, nosotros y a medida de este territorio hay que
+
+249
+00:22:58.180 --> 00:23:03.280
+caer cerca de correlación entre ellos, ya se apositivo negativa si una creza la otra creza,
+
+250
+00:23:03.280 --> 00:23:09.360
+una crece y la otra crece al multiplicarlos, ese fenómeno se va representado con el signo,
+
+251
+00:23:09.360 --> 00:23:10.840
+por ejemplo.
+
+252
+00:23:10.840 --> 00:23:16.040
+Entonces mi paráele que entonces en lugar de tener la variable en sí, y acá el producto
+
+253
+00:23:16.040 --> 00:23:21.960
+me quedé solo con el signo, decidí dar representar por el signo con un más uno, el
+
+254
+00:23:21.960 --> 00:23:26.360
+signo postivo, el signo negativo con un menos ula, y el algoritmo no se va a romper
+
+255
+00:23:26.360 --> 00:23:35.560
+produce la escala, sino que al mismo tiempo tiene esa información de correlación ya codificada
+
+256
+00:23:35.560 --> 00:23:40.360
+en una sola variable, que no necesariamente necesariamente tener ambas, sino únicamente
+
+257
+00:23:40.360 --> 00:23:45.360
+una de ellas o de codifico la información de la correlación. No tenda también que
+
+258
+00:23:45.360 --> 00:23:50.360
+el acero del producto ex-ONX2 o cualquier otro producto a los generalmente laborales son
+
+259
+00:23:50.360 --> 00:23:53.700
+mayor que uno, esto va a tener a escalar.
+
+260
+00:23:53.700 --> 00:23:57.540
+O sea, si por ejemplo, a que uno es 5 y a que es 2 es 8,
+
+261
+00:23:57.540 --> 00:23:59.080
+el producto me da 40.
+
+262
+00:23:59.080 --> 00:24:00.760
+Tienda a crecer esto.
+
+263
+00:24:00.760 --> 00:24:03.800
+Entonces, siempre es importante que si voy a hacer
+
+264
+00:24:03.800 --> 00:24:08.160
+multiplicaciones o algún otro tipo de productos
+
+265
+00:24:08.160 --> 00:24:11.000
+tratando de encontrar la interacción entre los variables,
+
+266
+00:24:11.000 --> 00:24:14.360
+lo escalé primero y después se pepube a esos productos
+
+267
+00:24:14.360 --> 00:24:18.720
+para que mis escalas no se disparan.
+
+268
+00:24:18.720 --> 00:24:25.040
+o simplemente lo hago y después aplico alguno de los escalamientos que hemos visto, ¿no?
+
+269
+00:24:25.040 --> 00:24:29.280
+No he producido todas las variables a los que tenéis.
+
+270
+00:24:29.280 --> 00:24:49.990
+En el caso de este, no me parece ver tratar, pues, en el caso de este lado izquierdo, acá en esta gráfica,
+
+271
+00:24:49.990 --> 00:24:57.910
+tenemos el total de dormitorios en un distrito de California, en el eje
+
+272
+00:24:57.910 --> 00:25:06.070
+tenemos el promedio de valor de las casas en ese distrito, aquí lo más
+
+273
+00:25:06.070 --> 00:25:15.200
+interesante es observar que no pareciera, sin sacar a Notar un poco de
+
+274
+00:25:15.200 --> 00:25:22.800
+correlación de que conforme digamos vamos a tratar de representar así, conforme baja el número
+
+275
+00:25:22.800 --> 00:25:32.040
+de cuarto hay una cierta tendencia que podría verse por acá así de de abajo a la derecha hacia
+
+276
+00:25:32.040 --> 00:25:39.440
+arriba a la izquierda donde pareciera que hay cierta tendencia que mientras menos número de
+
+277
+00:25:39.440 --> 00:25:48.440
+cuarto tengo el valor de la casa crece más no es muy claro pero pudiera ser
+
+278
+00:25:48.440 --> 00:25:53.300
+que alguien le décibe o sea si en lugar de graficar número total de
+
+279
+00:25:53.300 --> 00:26:00.760
+cuartos mejor agarró y ese número total de cuartos lo divido entre el total
+
+280
+00:26:00.760 --> 00:26:04.340
+de cuarto es por cierto, cuarto es el número de cuartos, no?
+
+281
+00:26:04.340 --> 00:26:13.080
+Cuartos para dormir en los pétrames. Si calculo la proporción de cuartos,
+
+282
+00:26:13.080 --> 00:26:17.880
+hay dormitorios contra el número de habitaciones, se han coliendo
+
+283
+00:26:17.880 --> 00:26:24.840
+a la cocina, a baño, y se trae una casa. Entonces calculo la proporción y entonces
+
+284
+00:26:24.840 --> 00:26:29.800
+gráfico siempre el valor de la casa, por lo tanto primero la casa, pero ahora
+
+285
+00:26:29.800 --> 00:26:38.600
+contra esa proporción, la gráfica no cambia mucho, pero quizás los logres convencer de que la tendencia
+
+286
+00:26:38.600 --> 00:26:45.200
+sea un poquito más evidente de que cuando conforme va bajando la proporción, el precio de la
+
+287
+00:26:45.200 --> 00:26:51.960
+casa se va a incrementar. Siguieron viendo muchos en esta región, pero digamos que aquí se
+
+288
+00:26:51.960 --> 00:26:58.040
+va a tratar como que la corvita de que esta se logró inclinar un poco y la tendencia se hace un poquito
+
+289
+00:26:58.040 --> 00:27:04.760
+más evidente de esa forma. No es una gran ganancia en este ejemplo, pero digamos lo que trata de
+
+290
+00:27:04.760 --> 00:27:12.640
+ilustrar ese soque, una transformación en proporciones, calcaburar una razón puede ser más informativa
+
+291
+00:27:12.640 --> 00:27:23.280
+que esto que estoy a más complejo, interpuestarse como que hay una cierta correlación entre total
+
+292
+00:27:23.280 --> 00:27:30.280
+del dormitorio contra valor, si hay una más, un poquito más por correlación entre
+
+293
+00:27:30.280 --> 00:27:35.680
+la proporción de dormitorios contra el lograd de habitaciones en la casa y el valor.
+
+294
+00:27:35.680 --> 00:27:43.440
+Y de hecho, si calculamos el R, el R-Pirsom, acá es punto C5, lo cual me estaré indicando
+
+295
+00:27:43.440 --> 00:27:51.840
+que esta total veterans contra valor de la casa no están relacionados y en cambio, esta
+
+296
+00:27:51.840 --> 00:28:01.920
+razón el número de vermitorios por cuarto, si tiene una relación y es negativa, no es leve,
+
+297
+00:28:01.920 --> 00:28:08.400
+punto 26 por eso que no está nevidente, pero es punto 26 y a me indicado y me indicé también
+
+298
+00:28:08.400 --> 00:28:14.080
+si no que es negativa, en vez de que conforme esta baja, eso sube. Entonces si hay un beneficial,
+
+299
+00:28:14.080 --> 00:28:18.560
+quizás el terapicamente visualmente no está nevidente, pero aquí es claramente se ve que
+
+300
+00:28:18.560 --> 00:28:25.240
+pasamos a lo que es casi ser o correlación contra algo que es negativo y hasta el
+
+301
+00:28:25.240 --> 00:28:30.880
+cierto punto indica ya una cierta tendencia y ya sabemos que es R es para
+
+302
+00:28:30.880 --> 00:28:34.680
+día para una fuerte correlación algo cercano a uno arriba a punto 7
+
+303
+00:28:34.680 --> 00:28:39.320
+preferentemente relevante entre punto 3 y punto 7 aquí ni siquiera lleva a
+
+304
+00:28:39.320 --> 00:28:46.880
+punto 3 pero sí se ve una mejora significativa con respecto a esto que es
+
+305
+00:28:46.880 --> 00:28:48.720
+es prácticamente ser.
+
+306
+00:28:48.720 --> 00:28:51.560
+Entonces, un ejemplo que trata de industrial es, ¿no?
+
+307
+00:28:51.560 --> 00:28:57.800
+¿Qué pasa si yo que ya visualicé, ya vi que mi factor de R, si hay R, si parece ser
+
+308
+00:28:57.800 --> 00:28:58.800
+que mejora?
+
+309
+00:28:58.800 --> 00:29:03.960
+Pues podemos hacer una prueba y decir bueno, realmente no está ayudando o no me está
+
+310
+00:29:03.960 --> 00:29:10.280
+ayudando a añadir variables nuevas son y dataset y sea con proporciones o con
+
+311
+00:29:10.280 --> 00:29:12.480
+todo lo que estamos platicado.
+
+312
+00:29:12.480 --> 00:29:15.520
+Pues este ejemplo de lo que trata de administrar es esto, no?
+
+313
+00:29:15.520 --> 00:29:22.040
+Yo tengo dos algoritmos, regresión lineal y árboles,
+
+314
+00:29:22.040 --> 00:29:23.400
+un árboles de decisión, no?
+
+315
+00:29:23.400 --> 00:29:27.080
+Es bolskeletorio, es un simple árboles de decisión.
+
+316
+00:29:27.080 --> 00:29:33.400
+Y en el eje vertical lo que van a ver es el error cuadratico medio,
+
+317
+00:29:33.400 --> 00:29:37.280
+que me indica que tan bueno fue el algoritmo para predecir
+
+318
+00:29:37.280 --> 00:29:39.440
+el valor de la casa.
+
+319
+00:29:39.440 --> 00:29:42.800
+que le remese mientras más pequeño es mejor
+
+320
+00:29:42.800 --> 00:29:48.200
+es indica el error que está cometiendo el algoritmo
+
+321
+00:29:48.200 --> 00:29:52.280
+entonces con las seis variables originales que se entrenos al algoritmo
+
+322
+00:29:52.280 --> 00:29:56.240
+tengo una remese en reverberación lineal de 76.2
+
+323
+00:29:56.240 --> 00:29:59.720
+si yo le agrego 3 para 3 variables más
+
+324
+00:30:01.070 --> 00:30:04.910
+construidas de forma artificial a partir de estas seis originales,
+
+325
+00:30:04.910 --> 00:30:10.190
+logré reducir no mucho, en este caso en regresión lineal,
+
+326
+00:30:10.190 --> 00:30:16.190
+apenas paso de 76, 2 a 74 o 6, pero sí me indican atendencia de que de alguna forma
+
+327
+00:30:16.190 --> 00:30:18.150
+estas fueron útiles.
+
+328
+00:30:18.150 --> 00:30:23.750
+Por otro lado, si no voy a otro método como es el árbol de decisión, con la profundidad de 8,
+
+329
+00:30:23.750 --> 00:30:27.870
+se tendrían mucho ocho ojas, la remita este por el día de 8,
+
+330
+00:30:27.870 --> 00:30:38.070
+paso del 768 al 70.6 que es aproximadamente un 10% de reducción en el RMS lo que
+
+331
+00:30:38.070 --> 00:30:43.550
+ya tiene cierta significación. Esa data fue realmente de forma clavos con varias
+
+332
+00:30:43.550 --> 00:30:48.350
+empresas cruzadas, eso es un promedio, no fue suerte de que la data se registrava
+
+333
+00:30:48.350 --> 00:30:55.030
+participando por la conveniente. Entonces se muestra que hay cierta tendencia de que
+
+334
+00:30:55.030 --> 00:30:59.230
+Tienda a ayudar en algunas ocasiones incluir
+
+335
+00:30:59.230 --> 00:31:04.590
+las barales nuevas del tipo de proporción, razones.
+
+336
+00:31:04.590 --> 00:31:08.190
+Todavía en este caso funcionó, no necesariamente así va a ser siempre.
+
+337
+00:31:08.190 --> 00:31:13.030
+Hay razones que si estás en la lura en el análisis que se agradezco,
+
+338
+00:31:13.030 --> 00:31:16.030
+es cuando empezamos a vivir cual es que dan, pero bueno,
+
+339
+00:31:16.030 --> 00:31:20.270
+la chile mensaje es que quiero que se ven creando, es que hay que empezar a explorar,
+
+340
+00:31:20.270 --> 00:31:26.710
+a la ciudad de la TAC, de que no agarguen la TAC original, lo aviento en algoritmo y cantar.
+
+341
+00:31:26.710 --> 00:31:32.250
+Si vale la pena empezar a explorar si pueden mejorarlo a través de razones, de proporciones,
+
+342
+00:31:32.250 --> 00:31:36.030
+de diferencias, todo ese tipo de cojas de la talita anterior.
+
+343
+00:31:36.030 --> 00:31:39.670
+Y aquí, a más de presentar algunas evidencias de que se ocurren.
+
+344
+00:31:39.670 --> 00:31:44.870
+En el caso de asimetría, si es el lugar dedicado a alguna clasica pasada,
+
+345
+00:31:44.870 --> 00:31:53.870
+esta variable total room se ve claramente simétrica completamente orientada a la esquina
+
+346
+00:31:53.870 --> 00:31:58.870
+no se ve nada a un layer
+
+347
+00:32:00.870 --> 00:32:07.870
+y por lo tanto es un logaritmo como se aplica acá a dar mi variable, le sumo 1, lo aplico logaritmo
+
+348
+00:32:07.870 --> 00:32:14.870
+y la parález de lo que ya perfectamente es un casi perfectamente simétrica.
+
+349
+00:32:14.870 --> 00:32:23.870
+Eso en principio me debería ser más útil cuando yo utilizó algoritmos pasados en distancia.
+
+350
+00:32:23.870 --> 00:32:24.870
+Me debe ayudar.
+
+351
+00:32:24.870 --> 00:32:35.970
+Ok, en cuando conste en los variables ya vimos que por ejemplo razones puede ser confusiones
+
+352
+00:32:35.970 --> 00:32:43.810
+otra que les conté al inicio es si yo quiero encontrar una dos variables y
+
+353
+00:32:43.810 --> 00:32:51.310
+corificarla en la sola, o sea si yo tengo x1 y x2, ya vimos que es un tipo x1 por x2,
+
+354
+00:32:51.310 --> 00:32:57.770
+yo puedo quedar después del producto, te acusas con el signo o con un valor ya está
+
+355
+00:32:57.770 --> 00:33:04.450
+en la disapequeño que me indica esa correlación, bueno no sólo mencionas
+
+356
+00:33:04.450 --> 00:33:13.170
+unico, no? Si yo tengo dos variables, y tis uno y tis dos, como acá, yo podría construir
+
+357
+00:33:13.170 --> 00:33:18.690
+el tis uno cuadrado, yo podría construir el tis uno por x dos, y yo podría construir
+
+358
+00:33:18.690 --> 00:33:25.990
+el tis dos en cuadrado. En el caso de... ¿Y qué es lo que estoy creando? Estoy creando que
+
+359
+00:33:25.990 --> 00:33:31.850
+me estoy diciendo la predicción, la g en este caso, es lo que a predecir mi algoritmo
+
+360
+00:33:31.850 --> 00:33:37.610
+va a ser una combinación lineal de estas nuevas variables con estos coeficientes.
+
+361
+00:33:37.610 --> 00:33:44.530
+Estas vetas, vetas 0, veta 1, veta 2 son los coeficientes o peces que mi algoritmo va
+
+362
+00:33:44.530 --> 00:33:48.110
+a tener que encontrar.
+
+363
+00:33:48.110 --> 00:34:07.280
+Entonces, ahora, normalmente, regresión lineal, normalmente, regresión lineal es la
+
+364
+00:34:07.280 --> 00:34:20.280
+La regresión lineal simple es el día de gorrito que hubiera tenido un beta 0, más un beta 1 por ex1 y un beta 2 por ex2.
+
+365
+00:34:20.280 --> 00:34:29.680
+En mi data set original hubiera quedado con este modelo, y esto hubiera sido regresión lineal, si estoy en dos variables.
+
+366
+00:34:29.680 --> 00:34:39.400
+pero si puedo crecer a más variables, entonces ya puedo combinarlo y añadir todos estos
+
+367
+00:34:39.400 --> 00:34:43.820
+estos son acá, todos los que están acá, es una combinación de información adicional que
+
+368
+00:34:43.820 --> 00:34:48.740
+estoy poniendo que puede ser beneficita. El modelo sigue siendo lineal porque la linea
+
+369
+00:34:48.740 --> 00:34:56.380
+que estamos pidiendo es en los coeficientes beta, porque alguien podría decirme estos
+
+370
+00:34:56.380 --> 00:35:04.060
+como se llama, estos coeficientes son cuadraticos y por la linealidad como se entiende es que esos
+
+371
+00:35:04.060 --> 00:35:09.340
+valores van a ser conocidos porque son datos que voy a tener en realidad lo que son diferentes son
+
+372
+00:35:09.340 --> 00:35:18.300
+las betas, entonces diciendo que no lo nián en las betas, ¿cómo lo hacemos? En salquiler es simple
+
+373
+00:35:18.300 --> 00:35:26.300
+para que yo creo construir estos nuevas características o features o como le estoy en el chamando
+
+374
+00:35:26.300 --> 00:35:35.840
+durante el curso, puedo utilizar esta función o polinomia en features, le pongo que sean de
+
+375
+00:35:35.840 --> 00:35:42.040
+grado 2, o sea que solo agarre productos de las variones que le pase o le va a arles el cuadrado,
+
+376
+00:35:42.040 --> 00:35:48.200
+o sea multiplicar el porcentismo, es todo, si no quiero tener las que son cuadraticas, le pongo que
+
+377
+00:35:48.200 --> 00:35:53.840
+esta parámetro de interacción only igual a true y entonces solo deba hacer
+
+378
+00:35:53.840 --> 00:36:00.720
+los productos de las que sea diferentes y bueno como les comenté a sobre
+
+379
+00:36:00.720 --> 00:36:05.600
+la si vamos a estar siendo este tipo de productos lo que conviene es
+
+380
+00:36:05.600 --> 00:36:12.080
+estandarizar por si no mis potencias se van a disparar no entonces estandarizantes
+
+381
+00:36:12.080 --> 00:36:17.800
+reduce con las magnitudes de su palo desde visión x2 y todos los demás que
+
+382
+00:36:17.800 --> 00:36:25.840
+tenga y ya lo son bien, y bueno pues ha sido esto tengo un modelo que es más
+
+383
+00:36:25.840 --> 00:36:34.080
+poderoso posiblemente, eventualmente si si estas no me son útiles, este es
+
+384
+00:36:34.080 --> 00:36:38.960
+lo que estoy agregando al mismo modelo, no son útiles, eventualmente si aplico
+
+385
+00:36:38.960 --> 00:36:43.080
+lo que vamos a ver después como conoció como regularización lasso, estas
+
+386
+00:36:43.080 --> 00:36:51.080
+betas beta 3 beta 4 beta 5 se podrían hacer cero y eso me indicaría que mira este producto
+
+387
+00:36:51.080 --> 00:36:56.520
+aquí subo un al cuadrado por ejemplo ahora le cuenta que la beta 3 se hizo cero, esto
+
+388
+00:36:56.520 --> 00:37:01.000
+mira no sirve por nada así que hay que ser un al cuadrado desechalo y por ejemplo quizás
+
+389
+00:37:01.000 --> 00:37:06.840
+me es diga también que beta 5 es casi cero entonces también la puedes echar y si beta 4 dio algo
+
+390
+00:37:06.840 --> 00:37:12.600
+diferente de cero, uno, dos, o lo oficial, y diferente de cero. Entonces quiere decir que
+
+391
+00:37:12.600 --> 00:37:18.800
+está significativa, ya está sirviendo el modelo. Entonces decía esto suena bien, es decir,
+
+392
+00:37:18.800 --> 00:37:23.960
+es que lo vaya a ser, pues entonces no solo me quedo con algo lineal, pues una vez no
+
+393
+00:37:23.960 --> 00:37:28.000
+viento y agosto. ¿Cuál es el problema que solo ocurrir?
+
+394
+00:37:28.000 --> 00:37:40.980
+que es...
+
+395
+00:37:40.980 --> 00:37:46.180
+Bueno, antes de mencionar eso no, si yo gráfico
+
+396
+00:37:46.180 --> 00:37:49.680
+con tres diferentes polinomios,
+
+397
+00:37:49.680 --> 00:37:54.480
+yo os haya podido ir, así como creer valores de quizá al cuadrado,
+
+398
+00:37:54.480 --> 00:37:57.420
+si yo tengo más variables, puedo ir creando valores como
+
+399
+00:37:57.420 --> 00:38:01.420
+x1 al cubo y por ejemplo, estoy en 3 tengo x1,
+
+400
+00:38:01.420 --> 00:38:03.820
+por x2, por x3, o x2 por x3,
+
+401
+00:38:03.820 --> 00:38:05.980
+entonces puedo ir creciendo mucho mi polinomio,
+
+402
+00:38:05.980 --> 00:38:08.340
+agregando máximas con términos.
+
+403
+00:38:08.340 --> 00:38:10.740
+Entonces, por ejemplo, aquí lo que te lo trae a esto,
+
+404
+00:38:10.740 --> 00:38:13.580
+civil datos tienen este comportamiento.
+
+405
+00:38:13.580 --> 00:38:15.780
+Y yo has me quedado con un polinando el inial,
+
+406
+00:38:15.780 --> 00:38:18.980
+pues la aproximación es bastante pura, no es bastante mala.
+
+407
+00:38:18.980 --> 00:38:21.980
+En cambio, ese es su datos, tenía una forma más curvada,
+
+408
+00:38:21.980 --> 00:38:24.300
+más hipórabolla, un grado, dos.
+
+409
+00:38:24.300 --> 00:38:28.100
+Es lo perfecto o ideal para nacer una buena aproximación.
+
+410
+00:38:28.100 --> 00:38:32.380
+O cualquier otra cosa, si yo les digo, agregando elementos de esa forma,
+
+411
+00:38:32.380 --> 00:38:34.780
+creando modelos nuevas de esa forma.
+
+412
+00:38:34.780 --> 00:38:39.340
+por ejemplo acá si me voy a estar en polinomio de grado 12, entonces el polinomio
+
+413
+00:38:39.340 --> 00:38:44.300
+empieza a tener sobre ajuste, o sea, empieza a memorizar los datos, hacia el
+
+414
+00:38:44.300 --> 00:38:50.940
+cabo en polinomio su característica principal es que especial tenía un
+
+415
+00:38:50.940 --> 00:39:01.000
+conjunto de datos, o sea que acá es importante que entendamos esto, una de las
+
+416
+00:39:01.000 --> 00:39:09.440
+cosas que siempre se remarquen cuando uno checa polinó en la disimerico cuando hacen
+
+417
+00:39:09.440 --> 00:39:14.440
+desinterpolación. No intercord, sí, es interpolación. Es que la condición es que yo tengo
+
+418
+00:39:14.440 --> 00:39:21.240
+un conjunto de datos, vamos a llamarle que mi conjunto de datos es xc como jí y tengo
+
+419
+00:39:21.240 --> 00:39:28.880
+x desde no sé, uno está un n, o sea, lo tengo, tengo pared estos y tengo un conjunto
+
+420
+00:39:28.880 --> 00:39:29.880
+definía esta forma.
+
+421
+00:39:29.880 --> 00:39:34.640
+Sebas básicamente digamos tengo un poquito acá, tengo un poquito acá, tengo un poquito
+
+422
+00:39:34.640 --> 00:39:36.140
+acá, tengo un poquito acá.
+
+423
+00:39:36.140 --> 00:39:42.000
+Si queres ir a interpolación, interpolación significa a fuerza la curva que ya encuentre
+
+424
+00:39:42.000 --> 00:39:43.880
+tiene que pasar por ahí.
+
+425
+00:39:43.880 --> 00:39:48.320
+Que es lo que empieza a suceder aquí, si se fija en la curva, hay pintando aquí en color
+
+426
+00:39:48.320 --> 00:39:49.840
+me llomorado.
+
+427
+00:39:49.840 --> 00:39:52.520
+Pasa justamente por los datos.
+
+428
+00:39:52.520 --> 00:39:59.120
+la línea, la curva naranja se empieza a pegar cada vez más a pasar por los datos
+
+429
+00:39:59.120 --> 00:40:06.360
+a diferencia de esta otra asistaja donde se fijan la línea recta pues no pasa por todo esta región
+
+430
+00:40:06.360 --> 00:40:13.200
+y esta curva no pasa por muchos de estos, aprendo a memorizar es interpolar
+
+431
+00:40:13.200 --> 00:40:21.320
+estamos forzando con un fenómeno de grado alto a que el algoritmo se memorizando
+
+432
+00:40:21.320 --> 00:40:33.800
+en forma. Bueno, ok, el resumen es, lineal casi nunca funciona, no sé que sea un dato
+
+433
+00:40:33.800 --> 00:40:39.160
+de lineales, o sea, este caso, la línea directa es muy mala y es conveniente explorar
+
+434
+00:40:39.160 --> 00:40:44.600
+agregando unas variables para hacer reacción polinomial, sí sí es, pero tampoco es muy bueno
+
+435
+00:40:44.600 --> 00:40:50.520
+irse a grados muy altos porque no es claramente creas más variables, locales generan problemas
+
+436
+00:40:50.520 --> 00:40:53.640
+que te crees en mucho tu base de datos, pues no te molsla,
+
+437
+00:40:53.640 --> 00:40:56.440
+no es la más poder de póltruto para procesarlo,
+
+438
+00:40:56.440 --> 00:40:58.560
+sino que empiezas a tener sobre a gusto.
+
+439
+00:40:58.560 --> 00:41:02.720
+Entonces, es mala idea irnos a por un lado de grabo y alto,
+
+440
+00:41:02.720 --> 00:41:07.480
+mala idea por lo general que darnos con algo muy de grado uno,
+
+441
+00:41:07.480 --> 00:41:09.480
+explorar que ha dado todos grado tres,
+
+442
+00:41:09.480 --> 00:41:12.520
+generalmente es una buena idea.
+
+443
+00:41:16.520 --> 00:41:17.520
+OK.
+
+444
+00:41:17.520 --> 00:41:23.200
+esto ilustra más otra vez más es una forma de reforzar esto en la
+
+445
+00:41:23.200 --> 00:41:27.900
+interacción entre los dos variables, ese más el ejemplo anterior, lo
+
+446
+00:41:27.900 --> 00:41:33.520
+en placa tengo x1 y x2, ¿vale? Fíjense como instancia, gráfico x1 y x2,
+
+447
+00:41:33.520 --> 00:41:40.380
+esta es x1 y esta es x2 y yo veo los colores, por ejemplo, veo que el
+
+448
+00:41:40.380 --> 00:41:46.520
+producto, yo veo que x1 es positiva, o sea, cuando está un poquito, o sea
+
+449
+00:41:46.520 --> 00:41:51.520
+este color rojo es cuando cuando puntito rojo significa que son postivos de ser
+
+450
+00:41:51.520 --> 00:41:57.280
+a uno puntitos azules significa que son negativos, entonces que veo que x1 es
+
+451
+00:41:57.280 --> 00:42:01.880
+posible es negativa cuando está en este cuadrante
+
+452
+00:42:01.880 --> 00:42:07.920
+que básicamente es cuando x1 es positiva es lo que sucede con x2
+
+453
+00:42:07.920 --> 00:42:21.160
+es también negativa, ¿no? Si las dos son negativas, esto me da el a verlo. Sí, no.
+
+454
+00:42:21.160 --> 00:42:29.300
+X1 de 0 o 1 es positiva y con X2 perdón es negativo, es sino contrario. Lo mismo
+
+455
+00:42:29.300 --> 00:42:36.520
+entonces es de acá en esta región, aquí es x1, es negativa en esta región y x2 a la
+
+456
+00:42:36.520 --> 00:42:46.740
+exposición. Entonces se nota claramente que están, tiene una fuerte interacción, están
+
+457
+00:42:46.740 --> 00:42:52.860
+fuertemente correlacionadas, pero en sentido negativo, hecho podríamos trazar una línea
+
+458
+00:42:52.860 --> 00:42:58.140
+que la represente y así, las rojas o los puntos rojos o los puntos asculos.
+
+459
+00:42:58.140 --> 00:43:09.120
+Si yo calculo el factor R2 para encontrar la relación entre ellas, me va a dar 0,2,
+
+460
+00:43:09.120 --> 00:43:14.580
+pero si calculo la relación para el producto X1,2, entonces me va a dar ya altísima de
+
+461
+00:43:14.580 --> 00:43:16.080
+punto 98.
+
+462
+00:43:16.080 --> 00:43:22.320
+lo cual me está indicando que el hecho de incorporar la variable x1x2 en un modelo de
+
+463
+00:43:22.320 --> 00:43:26.800
+regression lineal, aquí es como como como funcionó el regression lineal si solo le
+
+464
+00:43:26.800 --> 00:43:33.200
+pasé de x1x2, su valor de R2 escribiría ser alto quedó presimo quedó encerro, para que
+
+465
+00:43:33.200 --> 00:43:39.640
+que meten de regression lineal no logran encontrar la predecir cualquier variable con solo
+
+466
+00:43:39.640 --> 00:43:47.560
+de información de X1 y X2. Pero si le quiero elaborar la nueva X1 por X2 y se la paso a mi algoritmo
+
+467
+00:43:47.560 --> 00:43:54.960
+religión lineal, entonces ya mágicamente esa cosa se dispara a casi uno. Entonces es un ejemplo
+
+468
+00:43:54.960 --> 00:44:01.400
+muy sencillo que muestra que por ejemplo aquí me hubiera quedado en algoritmo religión
+
+469
+00:44:01.400 --> 00:44:08.560
+el unial y se llego transformado en un beta más, digamos, beta 3 y lo va puesto en exeno
+
+470
+00:44:08.560 --> 00:44:09.560
+por éxito.
+
+471
+00:44:09.560 --> 00:44:20.010
+Ok, les comentaba que todo ya me convenciste de que debo crear más variables, de buscar
+
+472
+00:44:20.010 --> 00:44:25.510
+interacciones, de que funcionan muy bien, entonces cada vez que yo tengo el dataset siempre
+
+473
+00:44:25.510 --> 00:44:26.510
+voy a hacer eso.
+
+474
+00:44:26.510 --> 00:44:30.070
+Bueno, el problema está en esta gráfica.
+
+475
+00:44:30.070 --> 00:44:35.790
+Si yo tengo, por ejemplo, 10 variables,
+
+476
+00:44:35.790 --> 00:44:40.790
+como esta acá, si tengo 10 variables.
+
+477
+00:44:40.790 --> 00:44:50.070
+Y he sido crear un polinomio de grado 4 en la curva roja.
+
+478
+00:44:50.070 --> 00:44:53.830
+Resulta que voy a tener, le voy a añadir,
+
+479
+00:44:53.830 --> 00:44:58.390
+Pantas más o menos 10 a 3 columnas a mi data.
+
+480
+00:45:00.000 --> 00:45:06.960
+todas las posibles combinaciones de las 10 variables de productos con otra o con dos o con tres o con cuatro o
+
+481
+00:45:06.960 --> 00:45:14.160
+cinco hasta llegar a nueve o los productos que ha sido misma es uno al cuadrado al cubo, todos los posibles
+
+482
+00:45:14.160 --> 00:45:22.200
+combinaciones de las 10 van a totalizar mil. Entonces una data se distancia, los 10 variables si tratas
+
+483
+00:45:22.200 --> 00:45:29.800
+de construir todas las variables y a grado 4. Se te dispara, estos son 10, pero son mil
+
+484
+00:45:29.800 --> 00:45:32.240
+nuevas columnas que estaría señaliendo la tuidad de hacer.
+
+485
+00:45:32.240 --> 00:45:36.800
+No sé qué tenga que hacer un maestro de computadora, esto empieza a ser prohibitivo.
+
+486
+00:45:36.800 --> 00:45:46.160
+También por esa razón, aunque ya vimos que generalmente ir las más allá de dos o tres
+
+487
+00:45:46.160 --> 00:45:50.960
+el graduado es, el polinamio no ayuda mucho,
+
+488
+00:45:50.960 --> 00:45:54.720
+empieza a ver sobre justo, incluso grado dos o grado tres,
+
+489
+00:45:54.720 --> 00:45:57.800
+vean para diez variables, con grado tres,
+
+490
+00:45:57.800 --> 00:46:03.760
+me hubiera ido algo así como más de 100 y grado dos,
+
+491
+00:46:03.760 --> 00:46:08.200
+me hubiera quedado como 80 más para diez variables.
+
+492
+00:46:08.200 --> 00:46:11.400
+Si mi data 7 tiene 30, con mi data 7 que estamos viendo,
+
+493
+00:46:11.400 --> 00:46:18.920
+incluso un grado 2, o sea, agregarle son unos cuadrados,
+
+494
+00:46:18.920 --> 00:46:24.120
+un producto entre ellos, me está levantando a, como,
+
+495
+00:46:24.120 --> 00:46:28.480
+poquito más de 100, 100 nuevas columnas si tengo 30 variados.
+
+496
+00:46:28.480 --> 00:46:31.280
+Pues también hay que tener cuidado con eso, no?
+
+497
+00:46:31.280 --> 00:46:35.000
+Hay que emocionarse, construyo todo muy dentro de hacer.
+
+498
+00:46:35.000 --> 00:46:38.240
+Y se lo pasan al algoritmo, porque este pasa a un montón de información
+
+499
+00:46:38.240 --> 00:46:44.180
+y nos salvamos con la gente demasiado columnas, numericamente no funcionan muy bien.
+
+500
+00:46:44.860 --> 00:46:47.120
+Eso a todo en el proceso de encontrar la solución.
+
+501
+00:46:47.120 --> 00:46:53.420
+Cuando le estás creciendo la dimensión del espacio en donde tiene que encontrar la solución, y eso no es bueno.
+
+502
+00:46:53.920 --> 00:46:59.420
+Si yo te pongo, si no a todos nos volviéramos personas que vivimos en el mundo de tres dimensiones
+
+503
+00:46:59.420 --> 00:47:03.580
+y nos proyectamos en el plano, es más fácil y te digo
+
+504
+00:47:03.580 --> 00:47:10.940
+en cuenta como llegar del punto a punto de en el plano, es fácil, bueno, es fácil, pero es más fácil
+
+505
+00:47:10.940 --> 00:47:17.420
+encontrar lo que se te ponga en un mundo trinimensional en el que ahora tienes que encontrar, quizás el punto más alto en el que estás
+
+506
+00:47:17.420 --> 00:47:28.420
+en tres dimensiones, porque ya no solo caminas en las que quieras, sino que tienes que ir de considerar altura o profundidad
+
+507
+00:47:28.420 --> 00:47:33.500
+y se me fuera cuatro dimensiones, o a cintura y dimensiones, se complica más y más y más
+
+508
+00:47:33.500 --> 00:47:34.780
+encontrar.
+
+509
+00:47:34.780 --> 00:47:41.340
+Generalmente lo que buscamos es maximizar o minimizar alguna opción en el solaborismo,
+
+510
+00:47:41.340 --> 00:47:43.780
+eso se vuelve más difícil.
+
+511
+00:47:43.780 --> 00:47:48.180
+A ver, entonces, ¿y cómo?
+
+512
+00:47:48.180 --> 00:47:51.520
+¿Dónde vamos?
+
+513
+00:47:51.520 --> 00:47:53.520
+Ok, ¿cómo se hace?
+
+514
+00:47:53.520 --> 00:47:56.200
+Me abricaré un poquito de esta, para ir un poquito más rápida.
+
+515
+00:47:56.200 --> 00:47:58.800
+Y si en el tiempo nos regresamos a ver con la simplemente,
+
+516
+00:47:58.800 --> 00:48:04.440
+pero aquí básicamente es como crear nuestras funciones.
+
+517
+00:48:04.440 --> 00:48:07.400
+Cuando la platicos es mucho detalle,
+
+518
+00:48:07.400 --> 00:48:09.600
+que puede crear cualquier función en este caso,
+
+519
+00:48:09.600 --> 00:48:13.080
+sea ma agarregar soles, donde yo agarro una variable,
+
+520
+00:48:13.080 --> 00:48:15.600
+agarro otro y creo en mis razones.
+
+521
+00:48:15.600 --> 00:48:19.520
+Al final voy a regresar, estas dos proporciones o razones.
+
+522
+00:48:19.520 --> 00:48:21.320
+Creo una función.
+
+523
+00:48:21.320 --> 00:48:28.320
+Después, a uso esta comando función de la WPKC killer,
+
+524
+00:48:28.320 --> 00:48:32.320
+que se llama Function Transformer y le paso la que yo me acabo de inventar.
+
+525
+00:48:32.320 --> 00:48:35.320
+Y esto es lo que necesito hacer, cuando yo creé el pipeline,
+
+526
+00:48:35.320 --> 00:48:38.320
+simplemente le pongo al inicio el pipeline.
+
+527
+00:48:38.320 --> 00:48:42.320
+Generalmente, cuando yo creigo variales siempre van al inicio.
+
+528
+00:48:42.320 --> 00:48:49.320
+Y después estándarizo y continuo mi proceso hasta llegar al modelo.
+
+529
+00:48:49.320 --> 00:48:58.320
+¿vale? Pues es agregar este tipo de transformaciones en un pipeline, es simple hoy en día en cosas como
+
+530
+00:48:58.320 --> 00:49:04.320
+saipilar. Ok, entonces ya no es suficiente de cómo que eran variables, y así, ambasones, diferencias,
+
+531
+00:49:04.320 --> 00:49:15.320
+aplicar transformaciones, logarítmica, rescadrada, encontrar barres correlacionadas, etcétera de productos, etcétera, etcétera.
+
+532
+00:49:15.320 --> 00:49:19.720
+agrupar algunas a llegar promedios para reducir variables, etcétera, etcétera.
+
+533
+00:49:19.720 --> 00:49:22.480
+Ok, entonces ya las crecí, ya crecí un bidata,
+
+534
+00:49:22.480 --> 00:49:27.320
+yo tengo N cual unas más aparte de las que tenía un tiramiento.
+
+535
+00:49:27.320 --> 00:49:29.760
+Ahora tengo que empezar a decidir cómo parece me quedó.
+
+536
+00:49:29.760 --> 00:49:33.240
+Lo que les comentaba es ahí tres formas.
+
+537
+00:49:33.240 --> 00:49:37.480
+Por filtrado, por un volcura o el metodo que se ha dado a un integrado.
+
+538
+00:49:37.480 --> 00:49:41.080
+Tengo mis parales originales, en el primero, el filtro.
+
+539
+00:49:41.080 --> 00:49:43.680
+Y lo que hago es sacar estadísticos.
+
+540
+00:49:43.680 --> 00:49:50.080
+todos los que se me ocurran me dían moda variance a todos que se les ocurran o los que ustedes quieran
+
+541
+00:49:50.080 --> 00:49:55.960
+considerar y a partir de eso yo voy a decidir con toda esa información estadística de estas
+
+542
+00:49:55.960 --> 00:50:03.200
+destribuerables me voy a quedar con las mejores y esto de las mejores muchas veces va a ser
+
+543
+00:50:03.200 --> 00:50:11.360
+relacionado con modelo, ¿vale? Ahora sí que hay modelos que son robustos ante outliers y modelos
+
+544
+00:50:11.360 --> 00:50:17.360
+que no lo son. Si el modelo que elegí no ha compuesto la idea, entonces esto que considerar
+
+545
+00:50:17.360 --> 00:50:22.440
+que el estadístico que me está dedicando acá que tiene muchos alclayers como puede ser
+
+546
+00:50:22.440 --> 00:50:29.000
+la cortosis, entonces la eliminó acá, digo, lo que tache para ese y lo eliminó de mis
+
+547
+00:50:29.000 --> 00:50:34.380
+caes, el número que yo quiero elegir, mi tome más pequeño, pues me lo hago.
+
+548
+00:50:34.380 --> 00:50:39.600
+Esa es iltrado. Como les comentaba en voltura lo que voy a hacer es de todos mis variables
+
+549
+00:50:39.600 --> 00:50:47.600
+un subconjunto. Puedes ser reforma elatoria, el tamaño de su conjunto también puede ser reforma elatoria,
+
+550
+00:50:47.600 --> 00:50:56.060
+generalmente se hacen un proceso coherente en el que vayas progresivamente evaluando los o
+
+551
+00:50:56.060 --> 00:51:02.200
+grandes subconjuntos. Una vez creado de su conjunto entrenas el modelo, lo de valúas sobre
+
+552
+00:51:02.200 --> 00:51:09.060
+ese conjunto y regresas. Cambio de su conjunto, vuelvo a entrenarlo, vuelvo a valorarlo. Cada vez que lo
+
+553
+00:51:09.060 --> 00:51:16.140
+valúa y lo entreme de valúa a noto las métricas, a una especie de tablita y al final me voy
+
+554
+00:51:16.140 --> 00:51:20.340
+a quedar con el succo junto que me generó las mejores métricas.
+
+555
+00:51:20.340 --> 00:51:26.820
+De esa forma, ya estoy seleccionando los verdales originales, no digamos a las siegas solo viendo
+
+556
+00:51:26.820 --> 00:51:33.860
+estadísticos, sino que directamente las estoy probando sobre el modelo que yo elegí.
+
+557
+00:51:33.860 --> 00:51:38.860
+este modelo que aparece acá es este mismo modelo que ve realmente lo que usted usaba.
+
+558
+00:51:38.860 --> 00:51:43.860
+Entonces en final me quedo con el mejor su conjunto. Esto puede ser muy costoso,
+
+559
+00:51:43.860 --> 00:51:49.940
+dependiendo de cuántas veces o cuántas su conjunto quieras crear a partir de
+
+560
+00:51:49.940 --> 00:51:56.940
+conjunto original. Es el más robusto, pero es el más costoso y por mucho.
+
+561
+00:51:56.940 --> 00:52:01.860
+Y el otro que les comentaba, el final es todos muy variable, entre no un modelo,
+
+562
+00:52:01.860 --> 00:52:07.320
+de lo, pero utilizo un modelo o información que es generalmente ya casi todos los modelos
+
+563
+00:52:07.320 --> 00:52:13.520
+de Machine Learning, te regresan información de la importancia de las variables y hacia
+
+564
+00:52:13.520 --> 00:52:19.380
+a través de coeficientes como indican que es si yo regularizo con el azo, o incluso si
+
+565
+00:52:19.380 --> 00:52:25.960
+regularizan modelos lineales como las reducciones me dan una infisión de 6 an relevantes
+
+566
+00:52:25.960 --> 00:52:33.680
+los proficientes o a través de un proceso que diría la importancia en modelos como
+
+567
+00:52:33.680 --> 00:52:39.640
+árboles de decisión, árboles de decisión ya viene cualificados casi todos los lotecas
+
+568
+00:52:39.640 --> 00:52:45.120
+para que te reporten cuál fue la varial que consideró más para tomar las decisiones
+
+569
+00:52:45.120 --> 00:52:49.640
+que tomó y eventualmente llegar a la decisión que te está a la opredición que te está
+
+570
+00:52:49.640 --> 00:52:55.740
+Entonces aquí es una sola vez entre el entremento del modelo y con más
+
+571
+00:52:55.740 --> 00:53:00.200
+y la formación que me entrega ese modelo, entonces yo voy a acabar descartando los
+
+572
+00:53:00.200 --> 00:53:05.800
+verales. Entonces de nada cuenta esto lo decido enfiltrado, decido cuál es
+
+573
+00:53:05.800 --> 00:53:11.600
+eliminar sin cocedar ningún modelo en en volcura voy a hacer los recursos
+
+574
+00:53:11.600 --> 00:53:17.200
+para no recorciender una y otra vez, repetidamente, hasta que yo que es
+
+575
+00:53:17.200 --> 00:53:21.500
+que se se hecho con un mejor conjunto evaluando sobre un modelo que le hicimos.
+
+576
+00:53:21.500 --> 00:53:26.620
+Y en este caso, el integrado lo voy a hacer una sola vez a diferencia de este que
+
+577
+00:53:26.620 --> 00:53:30.160
+presenta muchísimas veces también sobre el modelo que le hicimos y con
+
+578
+00:53:30.160 --> 00:53:36.510
+la información que me regrese voy a eliminar las palabras de hecho que se
+
+579
+00:53:36.510 --> 00:53:40.610
+y básicamente lo que les comenté está reduciendo esa palabra.
+
+580
+00:53:40.610 --> 00:53:46.490
+Si entrado usa modelo, no, esa estáística siempre. Envoltura así, muchas veces
+
+581
+00:53:46.490 --> 00:53:52.910
+integrado solo una vez. El posto computacional de hacer el filtrado es pagísimo, en el
+
+582
+00:53:52.910 --> 00:54:00.710
+volcura es altísimo, y el integrado, digamos, es término medio, yo me llamaría bajo, más que medio
+
+583
+00:54:00.710 --> 00:54:06.870
+porque realmente si aquí si esté 100 veces tu modelo y aquí solo existe una vez pues una
+
+584
+00:54:06.870 --> 00:54:13.870
+patración, aunque aquí estoy trabajando sobre todo el dataset y aquí sobre sus conjuntos,
+
+585
+00:54:13.870 --> 00:54:23.390
+pues digamos que queda entre medio y pa más que medio. Hacemos interacciones o ve interacciones
+
+586
+00:54:23.390 --> 00:54:32.030
+entre las variables, no, aquí estoy decidiendo cada una de los cuales tengo vida a hacer,
+
+587
+00:54:32.030 --> 00:54:37.150
+la estoy evaluando por sus parísticos. Aquí si lo estoy viendo porque cuando yo estoy
+
+588
+00:54:37.150 --> 00:54:42.670
+creando su conjunto y mis sus conjuntos están confirmados por diferentes variables, no son
+
+589
+00:54:42.670 --> 00:54:48.910
+la misma siempre y lo estoy volando sobre el modelo. Entonces si estoy de cierta forma entendiendo
+
+590
+00:54:48.910 --> 00:54:54.310
+cuáles son las interacciones de esas variables, de sesos momentos variables que hicieron que
+
+591
+00:54:54.310 --> 00:55:00.190
+mi modelo funcionen. Y el integrado pues depende mucho del modelo que le dije si voy a poder
+
+592
+00:55:00.190 --> 00:55:07.670
+una interacción de unaables. El riesgo aquí en filtrado es que tenemos, como son los
+
+593
+00:55:07.670 --> 00:55:12.630
+como se se en una vez y estamos haciendo en esta dícita simple, puede ser que tenga
+
+594
+00:55:12.630 --> 00:55:19.670
+muchas parales redundantes, pero en la que se han en sec que estén altamente relacionadas
+
+595
+00:55:19.670 --> 00:55:24.230
+y que el estadístico si no volteo a ver la otra variable porque estoy viendo con una
+
+596
+00:55:24.230 --> 00:55:30.950
+la vez, entonces voy a dejar divas todas esas variables como están dando la misma compasión
+
+597
+00:55:30.950 --> 00:55:37.030
+cuando podría yo eliminarla, entonces eliminación por filtrado, a no ser que yo vayan
+
+598
+00:55:37.030 --> 00:55:40.110
+pasito más, pero no lo considera por definición,
+
+599
+00:55:40.110 --> 00:55:43.710
+vaya un pasito más y vea calcula una manifesto de correlación
+
+600
+00:55:43.710 --> 00:55:46.710
+entre todas las barales que me quedan.
+
+601
+00:55:46.710 --> 00:55:48.850
+Yo podrán sobrevivir muchas barales,
+
+602
+00:55:48.850 --> 00:55:52.630
+que son rádios de amplias y me presento de la nueva información.
+
+603
+00:55:52.630 --> 00:55:59.230
+En cultura no, porque estoy seleccionando
+
+604
+00:55:59.230 --> 00:56:01.350
+de la diferente forma automáticamente las vives
+
+605
+00:56:01.350 --> 00:56:02.630
+y se han verme todo.
+
+606
+00:56:02.630 --> 00:56:05.710
+Lo que sí es es muy costoso y eventualmente
+
+607
+00:56:05.710 --> 00:56:07.710
+puede llevar a un sobreajuste.
+
+608
+00:56:07.710 --> 00:56:09.710
+A la decir, la unciata por un tiempo
+
+609
+00:56:09.710 --> 00:56:11.710
+variado después, es que tenga
+
+610
+00:56:11.710 --> 00:56:13.710
+el concierto reales ideal,
+
+611
+00:56:13.710 --> 00:56:15.710
+sobre el conjunto entrenamiento
+
+612
+00:56:15.710 --> 00:56:19.710
+y yo me quedé con el mejor de todos
+
+613
+00:56:19.710 --> 00:56:22.190
+los escenarios, el mejor si
+
+614
+00:56:22.190 --> 00:56:24.190
+un conjunto, lo que puedes
+
+615
+00:56:24.190 --> 00:56:26.190
+suceder es de no cuenta como estoy
+
+616
+00:56:26.190 --> 00:56:28.190
+dejando sobre, pero sobre
+
+617
+00:56:28.190 --> 00:56:30.190
+el conjunto entrenamiento únicamente
+
+618
+00:56:30.190 --> 00:56:33.190
+y yo puedo tener un sobreajuste
+
+619
+00:56:33.190 --> 00:56:34.190
+y me pueden ganhar y cuando lo
+
+620
+00:56:34.190 --> 00:56:39.230
+cuando lo pruebes sobre el tanto de validación o un punto prueba, va a tener comportamiento
+
+621
+00:56:39.230 --> 00:56:45.990
+completamente diferente. Y el rezo al integrado es que va a ser una sala de vez, va a depender
+
+622
+00:56:45.990 --> 00:56:56.720
+de la escala y realmente va a tener nuevos hiperparados que tendrán. Y bueno, Saltitler
+
+623
+00:56:56.720 --> 00:57:04.880
+ya tiene por a más todos. Intrado es la función varian-stressho, que me elimina los que tengan
+
+624
+00:57:04.880 --> 00:57:12.760
+mucha varianza, esta función seleccabe se selecciona los cam mejores parámetros. Si
+
+625
+00:57:12.760 --> 00:57:20.120
+aplicó método en voltura es este Pelemann RFA y RFA con cross validation, si quiero
+
+626
+00:57:20.120 --> 00:57:27.120
+hacerle todavía un poco más completo que se está. Y el integrado, hay dos opciones,
+
+627
+00:57:27.120 --> 00:57:33.240
+si me puedo ir a solo el azo y seleccion el modelo, una esquiva de lija el modelo,
+
+628
+00:57:33.240 --> 00:57:38.120
+lo permite elegir las mejores que acuerdan el modelo que lo esté pasando.
+
+629
+00:57:38.120 --> 00:57:41.290
+A esta función.
+
+630
+00:57:41.290 --> 00:57:43.570
+Vamos a ocupar rápido, o que vamos a un ahora.
+
+631
+00:57:46.850 --> 00:57:48.570
+OK, la primera.
+
+632
+00:57:48.570 --> 00:57:50.370
+Lo clásico es una medida de dispersión.
+
+633
+00:57:50.370 --> 00:57:53.810
+¿Cómo voy a desechar mis variables en meto filtrado?
+
+634
+00:57:53.810 --> 00:57:57.050
+Pues voy a desechar aquellas variables que se no cambian.
+
+635
+00:57:57.050 --> 00:57:59.090
+¿Es una primera observación?
+
+636
+00:57:59.090 --> 00:58:03.790
+Si hay concepto por ahí en tutorial de formación geomantropia,
+
+637
+00:58:03.790 --> 00:58:12.210
+mientras más variabilidad tenga algo, más información presenta.
+
+638
+00:58:12.210 --> 00:58:16.050
+Y por ejemplo, el clasco ejemplo que me acuerdo que usan es si lo te
+
+639
+00:58:16.050 --> 00:58:18.010
+digamos un texto cualquiera.
+
+640
+00:58:18.010 --> 00:58:22.490
+Y tú cuentas cuántas, por ejemplo, cuántas letras diferentes
+
+641
+00:58:22.490 --> 00:58:25.250
+aparecen ese texto sin tener que entender el texto.
+
+642
+00:58:25.250 --> 00:58:34.010
+los cuentas cuantas letras hay diferentes o la variabilidad del texto, es muy probable
+
+643
+00:58:34.010 --> 00:58:41.010
+que ese texto tenga algún significado. En cambio, si te dices represento un texto por decir
+
+644
+00:58:41.010 --> 00:58:45.210
+con el mismo número de letras del anterior, pero todas ellas continuen en su alerta, digamos
+
+645
+00:58:45.210 --> 00:58:51.530
+en el letra, absolutamente no te da información. No sé si te da decir a… pero no te da información,
+
+646
+00:58:51.530 --> 00:58:57.370
+Entonces, variabilidad significa contenido o cantidad de información.
+
+647
+00:58:57.370 --> 00:59:03.410
+De la misma forma ocurre con los datos, una forma, una variable que se mantiene constante
+
+648
+00:59:03.410 --> 00:59:06.370
+todo el tiempo, pues no me se indica nada.
+
+649
+00:59:06.370 --> 00:59:11.690
+Y en Satoshi, no me se indica nada, por respecto a la salida, por respecto a las demás
+
+650
+00:59:11.690 --> 00:59:12.690
+variables.
+
+651
+00:59:12.690 --> 00:59:17.690
+Entonces, identificamos calculando la varianza de la variable X, que está por menor con
+
+652
+00:59:17.690 --> 00:59:21.990
+un brael que es un brael generalmente es un valor mascrito de entrada eliminamos todo
+
+653
+00:59:21.990 --> 00:59:27.570
+aquello que sea medio constante, el rápido es super efectivo, esto prácticamente no
+
+654
+00:59:27.570 --> 00:59:32.890
+vamos a nos preocupar absolutamente nada de que estemos iluminando variables que son enormemente
+
+655
+00:59:32.890 --> 00:59:39.930
+pequeñas, su variabilidad por su variancia. ¿Qué es lo que sí puede pasar con la variancia?
+
+656
+00:59:39.930 --> 00:59:47.770
+la varianza depende de la escala y esta varianza solo está midiendo que tanto
+
+657
+00:59:47.770 --> 00:59:53.610
+varía cada elemento con respecto a la media de ese conjunto de entrenamiento
+
+658
+00:59:53.610 --> 00:59:58.850
+y entonces si aquí estoy manejando escalas de kilómetros vamos a hablar que
+
+659
+00:59:58.850 --> 01:00:00.850
+que es esta situación.
+
+660
+01:00:00.110 --> 01:00:10.110
+y por lo otro lado estoy calculando la apariencia, está andarizada a literal 0 1, entonces esto nunca va a pasar de 1.
+
+661
+01:00:10.110 --> 01:00:12.110
+Y al sumarlo va a ser un valor de 1.
+
+662
+01:00:12.110 --> 01:00:16.070
+más todavía es mayor, entonces la varianza puede dar en el orden de miles, cientos de miles.
+
+663
+01:00:16.070 --> 01:00:25.390
+Y por lo otro lado estoy calculando la varianza, es dandarizada, es a literal 0 1, entonces
+
+664
+01:00:25.390 --> 01:00:31.150
+esto nunca va a pasar de 1. Y a lo sumarlo va a ser un valor muy pequeño. Entonces hay que
+
+665
+01:00:31.150 --> 01:00:36.230
+tener cuidado en lo que está de traer y lustrar esto, las callas muy importantes. Si yo me
+
+666
+01:00:36.230 --> 01:00:40.750
+voy en la varianza la gráfico acá en escala localismo y que por cierto,
+
+667
+01:00:40.750 --> 01:00:45.110
+es aquí tengo el 1, tienes al 0, 1, aquí tengo el 1,
+
+668
+01:00:45.110 --> 01:00:56.190
+el 0, 0, 0, 1, aquí tengo ahí, 100, etcétera, yo me voy a quedar con que las más importantes
+
+669
+01:00:56.190 --> 01:01:04.610
+por varianza serían las azules, bueno, éste serán las que más variatoros, no?
+
+670
+01:01:04.610 --> 01:01:17.610
+y no necesariamente lo que ocurre, por ejemplo las varianzas de estos son muy pequeñitas
+
+671
+01:01:17.610 --> 01:01:25.010
+en escala no en importancia, entonces por ejemplo si yo no estandarizo esto la gráfica
+
+672
+01:01:25.010 --> 01:01:30.650
+de la cada derecha, si yo no estandarizo y agarro por ejemplo esta que en la variable
+
+673
+01:01:30.650 --> 01:01:37.650
+de worse area, va a ser la mayor y va a tener una escala de 10 a la 5 como se va a hacer.
+
+674
+01:01:37.650 --> 01:01:46.130
+Y la que menor me da es esta que es el fractal dimension error, que me da en una escala de
+
+675
+01:01:46.130 --> 01:01:48.450
+10 a la menos 6.
+
+676
+01:01:48.450 --> 01:01:53.430
+Entonces hay que tener mucho cuidado, entonces dice uno a vos que entonces está en
+
+677
+01:01:53.430 --> 01:01:59.070
+de la distancia de la
+
+678
+01:01:59.430 --> 01:02:02.430
+distancia.
+
+679
+01:02:02.430 --> 01:02:05.430
+Si ustedes utilizan estándar
+
+680
+01:02:05.430 --> 01:02:07.430
+este a la dirección estándar
+
+681
+01:02:07.430 --> 01:02:11.430
+acuerdense que la distancia de la
+
+682
+01:02:11.430 --> 01:02:13.430
+distancia de la distancia.
+
+683
+01:02:13.430 --> 01:02:15.430
+Significa que voy a calcular la
+
+684
+01:02:15.430 --> 01:02:17.430
+media, se lo voy a restaurar a
+
+685
+01:02:17.430 --> 01:02:19.430
+cada dato y lo voy a dividir entre
+
+686
+01:02:19.430 --> 01:02:21.430
+la distancia de la distancia
+
+687
+01:02:21.430 --> 01:02:26.070
+de uno entonces no vamos a poder ejercitificar ni el mayor ni el menor todos van a
+
+688
+01:02:26.070 --> 01:02:32.230
+tirar exactamente iguales. Entonces si va a espalizar la varianza, si me
+
+689
+01:02:32.230 --> 01:02:36.990
+esfermerizar o con una estenderización diferente a la estándar pero ojo las
+
+690
+01:02:36.990 --> 01:02:42.990
+varianzas me pueden encargar por la escala que estoy utilizando. Entonces la
+
+691
+01:02:42.990 --> 01:02:51.660
+base que tengo en cuidado con eso. Por otro lado yo puedo elegir hacer un
+
+692
+01:02:51.660 --> 01:02:57.660
+pintrado ya no con base a la varianza sino con base a la metrica de corregilación.
+
+693
+01:02:57.660 --> 01:03:03.360
+En este caso, la corregilación este factor R que nos está apelificando porque no me
+
+694
+01:03:03.360 --> 01:03:10.660
+dicho que es, es básicamente si tengo un par de variables X, aquí se X o V en disfaca,
+
+695
+01:03:10.660 --> 01:03:18.660
+digamos que la jésima columna de mi dataset, pues elijo está, hayos su varianza con respecto
+
+696
+01:03:18.660 --> 01:03:22.500
+a la salida que ya y debido entre la
+
+697
+01:03:22.500 --> 01:03:24.620
+adecuación estándar de la salida y la
+
+698
+01:03:24.620 --> 01:03:27.420
+adecuación estándar de esa columna y eso es lo que me va a dar
+
+699
+01:03:27.420 --> 01:03:30.300
+la R para esa variable por esa columna.
+
+700
+01:03:30.300 --> 01:03:32.900
+Ahora sí que mi trasmagrande es más
+
+701
+01:03:32.900 --> 01:03:35.180
+correlación. Esa es otra opción que yo
+
+702
+01:03:35.180 --> 01:03:37.060
+puedo tener para ver vale sinimidad.
+
+703
+01:03:37.060 --> 01:03:40.820
+Las que estén altamente relacionadas
+
+704
+01:03:40.820 --> 01:03:43.420
+nos están entregando la misma información y
+
+705
+01:03:43.420 --> 01:03:46.380
+por lo tanto yo podría eliminar a que
+
+706
+01:03:46.380 --> 01:03:48.940
+que ya es que me entra en la misma rocha.
+
+707
+01:03:48.940 --> 01:03:51.900
+O bueno, pero, a ver, estoy sin normal.
+
+708
+01:03:51.900 --> 01:03:54.900
+Esta R, si fuera R contra X,
+
+709
+01:03:54.900 --> 01:03:58.040
+Cota contra X, y, o sea, entre dos,
+
+710
+01:03:58.040 --> 01:03:59.740
+es el criterio, no?
+
+711
+01:03:59.740 --> 01:04:04.900
+Perdón, aquí esta R está calculando la relación de una variable
+
+712
+01:04:04.900 --> 01:04:06.540
+con respecto a la salida.
+
+713
+01:04:06.540 --> 01:04:09.900
+Entonces aquí me debo quedar con todos aquellas
+
+714
+01:04:09.900 --> 01:04:13.900
+que estén fuertemente correlacionadas con la salida.
+
+715
+01:04:13.900 --> 01:04:19.900
+En el ejemplo de un salinicio del Nócico de Cánser,
+
+716
+01:04:19.900 --> 01:04:24.700
+se acuerdan que vimos al inicio de la gráfica que con una sola variable,
+
+717
+01:04:24.700 --> 01:04:31.100
+perdón, yo era capaz de tener un arriba de punto 9 de saquito de impreición.
+
+718
+01:04:31.100 --> 01:04:33.900
+Bueno, quiere decir que esa variable es la única variable,
+
+719
+01:04:33.900 --> 01:04:38.500
+ya tienen una fuertísima población, un altísimo nivel de R,
+
+720
+01:04:38.500 --> 01:04:41.900
+o sea, se ha promisita con respecto a la salida,
+
+721
+01:04:41.900 --> 01:04:45.180
+para el protocolo y por eso está funcionando también.
+
+722
+01:04:45.180 --> 01:04:46.900
+Entonces, esto es muy eficiente.
+
+723
+01:04:46.900 --> 01:04:50.860
+Yo puedo calcular esas erras y digamos a un nobral
+
+724
+01:04:50.860 --> 01:04:53.900
+puede decidir quedarme en paz a 6 tan para acá.
+
+725
+01:04:53.900 --> 01:04:57.380
+Es son las que están generalmente arriba de punto 3.
+
+726
+01:04:57.380 --> 01:05:00.780
+Aunque aquí creo que la idea era representar más punto 3
+
+727
+01:05:00.780 --> 01:05:04.020
+y punto 7 muy bueno y eso es evidentemente bueno.
+
+728
+01:05:04.020 --> 01:05:06.700
+Pero aquí si cortan punto 3, se está eliminando
+
+729
+01:05:06.700 --> 01:05:10.540
+de más 1, 2, 3, 4, 5, 6, 7.
+
+730
+01:05:10.540 --> 01:05:13.540
+entonces aparentemente aquí decidieron eliminar en punto 5.
+
+731
+01:05:13.540 --> 01:05:18.540
+En la de punto 5 para arriba me quedé con las más importantes.
+
+732
+01:05:18.540 --> 01:05:22.540
+Entonces normalmente arriba, punto 7 es muy fuerte por la acción.
+
+733
+01:05:22.540 --> 01:05:26.540
+punto 3 ya es una acción de población, pero ahí en el 3 punto 3 es punto 7.
+
+734
+01:05:26.540 --> 01:05:31.540
+Si es para al iba a jugar dependiendo del número de variar si quieres eliminar.
+
+735
+01:05:31.540 --> 01:05:34.540
+Ok.
+
+736
+01:05:34.540 --> 01:05:43.300
+este, otra, ahora sí, cambió la cosa, es un poco más cercana lo que les está diciendo,
+
+737
+01:05:43.300 --> 01:05:50.300
+si yo calculo esa es factor R, pero ya no en con respecto a la salida sino entre ellas,
+
+738
+01:05:50.300 --> 01:05:57.300
+no se va a decir que cambio esa formulita, y ahora en lugar de escribir aquí,
+
+739
+01:05:57.300 --> 01:06:03.300
+x, y, aquí le pongo x y, para alguna y diferente apota,
+
+740
+01:06:03.300 --> 01:06:12.270
+sacar 2 coluna diferentes y aquí también hago x y entonces ya estoy
+
+741
+01:06:12.270 --> 01:06:17.330
+entiendo cómo se correlacionan 2 variables diferentes 2 coluna
+
+742
+01:06:17.330 --> 01:06:23.230
+diferentes, eso es lo que trata de representar este
+
+743
+01:06:23.230 --> 01:06:31.470
+heatmap de matriz de correlación aquí poner los numeritos sería de cada
+
+744
+01:06:31.470 --> 01:06:43.750
+de honor a ellos saturaría el imagen. Entonces aquí veo que la R está en esta escala, las
+
+745
+01:06:43.750 --> 01:06:50.790
+más fuertes R son las que están con rojo intenso. Obviamente la variable consigo
+
+746
+01:06:50.790 --> 01:06:56.790
+misma siempre va a ser correlación uno por eso es que tenemos el máximo tono de color rojo
+
+747
+01:06:56.790 --> 01:07:01.430
+acá en el diagonal, pero por ejemplo, sin permite ver que me
+
+748
+01:07:01.430 --> 01:07:07.550
+magnifiquear esto, que todo este recuadro indica para
+
+749
+01:07:07.550 --> 01:07:10.030
+les alquísiamente corredicionados.
+
+750
+01:07:10.030 --> 01:07:12.510
+Y si me voy a dejar izquierda, estés viendo que área
+
+751
+01:07:12.510 --> 01:07:16.990
+de este área hasta perímetro.
+
+752
+01:07:16.990 --> 01:07:23.900
+Aria perímetro contra área, aquí están, área.
+
+753
+01:07:23.900 --> 01:07:27.900
+El área está huertizamente correlacionada por un radio, por un parímetro,
+
+754
+01:07:27.900 --> 01:07:32.900
+no sé qué se ha obligado a ariar y con un parímetro.
+
+755
+01:07:32.900 --> 01:07:36.900
+Lo que es la media del área, la media del radio y la media del parímetro,
+
+756
+01:07:36.900 --> 01:07:44.500
+lo que es algo.
+
+757
+01:07:44.500 --> 01:07:46.500
+Pero ¿qué es sentido?
+
+758
+01:07:46.500 --> 01:07:50.500
+Imagino cualquier círculo, o en círculo por ese algo.
+
+759
+01:07:50.500 --> 01:07:54.500
+Si crees el tamaño del círculo, crees el área, crees el parímetro y crees el radio.
+
+760
+01:07:54.500 --> 01:07:58.400
+Entonces, obvio que cualquier otra figura que me trica, ¿no?
+
+761
+01:07:58.400 --> 01:08:02.060
+Si tres o tres perímetro, crecielaria y no hay radio,
+
+762
+01:08:02.060 --> 01:08:07.660
+pero digamos, el ton se leje más grande de la distancia del centro
+
+763
+01:08:07.660 --> 01:08:10.860
+y de al punto de manejano, tomamos este radio y también
+
+764
+01:08:10.860 --> 01:08:12.860
+lo más grave es que lo haya crecido.
+
+765
+01:08:12.860 --> 01:08:15.780
+Lo es que le quiere decir, esto me está indicando que yo podría
+
+766
+01:08:15.780 --> 01:08:17.780
+quedarme con uno solo de estos.
+
+767
+01:08:17.780 --> 01:08:20.940
+De todos estos, uno, dos, tres, cuatro, cinco,
+
+768
+01:08:20.940 --> 01:08:23.140
+es suficiente quedarme con un de ellos.
+
+769
+01:08:23.140 --> 01:08:28.020
+algo muy similar está corriendo en nuestro cuadro, que de nada cuenta es área radio perímetro,
+
+770
+01:08:28.020 --> 01:08:33.380
+aquí también podría elegir como cualquiera. ¿Cuál es si quedaría en ustedes y si
+
+771
+01:08:33.380 --> 01:08:41.700
+metí el valor de M área hasta 2.5 perímetros, todas tienen prácticamente la evaluación?
+
+772
+01:08:41.700 --> 01:08:46.850
+¿Cuál es quedarme?
+
+773
+01:08:46.850 --> 01:08:54.370
+me quedaría con la de Área, porque es una relación entre el perímetro de el radio,
+
+774
+01:08:54.370 --> 01:09:00.170
+o sea, habla de una cobertura de toda una especie de relación para mí.
+
+775
+01:09:00.170 --> 01:09:06.610
+De la vista, le tengo ya tu conocimiento geométrica del problema, aquí lo que les valido,
+
+776
+01:09:06.610 --> 01:09:12.730
+pero si no tuvieran una representación comética para el humano o algo que me pregunta
+
+777
+01:09:12.730 --> 01:09:19.170
+significar eso, pues cuenta que tenen nombres que no significa nada para nosotros. Lo que tendríamos
+
+778
+01:09:19.170 --> 01:09:24.970
+que hacer, esto había todo respuesta, por causa de información, pero es adicional que ya tienes.
+
+779
+01:09:24.970 --> 01:09:31.370
+En realidad lo que tenemos que hacer es nos regresamos aquí a la anterior y para cada una de esas,
+
+780
+01:09:31.370 --> 01:09:40.570
+yo calculo la R con respecto a la G. Entonces la que tenga más correlación con respecto a la
+
+781
+01:09:40.570 --> 01:09:44.690
+salida con esa me quiero. Se calculo la correlación entre cada una de ellas todas
+
+782
+01:09:44.690 --> 01:09:50.970
+ellas, veo que es muy intensa y después calculo la relación de cada una de ellas con respecto
+
+783
+01:09:50.970 --> 01:09:55.570
+a la salida, correto a la lle, y me voy a quedar para la sistema relacionada con la salida.
+
+784
+01:09:55.570 --> 01:10:03.570
+Y eso me ayuda, de repente, que yo conozco, no conozco el significado de esas variables,
+
+785
+01:10:03.570 --> 01:10:05.570
+me quedó con la correcta.
+
+786
+01:10:05.570 --> 01:10:07.850
+Es...
+
+787
+01:10:07.850 --> 01:10:09.850
+Ok.
+
+788
+01:10:09.850 --> 01:10:10.850
+¿Qué más?
+
+789
+01:10:10.850 --> 01:10:11.850
+Información mutra.
+
+790
+01:10:11.850 --> 01:10:13.850
+Bueno, hasta ahora se ha lo más...
+
+791
+01:10:13.850 --> 01:10:17.850
+Hemos visto una forma de encontrar correlación entre variables.
+
+792
+01:10:17.850 --> 01:10:19.850
+Que es una correlación lineal, por cierto,
+
+793
+01:10:19.850 --> 01:10:21.850
+creo que no hay enfatizado mucho eso.
+
+794
+01:10:21.850 --> 01:10:23.850
+La R es una correlación lineal.
+
+795
+01:10:23.850 --> 01:10:26.850
+Si hay una relación lineal entre las dos variables o la variable
+
+796
+01:10:26.850 --> 01:10:27.850
+y la salida,
+
+797
+01:10:27.850 --> 01:10:30.850
+ese número va a ser fuerte.
+
+798
+01:10:30.850 --> 01:10:31.850
+Si no es lineal,
+
+799
+01:10:31.850 --> 01:10:34.890
+no va a ser tan fuerte o va a ser de David.
+
+800
+01:10:34.890 --> 01:10:39.190
+Como corrigo eso, existe esta otra métrica de correlación
+
+801
+01:10:39.190 --> 01:10:42.990
+que se llama información mutua, que tiene otra forma diferente,
+
+802
+01:10:42.990 --> 01:10:45.650
+y no de la forma de por momento.
+
+803
+01:10:45.650 --> 01:10:50.750
+Simplemente creo que lo que implica más la gráfica de esta,
+
+804
+01:10:50.750 --> 01:10:54.890
+si estos puntitos, por ejemplo, que son muy variables,
+
+805
+01:10:54.890 --> 01:10:58.350
+están fuertamente relacionados, se ve que sí lo están,
+
+806
+01:10:58.350 --> 01:11:03.750
+pero aparte se nota que están relacionados linealmente, se forman una linear recta.
+
+807
+01:11:03.750 --> 01:11:10.350
+Si yo veo la R, la R vale punto 95, lo cual es coherente con la data que está.
+
+808
+01:11:10.350 --> 01:11:16.110
+Y si calculo esa otra metrica que es el mutual información, veo que es 1 punto 14,
+
+809
+01:11:16.110 --> 01:11:20.190
+también es alto. Aquí ya no está limitada entre 0 y 1,
+
+810
+01:11:20.190 --> 01:11:22.350
+es mi tos más alto mejor.
+
+811
+01:11:22.350 --> 01:11:30.990
+veo que es fuerte, está lejos del cero. Si yo calculo la R con estos datos que también
+
+812
+01:11:30.990 --> 01:11:38.110
+se ve que tiene cierta correlación, o sea, X contra Y cuando una se va a probar abajo,
+
+813
+01:11:38.110 --> 01:11:42.590
+la otra también. O sea, gráficamente se ve que están unidas, no? Solo que están unidas
+
+814
+01:11:42.590 --> 01:11:50.790
+en una curva parabolita. La R se cae ser porque ya no hay una línea recta que representa
+
+815
+01:11:50.790 --> 01:11:56.390
+texto es solo en una B pero esa no es una línea recta, no cualquier línea recta que haga pasar por acá
+
+816
+01:11:57.350 --> 01:12:04.150
+no va a ajustarse a los datos y por lo tanto la R envidado una información incorrecto, la R sí les
+
+817
+01:12:04.150 --> 01:12:12.510
+va a ocupionar si la relación es genial, sino es genial a Dios ya no sirve para nada, pero la información
+
+818
+01:12:12.510 --> 01:12:19.650
+en moto si captura la correlación, de hecho, es incluso más alta de aquí. De hecho, aquí
+
+819
+01:12:19.650 --> 01:12:25.830
+se ve que los datos están más dispersados, están más alejados de la línea recta, que aquí
+
+820
+01:12:25.830 --> 01:12:32.170
+están más pegaditos a la corregina. Por eso se incrementa esto. Y, definitivamente, si
+
+821
+01:12:32.170 --> 01:12:37.770
+no hay una relación, aquí podrá haberme decido, bueno, la segunda correlación en línea recta,
+
+822
+01:12:37.770 --> 01:12:43.210
+no es realmente la idea es que estos, estos ruidos completamente aleatorios, ambos se van a hacer,
+
+823
+01:12:43.210 --> 01:12:46.690
+entonces estos ruidos, si no hay correlación alguna,
+
+824
+01:12:46.690 --> 01:12:52.370
+las dos metricas se van a hacer como debe de ser indicando que no hay correlación interláctrica y la ya.
+
+825
+01:12:52.370 --> 01:12:56.450
+Entonces generalmente si ustedes no saben que la correlación es niña,
+
+826
+01:12:56.450 --> 01:13:01.210
+calculen la mutu del información, información muta,
+
+827
+01:13:01.210 --> 01:13:08.850
+por si, por si los datos, si están colocionados en una, en una correlación no
+
+828
+01:13:08.850 --> 01:13:14.930
+del inial, funciona muy bien en este títico, así como curvas, no
+
+829
+01:13:14.930 --> 01:13:20.370
+de sermente superagutadas para bolas, pero cercanos a, usaran muy bien, pero en general
+
+830
+01:13:20.370 --> 01:13:26.650
+captura mejor la información de relaciones no-lineales que la ya, es secar
+
+831
+01:13:26.650 --> 01:13:33.610
+fortemente con la relación histolínea. Por ejemplo, es un ejemplo bonito. Si yo me agarro las
+
+832
+01:13:33.610 --> 01:13:41.610
+métricas que tenía que haber multiplicado un poquito esto, aquí tengo correlación de piso contra
+
+833
+01:13:41.610 --> 01:13:51.370
+información mutua calculado para estas variables. Si yo les dijera, quédense con los datos,
+
+834
+01:13:51.370 --> 01:13:58.130
+más que tengan mayor correlación por respecto a la salida, por si a veces contra la salida,
+
+835
+01:13:58.130 --> 01:14:03.850
+les digo que siquiera Piersson voy a buscar a que estés tenponesima de puntos 7,
+
+836
+01:14:03.850 --> 01:14:12.970
+es que tienen fuerte correlación, me voy para arriba y veo que tengo 1, 2, 3, 4, 5, 6, 7, 8 puntos,
+
+837
+01:14:12.970 --> 01:14:19.750
+este ya no entra en el punto 7, entonces tengo esos 8 puntos, son los que Piersson me diría
+
+838
+01:14:19.750 --> 01:14:26.310
+que me quede con ellos, ¿vale? Si me voy a los ocho, aquí en mi formación mucho,
+
+839
+01:14:26.310 --> 01:14:30.110
+ya no tengo como necesidad un intervalo que me diga, a día de punto 7,
+
+840
+01:14:30.110 --> 01:14:35.110
+tomálos como muy fortemente porlesionados porque el un es el máximo.
+
+841
+01:14:35.110 --> 01:14:39.590
+Aquí te ofirme a los más altos, entonces sí, pero los más altos lo puedo
+
+842
+01:14:39.590 --> 01:14:46.590
+por acá si me voy a los 7 más altos y en base abajo es ir a 1 2 3 4 5 6
+
+843
+01:14:46.590 --> 01:14:54.190
+era noche hora 7 8 entonces si me fuera a ver a colorearlos si me fuera a
+
+844
+01:14:54.190 --> 01:14:59.590
+información mucho yo tendría lo que lo voy a poner tenía es
+
+845
+01:15:06.930 --> 01:15:19.610
+y si me fuera a Pearson me te daría con esto también, 1, 2, 3, 4, 5, 6 y 7.
+
+846
+01:15:19.610 --> 01:15:25.410
+Llegar a las 7 más altos, yo me quedo con eso, así me voy a como dice la regla Pearson que son
+
+847
+01:15:25.410 --> 01:15:31.450
+arrea.7 y volveraría a este más y si fuera entonces con información mutua,
+
+848
+01:15:31.450 --> 01:15:40.090
+quizás agarraría una vez todo, probablemente este. Entonces, si se fijan en este caso, en
+
+849
+01:15:40.090 --> 01:15:49.130
+este caso particular quedarme con los más altos tanto en información moto a como piso,
+
+850
+01:15:49.130 --> 01:15:54.330
+coinciden si me sigo yendo hacia abajo, ya no empieza a diferir, por ejemplo, ya
+
+851
+01:15:54.330 --> 01:16:02.490
+3 más información muta, agarabía este, este y este, pero Piersam estaría diciendo que tengo que
+
+852
+01:16:02.490 --> 01:16:10.170
+agarrar, no, este y este no, estos son los que nos falta faltaban. Entonces aquí ya tengo 2, 2 que
+
+853
+01:16:10.170 --> 01:16:21.700
+dijeran, quiere decir que este, estos 2 puntos de este 2 tienen una correlación no muy alta,
+
+854
+01:16:21.700 --> 01:16:26.340
+porque estamos en el escalo a punto tres. No muy alta, pero tiene una correlación no
+
+855
+01:16:26.340 --> 01:16:34.220
+lineal con la salida mientras y piso, pero no piso, entonces me dice que está por los
+
+856
+01:16:34.220 --> 01:16:40.700
+cultos, haría punto cinco, ¿no? Es una, digamos que es una lineal recta, no tan recta.
+
+857
+01:16:40.700 --> 01:16:49.260
+Ya vemos lo que ha sido que la captura mejor la información mutó a que piso. No hay
+
+858
+01:16:49.260 --> 01:16:51.580
+para que pudieran ver algo así muy drástico,
+
+859
+01:16:51.580 --> 01:17:03.820
+que hubiera un punto de 1 por la otra.
+
+860
+01:17:03.820 --> 01:17:07.740
+A suave.
+
+861
+01:17:07.740 --> 01:17:10.700
+No se ponen en los puntos acá.
+
+862
+01:17:10.700 --> 01:17:15.820
+Aquí es sus puntitos, ya claramente están por debajo del 3 de Pirsum.
+
+863
+01:17:15.820 --> 01:17:20.460
+ya tienen como punto 12, punto 1, o sea, no tienen definitivamente una relación
+
+864
+01:17:20.460 --> 01:17:25.540
+lineal con la salida, pero tienen una relación lineal más o menos incluso
+
+865
+01:17:25.540 --> 01:17:32.180
+tan buena como estos con respecto a información motos a teres y que son
+
+866
+01:17:32.180 --> 01:17:38.460
+la correlación que tienen débil pero la tienen es no lineal la estirotuncitos
+
+867
+01:17:38.460 --> 01:17:56.020
+porque el curso en los ayudados. Ok, digamos, que más por cierto, esto del síltrado,
+
+868
+01:17:56.020 --> 01:18:00.460
+ya no acuenta de que tenés cuidado, es como lo que vimos la que nos pasaba de que
+
+869
+01:18:00.460 --> 01:18:09.730
+sí vamos a hacer nuestra estandarización. Ahora sé que para estandarizar datos tenemos
+
+870
+01:18:09.730 --> 01:18:14.030
+que calcular ser estadísticos, alguna metenca de dispersión, la media o la
+
+871
+01:18:14.030 --> 01:18:20.730
+mediana dependiendo cual dijieramos el máximo mínimo, pero tenemos que hacerlo,
+
+872
+01:18:20.730 --> 01:18:26.370
+tenemos que tener mucho cuidado de que eso lo íbamos a calcular sobre el
+
+873
+01:18:26.370 --> 01:18:32.250
+conjunto entrenamiento y después eso que habíamos calculado le íbamos a utilizar
+
+874
+01:18:32.250 --> 01:18:39.490
+durante la fase de validación y durante la fase prueba para standardizar ahí, no
+
+875
+01:18:39.490 --> 01:18:45.250
+debemos estangarizar todo nuestros datos para hacer nuestra
+
+876
+01:18:45.250 --> 01:18:49.410
+partición porque de cierta forma le estamos pasando
+
+877
+01:18:49.410 --> 01:18:53.770
+información a los conjuntos de prueba y
+
+878
+01:18:53.770 --> 01:18:58.130
+y que actualización de forma indirecta a la CERSA
+
+879
+01:18:58.130 --> 01:19:02.690
+estandarización. Entonces cada vez que yo vaya a hacer yo
+
+880
+01:19:02.690 --> 01:19:05.850
+creo un conjunto tengo que estandarizar sobre ese
+
+881
+01:19:05.850 --> 01:19:12.850
+con cuenta. Ok, todo lo mismo pasa acá. Si voy a hacer un filtrado, si voy a hacer valiación
+
+882
+01:19:12.850 --> 01:19:19.250
+cruzada, yo voy a ir a ir a el gendón mis mejores variables, pero lo estoy aquí el gendón
+
+883
+01:19:19.250 --> 01:19:25.850
+sobre los supuestos que voy a ir creando. Entonces básicamente lo que trata de francesca
+
+884
+01:19:25.850 --> 01:19:29.890
+y lo que tengo atrás, pues sí, es la del guido, algo parecido a la que lo presenta ayer.
+
+885
+01:19:29.890 --> 01:19:40.890
+Si me queda con esta, acá dice tengo este número de variables que estoy conservando contra la exactitud hecha en validación cruzada.
+
+886
+01:19:40.890 --> 01:19:45.890
+No, no, no, está, forma adelante cuando vi la gráfica.
+
+887
+01:19:45.890 --> 01:19:47.890
+Bueno, aquí en la más esta que publicando, ¿no?
+
+888
+01:19:47.890 --> 01:19:52.890
+Si yo selecciono por información mutua o si selecciono por relación, por relación de tuya.
+
+889
+01:19:52.890 --> 01:19:59.290
+de aquí lo que lo es que lo es que lo va creciendo en los variables va creciendo la
+
+890
+01:19:59.290 --> 01:20:06.410
+exactitud el rendimiento del algoritmo pero que es digamos si se que si crees que
+
+891
+01:20:06.410 --> 01:20:14.690
+pero tampoco como que se ha aguado si no si observo bien la aquí tengo punto 98 con 30 variables
+
+892
+01:20:15.410 --> 01:20:22.850
+pero si yo elimino desde 30 hasta 10 o sea el número 20 las 20 que ya sea me sugiéramos
+
+893
+01:20:22.850 --> 01:20:31.770
+información luto o correlación bajo apenas de punto de 98 a punto 96 casi. O sea, realmente
+
+894
+01:20:31.770 --> 01:20:39.710
+yo yo yo personalmente me quedo con esta o quizás con esta, porque estoy quitando dos tercios
+
+895
+01:20:39.710 --> 01:20:47.810
+de mis columnas y aún así sólo estoy perdiando un punto 0, 2 en mi exactitud lo cual es nada, nada.
+
+896
+01:20:47.810 --> 01:20:54.210
+incluso ya con valida son cruzada quiere decir que es bastante arroduo este
+
+897
+01:20:54.210 --> 01:20:59.930
+puntito no está exacto con esta redición al nivel de que de nada cuenta
+
+898
+01:20:59.930 --> 01:21:05.450
+es de dataset que con una variable con una sola variable quita ser
+
+899
+01:21:05.450 --> 01:21:15.050
+casi bien, si estas columnas y apenas pierdes punto 0 punto 0 7 más o menos
+
+900
+01:21:15.050 --> 01:21:20.050
+Es increíble. Es decir, son fíjes de cómo aparentemente pierson,
+
+901
+01:21:20.050 --> 01:21:24.050
+los que es correlación y información muta seleccionan una verdad diferente,
+
+902
+01:21:24.050 --> 01:21:27.050
+porque si fuera lo mismo, la verdad es que estos puntitos serían los mismos.
+
+903
+01:21:27.050 --> 01:21:32.050
+Pero ya sea que seleccion es la mejor variable de que te dice pierson,
+
+904
+01:21:32.050 --> 01:21:35.050
+la mejor variable que te dice información muta,
+
+905
+01:21:35.050 --> 01:21:40.050
+ambas son suficientemente buenas en este caso para dar que este resultado
+
+906
+01:21:40.050 --> 01:21:45.050
+Bueno, muy bueno, exácilmente bueno esa base de datos está muy normal.
+
+907
+01:21:45.050 --> 01:21:51.050
+Aquí la más que ahora lo que les comentaba un poquito de que si vamos a ser nuestro,
+
+908
+01:21:51.050 --> 01:21:55.050
+nuestra información de variables,
+
+909
+01:21:55.050 --> 01:22:04.050
+tenemos cuidado de no pasar información al conjunto prueba y al conjunto de validez.
+
+910
+01:22:04.050 --> 01:22:18.050
+Como dice, ¿cómo se ganó? En el Gila, la mujer reparable se usa las etiquetas G. Si se hace con todos los datos antes de validad, prácticamente ya vina a respuesta.
+
+911
+01:22:18.050 --> 01:22:27.050
+O sea, yo toque el liminar no es variable, únicamente, unas que ya hice la partición sobre mi conjunto de entrenamiento.
+
+912
+01:22:27.050 --> 01:22:33.210
+yo elimino los variables de acuerdo al conjunto entrenamiento y ya cuando pase al conjunto
+
+913
+01:22:33.210 --> 01:22:39.450
+interpréba, entonces ya es la historia, ya las pruebas sobre la lleo, nunca vio eso,
+
+914
+01:22:39.450 --> 01:22:43.690
+a veces con tu su entenda de la esta pero en la cuenta cada vez que vayan a eliminar
+
+915
+01:22:43.690 --> 01:22:50.370
+o hacer filtrado o vayan a hacer esta andarización hagan lo primero a ganar su partición y después
+
+916
+01:22:50.370 --> 01:22:55.210
+hacen ese proceso de esta andarización o de filtrado, de lo contrario, implicitamente
+
+917
+01:22:55.210 --> 01:23:03.650
+están posando información al al al algoritmo que no debería tener y les va a ser
+
+918
+01:23:03.650 --> 01:23:09.890
+muy llamando muy optimista al resultado que les va a dar o sea va a dar metercas
+
+919
+01:23:09.890 --> 01:23:17.170
+generalmente muy altas, ¿vale? Ok, entonces eso les unos métodos el método filtrado
+
+920
+01:23:17.170 --> 01:23:20.530
+por aluminar variables, en otro método es el que aplicamos donde el método en
+
+921
+01:23:20.530 --> 01:23:26.530
+en que yo le dijo un modelo, algo que le era un subconjunto y a partir de ese entreno se estuvo
+
+922
+01:23:26.530 --> 01:23:33.530
+subconjunto, evaluó el culo mimétrica y repita el proceso, tantas veces como sea posible
+
+923
+01:23:33.530 --> 01:23:37.530
+y al final le voy a quedar con el mejor subconjunto.
+
+924
+01:23:37.530 --> 01:23:41.530
+Y bueno, lo que ya les había explicado por una gráfica aquí está en la tamlita,
+
+925
+01:23:41.530 --> 01:23:52.970
+si yo tengo 10 variables yo puedo crear 1224 sus momentos diferentes, si tengo 30 variables
+
+926
+01:23:52.970 --> 01:23:59.130
+yo tengo de los de 1.000 millones de 50 diferentes de programas, entonces tampoco es como que
+
+927
+01:23:59.130 --> 01:24:06.090
+este método que se vea muy bonito, yo lo puedo aplicar para los datasets de forma optimista,
+
+928
+01:24:06.090 --> 01:24:12.370
+si eso lo contra 30 variables sería prácticamente imposible explorar todos los posibles
+
+929
+01:24:12.370 --> 01:24:16.010
+sus contentos que puedo formar. Entonces que a gran
+
+930
+01:24:16.010 --> 01:24:22.090
+vez que las dos estrategias son estas, comienzo con, bueno, aquí se simbale, pero
+
+931
+01:24:22.090 --> 01:24:28.650
+bueno, comienzo con una variable y predivo con una variable, después la añado
+
+932
+01:24:28.650 --> 01:24:34.210
+otro, ya tengo dos y vuelo a presiden, después la añado otra y así volando, lo que me
+
+933
+01:24:34.210 --> 01:24:38.530
+va a estar, obviamente, importa mucho el orden, pero lo que voy a tratar de hacer esto es
+
+934
+01:24:38.530 --> 01:24:42.930
+identificar cuando le añadi una variable sin mejor o no mejoro. Entonces, esa es que
+
+935
+01:24:42.930 --> 01:24:48.290
+ya es que no, a la añadirse, no mejoren la métrica que se ha elegido, esa actitud para
+
+936
+01:24:48.290 --> 01:24:54.210
+llamar de una forma, es decir que esas son las que voy a que se echan. Y el sentido apuesto
+
+937
+01:24:54.210 --> 01:25:00.810
+es comienzo con todas y voy quitando una por una. Dejá forma igual, ¿no? Si comienzo con todas,
+
+938
+01:25:00.810 --> 01:25:04.570
+tengo una metricaridad más alta posible y con fenófono quitano,
+
+939
+01:25:04.570 --> 01:25:08.810
+hoy viendo si eso va se va manteniendo esa metrica,
+
+940
+01:25:08.810 --> 01:25:12.850
+o incluso puede ser que mejor, como vimos al inicio en la gráfica del inicio,
+
+941
+01:25:12.850 --> 01:25:15.370
+incluso con menos barales puede ser que mejor.
+
+942
+01:25:15.370 --> 01:25:18.130
+Al menos lo que debe suceder es que se mantiene.
+
+943
+01:25:18.130 --> 01:25:22.890
+Si quiten a variable y se mantiene suficientemente alta a la metrica,
+
+944
+01:25:22.890 --> 01:25:25.690
+se ha con, entonces quiere decir que esa baralea no me se queda por nada,
+
+945
+01:25:25.690 --> 01:25:31.020
+y ya la puedo entre el conjunto barales, que es muy ampliable.
+
+946
+01:25:31.020 --> 01:25:46.860
+Ok, creo que si en quiénes, no se ve comple.
+
+947
+01:25:46.860 --> 01:25:52.650
+Aquí, el anterior siera a propon puntos.
+
+948
+01:25:52.650 --> 01:25:59.290
+Esto es básicamente lo que hace la técnica que está programada en secular,
+
+949
+01:25:59.290 --> 01:26:01.890
+el RFA, ni sea.
+
+950
+01:26:01.890 --> 01:26:05.490
+Elige su modelo con M variables.
+
+951
+01:26:05.490 --> 01:26:10.650
+Ordenas de esas variables ya se aprovechan de este modelo
+
+952
+01:26:10.650 --> 01:26:14.450
+y esa que se de orden de importancia, es orden de importancia
+
+953
+01:26:14.450 --> 01:26:16.950
+que realmente ayudan los árboles de disición
+
+954
+01:26:16.950 --> 01:26:20.650
+o por los coeficientes por la magnitud del coeficiente,
+
+955
+01:26:20.650 --> 01:26:22.650
+aquí no importa si
+
+956
+01:26:22.650 --> 01:26:27.450
+eso es generalmente te lo dan los métodos de reacción
+
+957
+01:26:27.450 --> 01:26:31.150
+entonces si usas reacción ordenas de acuerdo de los coeficientes
+
+958
+01:26:31.150 --> 01:26:36.650
+si usas árboles tu se lo ordena de acuerdo de importancia
+
+959
+01:26:36.650 --> 01:26:40.250
+que hace es quitas las menos importantes
+
+960
+01:26:40.250 --> 01:26:52.650
+tú le dije este este este valor de eso. Entonces, cuando al quitar de estas m le quitas S te va a quedar un número de caba variables, ¿vale?
+
+961
+01:26:54.050 --> 01:27:06.490
+Si ese es ya tu la meta que te proporciste, pues ya ya frenas, ¿no? Si no regresas y vas quitando variables por orden de importancia
+
+962
+01:27:06.490 --> 01:27:14.980
+hasta que llegaste al número de variables que querían obrero, pero esto es observando únicamente esto.
+
+963
+01:27:14.980 --> 01:27:19.880
+Claro que para tener estos valores tuviste que haber ejecutado el modelo aquí está como, bueno,
+
+964
+01:27:19.880 --> 01:27:24.580
+lo menciona acá, entren al modelo por mis cembr variables, digamos, es mi común.
+
+965
+01:27:24.580 --> 01:27:34.120
+A ver si no sé si no, ¿te es un tanto diferente a lo que tengo acá antes no, a ver un huello,
+
+966
+01:27:34.120 --> 01:27:42.640
+me rezar a ti, o sea, me reforcibo. Aquí lo que dice es que era un subconjunto,
+
+967
+01:27:42.640 --> 01:27:51.480
+entreno y valor y después cambios el subconjunto, ya que cambió el subconjunto,
+
+968
+01:27:51.480 --> 01:27:58.120
+vuelvo a entrar a y modelar, pero estoy cambiando el subconjunto. Aquí, en lo que trata de hacer
+
+969
+01:27:58.120 --> 01:28:06.760
+este refinamiento que es el metorrecursivo, dice ya elegí un número de variables en el conjunto
+
+970
+01:28:06.760 --> 01:28:12.120
+o su conjunto que se trabaja. Ahora la que hubiera haciendo es voy entrenando el mismo modelo y
+
+971
+01:28:12.120 --> 01:28:17.560
+con base la información que me va proporcionando, yo voy a ir eliminando variables hasta quedar con
+
+972
+01:28:17.560 --> 01:28:26.020
+este modelo, ¿vale? No voy a cambiar acá el conjunto, una estuva a revés para acá, no cambiar
+
+973
+01:28:26.020 --> 01:28:32.710
+que siempre meten los cámbiles que están acá con respecto a la orden importante.
+
+974
+01:28:32.710 --> 01:28:36.710
+Depegiendo el modelo, como les decía, es lo que les regresa.
+
+975
+01:28:36.710 --> 01:28:42.710
+Generalmente, en los modelos de regresión para ver que cuando lo programen,
+
+976
+01:28:42.710 --> 01:28:48.710
+este parámetro se llama COEF y un pajo de metorliniales o magnas de su acuerdo de tutorial
+
+977
+01:28:48.710 --> 01:28:54.710
+y de la nargola generalmente se llama COF, que es importante.
+
+978
+01:28:54.710 --> 01:29:01.710
+bastante amigable esa cosa de la idea.
+
+979
+01:29:01.710 --> 01:29:04.710
+¿Cómo quedaría con la versión lofística?
+
+980
+01:29:04.710 --> 01:29:08.710
+Si quito una variada en cada ronda que es lo que vas sucediendo.
+
+981
+01:29:08.710 --> 01:29:12.710
+Aquí en la barra, como dice acá la derecha,
+
+982
+01:29:12.710 --> 01:29:16.710
+es ni que cuantas variables quedaron vivas.
+
+983
+01:29:16.710 --> 01:29:19.710
+Entonces, comienzo con 30, es este punto.
+
+984
+01:29:19.710 --> 01:29:27.190
+y voy quitando una por una y obviamente va bajando el número de para el subateneno.
+
+985
+01:29:27.190 --> 01:29:35.190
+Al final, si utilicé regresión logística sobre el conjunto de este dataset de cáncer
+
+986
+01:29:35.190 --> 01:29:45.210
+y aplique esta forma recursiva de eliminar variables, yo voy a quedarse hijo, quedarme con K, igual a 1, 2, 3, 4, 5,
+
+987
+01:29:45.210 --> 01:29:48.550
+Estas son las 5 que me van a reportar, que se me atunan.
+
+988
+01:29:48.550 --> 01:29:52.210
+Es que, para las personas que sobreviven
+
+989
+01:29:52.210 --> 01:29:58.090
+en área, bueno, W área, W juntos con cabos,
+
+990
+01:29:58.090 --> 01:30:00.090
+hasta un periodo de leer, ¿no? Son estas.
+
+991
+01:30:01.070 --> 01:30:05.010
+No importa la exhala en primeros, la gente no sabe que antes son estas,
+
+992
+01:30:05.010 --> 01:30:07.010
+la gente no sabe que antes son las primeras, las extenas está acabado,
+
+993
+01:30:07.010 --> 01:30:10.010
+todas las que menos importantes tienen.
+
+994
+01:30:10.010 --> 01:30:15.570
+Ahora, el más claro que hay una greficita más adelante es que
+
+995
+01:30:15.570 --> 01:30:19.070
+la nota de rezonza se acrique de la que seguía.
+
+996
+01:30:19.070 --> 01:30:26.410
+Aparte de hacer RFE, es un meterrecursivo, aparte de poder mejorarlo,
+
+997
+01:30:26.410 --> 01:30:27.410
+en la opción.
+
+998
+01:30:27.410 --> 01:30:32.930
+Entonces, si hay más repuso para la necesión, si hay igualidades en cruzada, si hay
+
+999
+01:30:32.930 --> 01:30:38.370
+alguna gráfica de coo, cuantas barales van quedando, venos plantas de observo más lo
+
+1000
+01:30:38.370 --> 01:30:44.030
+mismo, comportamientos con igualedidades cruzadas y con ARF, tenía 30, tenía punto
+
+1001
+01:30:44.030 --> 01:30:53.150
+de 98, eventualmente cuando yo tenga el 1, venos cuantas me da casi 90, es una represión
+
+1002
+01:30:53.150 --> 01:30:57.830
+es diferente cuando es totalmente anterior, pero se fijan es no va de creciendo mucho, al menos
+
+1003
+01:30:57.830 --> 01:31:06.670
+va a ser dataset, no va a creciendo gran cosa y la arquitud en ese dataset, no que no es un dataset muy
+
+1004
+01:31:06.670 --> 01:31:15.870
+bonito. Esa observar que por ejemplo yo quito las primeras todas estas, quito las primeras cuatro
+
+1005
+01:31:15.870 --> 01:31:23.510
+y ni se movió valedación cruzada, quiere decir que estas cuatro tenían exactamente la misma información,
+
+1006
+01:31:23.510 --> 01:31:33.510
+Incluso aquí el movimiento que suba un poquito, lo más seguro es que hoy quité una más y suba un poco acá, se nota aquí el crecimiento.
+
+1007
+01:31:33.510 --> 01:31:43.510
+Pero eso generalmente ocurre porque como en el ejemplo al inicio, el numericamente tener más variables, más columnas,
+
+1008
+01:31:43.510 --> 01:31:48.910
+impide que el algoritmo en su proceso de tratar de encontrar el mínimo error
+
+1009
+01:31:48.910 --> 01:31:57.110
+se ator en algún momento y con más dimensiones
+
+1010
+01:31:57.110 --> 01:32:00.710
+y no logra encontrar el nuevo, no es por lo posible, pero generalmente
+
+1011
+01:32:00.710 --> 01:32:05.510
+el algoritmo está buscando y no puede ser un agruismo iterativo
+
+1012
+01:32:05.510 --> 01:32:07.510
+si no está buscando eternamente, ¿no?
+
+1013
+01:32:07.510 --> 01:32:10.310
+En continuación se pone a un máximo de las alteraciones
+
+1014
+01:32:10.310 --> 01:32:12.150
+que llegue a ser más inmitaraciones,
+
+1015
+01:32:12.150 --> 01:32:13.910
+satora y no lo verán mejorar.
+
+1016
+01:32:13.910 --> 01:32:17.070
+Y son por el hecho de quitarle información.
+
+1017
+01:32:17.070 --> 01:32:21.110
+O sea, no hay formación, pero apartarles columnas,
+
+1018
+01:32:21.110 --> 01:32:24.150
+tiene a su espacio de búsqueda más pequeño
+
+1019
+01:32:24.150 --> 01:32:27.550
+y que anda a mejorar aún cuando no la haya adregado.
+
+1020
+01:32:27.550 --> 01:32:30.350
+Porque aquí pareciera que al quitar una variable más,
+
+1021
+01:32:30.350 --> 01:32:32.830
+la agrega de información importante y me poró.
+
+1022
+01:32:32.830 --> 01:32:34.630
+No me poró porque le agrega información,
+
+1023
+01:32:34.630 --> 01:32:36.510
+porque no la agregue nada.
+
+1024
+01:32:36.510 --> 01:32:38.470
+Es mejoró porque no, meritamente,
+
+1025
+01:32:38.470 --> 01:32:44.470
+algoritmo de utilización funciona mejor en un espacio de búsqueda más pequeño.
+
+1026
+01:32:44.470 --> 01:32:50.950
+En este caso le quité cuatro dimensiones en los que tenía que buscar y por eso
+
+1027
+01:32:50.950 --> 01:32:54.470
+tuvo esa pequeñísima mejor.
+
+1028
+01:32:56.470 --> 01:33:12.360
+Bueno aquí es como si podifica, relevante y lazo finalmente, un poquito de una
+
+1029
+01:33:12.360 --> 01:33:21.840
+que es esto, esto es lo que estamos tratando a hacer, o de vez explico, ¿qué lo de
+
+1030
+01:33:21.840 --> 01:33:24.600
+quiero hacer? Quiero encontrar el mínimo, por eso está
+
+1031
+01:33:24.600 --> 01:33:32.400
+mínimo, con respecto a los coeficientes beta, o sea aquí ya ha decidido de
+
+1032
+01:33:32.400 --> 01:33:39.800
+acuerdo a lo otro, que se ve acá, este cacho, que es que la salida y la voy a
+
+1033
+01:33:39.800 --> 01:33:46.040
+representar como una combinación lineal de Betas. Si los escribimos un poquito
+
+1034
+01:33:46.040 --> 01:33:50.880
+esta parte que está acá, básicamente lo que estoy diciendo es lo que tenéis
+
+1035
+01:33:50.880 --> 01:33:54.980
+escrito cerrado. Te dice yo voy a escribir che, cada
+
+1036
+01:33:54.980 --> 01:34:05.080
+lleno, esa cada salida va a ser el Betasero que tengo ya arriba más suma de
+
+1037
+01:34:05.080 --> 01:34:17.280
+vetas, se va a aparecer beta 1 que multiplica a x y para el dato y 1 y después se va a poner beta 2 para el
+
+1038
+01:34:17.280 --> 01:34:27.040
+sí que para el mismo y, no, ya sí me la sigo, no, hasta llegar al a un número aquí por ejemplo en
+
+1039
+01:34:27.040 --> 01:34:34.040
+esto debería decir desde J1 hasta un NMISQ. Bueno NMISQ la porque tengo ahí,
+
+1040
+01:34:34.040 --> 01:34:46.160
+es NMISQ. Entonces voy a hacerlos y entonces voy a llegar hasta que llegan a beta N,
+
+1041
+01:34:46.160 --> 01:34:51.160
+que va a multiplicar al dato y era esto es lo que dice acá arriba, entonces básicamente
+
+1042
+01:34:51.160 --> 01:34:54.160
+la formulita que está acá arriba lo único que me está diciendo,
+
+1043
+01:34:54.160 --> 01:35:01.160
+vas a tratar de encontrar las vetas, que son las no conocidas, las X son tus datos, tus filas.
+
+1044
+01:35:01.160 --> 01:35:08.240
+Entonces tú dices, fila 1, aquí lo que está indicando en el primer, se quedó en el primer
+
+1045
+01:35:08.240 --> 01:35:19.160
+punto, dices, fila y columna 1, fila y columna 2, hasta llegar a la fila y columna n. Y para cada uno
+
+1046
+01:35:19.160 --> 01:35:24.840
+estos tengo conficientes que son los que el algoritmo tiene que encontrar y lo que va a ser
+
+1047
+01:35:24.840 --> 01:35:33.360
+es pasen a encontrar estos conficientes que no conozco de tal forma que el error cuando yo voy
+
+1048
+01:35:33.360 --> 01:35:38.120
+a encontrar estos conficientes quiero que se des de esta igualdad pero a la igualdad nunca se va
+
+1049
+01:35:38.120 --> 01:35:44.360
+a lograr esto va a ser aproximado pues generalmente esto va a ser aproximado que es lo que están
+
+1050
+01:35:44.360 --> 01:35:51.440
+no está ahí con una hondita, no? Entonces por lo tanto como no son iguales cuando yo haga la
+
+1051
+01:35:51.440 --> 01:35:57.200
+diferencia, la resta de este con esto, esta cosa es todo esto que está tratando de derecho.
+
+1052
+01:35:57.200 --> 01:36:04.360
+Cuando haya la diferencia para cada fila y voy a tener un error, esto me va a dar un valor,
+
+1053
+01:36:04.360 --> 01:36:09.860
+lo elevó al cuadrado y lo sumo y me voy a la siguiente, a la siguiente fila. Entonces yo
+
+1054
+01:36:09.860 --> 01:36:14.860
+de encontrar la mejor beta para todas las filas y columbas.
+
+1055
+01:36:14.860 --> 01:36:18.860
+Hasta ahí va bien todo, lo que se hace en regreso en lineal.
+
+1056
+01:36:18.860 --> 01:36:21.860
+Ahora lo que le está diciendo esta parte que le estoy añadiendo,
+
+1057
+01:36:21.860 --> 01:36:24.860
+que es la parte nueva que es lazo.
+
+1058
+01:36:24.860 --> 01:36:27.860
+Esto lo vamos a ver un poquito más a detalle cuando vamos a recorrerse su enlace.
+
+1059
+01:36:27.860 --> 01:36:30.860
+Lo que le estoy diciendo es mirar.
+
+1060
+01:36:30.860 --> 01:36:33.860
+A parte va a segarar todos estos proficientes
+
+1061
+01:36:33.860 --> 01:36:36.860
+y los vas a sumar, nos vamos a agarrar beta 0,
+
+1062
+01:36:36.860 --> 01:36:42.720
+lo vas a hallar la magnitud, no me importa el siglo y vas a agarrar beta 1 y así lo
+
+1063
+01:36:42.720 --> 01:36:49.960
+podía sumar todos hasta llegar al ptn, pero aquí dice p, porque preno mejor, va a
+
+1064
+01:36:49.960 --> 01:36:55.840
+sumar todos los que ten, ok? y quiero que la suma todos estos, también sea lo
+
+1065
+01:36:55.840 --> 01:37:02.840
+menor posible, la ideal sería que se anceros, si ver a seros y ya la hice, tengo seros, pero como no
+
+1066
+01:37:02.840 --> 01:37:08.160
+no puedo hacer ser todos porque entonces crece el error aquí, aquí de este lado, si hago
+
+1067
+01:37:08.160 --> 01:37:14.240
+ser todos, entonces ayer lo voy a restar cero y por lo tanto voy a tener una error a la
+
+1068
+01:37:14.240 --> 01:37:15.240
+edición.
+
+1069
+01:37:15.240 --> 01:37:19.680
+Entonces es un balanceo entre esto y esto, pero lo que me está forzando es que la suma
+
+1070
+01:37:19.680 --> 01:37:25.400
+de esto se acero y lo que va a suceder es que al para lograr eso, algunos de estos se van
+
+1071
+01:37:25.400 --> 01:37:30.660
+a hacer ser, no todos, es lo que voy a tener en el final, cuando termine el algoritmo
+
+1072
+01:37:30.660 --> 01:37:36.600
+hacer esto, yo voy a tener algunos valores como puede ser que beta 0 sea algo así como 10 a
+
+1073
+01:37:36.600 --> 01:37:47.940
+la menor 6 casi 0 beta 1 va a ser 2 beta 3 va a ser quizás 4.5 y así beta 4 va a ser 1 o
+
+1074
+01:37:47.940 --> 01:37:52.140
+1 por 10 a la menos 3, también muy chiquitito.
+
+1075
+01:37:52.140 --> 01:38:00.670
+Estos, estos que son, estos, este y este, este y este,
+
+1076
+01:38:00.670 --> 01:38:07.870
+son, me están indicando que estas variables por lo que están multiplicando, por ejemplo, si beta 0, si
+
+1077
+01:38:07.870 --> 01:38:15.070
+es un cero, quiere decir que la primera columna no es relevante, si el beta 4 es un cero, que está por aquí,
+
+1078
+01:38:15.070 --> 01:38:18.310
+quiere decir que la columna 4 no relevante.
+
+1079
+01:38:18.310 --> 01:38:22.990
+Columnas son, son, mi variable si eres si eres variable,
+
+1080
+01:38:22.990 --> 01:38:24.910
+las quiero desechar.
+
+1081
+01:38:24.910 --> 01:38:28.950
+Eso es lo que está forzando este método de reacción las.
+
+1082
+01:38:28.950 --> 01:38:31.110
+¿Y qué tanto quiero que lo logre?
+
+1083
+01:38:31.110 --> 01:38:37.550
+Es lo controlo con este parámetro alfórmese dice que tantos...
+
+1084
+01:38:37.550 --> 01:38:42.150
+Entínecelo por ahora que es que tantos de esas vetas quiero que salgancer.
+
+1085
+01:38:42.150 --> 01:38:45.150
+Si el beta es artificial por lo menos un nuevo archivitito,
+
+1086
+01:38:45.150 --> 01:38:49.150
+poquitas de ajedetas se forza a la que se han cero,
+
+1087
+01:38:49.150 --> 01:38:52.150
+si con lo que va creciendo alpha,
+
+1088
+01:38:52.150 --> 01:38:55.150
+voy forzando a primas y más beta se va a hacer.
+
+1089
+01:38:55.150 --> 01:38:58.150
+Tampoco es muy bueno ponerlo para los muy altos,
+
+1090
+01:38:58.150 --> 01:39:01.150
+porque de nuevo cuenta algo que rescan el error.
+
+1091
+01:39:01.150 --> 01:39:07.150
+Entonces ahí como que hay un estire de afloja entre el término de izquierda
+
+1092
+01:39:07.150 --> 01:39:11.150
+que está tratando de ajustar entre este y este.
+
+1093
+01:39:11.150 --> 01:39:13.150
+Tan conquitiendo, increíble.
+
+1094
+01:39:13.150 --> 01:39:18.150
+Al final, un ejemplo, digamos, si yo tuviera lo que tratare de estar
+
+1095
+01:39:18.150 --> 01:39:23.150
+esta gráfica, si es trabajar a una única manera con
+
+1096
+01:39:23.150 --> 01:39:26.150
+minimizar milas de horarios, que es esto, pero, bueno,
+
+1097
+01:39:26.150 --> 01:39:30.150
+si se parece mucho, con el riesgo lineal,
+
+1098
+01:39:30.150 --> 01:39:32.150
+yo tendría como que las curvas donde está buscando la solución
+
+1099
+01:39:32.150 --> 01:39:36.620
+en el algoritmo son estas, este en acá.
+
+1100
+01:39:36.620 --> 01:39:40.080
+Si aparte la aplicó la restricción, yo les estoy diciendo mira,
+
+1101
+01:39:40.080 --> 01:39:43.000
+con Céntrate, aquí es un ejemplo, con sólo dos veces,
+
+1102
+01:39:43.000 --> 01:39:48.280
+beta 1 y beta 2, con Céntrate, en encontrar a la solución en estas curvas,
+
+1103
+01:39:48.280 --> 01:39:54.680
+pero ahora restringe tu búsqueda únicamente en la región marcada por este recuado.
+
+1104
+01:39:54.680 --> 01:39:57.600
+Entonces, ¿dónde se intersectan esos?
+
+1105
+01:39:57.600 --> 01:39:59.680
+Sí, intersecta, ¿dónde se intersecta?
+
+1106
+01:39:59.680 --> 01:40:05.680
+Entonces, este punquito, es donde beta 2 se está haciendo 0,
+
+1107
+01:40:05.680 --> 01:40:11.200
+lo que usted inditarlo, este punto es el que voy a quedar y lo que va a ser es el
+
+1108
+01:40:11.200 --> 01:40:17.080
+limino, el limino lo vetado por lo tanto me indica que la variable vetado, la variable
+
+1109
+01:40:17.080 --> 01:40:21.300
+que está asociada a bofado es la menos relevante en este caso entre la dos, entre
+
+1110
+01:40:21.300 --> 01:40:26.160
+éxito y me lletizo eso es lazo, en pocas colores, lo vamos a ver quizás con un poco más detalle
+
+1111
+01:40:26.160 --> 01:40:28.240
+cuando pegamos la disección.
+
+1112
+01:40:28.240 --> 01:40:30.240
+¿Qué es lo que puede pasar?
+
+1113
+01:40:30.240 --> 01:40:37.760
+si yo penalizo mucho por cierto en en saltitler no les va a pedir el parámetro alfa les va a pedir
+
+1114
+01:40:37.760 --> 01:40:44.680
+el parámetro c que es uno entre alfa. ¿Qué es que van a ser la implementación de saltitler?
+
+1115
+01:40:44.680 --> 01:40:53.120
+Entonces les pide uno entrar en realidad ¿vale? Entonces ese es importante. Si sé lo lo forso mucho
+
+1116
+01:40:53.120 --> 01:41:02.760
+que lo que pasa todas mis betas, que son estas curvas de colores, se hacen ser, a partir
+
+1117
+01:41:02.760 --> 01:41:10.480
+de cierto valor de CO de alpha, es que si la por acá empiezan algunas a alejarse de
+
+1118
+01:41:10.480 --> 01:41:17.140
+ser. Conforme voy reduciendo valor de alpha cada vez más y más curvas o más variables
+
+1119
+01:41:17.140 --> 01:41:24.340
+se empiezan a ser diferentes. Y dependiendo de cuántas se hagan cero, es como va a rendir
+
+1120
+01:41:24.340 --> 01:41:30.100
+mi algoritmo. Entonces, por ejemplo, acá en el menos dos, cuando todas tenían, todos
+
+1121
+01:41:30.100 --> 01:41:36.900
+menos una que se está linea verde. Se ha cero. Entonces, por responder acá, tengo
+
+1122
+01:41:36.900 --> 01:41:44.500
+un estatitude de nueva cuenta de aproximadamente punto 92, de nada cuenta coincide con lo
+
+1123
+01:41:44.500 --> 01:41:46.420
+que tenemos antes. No, si yo me quedaba con tu,
+
+1124
+01:41:46.420 --> 01:41:50.760
+no, solo variable, logro tener casi 1.92.
+
+1125
+01:41:50.760 --> 01:41:52.060
+Y eso se refleja.
+
+1126
+01:41:52.060 --> 01:41:53.140
+¿Cuál le dijió la?
+
+1127
+01:41:53.140 --> 01:41:54.440
+No sé, en ese momento no le sé.
+
+1128
+01:41:54.440 --> 01:41:57.340
+No, solo sé que con una variable me está diciendo que es un simple.
+
+1129
+01:41:57.340 --> 01:41:59.780
+Por favor, va creciendo la C.
+
+1130
+01:41:59.780 --> 01:42:02.260
+O sea, voy permitiendo que más profecientes
+
+1131
+01:42:02.260 --> 01:42:03.660
+han diferenciado de Cero.
+
+1132
+01:42:03.660 --> 01:42:05.980
+Entonces va creciendo el número variable,
+
+1133
+01:42:05.980 --> 01:42:08.020
+que estoy permitiendo que entreno de entrada a Vesta,
+
+1134
+01:42:08.020 --> 01:42:10.460
+y va creciendo hasta llegar a punto de 28.8.
+
+1135
+01:42:10.460 --> 01:42:17.300
+el trors, si es el máximo que obtenemos obtenido en todas las pruebas anteriores, la quiza en la
+
+1136
+01:42:17.300 --> 01:42:22.780
+columna de este lado te dice, el máximo lo que hiciste como aproximadamente 20 cachorales.
+
+1137
+01:42:22.780 --> 01:42:31.940
+Voy a hacer paso menos muy similar, muy cercano a lo que obtuvimos si aplicamos filtro o aplicamos
+
+1138
+01:42:31.940 --> 01:42:40.220
+el método de eliminación por su conjunto recosiva. Entonces los tres métodos pareciera que en
+
+1139
+01:42:40.220 --> 01:42:43.900
+en este conjunto de datos están dando más o menos el mismo.
+
+1140
+01:42:43.900 --> 01:42:47.380
+Aquí está como simplemente y no es que había finalmente
+
+1141
+01:42:47.380 --> 01:42:48.680
+una gráfica.
+
+1142
+01:42:48.680 --> 01:43:01.220
+Bueno, lo que te lo digo es, esto no es tan revoluante.
+
+1143
+01:43:01.220 --> 01:43:04.380
+Déjenme brincarme.
+
+1144
+01:43:04.380 --> 01:43:06.620
+Bueno, esta gráfica es muy parecida a la popo
+
+1145
+01:43:06.620 --> 01:43:07.900
+opcionalmente igual.
+
+1146
+01:43:07.900 --> 01:43:09.340
+Es muy parecida a la que vimos en ropa.
+
+1147
+01:43:09.340 --> 01:43:12.460
+No solo ahora las cas que se conservan,
+
+1148
+01:43:12.460 --> 01:43:16.660
+ya estas son las cas que conserven por fitrado.
+
+1149
+01:43:16.660 --> 01:43:23.420
+ya sea por información mutua o por Pearson, y ahora estoy involucrando también las cascas que obtuve
+
+1150
+01:43:23.420 --> 01:43:26.660
+con el método de este, ¿no se va?
+
+1151
+01:43:26.660 --> 01:43:30.380
+¿Y terrativo o con el método de lazo?
+
+1152
+01:43:30.380 --> 01:43:33.280
+Pues de vez me van a fijar un poquito de sombre.
+
+1153
+01:43:33.280 --> 01:43:36.260
+Si se fijan, es prácticamente ideal, ¿no?
+
+1154
+01:43:36.260 --> 01:43:38.660
+Es número variable, es nada más.
+
+1155
+01:43:38.660 --> 01:43:41.260
+Y los tres métodos,
+
+1156
+01:43:41.260 --> 01:43:46.420
+si tengo 30 variables, o sea, no eliminado nada, pues coinciden.
+
+1157
+01:43:46.420 --> 01:43:53.320
+Si eliminé 10 variables prácticamente también coinciden, no hay diferencia entre ellos.
+
+1158
+01:43:53.320 --> 01:43:59.320
+Si con los tres métodos eliminaron posiblemente las 10 mismas variables.
+
+1159
+01:43:59.320 --> 01:44:03.120
+Bueno, no son iguales porque los putitos deberían conseguir, no?
+
+1160
+01:44:03.120 --> 01:44:05.320
+Y aquí claro, no se ve que no coincide.
+
+1161
+01:44:05.320 --> 01:44:13.140
+Entonces eliminaron al menos lograron eliminar 10 variables y mantuvieron más o menos el mismo
+
+1162
+01:44:13.140 --> 01:44:19.620
+el rendimiento de la algoritma. Si ya no voy a las que al que los tres diferentes técnicas
+
+1163
+01:44:19.620 --> 01:44:24.660
+eliminaron 15, entonces ahí ha sido una caída. Veo que regresió un lineal, pero no lo son
+
+1164
+01:44:24.660 --> 01:44:32.060
+lineal. El tercer piso que es el que te insica este correlaciones uniales, junto con
+
+1165
+01:44:32.060 --> 01:44:38.500
+el información mutuadas a los filtrados sin ver modelo, fueron peores o para desesperarse
+
+1166
+01:44:38.500 --> 01:44:43.900
+que los métodos que sí ven el modelo, estos obviamente están usando el modelo y por
+
+1167
+01:44:43.900 --> 01:44:51.700
+esos que logran eliminar las que el modelo no utiliza estas son sin ver el modelo.
+
+1168
+01:44:51.700 --> 01:44:59.300
+Por eso les comentaba en el initial lo típico es uso metos estadísticos para eliminar las
+
+1169
+01:44:59.300 --> 01:44:59.900
+primeras.
+
+1170
+01:45:00.000 --> 01:45:06.640
+En el caso yo no tenía que haber hecho un proceso citerativo de volura, es costosísimo
+
+1171
+01:45:06.640 --> 01:45:09.480
+para evitar para eliminar las primeras 10.
+
+1172
+01:45:09.480 --> 01:45:14.320
+Aplicaba métodista dícipo, eliminó las primeras 10, es rapidísimo, ya las eliminé
+
+1173
+01:45:14.320 --> 01:45:19.600
+y a partir de aquí, entonces si me voy por un método de volura o método de regularización
+
+1174
+01:45:19.600 --> 01:45:26.120
+para eliminándomas, y veo que el de volura es el línea verde y el de regularización,
+
+1175
+01:45:26.120 --> 01:45:29.480
+prácticamente van de la mano.
+
+1176
+01:45:29.480 --> 01:45:32.440
+que es decir que al menos para este dataset era mejor utilizar la
+
+1177
+01:45:32.440 --> 01:45:37.120
+volabización que conoce es que era un costo medio entre medio y bajo.
+
+1178
+01:45:37.120 --> 01:45:41.400
+Al final únicamente empiezo a superarlo y por poquito me va a tener un
+
+1179
+01:45:41.400 --> 01:45:46.240
+volatura ya cuando me voy concedo eliminando prácticamente
+
+1180
+01:45:46.240 --> 01:45:51.200
+casi todo el acaso, no? Me estoy dando con 5 de 30. Y de nada
+
+1181
+01:45:51.200 --> 01:45:55.480
+cuenta más, si yo comparo aquí las métricas es mínima la caída que estoy
+
+1182
+01:45:55.480 --> 01:46:03.120
+Entonces, por la general, las primeras variables estadísticamente, después apliquen modelos
+
+1183
+01:46:03.120 --> 01:46:06.080
+y las o esas de regulaciones, no, más en particular.
+
+1184
+01:46:06.080 --> 01:46:12.400
+Es de involuntura para seguir eliminando.
+
+1185
+01:46:12.400 --> 01:46:16.880
+Quizás primero la regulación y finalmente la involuntura, que son más de todos
+
+1186
+01:46:16.880 --> 01:46:20.800
+los otros y que en muchas dimensiones, bueno, a este la que está mostrado, no se
+
+1187
+01:46:20.800 --> 01:46:30.320
+aquí ya me dice que para los sonos que termine. Por ejemplo por filtro, filtrado me dice que
+
+1188
+01:46:31.840 --> 01:46:41.440
+estaba esta gráfica. Era la frecuencia de selección, de ser mi invaleanza empresada. Uno significa
+
+1189
+01:46:41.440 --> 01:46:47.760
+que siempre leje en todas las corridas que hice o que hizo o que se hicieron a través de
+
+1190
+01:46:47.760 --> 01:46:53.680
+de citrado para tomar la decisión, siempre el 100% apareció el
+
+1191
+01:46:53.680 --> 01:46:58.000
+iminar radio, el 100% apareció periúmetro, el 100% eliminar
+
+1192
+01:46:58.000 --> 01:47:03.240
+área. Si se fijan qué me dice esta tablita, se coran que
+
+1193
+01:47:03.240 --> 01:47:06.640
+estas cuatro estaban super corregionadas, que es decir que se
+
+1194
+01:47:06.640 --> 01:47:10.920
+quedó al final y con esto, con punto 150.
+
+1195
+01:47:10.920 --> 01:47:17.040
+No apareció siempre en una corredada no apareció,
+
+1196
+01:47:17.040 --> 01:47:19.080
+en algún porcentaje de corredor,
+
+1197
+01:47:19.080 --> 01:47:23.320
+y por tanto está la que preservó y esas tres las eliminó.
+
+1198
+01:47:23.320 --> 01:47:26.440
+Pero qué lo interesante de tanta información,
+
+1199
+01:47:26.440 --> 01:47:31.840
+muy tuvado como PIRSO, coincide que por ejemplo estas dos son las que se den elir,
+
+1200
+01:47:31.840 --> 01:47:34.240
+o todo este conjunto prácticamente es esto.
+
+1201
+01:47:34.240 --> 01:47:43.760
+cuando esta área es la que no hace por que le jade Tompah, no te va a sentir, pero bueno,
+
+1202
+01:47:43.760 --> 01:47:51.120
+salió un poco mal. Y en volcura también coincide cuertemente con que el radio coincide
+
+1203
+01:47:51.120 --> 01:47:58.400
+confitrado y de los valores delazo, pues prácticamente el 82 también es más alto, ¿no?
+
+1204
+01:47:58.400 --> 01:48:04.280
+los cuatro métodos, yo creo que la primera verdad de eliminar los cuatro métodos fue esta de
+
+1205
+01:48:04.280 --> 01:48:10.880
+doble radio y así me lo puedo seguir para ir checando cuál, cuáles son en qué orden fueron
+
+1206
+01:48:10.880 --> 01:48:19.630
+eliminando cada método. Entonces hay cierta coherencia, al menos al inicio veo que hay cierta
+
+1207
+01:48:19.630 --> 01:48:26.490
+coherencia entre para las que eliminar. Es interesante ver diferentes métodos, diferentes
+
+1208
+01:48:26.490 --> 01:48:34.650
+protege, es que te llevan prácticamente a que a que a que eliminar. Entonces en resumen
+
+1209
+01:48:34.650 --> 01:48:40.330
+este es el surme, la verdad no es tal práctica, no? Tengo muchas variables utilizan filtros,
+
+1210
+01:48:40.330 --> 01:48:46.450
+en los menos costos. Si tengo variables muy correlacionadas, igual filtrado inmediatamente
+
+1211
+01:48:46.450 --> 01:48:52.130
+me lo va a decir, si la correlación es no lineal, usen preferentemente de formación
+
+1212
+01:48:52.130 --> 01:49:00.650
+si tengo pocos datos y pocos variables en datas hechiquito, vale la pena entonces meterme
+
+1213
+01:49:00.650 --> 01:49:09.690
+a hacer procesos iterativos, el hijo modelo y prueba todos los suficientes que pueda, es lo más
+
+1214
+01:49:09.690 --> 01:49:15.930
+robusto, es lo mejor pero solo es permisible con pocos datos pocos por lo menos, si el modelo
+
+1215
+01:49:15.930 --> 01:49:22.450
+que estoy usando ese lineal pero tienen muchos variables. Entonces digo, si no, de
+
+1216
+01:49:22.450 --> 01:49:26.650
+que se usan el lineal y ya el eje que es inignal porque ya hay una de 60 dedicón y me
+
+1217
+01:49:26.650 --> 01:49:33.910
+di cuenta que es lo mejor. Entonces aplica para eliminar variables, este regolegención,
+
+1218
+01:49:33.910 --> 01:49:40.930
+tipo lasso que en la cara, pues, les va a decir eliminar. Y, finalmente, si hay que explicar,
+
+1219
+01:49:40.930 --> 01:49:46.610
+a su auto sí que entender la importancia de las variables para la aplicación que estamos
+
+1220
+01:49:46.610 --> 01:49:54.210
+generando. Entonces lo más recomendable es regularización o la importancia con el
+
+1221
+01:49:54.210 --> 01:50:03.650
+metruta de aquí. Como no estoy, aquí estoy volucrando al modelo, el filtrado, se ve los
+
+1222
+01:50:03.650 --> 01:50:08.610
+datos solo por el método, por varias estadísticas, sin considerar modelo, en realidad no me
+
+1223
+01:50:08.610 --> 01:50:11.950
+dice nada de la importancia de que explica.
+
+1224
+01:50:11.950 --> 01:50:14.090
+Esa ni siquiera corrió el modelo, entonces no puedo saber
+
+1225
+01:50:14.090 --> 01:50:17.390
+cuáles son las que fueron utilizadas para dar
+
+1226
+01:50:17.390 --> 01:50:21.250
+una metrica alta del modelo, que me sea
+
+1227
+01:50:21.250 --> 01:50:24.250
+esta cura si o cualquier otra.
+
+1228
+01:50:24.250 --> 01:50:25.850
+Es básicamente exceso.
+
+1229
+01:50:25.850 --> 01:50:28.770
+Y bueno, es un poquito código, pero pues si hayas de
+
+1230
+01:50:28.770 --> 01:50:34.370
+pueden entretener con eso, es de encandar o irse en los
+
+1231
+01:50:34.370 --> 01:50:39.410
+Notbuc. Ven en mis setas de esto, suelo a suena. A ver,
+
+1232
+01:50:39.410 --> 01:50:42.750
+Mínzca le deja preguntar nada. Antes de que alguien le va a
+
+1233
+01:50:42.750 --> 01:50:46.770
+te lo mano del pregunta algo, tenles que comentar mañana,
+
+1234
+01:50:46.770 --> 01:50:51.170
+si les parece, como la unidad tuvo una de las básicamente
+
+1235
+01:50:51.170 --> 01:50:55.490
+estos préstópicos y a partir de ahorita ya tienen tres
+
+1236
+01:50:55.490 --> 01:51:00.690
+Notbucs que realizar. Si quieren, mañana les hago un
+
+1237
+01:51:00.690 --> 01:51:03.870
+breve repaso para así, promete saber super breve de las
+
+1238
+01:51:03.870 --> 01:51:09.110
+tres cosas y después si quieran revisar los notebooks, los que no salen, pues que alcanzan
+
+1239
+01:51:09.110 --> 01:51:15.350
+a revisar. Por si algunos ustedes tienen dudas o preguntas ya sobre la codificación de estas
+
+1240
+01:51:15.350 --> 01:51:21.510
+cosas que uno está revisando. Y al final de la clase de mañana les preparé un notebook
+
+1241
+01:51:21.510 --> 01:51:28.510
+que sería el, eso tres que que tienen al día de hoy, no me les tienen que tregar, es para
+
+1242
+01:51:28.510 --> 01:51:35.350
+que se desprequiquen, tiene preguntas, ustedes responden las, pero no, siquiera
+
+1243
+01:51:35.350 --> 01:51:41.110
+mañana de hecho les doy las respuestas y ustedes comparan contra lo que hicieron,
+
+1244
+01:51:41.110 --> 01:51:46.670
+pero ya digamos mañana después de la clase yo les voy a compartir un notebook que es el que
+
+1245
+01:51:46.670 --> 01:51:52.970
+sí me van a tener que tener que tener, que es parecido al que se como los que les he
+
+1246
+01:51:52.970 --> 01:51:58.370
+subido pero que ya involucra los tres componentes que hemos estado revisando
+
+1247
+01:51:58.370 --> 01:52:02.410
+este semana. Entonces ese es el que me van a entregar y yo diría que
+
+1248
+01:52:02.410 --> 01:52:10.010
+preferentemente porque lo ideal sería que lo que ya hayan hecho el esfuerzo de
+
+1249
+01:52:10.010 --> 01:52:14.510
+aprender lo que me está viendo. O sea ya el lunes empezaremos a ver otro
+
+1250
+01:52:14.510 --> 01:52:20.050
+temas y ya solo modelos. Entonces, podemos poner que para el miércoles, si no lo
+
+1251
+01:52:20.050 --> 01:52:24.730
+pudieron hacer el fin de semana, pueden hacerlo en un desmarque, estoy al miércoles que es
+
+1252
+01:52:24.730 --> 01:52:33.490
+canso, antes de la clase del juego se llama los intrémenos, ese notebook, como la paría
+
+1253
+01:52:33.490 --> 01:52:40.610
+de evaluación entregable, que tiene que llamarle, de esta primera semana.
+
+1254
+01:52:40.610 --> 01:52:47.620
+Ok, entonces mañana revisar los notebooks, el que ya les ha revisado no tengo ninguna
+
+1255
+01:52:47.620 --> 01:52:53.060
+de duda, no te conectarse, puede ver la creación de piernes mejor y el que quiera conectarse
+
+1256
+01:52:53.060 --> 01:52:58.340
+pues adelante, pero nos vamos a revisar los datos y vamos a clavando algunas dudas, como
+
+1257
+01:52:58.340 --> 01:53:04.080
+tiene que ser al final yo les subo también las respuestas para que ustedes puedan descargar
+
+1258
+01:53:04.080 --> 01:53:11.880
+las de situaciones, que se habla, entonces sí creo que alguien tiene la pregunta a ver, vamos
+
+1259
+01:53:11.880 --> 01:53:17.750
+a tratar de ser cortos, Andrés, adelante.
+
+1260
+01:53:17.750 --> 01:53:23.450
+la propuesta de los jóvenes, yo nada más para el tema de la entrega de las no
+
+1261
+01:53:23.450 --> 01:53:30.510
+podría ser semana, ya ves que no comenta que para el jueves, si pudiera extender un
+
+1262
+01:53:30.510 --> 01:53:34.950
+poco el plazo por el tema de que vamos, no da la oportunidad de trabajarlo
+
+1263
+01:53:34.950 --> 01:53:38.510
+durante el fin de semana.
+
+1264
+01:53:38.510 --> 01:53:45.430
+El yo, tanto poner fechas anterioresos para que la proyecia al máximo lo
+
+1265
+01:53:45.430 --> 01:53:52.470
+seguir viendo pero no no tener problema en que sea dentro de cuando quieren para el
+
+1266
+01:53:52.470 --> 01:53:57.830
+viernes que vienes de apelir otro así que vamos a ponerlo para el viernes para que ya no se
+
+1267
+01:53:57.830 --> 01:54:02.960
+les empiecen a cruzar una con otra.
+
+1268
+01:54:02.960 --> 01:54:05.160
+¿Cómo?
+
+1269
+01:54:05.160 --> 01:54:06.680
+Entonces tiene el de diez.
+
+1270
+01:54:06.680 --> 01:54:07.680
+Sí, de diez.
+
+1271
+01:54:07.680 --> 01:54:08.680
+Completito.
+
+1272
+01:54:08.680 --> 01:54:13.940
+Se te dices.
+
+1273
+01:54:13.940 --> 01:54:15.180
+¿O de diez alzados se puede?
+
+1274
+01:54:15.180 --> 01:54:17.180
+Sí, se le entregamos alzados.
+
+1275
+01:54:17.180 --> 01:54:18.420
+Bueno, mi casa.
+
+1276
+01:54:18.420 --> 01:54:20.420
+¿Okey hay un problema?
+
+1277
+01:54:20.420 --> 01:54:23.630
+¿Tienes esa sabor?
+
+1278
+01:54:23.630 --> 01:54:24.630
+Va.
+
+1279
+01:54:24.630 --> 01:54:25.630
+¿Te acuerdas?
+
+1280
+01:54:25.630 --> 01:54:27.630
+¿Tienes más alguien tiene una pregunta?
+
+1281
+01:54:27.630 --> 01:54:31.130
+¿Ten cansados?
+
+1282
+01:54:31.130 --> 01:54:32.130
+¿Ese pensado?
+
+1283
+01:54:32.130 --> 01:54:39.250
+¿Pues estaba dando un mes en la flecha?
+
+1284
+01:54:39.250 --> 01:54:40.250
+Ahí se las pongo en el sitio web.
+
+1285
+01:54:40.250 --> 01:54:42.250
+Les pongo exactamente que hecha.
+
+1286
+01:54:42.250 --> 01:54:44.250
+Ah, por cierto, la entrega sería...
+
+1287
+01:54:44.250 --> 01:54:46.250
+No, no he pensado. ¿Cómo? ¿Cómo están?
+
+1288
+01:54:46.250 --> 01:54:54.250
+Estaban entregando las tareas como un victor y como un Oscar.
+
+1289
+01:54:54.250 --> 01:54:55.250
+¿Quién dice yo?
+
+1290
+01:54:55.250 --> 01:54:57.250
+¿Qué se refiere con...
+
+1291
+01:54:57.250 --> 01:54:59.250
+Con uno, la entregamos con este...
+
+1292
+01:54:59.250 --> 01:55:03.970
+por GitHub, es el plopulicamos en GitHub y lo otro fue a través de
+
+1293
+01:55:03.970 --> 01:55:06.730
+Google de formes, exactamente.
+
+1294
+01:55:06.730 --> 01:55:10.170
+Ah, con los forums, no confi...
+
+1295
+01:55:10.170 --> 01:55:15.530
+Que subí a los forums y Victor a través de GitHub.
+
+1296
+01:55:15.530 --> 01:55:19.650
+Ok, bueno voy a ver esto si confíado en GitHub para que me le traigo un
+
+1297
+01:55:19.650 --> 01:55:22.250
+pop-it, todos están a acuerdo, sí, la mayoría.
+
+1298
+01:55:22.250 --> 01:55:29.650
+En les confíro mañana, voy a evaluar
+
+1299
+01:55:29.650 --> 01:55:33.650
+cual es la mejor y mañana les diga esta reclante por cual si gisto por favor
+
+1300
+01:55:34.650 --> 01:55:39.320
+Perfecto nuestro muchísimas gracias por ver
+
+1301
+01:55:39.320 --> 01:55:41.320
+y buenísima gracias por fe
+
+1302
+01:55:41.320 --> 01:55:43.320
+bueno pues vamos a nos descancer
+
+1303
+01:55:43.320 --> 01:55:44.320
+vamos mañana
+
+1304
+01:55:46.790 --> 01:55:47.790
+Gracias por fe
+
+1305
+01:55:47.790 --> 01:55:48.790
+Gracias por fe
+
+1306
+01:55:48.790 --> 01:55:49.790
+Gracias
+
+1307
+01:55:49.790 --> 01:55:51.790
+Gracias por lo que nos vemos
+

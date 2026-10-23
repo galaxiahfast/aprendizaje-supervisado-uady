@@ -8,9 +8,9 @@ Próxima sesión indicada: **jueves 22 de octubre de 2026**
 
 ## Avisos
 
-- El material oficial incluye una actividad individual sobre preprocesamiento.
-- La actividad pide un notebook ejecutado y una tabla comparativa.
-- No se indicó una fecha posterior. La diapositiva señala trabajarla durante el tiempo restante de la sesión.
+- El material oficial incluye una práctica individual sobre preprocesamiento.
+- La práctica pide un notebook ejecutado y una tabla comparativa.
+- En la clase 3 el profesor aclaró que este notebook no se entrega.
 
 ## Archivos de la clase
 
@@ -18,7 +18,7 @@ Próxima sesión indicada: **jueves 22 de octubre de 2026**
 - [presentación de preprocesamiento](presentacion-preprocesamiento-datos.pdf)
 - [transcripción en español](z-transcripcion-clase-02-2026-10-20-es.vtt)
 - [transcripción original](z-transcripcion-clase-02-2026-10-20-original.vtt)
-- [tarea resuelta](../../../tareas-practicas/tareas-entregables/tarea-01-pipeline-preprocesamiento/resumen-tarea-01.md)
+- [práctica resuelta](../../../tareas-practicas/practicas-clase/practica-02-pipeline-preprocesamiento/resumen-practica-02.md)
 
 El video `z-video-clase-02-2026-10-20.mp4` está en esta carpeta solo en el equipo. Git no lo sube.
 

@@ -8,7 +8,7 @@ lunes, martes, jueves y viernes. Solo se registran fechas confirmadas.
 | 1 | 19 oct 2026 | Preparación de datos | Análisis exploratorio de datos |
 | 2 | 20 oct 2026, 18:00 | Preparación de datos | Preprocesamiento de datos |
 | 3 | 22 oct 2026 | Preparación de datos | Ingeniería y selección de variables |
-| 4 | Por confirmar | Regresión | Regresión lineal y polinomial |
+| 4 | 23 oct 2026 | Regresión | Regresión lineal y polinomial |
 | 5 | Por confirmar | Regresión | Regresión regularizada |
 | 6 | Por confirmar | Regresión | Máquinas de vectores de soporte |
 | 7 | Por confirmar | Regresión | Árboles y evaluación de modelos |
@@ -21,4 +21,5 @@ lunes, martes, jueves y viernes. Solo se registran fechas confirmadas.
 | 14 | Por confirmar | Ensamble | AdaBoost, Gradient Boosting y XGBoost |
 
 El [programa oficial](programa-oficial-aprendizaje-supervisado.pdf) contiene la planeación completa.
-La tarea de la clase 2 no muestra una fecha posterior. Las fechas de los demás trabajos siguen pendientes.
+Las prácticas de las clases 1 a 3 no se entregan. El primer laboratorio integrador se publicará el
+23 de octubre. El plazo indicado en clase es el 30 de octubre de 2026.

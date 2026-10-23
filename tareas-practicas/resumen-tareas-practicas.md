@@ -10,9 +10,12 @@ Esta sección tiene dos partes:
 La [práctica 1 de EDA](practicas-clase/practica-01-eda-california-housing/resumen-practica-01.md) está resuelta. El
 profesor aclaró que **no se entrega**.
 
-La [tarea 1 de preprocesamiento](tareas-entregables/tarea-01-pipeline-preprocesamiento/resumen-tarea-01.md)
-está resuelta y ejecutada. El material oficial la marca como actividad individual. No aparece una
-fecha posterior a la sesión.
+Las prácticas de [preprocesamiento](practicas-clase/practica-02-pipeline-preprocesamiento/resumen-practica-02.md)
+y [selección de variables](practicas-clase/practica-03-seleccion-de-variables/resumen-practica-03.md)
+están resueltas. El profesor aclaró que no se entregan.
+
+La primera entrega será el [laboratorio integrador](tareas-entregables/tarea-01-laboratorio-integrador/resumen-tarea-01.md).
+El notebook oficial sigue pendiente. El plazo indicado es el 30 de octubre de 2026.
 
 ## Antes de entregar una tarea
 
