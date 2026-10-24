@@ -10,6 +10,8 @@ Medio de entrega: **formulario indicado por el profesor**
 
 [Abrir formulario de entrega](https://forms.gle/QnkZYco2EFLUYiuD8)
 
+[Revisar criterios de evaluación](criterios-evaluacion-modulo-01.md)
+
 ## Contenido anunciado
 
 El notebook integrará los tres temas de la primera semana:
@@ -29,7 +31,8 @@ Las prácticas 1, 2 y 3 sirven para prepararlo. El profesor aclaró que esas pr�
 - Reiniciar el entorno y ejecutar todas las celdas.
 - Revisar que no queden errores.
 - Ejecutar la autoverificación si el notebook la incluye.
-- Nombrar el archivo `apellido_nombre_examen_modulo1.ipynb`.
+- El formato oficial es `apellido_nombre_examen_modulo1.ipynb`.
+- Para esta entrega se usará `ortiz_julian_examen_modulo1.ipynb`.
 - Subir un solo archivo `.ipynb` de máximo 10 MB. No se aceptan PDF ni capturas.
 - Comprobar que llegó la confirmación de envío.
 
