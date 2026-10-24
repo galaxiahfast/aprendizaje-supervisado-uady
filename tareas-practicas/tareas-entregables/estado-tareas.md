@@ -2,7 +2,6 @@
 
 | Tarea | Clase | Estado | Fecha límite |
 | --- | --- | --- | --- |
-| [Tarea 1 — laboratorio integrador](tarea-01-laboratorio-integrador/resumen-tarea-01.md) | Clases 1 a 3 | Pendiente de recibir el notebook | 30 oct 2026 |
+| [Tarea 1 — laboratorio integrador](tarea-01-laboratorio-integrador/resumen-tarea-01.md) | Clases 1 a 3 | Pendiente de recibir el notebook | 31 oct 2026 |
 
-El profesor indicó que compartirá el notebook después de la clase del 23 de octubre. El medio de
-entrega se confirmará ese día.
+La entrega será mediante un formulario. El profesor confirmó el plazo al final de la clase 4.

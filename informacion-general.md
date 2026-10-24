@@ -2,9 +2,9 @@
 
 ## Estado de la materia
 
-- Última clase organizada: **clase 3 — ingeniería y selección de variables**.
-- Próxima clase del calendario: **viernes 23 de octubre de 2026**.
-- Entrega activa: **laboratorio integrador, pendiente de recibir el notebook oficial**.
+- Última clase organizada: **clase 4 — repaso y preparación de la evaluación**.
+- Próxima clase indicada por el profesor: **lunes 26 de octubre de 2026**.
+- Entrega activa: **laboratorio integrador, pendiente de recibir el notebook de la evaluación**.
 - La práctica de California Housing está resuelta. El profesor aclaró que no se entrega.
 
 ## Dónde está cada cosa
@@ -25,7 +25,7 @@ para estudiar.
 
 | Evidencia | Valor | Estado |
 | --- | ---: | --- |
-| Ejercicios de laboratorio | 30 % | Primer laboratorio anunciado para el 30 oct 2026 |
+| Ejercicios de laboratorio | 30 % | Primer laboratorio anunciado para el 31 oct 2026 |
 | Miniproyecto de regresión | 35 % | Faltan instrucciones y fecha |
 | Miniproyecto de clasificación | 35 % | Faltan instrucciones y fecha |
 

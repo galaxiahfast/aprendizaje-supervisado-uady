@@ -15,7 +15,8 @@ y [selección de variables](practicas-clase/practica-03-seleccion-de-variables/r
 están resueltas. El profesor aclaró que no se entregan.
 
 La primera entrega será el [laboratorio integrador](tareas-entregables/tarea-01-laboratorio-integrador/resumen-tarea-01.md).
-El notebook oficial sigue pendiente. El plazo indicado es el 30 de octubre de 2026.
+El notebook oficial sigue pendiente. Se entrega mediante formulario a más tardar el **31 de octubre
+de 2026**.
 
 ## Antes de entregar una tarea
 
