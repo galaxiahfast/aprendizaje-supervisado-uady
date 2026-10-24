@@ -2,7 +2,7 @@
 
 ## Datos para este archivo
 
-- Nombre dentro de la variable `NOMBRE`: `JULIAN EMILIANO ORTIZ RIVERO`
+- Nombre dentro de la variable `NOMBRE`: `Julian Emiliano Ortiz Rivero`
 - Nombre del archivo final: `ortiz_julian_examen_modulo1.ipynb`
 - Fecha límite: **sábado 31 de octubre de 2026**
 - [Formulario de entrega](https://forms.gle/QnkZYco2EFLUYiuD8)
@@ -16,8 +16,10 @@ primer apellido y el primer nombre. No se agregan los dos apellidos al nombre de
 - [ ] La variable `NOMBRE` contiene el nombre completo.
 - [ ] Los nombres de variables solicitados por el enunciado no cambiaron.
 - [ ] Cada respuesta está escrita en la celda marcada con `Respuesta:`.
-- [ ] Las respuestas están en español y explican la decisión tomada.
+- [ ] Las respuestas están en español, son directas y explican la decisión tomada.
 - [ ] Los comentarios agregados al código están en español.
+- [ ] El texto no contiene frases de relleno ni repite conectores.
+- [ ] La escritura usa mayúsculas normales. Solo conserva mayúsculas completas cuando el formato las pide.
 - [ ] El entorno se reinició y todas las celdas se ejecutaron en orden.
 - [ ] No existen celdas con error.
 - [ ] La autoverificación terminó correctamente si el notebook la incluye.
