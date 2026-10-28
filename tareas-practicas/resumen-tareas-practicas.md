@@ -14,9 +14,12 @@ Las prácticas de [preprocesamiento](practicas-clase/practica-02-pipeline-prepro
 y [selección de variables](practicas-clase/practica-03-seleccion-de-variables/resumen-practica-03.md)
 están resueltas. El profesor aclaró que no se entregan.
 
-La primera entrega será el [laboratorio integrador](tareas-entregables/tarea-01-laboratorio-integrador/resumen-tarea-01.md).
-El notebook oficial sigue pendiente. Se entrega mediante formulario a más tardar el **31 de octubre
-de 2026**.
+El [examen del módulo 1](tareas-entregables/tarea-01-laboratorio-integrador/resumen-tarea-01.md)
+está resuelto y listo para subir. Se entrega mediante formulario a más tardar el **31 de octubre de
+2026**.
+
+Las prácticas 4 y 5 están disponibles con el contenido original del profesor. No se encontró una
+indicación para entregarlas.
 
 ## Antes de entregar una tarea
 

@@ -2,6 +2,7 @@
 
 | Tarea | Clase | Estado | Fecha límite |
 | --- | --- | --- | --- |
-| [Tarea 1 — laboratorio integrador](tarea-01-laboratorio-integrador/resumen-tarea-01.md) | Clases 1 a 3 | Pendiente de recibir el notebook | 31 oct 2026 |
+| [Tarea 1 - examen del módulo 1](tarea-01-laboratorio-integrador/resumen-tarea-01.md) | Clases 1 a 3 | Lista para subir | 31 oct 2026 |
 
-La entrega será mediante un formulario. El profesor confirmó el plazo al final de la clase 4.
+La entrega será mediante el [formulario oficial](https://forms.gle/QnkZYco2EFLUYiuD8). Falta iniciar
+sesión, subir el notebook y guardar la confirmación.

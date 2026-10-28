@@ -1,6 +1,6 @@
-# Tarea 1 — laboratorio integrador
+# Tarea 1 - laboratorio integrador
 
-Estado: **anunciada, pendiente de recibir el notebook de la evaluación**
+Estado: **resuelta, ejecutada y lista para subir**
 
 Publicación indicada: **23 de octubre de 2026 después de la clase**
 
@@ -11,6 +11,8 @@ Medio de entrega: **formulario indicado por el profesor**
 [Abrir formulario de entrega](https://forms.gle/QnkZYco2EFLUYiuD8)
 
 [Revisar criterios de evaluación](criterios-evaluacion-modulo-01.md)
+
+[Descargar archivo final](ortiz_julian_examen_modulo1.ipynb)
 
 ## Contenido anunciado
 
@@ -38,7 +40,6 @@ Las prácticas 1, 2 y 3 sirven para prepararlo. El profesor aclaró que esas pr�
 
 Se puede reenviar antes de la fecha límite. El profesor revisará el último envío.
 
-El notebook de la evaluación no aparece todavía entre los archivos disponibles. Esta carpeta se
-completará en cuanto se publique. No se usó el cuaderno de EDA como sustituto porque el profesor
-confirmó que pertenece a las prácticas.
+El archivo final se generó desde el examen oficial. Las 66 celdas se ejecutaron en orden y no
+quedaron errores. El notebook pesa menos de 1 MB.
 

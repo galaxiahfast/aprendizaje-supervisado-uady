@@ -12,19 +12,19 @@ primer apellido y el primer nombre. No se agregan los dos apellidos al nombre de
 
 ## Revisión antes de entregar
 
-- [ ] El notebook corresponde al examen del módulo 1.
-- [ ] La variable `NOMBRE` contiene el nombre completo.
-- [ ] Los nombres de variables solicitados por el enunciado no cambiaron.
-- [ ] Cada respuesta está escrita en la celda marcada con `Respuesta:`.
-- [ ] Las respuestas están en español, son directas y explican la decisión tomada.
-- [ ] Los comentarios agregados al código están en español.
-- [ ] El texto no contiene frases de relleno ni repite conectores.
-- [ ] La escritura usa mayúsculas normales. Solo conserva mayúsculas completas cuando el formato las pide.
-- [ ] El entorno se reinició y todas las celdas se ejecutaron en orden.
-- [ ] No existen celdas con error.
-- [ ] La autoverificación terminó correctamente si el notebook la incluye.
-- [ ] El archivo pesa menos de 10 MB.
-- [ ] Solo se subirá `ortiz_julian_examen_modulo1.ipynb`.
+- [x] El notebook corresponde al examen del módulo 1.
+- [x] La variable `NOMBRE` contiene el nombre completo.
+- [x] Los nombres de variables solicitados por el enunciado no cambiaron.
+- [x] Cada respuesta está escrita en la celda marcada con `Respuesta:`.
+- [x] Las respuestas están en español, son directas y explican la decisión tomada.
+- [x] Los comentarios agregados al código están en español.
+- [x] El texto no contiene frases de relleno ni repite conectores.
+- [x] La escritura usa mayúsculas normales. Solo conserva mayúsculas completas cuando el formato las pide.
+- [x] El entorno se reinició y todas las celdas se ejecutaron en orden.
+- [x] No existen celdas con error.
+- [x] El notebook no incluye una celda de autoverificación.
+- [x] El archivo pesa menos de 10 MB.
+- [x] Solo se subirá `ortiz_julian_examen_modulo1.ipynb`.
 - [ ] El formulario mostró la confirmación de envío.
 
 Las entregas sin ejecutar o fuera de plazo pueden perder puntos. Si se hace más de un envío antes
