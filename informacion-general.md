@@ -6,7 +6,6 @@
 - Próxima clase confirmada: **jueves 29 de octubre de 2026**.
 - Tema anunciado: **máquinas de soporte vectorial**.
 - Entrega activa: **examen del módulo 1 listo para subir**.
-- Falta la grabación y el VTT de la clase 5 del 26 de octubre.
 
 ## Dónde está cada cosa
 
@@ -35,7 +34,6 @@ Solo se registran fechas confirmadas por el profesor o por la plataforma.
 ## Pendientes actuales
 
 - Subir `ortiz_julian_examen_modulo1.ipynb` al formulario y guardar la confirmación.
-- Conseguir la grabación o el VTT de la clase del 26 de octubre.
 - Revisar las prácticas 4 y 5. No están marcadas como entregables.
 - Esperar las instrucciones del miniproyecto de regresión.
 - Esperar las instrucciones del miniproyecto de clasificación.
