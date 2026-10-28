@@ -1,4 +1,4 @@
-# Tarea 1 - laboratorio integrador
+# Tarea 1 - examen del módulo 1
 
 Estado: **resuelta, ejecutada y lista para subir**
 
@@ -6,7 +6,7 @@ Publicación indicada: **23 de octubre de 2026 después de la clase**
 
 Fecha límite confirmada en clase: **sábado 31 de octubre de 2026**
 
-Medio de entrega: **formulario indicado por el profesor**
+Medio de entrega: **Google Forms**
 
 [Abrir formulario de entrega](https://forms.gle/QnkZYco2EFLUYiuD8)
 

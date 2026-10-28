@@ -54,7 +54,7 @@ Los [apuntes del repaso](apuntes-repaso-y-evaluacion.md) reúnen las ideas que c
 - Fecha límite confirmada: **sábado 31 de octubre de 2026**.
 
 El notebook de la evaluación todavía no está en los materiales disponibles. Su estado está en la
-[tarea 1](../../../tareas-practicas/tareas-entregables/tarea-01-laboratorio-integrador/resumen-tarea-01.md).
+[tarea 1](../../../tareas-practicas/tareas-entregables/tarea-01-examen-modulo-01/resumen-tarea-01.md).
 
 ## Archivos de esta clase
 

@@ -19,7 +19,7 @@ CARPETA = (
     RAIZ
     / "tareas-practicas"
     / "tareas-entregables"
-    / "tarea-01-laboratorio-integrador"
+    / "tarea-01-examen-modulo-01"
 )
 SALIDA = CARPETA / "ortiz_julian_examen_modulo1.ipynb"
 

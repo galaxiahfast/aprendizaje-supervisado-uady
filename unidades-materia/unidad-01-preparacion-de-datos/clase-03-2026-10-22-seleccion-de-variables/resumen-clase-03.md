@@ -20,7 +20,7 @@ Próxima sesión indicada: **viernes 23 de octubre de 2026**
 - [transcripción en español](z-transcripcion-clase-03-2026-10-22-es.vtt)
 - [transcripción original](z-transcripcion-clase-03-2026-10-22-original.vtt)
 - [práctica resuelta](../../../tareas-practicas/practicas-clase/practica-03-seleccion-de-variables/resumen-practica-03.md)
-- [entrega anunciada](../../../tareas-practicas/tareas-entregables/tarea-01-laboratorio-integrador/resumen-tarea-01.md)
+- [entrega anunciada](../../../tareas-practicas/tareas-entregables/tarea-01-examen-modulo-01/resumen-tarea-01.md)
 
 El video `z-video-clase-03-2026-10-22.mp4` está en esta carpeta solo en el equipo. Git no lo sube.
 

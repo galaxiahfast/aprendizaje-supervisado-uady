@@ -14,7 +14,7 @@ Las prácticas de [preprocesamiento](practicas-clase/practica-02-pipeline-prepro
 y [selección de variables](practicas-clase/practica-03-seleccion-de-variables/resumen-practica-03.md)
 están resueltas. El profesor aclaró que no se entregan.
 
-El [examen del módulo 1](tareas-entregables/tarea-01-laboratorio-integrador/resumen-tarea-01.md)
+El [examen del módulo 1](tareas-entregables/tarea-01-examen-modulo-01/resumen-tarea-01.md)
 está resuelto y listo para subir. Se entrega mediante formulario a más tardar el **31 de octubre de
 2026**.
 

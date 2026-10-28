@@ -12,7 +12,7 @@ El entregable será otro notebook integrador.
 - [notebook resuelto](practica-02-pipeline-preprocesamiento-resuelta.ipynb)
 - [tabla comparativa](resultados-preprocesamiento-datos.csv)
 
-Estos archivos sirven para estudiar y preparar el laboratorio integrador.
+Estos archivos sirven para estudiar y preparar el examen del módulo 1.
 
 ## Criterios cubiertos
 

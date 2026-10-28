@@ -12,7 +12,7 @@ notebook que integra los tres temas de la primera semana.
 - [notebook resuelto](practica-03-seleccion-de-variables-resuelta.ipynb)
 - [tabla comparativa](resultados-seleccion-variables.csv)
 
-Estos archivos sirven para estudiar y preparar el laboratorio integrador.
+Estos archivos sirven para estudiar y preparar el examen del módulo 1.
 
 ## Criterios cubiertos
 
