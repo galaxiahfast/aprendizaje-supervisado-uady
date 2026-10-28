@@ -1,8 +1,8 @@
-# Tareas que se suben
+# Estado de las tareas entregables
 
 | Tarea | Archivo que se sube | Lugar de entrega | Fecha límite | Estado |
 | --- | --- | --- | --- | --- |
-| [Tarea 1 - examen del módulo 1](tarea-01-examen-modulo-01/resumen-tarea-01.md) | [`ortiz_julian_examen_modulo1.ipynb`](tarea-01-examen-modulo-01/ortiz_julian_examen_modulo1.ipynb) | [Formulario oficial](https://forms.gle/QnkZYco2EFLUYiuD8) | 31 oct 2026 | Lista para subir |
+| [Tarea 1 - examen del módulo 1](tarea-01-examen-modulo-01/resumen-tarea-01.md) | [`ortiz_julian_examen_modulo1.ipynb`](tarea-01-examen-modulo-01/ortiz_julian_examen_modulo1.ipynb) | [Formulario oficial](https://forms.gle/QnkZYco2EFLUYiuD8) | 31 oct 2026 | Enviada el 28 oct 2026 |
 
 ## No se sube
 
@@ -11,5 +11,6 @@
 - Plantilla original del examen.
 - Archivos PDF, imágenes o capturas del notebook.
 
-Falta iniciar sesión en el formulario, capturar los datos solicitados, subir el notebook y guardar
-la confirmación. Si se envía más de una vez, se revisará el último envío registrado antes del cierre.
+La [confirmación del formulario](tarea-01-examen-modulo-01/evidencia-entrega-examen-modulo-01.png)
+indica que la respuesta quedó registrada. Si se hace otro envío antes del cierre, el profesor
+revisará el último.

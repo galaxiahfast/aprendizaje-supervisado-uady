@@ -1,6 +1,6 @@
 # Tarea 1 - examen del módulo 1
 
-Estado: **resuelta, ejecutada y lista para subir**
+Estado: **enviada el 28 de octubre de 2026**
 
 Publicación indicada: **23 de octubre de 2026 después de la clase**
 
@@ -13,6 +13,13 @@ Medio de entrega: **Google Forms**
 [Revisar criterios de evaluación](criterios-evaluacion-modulo-01.md)
 
 [Descargar archivo final](ortiz_julian_examen_modulo1.ipynb)
+
+[Ver evidencia de entrega](evidencia-entrega-examen-modulo-01.png)
+
+## Evidencia de entrega
+
+Google Forms mostró el mensaje **“Your response has been recorded”** después del envío. La captura
+se guardó como `evidencia-entrega-examen-modulo-01.png`.
 
 ## Contenido anunciado
 

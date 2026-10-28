@@ -15,8 +15,8 @@ y [selección de variables](practicas-clase/practica-03-seleccion-de-variables/r
 están resueltas. El profesor aclaró que no se entregan.
 
 El [examen del módulo 1](tareas-entregables/tarea-01-examen-modulo-01/resumen-tarea-01.md)
-está resuelto y listo para subir. Se entrega mediante formulario a más tardar el **31 de octubre de
-2026**.
+fue enviado mediante el formulario el **28 de octubre de 2026**. La confirmación quedó guardada en
+la carpeta de la tarea.
 
 Las prácticas 4 y 5 están disponibles con el contenido original del profesor. No se encontró una
 indicación para entregarlas.

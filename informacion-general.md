@@ -5,7 +5,7 @@
 - Última clase organizada: **clase 6 - regresión regularizada**.
 - Próxima clase confirmada: **jueves 29 de octubre de 2026**.
 - Tema anunciado: **máquinas de soporte vectorial**.
-- Entrega activa: **examen del módulo 1 listo para subir**.
+- Última entrega: **examen del módulo 1 enviado el 28 de octubre de 2026**.
 
 ## Dónde está cada cosa
 
@@ -25,7 +25,7 @@ para estudiar.
 
 | Evidencia | Valor | Estado |
 | --- | ---: | --- |
-| Ejercicios de laboratorio | 30 % | Examen del módulo 1 listo. Falta subirlo antes del 31 oct 2026 |
+| Ejercicios de laboratorio | 30 % | Examen del módulo 1 enviado. Confirmación guardada |
 | Miniproyecto de regresión | 35 % | Faltan instrucciones y fecha |
 | Miniproyecto de clasificación | 35 % | Faltan instrucciones y fecha |
 
@@ -33,7 +33,6 @@ Solo se registran fechas confirmadas por el profesor o por la plataforma.
 
 ## Pendientes actuales
 
-- Subir `ortiz_julian_examen_modulo1.ipynb` al formulario y guardar la confirmación.
 - Revisar las prácticas 4 y 5. No están marcadas como entregables.
 - Esperar las instrucciones del miniproyecto de regresión.
 - Esperar las instrucciones del miniproyecto de clasificación.

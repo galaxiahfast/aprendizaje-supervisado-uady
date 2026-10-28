@@ -25,7 +25,7 @@ primer apellido y el primer nombre. No se agregan los dos apellidos al nombre de
 - [x] El notebook no incluye una celda de autoverificación.
 - [x] El archivo pesa menos de 10 MB.
 - [x] Solo se subirá `ortiz_julian_examen_modulo1.ipynb`.
-- [ ] El formulario mostró la confirmación de envío.
+- [x] El formulario mostró la confirmación de envío.
 
 Las entregas sin ejecutar o fuera de plazo pueden perder puntos. Si se hace más de un envío antes
 del cierre, el profesor revisará el último.
