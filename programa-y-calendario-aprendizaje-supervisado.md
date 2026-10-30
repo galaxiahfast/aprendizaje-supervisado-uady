@@ -13,7 +13,7 @@ martes, jueves y viernes.
 | 5 | 26 oct 2026 | Regresión | Regresión lineal y polinomial |
 | 6 | 27 oct 2026 | Regresión | Regresión regularizada |
 | 7 | 29 oct 2026 | Regresión | Máquinas de vectores de soporte |
-| 8 | Por confirmar | Regresión | Árboles y evaluación de modelos |
+| 8 | 30 oct 2026 | Regresión | Árboles y evaluación de modelos |
 | 9 | Por confirmar | Clasificación | Regresión logística y kNN |
 | 10 | Por confirmar | Clasificación | Naive Bayes y árboles |
 | 11 | Por confirmar | Clasificación | Máquinas de vectores de soporte |
@@ -24,5 +24,5 @@ martes, jueves y viernes.
 
 El [programa oficial](programa-oficial-aprendizaje-supervisado.pdf) contiene la planeación completa.
 Las prácticas de las clases 1 a 3 no se entregan. Tampoco hay indicación de entrega para las
-prácticas 4 y 5. El examen del módulo 1 está listo y se entrega mediante formulario antes del
-**sábado 31 de octubre de 2026**.
+prácticas 4 y 5. El examen del módulo 1 fue enviado el 28 de octubre. La actividad de SVR está marcada
+como entregable, pero todavía no tiene fecha ni medio de envío confirmados.

@@ -2,9 +2,9 @@
 
 ## Estado de la materia
 
-- Última clase organizada: **clase 6 - regresión regularizada**.
-- Próxima clase confirmada: **jueves 29 de octubre de 2026**.
-- Tema anunciado: **máquinas de soporte vectorial**.
+- Última clase organizada: **clase 7 - regresión con máquinas de soporte vectorial**.
+- Próxima clase anunciada: **viernes 30 de octubre de 2026**.
+- Tema anunciado: **árboles de decisión para regresión**.
 - Última entrega: **examen del módulo 1 enviado el 28 de octubre de 2026**.
 
 ## Dónde está cada cosa
@@ -25,7 +25,7 @@ para estudiar.
 
 | Evidencia | Valor | Estado |
 | --- | ---: | --- |
-| Ejercicios de laboratorio | 30 % | Examen del módulo 1 enviado. Confirmación guardada |
+| Ejercicios de laboratorio | 30 % | Examen enviado. Tarea 2 de SVR lista, sin fecha de entrega |
 | Miniproyecto de regresión | 35 % | Faltan instrucciones y fecha |
 | Miniproyecto de clasificación | 35 % | Faltan instrucciones y fecha |
 
@@ -34,6 +34,7 @@ Solo se registran fechas confirmadas por el profesor o por la plataforma.
 ## Pendientes actuales
 
 - Revisar las prácticas 4 y 5. No están marcadas como entregables.
+- Confirmar la fecha y el medio de entrega de la tarea 2 de SVR.
 - Esperar las instrucciones del miniproyecto de regresión.
 - Esperar las instrucciones del miniproyecto de clasificación.
 
