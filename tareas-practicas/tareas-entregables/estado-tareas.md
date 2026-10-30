@@ -3,6 +3,7 @@
 | Tarea | Archivo que se sube | Lugar de entrega | Fecha límite | Estado |
 | --- | --- | --- | --- | --- |
 | [Tarea 1 - examen del módulo 1](tarea-01-examen-modulo-01/resumen-tarea-01.md) | [`ortiz_julian_examen_modulo1.ipynb`](tarea-01-examen-modulo-01/ortiz_julian_examen_modulo1.ipynb) | [Formulario oficial](https://forms.gle/QnkZYco2EFLUYiuD8) | 31 oct 2026 | Enviada el 28 oct 2026 |
+| [Tarea 2 - SVR para consumo energético](tarea-02-svr-consumo-energetico/resumen-tarea-02.md) | [`ortiz-julian-actividad-svr.ipynb`](tarea-02-svr-consumo-energetico/ortiz-julian-actividad-svr.ipynb) | Por confirmar | Por confirmar | Lista. No enviada |
 
 ## No se sube
 
@@ -14,3 +15,6 @@
 La [confirmación del formulario](tarea-01-examen-modulo-01/evidencia-entrega-examen-modulo-01.png)
 indica que la respuesta quedó registrada. Si se hace otro envío antes del cierre, el profesor
 revisará el último.
+
+La presentación de la clase 7 marca el cuaderno de SVR como entregable. Todavía no se publicó una
+fecha ni un lugar para subirlo.

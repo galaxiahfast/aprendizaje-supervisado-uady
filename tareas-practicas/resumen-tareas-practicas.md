@@ -21,6 +21,10 @@ la carpeta de la tarea.
 Las prácticas 4 y 5 están disponibles con el contenido original del profesor. No se encontró una
 indicación para entregarlas.
 
+La [tarea 2 de SVR](tareas-entregables/tarea-02-svr-consumo-energetico/resumen-tarea-02.md) está
+resuelta y ejecutada. La presentación la marca como entregable, pero todavía no se conoce la fecha ni
+el medio de envío.
+
 ## Antes de entregar una tarea
 
 - [ ] Confirmar que el profesor la marcó como entregable.
