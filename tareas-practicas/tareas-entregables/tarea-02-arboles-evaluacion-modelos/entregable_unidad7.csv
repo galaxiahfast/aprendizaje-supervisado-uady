@@ -1,0 +1,8 @@
+modelo,hiperparametros,rmse_cv_anidada,rmse_cv_anidada_sd,rmse_entrenamiento,rmse_prueba,diagnostico,comentario
+Árbol,"{'max_depth': 8, 'min_samples_leaf': 5}",0.446,0.062,0.244,0.429,varianza alta,"Es interpretable, pero resulta sensible a las muestras de entrenamiento."
+SVR,"{'C': 100, 'epsilon': 0.2, 'gamma': 0.01}",0.45,0.02,0.386,0.449,sesgo alto,Logra un ajuste no lineal estable después del escalado.
+Polinomial,{'degree': 2},0.462,0.034,0.408,0.439,sesgo alto,"Capta la curvatura, aunque su flexibilidad aumenta la variación."
+Elastic Net,"{'alpha': 0.01, 'l1_ratio': 0.8}",0.464,0.025,0.419,0.451,sesgo alto,Combina las dos penalizaciones y mantiene estabilidad.
+Lasso,{'alpha': 0.0063},0.468,0.031,0.412,0.447,sesgo alto,Reduce coeficientes y conserva un ajuste compacto.
+Lineal,{},0.485,0.02,0.476,0.489,sesgo alto,Presenta sesgo alto porque no capta la relación no lineal.
+Ridge,{'alpha': 10.0},0.492,0.037,0.391,0.466,sesgo alto,Regulariza el polinomio y estabiliza sus coeficientes.
