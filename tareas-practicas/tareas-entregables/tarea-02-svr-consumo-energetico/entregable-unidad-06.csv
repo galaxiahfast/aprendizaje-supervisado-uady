@@ -1,6 +1,0 @@
-modelo,rmse_prueba,comentario
-SVR RBF (GridSearchCV),2.517,Captura la relación no lineal y obtiene el menor error.
-Ridge,11.132,Regulariza los coeficientes sin añadir relaciones no lineales.
-Lasso,11.155,"Selecciona variables, aunque conserva una forma lineal."
-OLS,11.155,"Sirve como referencia lineal, pero no capta la curvatura."
-SVR lineal,11.542,No representa la curva en U de la temperatura.

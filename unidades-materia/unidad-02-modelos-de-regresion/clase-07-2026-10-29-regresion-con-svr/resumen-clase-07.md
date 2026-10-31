@@ -46,16 +46,15 @@ elegir los hiperparámetros.
 | [01:39:13](z-transcripcion-clase-07-2026-10-29-es.vtt#t=01:39:13) | Tema anunciado para la siguiente clase |
 | [01:42:00](z-transcripcion-clase-07-2026-10-29-es.vtt#t=01:42:00) | Notebook de la actividad de SVR |
 
-## Actividad entregable
+## Práctica de clase
 
-La presentación marca como entregable el cuaderno de la actividad de SVR. No se anunció fecha ni
-formulario durante la clase. El [cuaderno resuelto](../../../tareas-practicas/tareas-entregables/tarea-02-svr-consumo-energetico/resumen-tarea-02.md)
-quedó preparado mientras se publican esos datos.
+La versión actual del cuaderno oficial aclara que ya está completa y no se entrega. Está guardada
+como [práctica 6](../../../tareas-practicas/practicas-clase/practica-06-svr-consumo-energetico/resumen-practica-06.md).
 
 ## Archivos de esta clase
 
 - [presentación oficial](presentacion-regresion-con-svr.pdf)
 - [transcripción](z-transcripcion-clase-07-2026-10-29-es.vtt)
-- [tarea 2 de SVR](../../../tareas-practicas/tareas-entregables/tarea-02-svr-consumo-energetico/resumen-tarea-02.md)
+- [práctica 6 de SVR](../../../tareas-practicas/practicas-clase/practica-06-svr-consumo-energetico/resumen-practica-06.md)
 
 La grabación está guardada en esta carpeta con el prefijo `z-`. Git la ignora.
