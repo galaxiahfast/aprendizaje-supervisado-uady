@@ -31,12 +31,12 @@ RESPUESTAS = {
     5: "**Respuesta:** La raíz usa `superficie` con un corte de 121.4. Cada hoja predice el promedio de los precios que llegan a ella. El árbol libre tiene 400 hojas, profundidad 16 y RMSE de entrenamiento igual a 0. Su RMSE de validación es 0.492. La brecha muestra varianza alta porque memorizó el entrenamiento.",
     8: "**Respuesta:** Gana `superficie`. Reduce el MSE de 1.2650 a 0.5977, una baja de 0.6673. Coincide con el corte de `scikit-learn` en 121.37. Las variables de ruido quedan al final porque no guardan una relación estable con el precio. `superficie` y `habitaciones` tienen MSE parecidos por su correlación. Gana una sola porque CART conserva el corte con la reducción mayor.",
     12: "**Respuesta:** El menor RMSE aparece con profundidad 8 y cinco observaciones por hoja: 0.451. Al aumentar la profundidad, el error de entrenamiento sigue bajando aunque la validación ya no mejora. El resultado queda 0.201 arriba del piso de 0.25. Hay varias combinaciones entre 0.451 y 0.468, así que la zona buena es amplia y no hace falta afinar con una malla demasiado estrecha.",
-    19: "**Respuesta:** Con una división el RMSE va de 0.349 a 0.581 y su desviación es 0.045. Con cinco pliegues va de 0.429 a 0.475 y la desviación baja a 0.012. Una sola partición depende demasiado de qué datos caigan en validación. Con k=2 el RMSE es 0.494 porque cada ajuste usa solo la mitad de los datos. Recomiendo k=5 por estabilidad y costo. La estratificación baja la dispersión de los promedios de 0.1102 a 0.0262. También reparte los 20 casos raros en cuatro por pliegue.",
+    19: "**Respuesta:** Con una división el RMSE va de 0.349 a 0.581 y su desviación es 0.045. Con cinco pliegues va de 0.429 a 0.475 y la desviación baja a 0.012. Una sola partición depende demasiado de qué datos caigan en validación. El RMSE medio baja de 0.494 con k=2 hasta 0.414 con k=10. Con k=20 vuelve a 0.430 por la variación entre particiones. k=2 es más pesimista porque cada ajuste usa solo la mitad de los datos. Recomiendo k=5 por estabilidad y costo. La estratificación baja la dispersión de los promedios de 0.1102 a 0.0262. También reparte los 20 casos raros en cuatro por pliegue.",
     24: "**Respuesta:** Con 400 observaciones la CV simple da 0.460 y la anidada 0.452 ± 0.062. La diferencia es pequeña. Con 60 datos la anidada queda 0.066 arriba en promedio porque la CV simple reutiliza los resultados que sirvieron para elegir. Para reportar el error esperado usaría la validación anidada. Para escoger los hiperparámetros finales haría una búsqueda sobre todo el entrenamiento.",
     27: "**Respuesta:** El orden es Árbol, SVR, Polinomial, Elastic Net, Lasso, Lineal y Ridge. Árbol obtiene 0.446 ± 0.062. SVR obtiene 0.450 ± 0.020. La diferencia de 0.004 es menor que la dispersión, por lo que no se puede afirmar que el árbol sea superior. Lineal y Ridge quedan claramente atrás porque no alcanzan el mismo equilibrio para esta relación no lineal.",
     30: "**Respuesta:** En prueba gana Árbol con 0.429, seguido de Polinomial con 0.439. El orden cambia un poco frente a la CV anidada, donde SVR era segundo. El mejor queda 0.179 arriba del piso de 0.25. El 0.429 de prueba está cerca del 0.446 anidado, por lo que la estimación fue honesta. El 0.244 de entrenamiento del árbol es optimista y muestra la brecha de generalización.",
     35: "**Respuesta:** El diagnóstico por brecha marca varianza alta solo para Árbol. Los demás aparecen con sesgo alto. En la simulación, Lineal tiene el mayor sesgo² con 0.1784. Árbol tiene la mayor varianza con 0.0944. Coincide con los extremos esperados: la recta es rígida y el árbol cambia mucho con la muestra. Ridge, Lasso y Elastic Net reducen la variación del polinomio mediante penalizaciones, a cambio de algo de sesgo.",
-    38: "**Respuesta:** En el modelo lineal las curvas quedan juntas pero en un error alto, señal de sesgo; más datos ayudarían poco. En el árbol libre aparece una brecha grande, señal de varianza; más datos sí pueden reducirla. En SVR las curvas se acercan a un error bajo, por lo que más datos podrían aportar una mejora menor y más estable.",
+    38: "**Respuesta:** En el modelo lineal las curvas quedan juntas pero en un error alto. Esto indica sesgo y más datos ayudarían poco. En el árbol libre aparece una brecha grande por la varianza. Más datos sí pueden reducirla. En SVR las curvas se acercan a un error bajo, por lo que más datos podrían aportar una mejora menor y más estable.",
     42: "**Respuesta:**  \nRecomiendo el árbol con `max_depth=8` y `min_samples_leaf=5`.  \nLo evalué con validación cruzada anidada para separar el ajuste de la medición.  \nSu RMSE esperado es 0.446 ± 0.062, frente al piso de ruido de 0.25.  \nEn prueba obtuvo 0.429, equivalente a unos 42 900 pesos.  \nSu sesgo es bajo, aunque la varianza es mayor que la de SVR.  \nLa diferencia de 0.004 frente a SVR no supera la dispersión, así que ambos son defendibles.  \nLos datos son simulados. En uso real revisaría extrapolación, cambios de distribución y reentrenamiento.",
     45: "**Respuesta:** El árbol ordena los valores y decide cortes del tipo variable menor o igual que un umbral. Un escalado monótono conserva ese orden, por eso produce las mismas particiones. SVR usa distancias y productos entre observaciones. Cambiar la escala modifica esas distancias, el efecto de `gamma` y la forma de la función ajustada.",
 }
@@ -104,6 +104,21 @@ def main():
         for nuevo, objetivo in zip(valores, objetivos):
             fuente = reemplaza_linea(fuente, objetivo, nuevo)
         nb.cells[indice].source = fuente
+    nb.cells[29].source += '''
+
+# Gráfica de residuos del modelo con menor RMSE anidado
+mejor_nombre = informe.index[0]
+pred_prueba = finales[mejor_nombre].predict(Xte)
+residuos_prueba = yte - pred_prueba
+fig, ax = plt.subplots(figsize=(6.2, 3.5))
+ax.scatter(pred_prueba, residuos_prueba, alpha=0.25, s=12)
+ax.axhline(0, color="black", linestyle="--", linewidth=1)
+ax.set_xlabel("Predicción")
+ax.set_ylabel("Residuo")
+ax.set_title(f"Residuos en prueba: {mejor_nombre}")
+plt.tight_layout()
+plt.show()
+print(f"Residuo medio de {mejor_nombre}: {residuos_prueba.mean():.4f}")'''
     nb.cells[40].source = '''comentarios = {
     "Lineal": "Presenta sesgo alto porque no capta la relación no lineal.",
     "Polinomial": "Capta la curvatura, aunque su flexibilidad aumenta la variación.",
