@@ -14,7 +14,7 @@ martes, jueves y viernes.
 | 6 | 27 oct 2026 | Regresión | Regresión regularizada |
 | 7 | 29 oct 2026 | Regresión | Máquinas de vectores de soporte |
 | 8 | 30 oct 2026 | Regresión | Árboles y evaluación de modelos |
-| 9 | Por confirmar | Clasificación | Regresión logística y kNN |
+| 9 | 3 nov 2026 | Continuación de regresión | Evaluación de modelos pendiente. Después, regresión logística y kNN |
 | 10 | Por confirmar | Clasificación | Naive Bayes y árboles |
 | 11 | Por confirmar | Clasificación | Máquinas de vectores de soporte |
 | 12 | Por confirmar | Clasificación | Redes neuronales |
@@ -23,6 +23,6 @@ martes, jueves y viernes.
 | 15 | Por confirmar | Ensamble | AdaBoost, Gradient Boosting y XGBoost |
 
 El [programa oficial](programa-oficial-aprendizaje-supervisado.pdf) contiene la planeación completa.
-Las prácticas de las clases 1 a 3 no se entregan. Tampoco hay indicación de entrega para las
-prácticas 4 y 5. El examen del módulo 1 fue enviado el 28 de octubre. La actividad de SVR está marcada
-como entregable, pero todavía no tiene fecha ni medio de envío confirmados.
+Las prácticas de las clases 1 a 6 no se entregan por ahora. El examen del módulo 1 fue enviado el 28
+de octubre. La tarea de árboles y evaluación se entrega la siguiente semana. Todavía no tiene día,
+hora ni medio de envío confirmados.

@@ -3,6 +3,7 @@
 | Tarea | Archivo que se sube | Lugar de entrega | Fecha límite | Estado |
 | --- | --- | --- | --- | --- |
 | [Tarea 1 - examen del módulo 1](tarea-01-examen-modulo-01/resumen-tarea-01.md) | [`ortiz_julian_examen_modulo1.ipynb`](tarea-01-examen-modulo-01/ortiz_julian_examen_modulo1.ipynb) | [Formulario oficial](https://forms.gle/QnkZYco2EFLUYiuD8) | 31 oct 2026 | Enviada el 28 oct 2026 |
+| [Tarea 2 - árboles y evaluación](tarea-02-arboles-evaluacion-modelos/resumen-tarea-02.md) | Cuaderno y `entregable_unidad7.csv` | Por confirmar | Siguiente semana. Día y hora por confirmar | Lista. No enviada |
 
 ## No se sube
 
@@ -16,3 +17,5 @@ indica que la respuesta quedó registrada. Si se hace otro envío antes del cier
 revisará el último.
 
 La actividad de SVR es una práctica completa de repaso. Su versión oficial indica que no se entrega.
+
+La tarea 2 sí está marcada como entregable. La clase no indicó dónde se sube.

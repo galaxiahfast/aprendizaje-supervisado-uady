@@ -3,7 +3,7 @@
 | Unidad | Sesiones | Estado |
 | --- | ---: | --- |
 | [unidad 1 — preparación de datos](unidad-01-preparacion-de-datos/resumen-unidad-01.md) | 1 a 4 | Clases 1 a 4 listas |
-| [unidad 2 - modelos de regresión](unidad-02-modelos-de-regresion/resumen-unidad-02.md) | 5 a 8 | Clases 5 a 7 listas |
+| [unidad 2 - modelos de regresión](unidad-02-modelos-de-regresion/resumen-unidad-02.md) | 5 a 8 | Clases 5 a 8 listas |
 | [unidad 3 - modelos de clasificación](unidad-03-modelos-de-clasificacion/resumen-unidad-03.md) | 9 a 13 | Pendiente |
 | [unidad 4 - métodos de ensamble](unidad-04-metodos-de-ensamble/resumen-unidad-04.md) | 14 a 15 | Pendiente |
 

@@ -18,12 +18,12 @@ El [examen del módulo 1](tareas-entregables/tarea-01-examen-modulo-01/resumen-t
 fue enviado mediante el formulario el **28 de octubre de 2026**. La confirmación quedó guardada en
 la carpeta de la tarea.
 
-Las prácticas 4 y 5 están disponibles con el contenido original del profesor. No se encontró una
-indicación para entregarlas.
+Las prácticas 4, 5 y 6 están disponibles con el contenido original del profesor. La práctica 6 de
+SVR indica de forma expresa que no se entrega.
 
-La [tarea 2 de SVR](tareas-entregables/tarea-02-svr-consumo-energetico/resumen-tarea-02.md) está
-resuelta y ejecutada. La presentación la marca como entregable, pero todavía no se conoce la fecha ni
-el medio de envío.
+La [tarea 2 de árboles y evaluación](tareas-entregables/tarea-02-arboles-evaluacion-modelos/resumen-tarea-02.md)
+está resuelta y ejecutada. Se entrega la siguiente semana. Falta confirmar el día, la hora y el medio
+de envío.
 
 ## Antes de entregar una tarea
 
