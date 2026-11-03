@@ -4,6 +4,7 @@
 | --- | --- | --- | --- | --- |
 | [Tarea 1 - examen del módulo 1](tarea-01-examen-modulo-01/resumen-tarea-01.md) | [`ortiz_julian_examen_modulo1.ipynb`](tarea-01-examen-modulo-01/ortiz_julian_examen_modulo1.ipynb) | [Formulario oficial](https://forms.gle/QnkZYco2EFLUYiuD8) | 31 oct 2026 | Enviada el 28 oct 2026 |
 | [Tarea 2 - árboles y evaluación](tarea-02-arboles-evaluacion-modelos/resumen-tarea-02.md) | Cuaderno y `entregable_unidad7.csv` | Por confirmar | Siguiente semana. Día y hora por confirmar | Lista. No enviada |
+| [Tarea 3 - examen del módulo 2](tarea-03-examen-modulo-02/resumen-tarea-03.md) | [`ortiz_julian_examen_modulo2.ipynb`](tarea-03-examen-modulo-02/ortiz_julian_examen_modulo2.ipynb) | [Formulario oficial](https://forms.gle/4TRwhUbqJoGmpm89A) | No publicada | Avance listo. Falta el archivo de prueba |
 
 ## No se sube
 
@@ -19,3 +20,6 @@ revisará el último.
 La actividad de SVR es una práctica completa de repaso. Su versión oficial indica que no se entrega.
 
 La tarea 2 sí está marcada como entregable. La clase no indicó dónde se sube.
+
+Solo se ha enviado la tarea 1. El formulario del examen del módulo 2 ya está activo, pero las
+instrucciones todavía no muestran una fecha límite y falta el archivo de prueba.

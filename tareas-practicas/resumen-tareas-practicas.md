@@ -25,6 +25,10 @@ La [tarea 2 de árboles y evaluación](tareas-entregables/tarea-02-arboles-evalu
 está resuelta y ejecutada. Se entrega la siguiente semana. Falta confirmar el día, la hora y el medio
 de envío.
 
+El [examen del módulo 2](tareas-entregables/tarea-03-examen-modulo-02/resumen-tarea-03.md) ya fue
+publicado. El formulario está activo y el trabajo con los datos de entrenamiento está preparado.
+Falta que el profesor entregue el conjunto de prueba y confirme la fecha límite.
+
 ## Antes de entregar una tarea
 
 - [ ] Confirmar que el profesor la marcó como entregable.
