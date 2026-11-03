@@ -7,6 +7,7 @@
 - `preparar-tarea-seleccion-variables.py`: completa y ejecuta la práctica de la clase 3.
 - `preparar-examen-modulo-01.py`: completa y ejecuta el examen oficial del módulo 1.
 - `preparar-tarea-arboles-evaluacion.py`: completa y ejecuta la actividad de árboles y evaluación.
+- `preparar-examen-modulo-02.py`: prepara y ejecuta el examen de regresión con los datos publicados.
 - `preparar-archivo-videos.py`: prepara el ZIP personal al finalizar el curso.
 
 Estos scripts son internos. No deben copiarse a una entrega.
