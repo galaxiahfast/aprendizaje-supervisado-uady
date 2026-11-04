@@ -8,3 +8,5 @@
 | [Regresión lineal y polinomial](practica-04-regresion-lineal-polinomial/resumen-practica-04.md) | Clase 5 | Notebook oficial disponible | No indicada |
 | [Regresión regularizada](practica-05-regresion-regularizada/resumen-practica-05.md) | Clase 6 | Notebook oficial disponible | No indicada |
 | [SVR para consumo energético](practica-06-svr-consumo-energetico/resumen-practica-06.md) | Clase 7 | Notebook oficial completo | No |
+| [Árboles y evaluación](practica-07-arboles-evaluacion-modelos/resumen-practica-07.md) | Clase 8 | Resuelta y verificada | No indicada |
+| [Clasificación de spam](practica-08-clasificacion-spam-logistica-knn/resumen-practica-08.md) | Clase 9 | Resuelta y verificada | Se menciona como entregable. Falta fecha y lugar |
