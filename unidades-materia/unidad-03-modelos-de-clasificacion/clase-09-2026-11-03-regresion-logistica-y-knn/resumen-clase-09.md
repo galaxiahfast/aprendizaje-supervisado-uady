@@ -22,20 +22,20 @@ clase 9 porque el 23 de octubre hubo una sesión adicional de repaso.
 
 | Minuto | Contenido |
 | --- | --- |
-| [00:00:36](z-video-clase-09-2026-11-03.mp4#t=36) | Organización de los temas que quedan en el curso |
-| [00:01:40](z-video-clase-09-2026-11-03.mp4#t=100) | Inicio de regresión logística y kNN |
-| [00:04:49](z-video-clase-09-2026-11-03.mp4#t=289) | Ejemplo de clasificación de correo spam |
-| [00:32:01](z-video-clase-09-2026-11-03.mp4#t=1921) | Pérdida logarítmica en lugar de MSE |
-| [00:57:00](z-video-clase-09-2026-11-03.mp4#t=3420) | Clasificación con más de dos clases |
-| [01:14:06](z-video-clase-09-2026-11-03.mp4#t=4446) | Inicio de k vecinos más cercanos |
-| [01:25:27](z-video-clase-09-2026-11-03.mp4#t=5127) | Elección de vecinos y efecto de `k` |
-| [01:34:32](z-video-clase-09-2026-11-03.mp4#t=5672) | Métricas para clasificación |
-| [01:37:41](z-video-clase-09-2026-11-03.mp4#t=5861) | Precisión |
-| [01:42:29](z-video-clase-09-2026-11-03.mp4#t=6149) | Cuándo priorizar precisión o recall |
-| [01:45:56](z-video-clase-09-2026-11-03.mp4#t=6356) | Medida F1 |
-| [01:48:48](z-video-clase-09-2026-11-03.mp4#t=6528) | Matriz de confusión |
-| [01:50:41](z-video-clase-09-2026-11-03.mp4#t=6641) | Cómo evaluará el profesor el examen del módulo 2 |
-| [01:54:08](z-video-clase-09-2026-11-03.mp4#t=6848) | Fecha límite de la segunda entrega |
+| [00:00:36](z-transcripcion-clase-09-2026-11-03-es.vtt#t=00:00:36) | Organización de los temas que quedan en el curso |
+| [00:01:40](z-transcripcion-clase-09-2026-11-03-es.vtt#t=00:01:40) | Inicio de regresión logística y kNN |
+| [00:04:49](z-transcripcion-clase-09-2026-11-03-es.vtt#t=00:04:49) | Ejemplo de clasificación de correo spam |
+| [00:32:01](z-transcripcion-clase-09-2026-11-03-es.vtt#t=00:32:01) | Pérdida logarítmica en lugar de MSE |
+| [00:57:00](z-transcripcion-clase-09-2026-11-03-es.vtt#t=00:57:00) | Clasificación con más de dos clases |
+| [01:14:06](z-transcripcion-clase-09-2026-11-03-es.vtt#t=01:14:06) | Inicio de k vecinos más cercanos |
+| [01:25:27](z-transcripcion-clase-09-2026-11-03-es.vtt#t=01:25:27) | Elección de vecinos y efecto de `k` |
+| [01:34:32](z-transcripcion-clase-09-2026-11-03-es.vtt#t=01:34:32) | Métricas para clasificación |
+| [01:37:41](z-transcripcion-clase-09-2026-11-03-es.vtt#t=01:37:41) | Precisión |
+| [01:42:29](z-transcripcion-clase-09-2026-11-03-es.vtt#t=01:42:29) | Cuándo priorizar precisión o recall |
+| [01:45:56](z-transcripcion-clase-09-2026-11-03-es.vtt#t=01:45:56) | Medida F1 |
+| [01:48:48](z-transcripcion-clase-09-2026-11-03-es.vtt#t=01:48:48) | Matriz de confusión |
+| [01:50:41](z-transcripcion-clase-09-2026-11-03-es.vtt#t=01:50:41) | Cómo evaluará el profesor el examen del módulo 2 |
+| [01:54:08](z-transcripcion-clase-09-2026-11-03-es.vtt#t=01:54:08) | Fecha límite de la segunda entrega |
 
 ## Avisos
 
