@@ -61,6 +61,8 @@ def main():
         resources={"metadata": {"path": str(DESTINO.parent)}},
     )
     cliente.execute()
+    for celda in nb.cells:
+        celda.metadata.pop("execution", None)
     write(nb, DESTINO)
 
 
