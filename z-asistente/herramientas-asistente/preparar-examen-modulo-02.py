@@ -6,7 +6,7 @@ from nbclient import NotebookClient
 
 
 RAIZ = Path(__file__).resolve().parents[2]
-CARPETA = RAIZ / "tareas-practicas/tareas-entregables/tarea-03-examen-modulo-02"
+CARPETA = RAIZ / "tareas-practicas/tareas-entregables/tarea-02-examen-modulo-02"
 DESTINO = CARPETA / "ortiz_julian_examen_modulo2.ipynb"
 
 

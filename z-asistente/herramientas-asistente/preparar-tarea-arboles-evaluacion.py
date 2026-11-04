@@ -9,7 +9,7 @@ from nbformat import read, write
 
 RAIZ = Path(__file__).resolve().parents[2]
 ORIGEN = RAIZ / "z-asistente/plantillas-originales/unidad-02-clase-08-actividad-arboles-evaluacion.ipynb"
-DESTINO = RAIZ / "tareas-practicas/tareas-entregables/tarea-02-arboles-evaluacion-modelos/ortiz-julian-actividad-arboles-evaluacion.ipynb"
+DESTINO = RAIZ / "tareas-practicas/practicas-clase/practica-07-arboles-evaluacion-modelos/practica-07-arboles-evaluacion-modelos.ipynb"
 
 
 CODIGO = {

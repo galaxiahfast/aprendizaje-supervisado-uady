@@ -38,12 +38,11 @@ decisiones prácticas.
 | [01:42:38](z-transcripcion-clase-08-2026-10-30-es.vtt#t=01:42:38) | Examen abierto hasta las 12 de la noche |
 | [01:44:21](z-transcripcion-clase-08-2026-10-30-es.vtt#t=01:44:21) | Actividad para la siguiente semana |
 
-## Actividad entregable
+## Práctica de preparación
 
-El cuaderno de árboles y evaluación sí se entrega. Pide comparar siete modelos, usar validación
-cruzada anidada y preparar un informe breve. La [tarea 2 está lista](../../../tareas-practicas/tareas-entregables/tarea-02-arboles-evaluacion-modelos/resumen-tarea-02.md).
-
-El profesor dijo que se entrega la siguiente semana. No indicó día, hora ni plataforma.
+El cuaderno pide comparar siete modelos, usar validación cruzada anidada y preparar un informe breve.
+La clase siguiente confirmó que la segunda entrega formal es el examen del módulo 2. Este cuaderno
+queda como [práctica 7](../../../tareas-practicas/practicas-clase/practica-07-arboles-evaluacion-modelos/resumen-practica-07.md).
 
 ## Siguiente clase
 
@@ -54,6 +53,6 @@ pendiente continuar la evaluación de modelos antes de pasar a clasificación.
 
 - [presentación oficial](presentacion-arboles-y-evaluacion.pdf)
 - [transcripción](z-transcripcion-clase-08-2026-10-30-es.vtt)
-- [tarea 2](../../../tareas-practicas/tareas-entregables/tarea-02-arboles-evaluacion-modelos/resumen-tarea-02.md)
+- [práctica 7](../../../tareas-practicas/practicas-clase/practica-07-arboles-evaluacion-modelos/resumen-practica-07.md)
 
 La grabación está en esta carpeta con el prefijo `z-`. Git la ignora.

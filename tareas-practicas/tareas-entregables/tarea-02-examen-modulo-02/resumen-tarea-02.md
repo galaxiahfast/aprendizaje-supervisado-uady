@@ -1,4 +1,4 @@
-# Tarea 3 - examen del módulo 2
+# Tarea 2 - examen del módulo 2
 
 Evaluación individual sobre métodos de regresión aplicados a la estabilidad de redes eléctricas.
 
@@ -19,14 +19,13 @@ ni archivos de predicciones por separado.
 - Cinco modelos: completos.
 - Validación cruzada de cinco pliegues: completa.
 - Tabla comparativa y conclusiones: completas.
-- Archivo de prueba: pendiente de publicación por el profesor.
-- Fecha límite: no publicada.
+- Archivo de prueba: lo colocará el profesor al calificar.
+- Fecha límite: **domingo 8 de noviembre de 2026 a las 23:00**.
 - Envío: pendiente.
 
-El cuaderno tiene 12 celdas de código ejecutadas y no presenta errores. Cuando se reciba
-`electrical_grid_stability_test.csv`, debe colocarse junto al notebook y ejecutarse otra vez. El
-bloque final generará `predicciones_modulo2.csv`. Solo podrá calcular RMSE de prueba si el archivo
-incluye la columna `stab`.
+El cuaderno tiene 12 celdas de código ejecutadas y no presenta errores. Está preparado para leer
+`electrical_grid_stability_test.csv` cuando el profesor lo coloque junto al notebook. No es necesario
+tener ese archivo antes de entregar.
 
 ## Resultado actual
 

@@ -1,4 +1,4 @@
-# Criterios de la tarea 2
+# Criterios de la práctica 7
 
 La presentación y el cuaderno piden lo siguiente:
 
