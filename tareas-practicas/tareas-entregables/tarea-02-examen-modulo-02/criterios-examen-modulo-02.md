@@ -13,7 +13,7 @@
 ## Revisión del formato
 
 - [x] Nombre completo en la variable `NOMBRE`.
-- [x] Nombre del archivo en el formato solicitado.
+- [x] Nombre del archivo: `Ortiz_Julian_Examen_Modulo2.ipynb`.
 - [x] Librerías y versiones al inicio.
 - [x] Notebook ejecutado de principio a fin.
 - [x] Ninguna celda con error.
@@ -21,6 +21,7 @@
 - [x] Respuestas y conclusiones con cifras.
 - [x] Tamaño menor de 10 MB.
 - [x] Lectura automática del archivo de prueba privado.
+- [x] Bloque final probado con un archivo sin `stab`.
 - [ ] Confirmación del envío en el formulario.
 
 ## Aclaración necesaria

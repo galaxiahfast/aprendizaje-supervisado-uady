@@ -3,7 +3,7 @@
 | Tarea | Archivo que se sube | Lugar de entrega | Fecha límite | Estado |
 | --- | --- | --- | --- | --- |
 | [Tarea 1 - examen del módulo 1](tarea-01-examen-modulo-01/resumen-tarea-01.md) | [`ortiz_julian_examen_modulo1.ipynb`](tarea-01-examen-modulo-01/ortiz_julian_examen_modulo1.ipynb) | [Formulario oficial](https://forms.gle/QnkZYco2EFLUYiuD8) | 31 oct 2026 | Enviada el 28 oct 2026 |
-| [Tarea 2 - examen del módulo 2](tarea-02-examen-modulo-02/resumen-tarea-02.md) | [`ortiz_julian_examen_modulo2.ipynb`](tarea-02-examen-modulo-02/ortiz_julian_examen_modulo2.ipynb) | [Formulario oficial](https://forms.gle/4TRwhUbqJoGmpm89A) | 8 nov 2026, 23:00 | Lista. No enviada |
+| [Tarea 2 - examen del módulo 2](tarea-02-examen-modulo-02/resumen-tarea-02.md) | [`Ortiz_Julian_Examen_Modulo2.ipynb`](tarea-02-examen-modulo-02/Ortiz_Julian_Examen_Modulo2.ipynb) | [Formulario oficial](https://forms.gle/4TRwhUbqJoGmpm89A) | 8 nov 2026, 23:00 | Lista. No enviada |
 
 ## No se sube
 

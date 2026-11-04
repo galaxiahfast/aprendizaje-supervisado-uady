@@ -7,7 +7,7 @@ from nbclient import NotebookClient
 
 RAIZ = Path(__file__).resolve().parents[2]
 CARPETA = RAIZ / "tareas-practicas/tareas-entregables/tarea-02-examen-modulo-02"
-DESTINO = CARPETA / "ortiz_julian_examen_modulo2.ipynb"
+DESTINO = CARPETA / "Ortiz_Julian_Examen_Modulo2.ipynb"
 
 
 def texto(contenido):
@@ -35,8 +35,8 @@ def construir():
 **Materia:** Aprendizaje Supervisado  
 **Problema:** estabilidad de redes eléctricas
 
-Este cuaderno compara cinco familias de regresión con el mismo protocolo de validación cruzada. El
-archivo de prueba se usa únicamente al final, cuando esté disponible.
+En este cuaderno comparo cinco métodos de regresión con validación cruzada de cinco pliegues. El
+archivo de prueba se usará al final, cuando el profesor lo coloque junto al notebook.
 """
         ),
         codigo(
@@ -395,13 +395,11 @@ diferencia = segundo["rmse_medio"] - mejor["rmse_medio"]
 conclusion = f'''
 ### Conclusiones
 
-El menor RMSE de validación corresponde a **{mejor['modelo']}**, con
-**{mejor['rmse_medio']:.6f} ± {mejor['rmse_desviacion']:.6f}**. El segundo lugar es
-**{segundo['modelo']}** con una diferencia de **{diferencia:.6f}**. La comparación se hizo con las
-mismas cinco particiones para todos los modelos. La regresión lineal sirve como referencia, mientras
-los métodos no lineales pueden representar interacciones entre tiempos de reacción, potencias y
-elasticidades. La decisión final se basa en validación cruzada porque el archivo de prueba no debe
-participar en la selección.
+El polinomio de grado 3 obtuvo el menor RMSE: **{mejor['rmse_medio']:.6f} ±
+{mejor['rmse_desviacion']:.6f}**. SVR con RBF quedó en segundo lugar con una diferencia de
+**{diferencia:.6f}**. Ridge de grado 2 alcanzó 0.012336. El árbol quedó en 0.018743 y la regresión
+lineal en 0.022088. Para la prueba usaría el polinomio de grado 3 porque fue el mejor en los cinco
+pliegues. El archivo de prueba no se usó para escoger el modelo ni sus parámetros.
 '''
 display(Markdown(conclusion))
 """
@@ -410,9 +408,9 @@ display(Markdown(conclusion))
             """
 ## 10. Evaluación final en el archivo de prueba
 
-El profesor indicó que `electrical_grid_stability_test.csv` se entregará por separado. La celda
-siguiente se ejecuta sin error si el archivo todavía no está disponible. Cuando se agregue, ajustará
-cada configuración con las 8 000 filas y guardará `predicciones_modulo2.csv`.
+El profesor conservará `electrical_grid_stability_test.csv` y lo colocará junto al notebook durante
+la revisión. La celda siguiente se ejecuta sin error si el archivo todavía no está disponible. Cuando
+se agregue, ajustará cada configuración con las 8 000 filas y guardará `predicciones_modulo2.csv`.
 
 Si el archivo de prueba no contiene `stab`, se pueden generar predicciones, pero no calcular RMSE.
 Esta limitación se deja explícita porque el RMSE necesita valores reales con los cuales comparar.
@@ -460,7 +458,7 @@ else:
 - Nombre completo incluido en `NOMBRE`.
 - Librerías y versiones impresas al inicio.
 - EDA y decisiones de preprocesamiento justificadas.
-- Cinco familias de regresión comparadas.
+- Cinco métodos de regresión comparados.
 - Validación cruzada de cinco pliegues con media y desviación estándar.
 - Tabla comparativa y conclusiones incluidas.
 - Bloque de prueba preparado para el archivo pendiente.
@@ -484,6 +482,8 @@ def main():
         resources={"metadata": {"path": str(CARPETA)}},
     )
     cliente.execute()
+    for celda in nb.cells:
+        celda.metadata.pop("execution", None)
     nbf.write(nb, DESTINO)
 
 

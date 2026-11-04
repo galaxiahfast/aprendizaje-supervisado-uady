@@ -4,7 +4,7 @@ Evaluación individual sobre métodos de regresión aplicados a la estabilidad d
 
 ## Archivo que se sube
 
-- [`ortiz_julian_examen_modulo2.ipynb`](ortiz_julian_examen_modulo2.ipynb)
+- [`Ortiz_Julian_Examen_Modulo2.ipynb`](Ortiz_Julian_Examen_Modulo2.ipynb)
 
 El formulario acepta un solo notebook de hasta 10 MB. No se suben el PDF, los datos de entrenamiento
 ni archivos de predicciones por separado.
@@ -20,6 +20,7 @@ ni archivos de predicciones por separado.
 - Validación cruzada de cinco pliegues: completa.
 - Tabla comparativa y conclusiones: completas.
 - Archivo de prueba: lo colocará el profesor al calificar.
+- Bloque final: probado con un archivo sin `stab`. Genera las cinco predicciones.
 - Fecha límite: **domingo 8 de noviembre de 2026 a las 23:00**.
 - Envío: pendiente.
 
