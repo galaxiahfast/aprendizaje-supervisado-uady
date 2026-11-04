@@ -18,16 +18,12 @@ El [examen del módulo 1](tareas-entregables/tarea-01-examen-modulo-01/resumen-t
 fue enviado mediante el formulario el **28 de octubre de 2026**. La confirmación quedó guardada en
 la carpeta de la tarea.
 
-Las prácticas 4, 5 y 6 están disponibles con el contenido original del profesor. La práctica 6 de
-SVR indica de forma expresa que no se entrega.
+Las prácticas 4 a 8 están disponibles. Las prácticas 7 y 8 quedaron resueltas y verificadas. La
+presentación de la práctica 8 la llama entregable, pero todavía no se anunció fecha ni plataforma.
 
-La [tarea 2 de árboles y evaluación](tareas-entregables/tarea-02-arboles-evaluacion-modelos/resumen-tarea-02.md)
-está resuelta y ejecutada. Se entrega la siguiente semana. Falta confirmar el día, la hora y el medio
-de envío.
-
-El [examen del módulo 2](tareas-entregables/tarea-03-examen-modulo-02/resumen-tarea-03.md) ya fue
-publicado. El formulario está activo y el trabajo con los datos de entrenamiento está preparado.
-Falta que el profesor entregue el conjunto de prueba y confirme la fecha límite.
+El [examen del módulo 2](tareas-entregables/tarea-02-examen-modulo-02/resumen-tarea-02.md) es la
+segunda entrega formal. Está listo para el archivo privado que usará el profesor y se envía el
+domingo 8 de noviembre antes de las 23:00.
 
 ## Antes de entregar una tarea
 

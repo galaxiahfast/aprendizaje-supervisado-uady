@@ -14,15 +14,15 @@ martes, jueves y viernes.
 | 6 | 27 oct 2026 | Regresión | Regresión regularizada |
 | 7 | 29 oct 2026 | Regresión | Máquinas de vectores de soporte |
 | 8 | 30 oct 2026 | Regresión | Árboles y evaluación de modelos |
-| 9 | 3 nov 2026 | Continuación de regresión | Evaluación de modelos pendiente. Después, regresión logística y kNN |
-| 10 | Por confirmar | Clasificación | Naive Bayes y árboles |
-| 11 | Por confirmar | Clasificación | Máquinas de vectores de soporte |
-| 12 | Por confirmar | Clasificación | Redes neuronales |
+| 9 | 3 nov 2026 | Clasificación | Regresión logística y kNN |
+| 10 | 5 nov 2026 | Clasificación | SVM, Naive Bayes y árboles |
+| 11 | 6 nov 2026 | Ensamble | Bagging y boosting, tema anunciado de forma provisional |
+| 12 | Por confirmar | Clasificación | Redes neuronales o tema pendiente |
 | 13 | Por confirmar | Clasificación | Ajuste de hiperparámetros |
 | 14 | Por confirmar | Ensamble | Bagging y bosques aleatorios |
 | 15 | Por confirmar | Ensamble | AdaBoost, Gradient Boosting y XGBoost |
 
 El [programa oficial](programa-oficial-aprendizaje-supervisado.pdf) contiene la planeación completa.
-Las prácticas de las clases 1 a 6 no se entregan por ahora. El examen del módulo 1 fue enviado el 28
-de octubre. La tarea de árboles y evaluación se entrega la siguiente semana. Todavía no tiene día,
-hora ni medio de envío confirmados.
+El examen del módulo 1 fue enviado el 28 de octubre. El examen del módulo 2 se entrega el domingo 8
+de noviembre antes de las 23:00. La práctica de clasificación de spam está lista. La presentación la
+marca como entregable, aunque todavía no hay fecha ni plataforma confirmadas.

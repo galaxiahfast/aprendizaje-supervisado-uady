@@ -2,9 +2,9 @@
 
 ## Estado de la materia
 
-- Última clase organizada: **clase 8 - árboles y evaluación de modelos**.
-- Próxima clase anunciada: **martes 3 de noviembre de 2026**.
-- Tema pendiente: **continuación de evaluación de modelos**.
+- Última clase organizada: **clase 9 - regresión logística y kNN**.
+- Próxima clase anunciada: **jueves 5 de noviembre de 2026**.
+- Tema anunciado: **SVM, Naive Bayes y árboles para clasificación**.
 - Última entrega enviada: **examen del módulo 1, el 28 de octubre de 2026**.
 
 ## Dónde está cada cosa
@@ -25,7 +25,7 @@ para estudiar.
 
 | Evidencia | Valor | Estado |
 | --- | ---: | --- |
-| Ejercicios de laboratorio | 30 % | Solo el examen del módulo 1 está enviado. Hay dos trabajos pendientes |
+| Ejercicios de laboratorio | 30 % | Examen 1 enviado. Examen 2 listo y pendiente de envío |
 | Miniproyecto de regresión | 35 % | Faltan instrucciones y fecha |
 | Miniproyecto de clasificación | 35 % | Faltan instrucciones y fecha |
 
@@ -33,9 +33,9 @@ Solo se registran fechas confirmadas por el profesor o por la plataforma.
 
 ## Pendientes actuales
 
-- Revisar las prácticas 4, 5 y 6. No se entregan por ahora.
-- Confirmar el día, la hora y el medio de entrega de la tarea 2 de árboles.
-- Esperar el archivo de prueba y la fecha límite del examen del módulo 2.
+- Revisar las prácticas 4 a 8.
+- Esperar la fecha y el medio de envío de la práctica 8.
+- Enviar el examen del módulo 2 antes del 8 de noviembre a las 23:00.
 - Esperar las instrucciones del miniproyecto de regresión.
 - Esperar las instrucciones del miniproyecto de clasificación.
 

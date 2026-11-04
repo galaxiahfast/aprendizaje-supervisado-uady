@@ -3,12 +3,12 @@
 | Tarea | Archivo que se sube | Lugar de entrega | Fecha límite | Estado |
 | --- | --- | --- | --- | --- |
 | [Tarea 1 - examen del módulo 1](tarea-01-examen-modulo-01/resumen-tarea-01.md) | [`ortiz_julian_examen_modulo1.ipynb`](tarea-01-examen-modulo-01/ortiz_julian_examen_modulo1.ipynb) | [Formulario oficial](https://forms.gle/QnkZYco2EFLUYiuD8) | 31 oct 2026 | Enviada el 28 oct 2026 |
-| [Tarea 2 - árboles y evaluación](tarea-02-arboles-evaluacion-modelos/resumen-tarea-02.md) | Cuaderno y `entregable_unidad7.csv` | Por confirmar | Siguiente semana. Día y hora por confirmar | Lista. No enviada |
-| [Tarea 3 - examen del módulo 2](tarea-03-examen-modulo-02/resumen-tarea-03.md) | [`ortiz_julian_examen_modulo2.ipynb`](tarea-03-examen-modulo-02/ortiz_julian_examen_modulo2.ipynb) | [Formulario oficial](https://forms.gle/4TRwhUbqJoGmpm89A) | No publicada | Avance listo. Falta el archivo de prueba |
+| [Tarea 2 - examen del módulo 2](tarea-02-examen-modulo-02/resumen-tarea-02.md) | [`ortiz_julian_examen_modulo2.ipynb`](tarea-02-examen-modulo-02/ortiz_julian_examen_modulo2.ipynb) | [Formulario oficial](https://forms.gle/4TRwhUbqJoGmpm89A) | 8 nov 2026, 23:00 | Lista. No enviada |
 
 ## No se sube
 
-- Prácticas 1 a 6.
+- Prácticas 1 a 7.
+- Práctica 8 hasta que el profesor confirme dónde se envía.
 - Presentaciones, apuntes, transcripciones o videos.
 - Plantilla original del examen.
 - Archivos PDF, imágenes o capturas del notebook.
@@ -17,9 +17,11 @@ La [confirmación del formulario](tarea-01-examen-modulo-01/evidencia-entrega-ex
 indica que la respuesta quedó registrada. Si se hace otro envío antes del cierre, el profesor
 revisará el último.
 
-La actividad de SVR es una práctica completa de repaso. Su versión oficial indica que no se entrega.
+Las actividades de SVR y árboles son prácticas de repaso. La segunda entrega formal es el examen del
+módulo 2. Solo se ha enviado la tarea 1.
 
-La tarea 2 sí está marcada como entregable. La clase no indicó dónde se sube.
+La presentación de la clase 9 llama entregable al cuaderno de clasificación de spam. No se informó
+una fecha ni un formulario para esa actividad.
 
-Solo se ha enviado la tarea 1. El formulario del examen del módulo 2 ya está activo, pero las
-instrucciones todavía no muestran una fecha límite y falta el archivo de prueba.
+El profesor conservará el conjunto de prueba. Al calificar colocará
+`electrical_grid_stability_test.csv` junto al notebook y ejecutará el bloque final.
