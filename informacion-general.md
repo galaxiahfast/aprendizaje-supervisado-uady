@@ -2,9 +2,9 @@
 
 ## Estado de la materia
 
-- Última clase organizada: **clase 9 - regresión logística y kNN**.
-- Próxima clase anunciada: **jueves 5 de noviembre de 2026**.
-- Tema anunciado: **SVM, Naive Bayes y árboles para clasificación**.
+- Última clase organizada: **clase 10 - Naive Bayes, árboles y curva ROC**.
+- Próxima clase anunciada: **viernes 6 de noviembre de 2026**.
+- Tema anunciado: **repaso breve de SVM, bagging y boosting**.
 - Última entrega enviada: **examen del módulo 1, el 28 de octubre de 2026**.
 
 ## Dónde está cada cosa
@@ -33,8 +33,8 @@ Solo se registran fechas confirmadas por el profesor o por la plataforma.
 
 ## Pendientes actuales
 
-- Revisar las prácticas 4 a 8.
-- Esperar la fecha y el medio de envío de la práctica 8.
+- Revisar las prácticas 4 a 6.
+- Esperar la fecha y el medio de envío de las prácticas 8, 9 y 10.
 - Enviar el examen del módulo 2 antes del 8 de noviembre a las 23:00.
 - Esperar las instrucciones del miniproyecto de regresión.
 - Esperar las instrucciones del miniproyecto de clasificación.

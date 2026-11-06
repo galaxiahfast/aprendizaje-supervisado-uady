@@ -10,3 +10,5 @@
 | [SVR para consumo energético](practica-06-svr-consumo-energetico/resumen-practica-06.md) | Clase 7 | Notebook oficial completo | No |
 | [Árboles y evaluación](practica-07-arboles-evaluacion-modelos/resumen-practica-07.md) | Clase 8 | Resuelta y verificada | No indicada |
 | [Clasificación de spam](practica-08-clasificacion-spam-logistica-knn/resumen-practica-08.md) | Clase 9 | Resuelta y verificada | Se menciona como entregable. Falta fecha y lugar |
+| [Naive Bayes para texto](practica-09-naive-bayes-texto/resumen-practica-09.md) | Clase 10 | Resuelta y verificada | Se menciona como entregable. Falta fecha y lugar |
+| [Árboles para diabetes](practica-10-arboles-diabetes/resumen-practica-10.md) | Clase 10 | Resuelta y verificada | Se menciona como entregable. Falta fecha y lugar |

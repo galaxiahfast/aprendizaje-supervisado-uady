@@ -8,7 +8,7 @@
 ## No se sube
 
 - Prácticas 1 a 7.
-- Práctica 8 hasta que el profesor confirme dónde se envía.
+- Prácticas 8, 9 y 10 hasta que el profesor confirme dónde se envían.
 - Presentaciones, apuntes, transcripciones o videos.
 - Plantilla original del examen.
 - Archivos PDF, imágenes o capturas del notebook.
@@ -20,8 +20,8 @@ revisará el último.
 Las actividades de SVR y árboles son prácticas de repaso. La segunda entrega formal es el examen del
 módulo 2. Solo se ha enviado la tarea 1.
 
-La presentación de la clase 9 llama entregable al cuaderno de clasificación de spam. No se informó
-una fecha ni un formulario para esa actividad.
+Las presentaciones llaman entregables al cuaderno de clasificación de spam y a los dos cuadernos de
+la clase 10. No se informó una fecha ni un formulario para esas actividades.
 
 El profesor conservará el conjunto de prueba. Al calificar colocará
 `electrical_grid_stability_test.csv` junto al notebook y ejecutará el bloque final.

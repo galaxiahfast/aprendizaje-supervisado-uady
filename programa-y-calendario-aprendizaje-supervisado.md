@@ -15,8 +15,8 @@ martes, jueves y viernes.
 | 7 | 29 oct 2026 | Regresión | Máquinas de vectores de soporte |
 | 8 | 30 oct 2026 | Regresión | Árboles y evaluación de modelos |
 | 9 | 3 nov 2026 | Clasificación | Regresión logística y kNN |
-| 10 | 5 nov 2026 | Clasificación | SVM, Naive Bayes y árboles |
-| 11 | 6 nov 2026 | Ensamble | Bagging y boosting, tema anunciado de forma provisional |
+| 10 | 5 nov 2026 | Clasificación | Naive Bayes, árboles y ROC-AUC |
+| 11 | 6 nov 2026 | Clasificación y ensamble | SVM breve, bagging y boosting, tema anunciado de forma provisional |
 | 12 | Por confirmar | Clasificación | Redes neuronales o tema pendiente |
 | 13 | Por confirmar | Clasificación | Ajuste de hiperparámetros |
 | 14 | Por confirmar | Ensamble | Bagging y bosques aleatorios |
@@ -24,5 +24,5 @@ martes, jueves y viernes.
 
 El [programa oficial](programa-oficial-aprendizaje-supervisado.pdf) contiene la planeación completa.
 El examen del módulo 1 fue enviado el 28 de octubre. El examen del módulo 2 se entrega el domingo 8
-de noviembre antes de las 23:00. La práctica de clasificación de spam está lista. La presentación la
-marca como entregable, aunque todavía no hay fecha ni plataforma confirmadas.
+de noviembre antes de las 23:00. Las prácticas 8, 9 y 10 están listas. Las presentaciones las marcan
+como entregables, aunque todavía no hay fecha ni plataforma confirmadas.
