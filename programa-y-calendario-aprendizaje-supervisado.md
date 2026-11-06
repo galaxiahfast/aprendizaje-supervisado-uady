@@ -23,6 +23,6 @@ martes, jueves y viernes.
 | 15 | Por confirmar | Ensamble | AdaBoost, Gradient Boosting y XGBoost |
 
 El [programa oficial](programa-oficial-aprendizaje-supervisado.pdf) contiene la planeación completa.
-El examen del módulo 1 fue enviado el 28 de octubre. El examen del módulo 2 se entrega el domingo 8
-de noviembre antes de las 23:00. Las prácticas 8, 9 y 10 están listas. Las presentaciones las marcan
-como entregables, aunque todavía no hay fecha ni plataforma confirmadas.
+El examen del módulo 1 fue enviado el 28 de octubre. El examen del módulo 2 fue enviado el 6 de
+noviembre, antes de la fecha límite. Las prácticas 8, 9 y 10 están listas. Las presentaciones las
+marcan como entregables, aunque todavía no hay fecha ni plataforma confirmadas.

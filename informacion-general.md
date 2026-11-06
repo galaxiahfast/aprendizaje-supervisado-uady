@@ -5,7 +5,7 @@
 - Última clase organizada: **clase 10 - Naive Bayes, árboles y curva ROC**.
 - Próxima clase anunciada: **viernes 6 de noviembre de 2026**.
 - Tema anunciado: **repaso breve de SVM, bagging y boosting**.
-- Última entrega enviada: **examen del módulo 1, el 28 de octubre de 2026**.
+- Última entrega enviada: **examen del módulo 2, el 6 de noviembre de 2026**.
 
 ## Dónde está cada cosa
 
@@ -25,7 +25,7 @@ para estudiar.
 
 | Evidencia | Valor | Estado |
 | --- | ---: | --- |
-| Ejercicios de laboratorio | 30 % | Examen 1 enviado. Examen 2 listo y pendiente de envío |
+| Ejercicios de laboratorio | 30 % | Exámenes 1 y 2 enviados |
 | Miniproyecto de regresión | 35 % | Faltan instrucciones y fecha |
 | Miniproyecto de clasificación | 35 % | Faltan instrucciones y fecha |
 
@@ -35,7 +35,6 @@ Solo se registran fechas confirmadas por el profesor o por la plataforma.
 
 - Revisar las prácticas 4 a 6.
 - Esperar la fecha y el medio de envío de las prácticas 8, 9 y 10.
-- Enviar el examen del módulo 2 antes del 8 de noviembre a las 23:00.
 - Esperar las instrucciones del miniproyecto de regresión.
 - Esperar las instrucciones del miniproyecto de clasificación.
 

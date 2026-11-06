@@ -22,11 +22,13 @@ ni archivos de predicciones por separado.
 - Archivo de prueba: lo colocará el profesor al calificar.
 - Bloque final: probado con un archivo sin `stab`. Genera las cinco predicciones.
 - Fecha límite: **domingo 8 de noviembre de 2026 a las 23:00**.
-- Envío: pendiente.
+- Envío: **realizado el 6 de noviembre de 2026**.
+
+La [confirmación del formulario](evidencia-entrega-examen-modulo-02.png) muestra que la respuesta
+quedó registrada.
 
 El cuaderno tiene 12 celdas de código ejecutadas y no presenta errores. Está preparado para leer
-`electrical_grid_stability_test.csv` cuando el profesor lo coloque junto al notebook. No es necesario
-tener ese archivo antes de entregar.
+`electrical_grid_stability_test.csv` cuando el profesor lo coloque junto al notebook.
 
 ## Resultado actual
 

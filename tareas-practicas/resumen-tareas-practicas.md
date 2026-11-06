@@ -22,9 +22,9 @@ Las prácticas 4 a 10 están disponibles. Las prácticas 7 a 10 quedaron resuelt
 presentaciones llaman entregables a las prácticas 8, 9 y 10, pero todavía no se anunció fecha ni
 plataforma para ellas.
 
-El [examen del módulo 2](tareas-entregables/tarea-02-examen-modulo-02/resumen-tarea-02.md) es la
-segunda entrega formal. Está listo para el archivo privado que usará el profesor y se envía el
-domingo 8 de noviembre antes de las 23:00.
+El [examen del módulo 2](tareas-entregables/tarea-02-examen-modulo-02/resumen-tarea-02.md) fue enviado
+mediante el formulario el **6 de noviembre de 2026**. La confirmación quedó guardada en la carpeta de
+la tarea.
 
 ## Antes de entregar una tarea
 
