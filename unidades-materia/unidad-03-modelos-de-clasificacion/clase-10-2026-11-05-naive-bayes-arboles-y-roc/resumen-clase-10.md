@@ -1,7 +1,9 @@
 # Clase 10 - Naive Bayes, árboles y curva ROC
 
-**Fecha:** 5 de noviembre de 2026  
-**Duración:** 1 h 59 min  
+**Fecha:** 5 de noviembre de 2026
+
+**Duración:** 1 h 59 min
+
 **Tema:** modelos probabilísticos, árboles de clasificación y evaluación con ROC-AUC
 
 ## Temas vistos
