@@ -4,7 +4,6 @@ Incluye bagging, bosques aleatorios y boosting.
 
 | Clase | Fecha | Tema | Estado |
 | ---: | --- | --- | --- |
-| 11 | 6 nov 2026 | Por verificar con la grabación | Faltan video y transcripción |
+| [11](clase-11-2026-11-06-bagging-random-forest-y-adaboost/resumen-clase-11.md) | 6 nov 2026 | Bagging, Random Forest y AdaBoost | Organizada |
 
-La captura de SharePoint confirma que hubo una grabación el 6 de noviembre. No se crea una carpeta de
-clase vacía porque todavía no están disponibles los materiales necesarios para resumirla.
+Gradient Boosting y XGBoost quedaron pendientes de explicación detallada.

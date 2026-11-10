@@ -11,6 +11,7 @@
 - `preparar-practica-clasificacion-spam.py`: completa y ejecuta la práctica de clasificación de spam.
 - `preparar-practicas-clase-10.py`: completa y ejecuta las prácticas de Naive Bayes y árboles.
 - `preparar-practica-evaluacion-fraude.py`: completa y ejecuta la práctica de evaluación e hiperparámetros.
+- `preparar-practicas-clase-11.py`: completa y ejecuta las prácticas de bagging y boosting.
 - `preparar-archivo-videos.py`: prepara el ZIP personal al finalizar el curso.
 
 Estos scripts son internos. No deben copiarse a una entrega.

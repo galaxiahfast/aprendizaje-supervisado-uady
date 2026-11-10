@@ -12,5 +12,4 @@ Naive Bayes, árboles, SVM, redes neuronales y métricas de clasificación.
 La numeración de la presentación comienza esta unidad como sesión 8. En las carpetas se usa el orden
 cronológico, donde corresponde a la clase 9.
 
-La clase 11 del 6 de noviembre corresponde a temas de ensamble. Su grabación y transcripción todavía
-no están en la carpeta local.
+La clase 11 del 6 de noviembre corresponde a [métodos de ensamble](../unidad-04-metodos-de-ensamble/resumen-unidad-04.md).

@@ -19,16 +19,17 @@ ni archivos de predicciones por separado.
 - Cinco modelos: completos.
 - Validación cruzada de cinco pliegues: completa.
 - Tabla comparativa y conclusiones: completas.
-- Archivo de prueba: lo colocará el profesor al calificar.
-- Bloque final: probado con un archivo sin `stab`. Genera las cinco predicciones.
+- Archivo de prueba: el profesor decidió no usarlo en la revisión final.
+- Bloque final: quedó preparado, aunque ya no es necesario para la calificación anunciada.
 - Fecha límite: **domingo 8 de noviembre de 2026 a las 23:00**.
 - Envío: **realizado el 6 de noviembre de 2026**.
 
 La [confirmación del formulario](evidencia-entrega-examen-modulo-02.png) muestra que la respuesta
 quedó registrada.
 
-El cuaderno tiene 12 celdas de código ejecutadas y no presenta errores. Está preparado para leer
-`electrical_grid_stability_test.csv` cuando el profesor lo coloque junto al notebook.
+El cuaderno tiene 12 celdas de código ejecutadas y no presenta errores. El 6 de noviembre el profesor
+aclaró que revisará los resultados guardados en el notebook sin volver a entrenar los modelos ni usar
+el conjunto privado.
 
 ## Resultado actual
 

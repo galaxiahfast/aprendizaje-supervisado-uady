@@ -8,7 +8,7 @@
 ## No se sube
 
 - Prácticas 1 a 7.
-- Prácticas 8, 9, 10 y 11 hasta que el profesor confirme dónde se envían.
+- Prácticas 8 a 13 hasta que el profesor confirme dónde se envían.
 - Presentaciones, apuntes, transcripciones o videos.
 - Plantilla original del examen.
 - Archivos PDF, imágenes o capturas del notebook.
@@ -20,12 +20,11 @@ Las confirmaciones de los formularios quedaron guardadas con la
 Las actividades de SVR y árboles son prácticas de repaso. Las dos entregas formales registradas hasta
 ahora ya fueron enviadas.
 
-Las presentaciones llaman entregables al cuaderno de clasificación de spam, a los dos cuadernos de
-la clase 10 y al cuaderno de evaluación de fraude. No se informó una fecha ni un formulario para esas
-actividades.
+Las presentaciones llaman entregables a las prácticas 8 a 13. No se informó una fecha ni un
+formulario para esas actividades.
 
 El profesor consideraba una tercera evaluación corta mediante formulario para el 12 o 13 de
 noviembre. En la clase del 9 de noviembre no confirmó fecha, enlace ni instrucciones.
 
-El profesor conservará el conjunto de prueba. Al calificar colocará
-`electrical_grid_stability_test.csv` junto al notebook y ejecutará el bloque final.
+El 6 de noviembre el profesor cambió la revisión del examen 2. Decidió omitir la ejecución sobre un
+conjunto privado y revisar los resultados ya guardados en el notebook.

@@ -13,3 +13,5 @@
 | [Naive Bayes para texto](practica-09-naive-bayes-texto/resumen-practica-09.md) | Clase 10 | Resuelta y verificada | Se menciona como entregable. Falta fecha y lugar |
 | [Árboles para diabetes](practica-10-arboles-diabetes/resumen-practica-10.md) | Clase 10 | Resuelta y verificada | Se menciona como entregable. Falta fecha y lugar |
 | [Evaluación de fraude](practica-11-evaluacion-fraude/resumen-practica-11.md) | Clase 12 | Resuelta y verificada | Se menciona como entregable. Falta fecha y lugar |
+| [Bagging y Random Forest](practica-12-bagging-random-forest/resumen-practica-12.md) | Clase 11 | Resuelta y verificada | Se menciona como entregable. Falta fecha y lugar |
+| [Boosting para clasificación](practica-13-boosting-clasificacion/resumen-practica-13.md) | Clase 11 | Resuelta y verificada | Se menciona como entregable. Falta fecha y lugar |

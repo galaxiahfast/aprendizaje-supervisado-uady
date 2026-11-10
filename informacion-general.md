@@ -3,7 +3,7 @@
 ## Estado de la materia
 
 - Última clase organizada: **clase 12 - evaluación e hiperparámetros**.
-- Clase pendiente de material: **clase 11 del 6 de noviembre de 2026**.
+- Clases organizadas: **1 a 12, sin huecos**.
 - Próxima clase anunciada: **martes 10 de noviembre de 2026**.
 - Tema anunciado: **redes neuronales**.
 - Última entrega enviada: **examen del módulo 2, el 6 de noviembre de 2026**.
@@ -35,8 +35,7 @@ Solo se registran fechas confirmadas por el profesor o por la plataforma.
 ## Pendientes actuales
 
 - Revisar las prácticas 4 a 6.
-- Conseguir el video y la transcripción de la clase del 6 de noviembre.
-- Esperar la fecha y el medio de envío de las prácticas 8, 9, 10 y 11.
+- Esperar la fecha y el medio de envío de las prácticas 8 a 13.
 - Confirmar si habrá evaluación final mediante formulario el 12 o 13 de noviembre.
 - Esperar las instrucciones del miniproyecto de regresión.
 - Esperar las instrucciones del miniproyecto de clasificación.
