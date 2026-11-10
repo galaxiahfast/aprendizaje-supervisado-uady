@@ -1,0 +1,4 @@
+modelo,exactitud_prueba,tiempo_entrenamiento_s
+Random Forest,0.91,0.458
+Bagging,0.905,0.524
+Árbol solo,0.845,0.005
