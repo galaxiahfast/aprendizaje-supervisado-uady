@@ -50,7 +50,8 @@ los métodos y las conclusiones del ejemplo.
 - El profesor indicó que compartiría el notebook para revisarlo con calma.
 - La siguiente clase será el jueves 29 de octubre.
 - El tema anunciado para esa sesión es máquinas de soporte vectorial.
-- No se anunció una entrega nueva durante esta clase.
+- No se anunció fecha ni plataforma durante esta clase. El notebook oficial sí llama entregables al
+  cuaderno ejecutado y a `entregable_unidad5.csv`. Ambos están listos.
 
 ## Archivos de esta clase
 

@@ -54,5 +54,6 @@ explicación comienza al final de ese archivo y continúa desde el inicio de la 
 ## Avisos
 
 - El profesor indicó que al día siguiente continuarían con regresión regularizada.
-- No se anunció una entrega nueva durante esta clase.
+- No se anunció fecha ni plataforma durante esta clase. El notebook oficial sí llama entregables al
+  cuaderno ejecutado y a `entregable_unidad4.csv`. Ambos están listos.
 - Los dos videos están guardados en esta carpeta con el prefijo `z-`. Git los ignora.

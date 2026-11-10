@@ -15,7 +15,10 @@ El cuaderno genera la tabla `entregable_unidad7.csv` como parte del ejercicio.
 - Cuaderno ejecutado completo: listo.
 - CSV solicitado: listo.
 - Trabajo individual: cumplido.
-- Entrega independiente: no confirmada.
+- Entregables indicados en el notebook: listos.
+- Fecha y plataforma: no confirmadas.
 
-La clase del 3 de noviembre confirmó que el examen del módulo 2 es la segunda entrega del curso. Por
-eso este cuaderno queda clasificado como práctica de preparación y no como una entrega adicional.
+El notebook oficial llama entregables al cuaderno ejecutado y a `entregable_unidad7.csv`. La clase
+del 3 de noviembre confirmó que el examen del módulo 2 era la segunda entrega formal anunciada hasta
+ese momento. No se indicó un formulario ni una fecha para esta práctica, por lo que queda lista sin
+enviarse.

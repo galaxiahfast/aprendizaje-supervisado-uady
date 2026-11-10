@@ -34,8 +34,7 @@ Solo se registran fechas confirmadas por el profesor o por la plataforma.
 
 ## Pendientes actuales
 
-- Revisar las prácticas 4 a 6.
-- Esperar la fecha y el medio de envío de las prácticas 8 a 13.
+- Esperar la fecha y el medio de envío de las prácticas 4, 5 y 7 a 13. Ya están resueltas.
 - Confirmar si habrá evaluación final mediante formulario el 12 o 13 de noviembre.
 - Esperar las instrucciones del miniproyecto de regresión.
 - Esperar las instrucciones del miniproyecto de clasificación.
