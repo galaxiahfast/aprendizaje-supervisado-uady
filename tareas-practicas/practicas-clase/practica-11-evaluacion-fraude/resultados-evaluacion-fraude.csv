@@ -1,0 +1,4 @@
+modelo,exactitud,mcc,kappa,log_loss
+Modelo base (sin tratar desbalance),0.982,0.459,0.348,0.081
+Mejor modelo (class_weight=balanced + GridSearchCV),0.986,0.608,0.584,0.086
+Mejor modelo + calibrado,0.982,0.498,0.468,0.107
