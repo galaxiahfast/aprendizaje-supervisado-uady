@@ -1,0 +1,5 @@
+método,hiperparámetros,rmse_entrenamiento,rmse_prueba,variables_usadas,reales_halladas,comentario
+OLS,-,0.0,6.01,150,10,Memoriza el entrenamiento y generaliza mal cuando p supera a n
+Ridge,alpha=26.8,1.44,5.36,150,10,Estabiliza todos los coeficientes sin eliminar variables
+Lasso,alpha=0.365,2.51,3.74,29,9,Selecciona un subconjunto corto cuando la señal es dispersa
+Elastic Net,"alpha=0.365, l1_ratio=0.95",2.49,3.73,32,10,Combina selección y estabilidad ante variables correlacionadas

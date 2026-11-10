@@ -1,0 +1,5 @@
+modelo,columnas,rmse_cv,mae_prueba,rmse_prueba,r2_prueba,comentario
+Siempre el promedio,0,1.1482,0.9317,1.1764,-0.0007,Referencia mínima que no usa las variables
+Recta con MedInc,1,0.8276,0.6437,0.8648,0.4592,"Mejora la referencia usando el ingreso, pero conserva una relación lineal"
+Lineal con 7 variables,7,0.6681,0.5052,0.6865,0.6592,Aprovecha todas las variables con una complejidad baja
+Polinomial grado 4,329,0.5571,0.3967,0.5883,0.7497,Modelo elegido mediante validación cruzada
