@@ -2,9 +2,10 @@
 
 ## Estado de la materia
 
-- Última clase organizada: **clase 10 - Naive Bayes, árboles y curva ROC**.
-- Próxima clase anunciada: **viernes 6 de noviembre de 2026**.
-- Tema anunciado: **repaso breve de SVM, bagging y boosting**.
+- Última clase organizada: **clase 12 - evaluación e hiperparámetros**.
+- Clase pendiente de material: **clase 11 del 6 de noviembre de 2026**.
+- Próxima clase anunciada: **martes 10 de noviembre de 2026**.
+- Tema anunciado: **redes neuronales**.
 - Última entrega enviada: **examen del módulo 2, el 6 de noviembre de 2026**.
 
 ## Dónde está cada cosa
@@ -34,7 +35,9 @@ Solo se registran fechas confirmadas por el profesor o por la plataforma.
 ## Pendientes actuales
 
 - Revisar las prácticas 4 a 6.
-- Esperar la fecha y el medio de envío de las prácticas 8, 9 y 10.
+- Conseguir el video y la transcripción de la clase del 6 de noviembre.
+- Esperar la fecha y el medio de envío de las prácticas 8, 9, 10 y 11.
+- Confirmar si habrá evaluación final mediante formulario el 12 o 13 de noviembre.
 - Esperar las instrucciones del miniproyecto de regresión.
 - Esperar las instrucciones del miniproyecto de clasificación.
 

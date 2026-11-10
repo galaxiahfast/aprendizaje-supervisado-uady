@@ -12,3 +12,4 @@
 | [Clasificación de spam](practica-08-clasificacion-spam-logistica-knn/resumen-practica-08.md) | Clase 9 | Resuelta y verificada | Se menciona como entregable. Falta fecha y lugar |
 | [Naive Bayes para texto](practica-09-naive-bayes-texto/resumen-practica-09.md) | Clase 10 | Resuelta y verificada | Se menciona como entregable. Falta fecha y lugar |
 | [Árboles para diabetes](practica-10-arboles-diabetes/resumen-practica-10.md) | Clase 10 | Resuelta y verificada | Se menciona como entregable. Falta fecha y lugar |
+| [Evaluación de fraude](practica-11-evaluacion-fraude/resumen-practica-11.md) | Clase 12 | Resuelta y verificada | Se menciona como entregable. Falta fecha y lugar |

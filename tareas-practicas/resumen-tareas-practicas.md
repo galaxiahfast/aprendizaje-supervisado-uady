@@ -18,8 +18,8 @@ El [examen del módulo 1](tareas-entregables/tarea-01-examen-modulo-01/resumen-t
 fue enviado mediante el formulario el **28 de octubre de 2026**. La confirmación quedó guardada en
 la carpeta de la tarea.
 
-Las prácticas 4 a 10 están disponibles. Las prácticas 7 a 10 quedaron resueltas y verificadas. Las
-presentaciones llaman entregables a las prácticas 8, 9 y 10, pero todavía no se anunció fecha ni
+Las prácticas 4 a 11 están disponibles. Las prácticas 7 a 11 quedaron resueltas y verificadas. Las
+presentaciones llaman entregables a las prácticas 8, 9, 10 y 11, pero todavía no se anunció fecha ni
 plataforma para ellas.
 
 El [examen del módulo 2](tareas-entregables/tarea-02-examen-modulo-02/resumen-tarea-02.md) fue enviado
