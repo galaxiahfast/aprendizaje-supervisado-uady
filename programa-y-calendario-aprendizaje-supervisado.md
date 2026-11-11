@@ -1,8 +1,8 @@
 # Programa y calendario de aprendizaje supervisado
 
-La planeación oficial contempla **14 sesiones temáticas de 2 horas**. La sesión de repaso del 23 de
-octubre agregó una clase al orden cronológico. El horario habitual es de 18:00 a 20:00 los lunes,
-martes, jueves y viernes.
+El material oficial contiene **14 unidades temáticas**. En las grabaciones, algunos temas se
+combinaron y el curso quedó en **13 clases cronológicas**. El horario habitual fue de 18:00 a 20:00
+los lunes, martes, jueves y viernes.
 
 | Sesión | Fecha | Unidad | Tema |
 | ---: | --- | --- | --- |
@@ -18,10 +18,12 @@ martes, jueves y viernes.
 | 10 | 5 nov 2026 | Clasificación | Naive Bayes, árboles y ROC-AUC |
 | 11 | 6 nov 2026 | Ensamble | Bagging, Random Forest y AdaBoost |
 | 12 | 9 nov 2026 | Clasificación | Desbalance, métricas, hiperparámetros y calibración |
-| 13 | 10 nov 2026 | Clasificación | Redes neuronales, tema anunciado |
-| Evaluación final | 12 o 13 nov 2026 | Por confirmar | Posible cuestionario en formulario, sin fecha ni enlace confirmados |
+| 13 | 10 nov 2026 | Clasificación | Redes neuronales y cierre del módulo |
+| Examen del módulo 3 | 15 nov 2026, 23:00 | Clasificación | Datos desbalanceados y calibración |
+| Evaluación opcional | 15 nov 2026, 23:00 | Curso completo | 15 preguntas, hasta 5 puntos extra |
 
 El [programa oficial](programa-oficial-aprendizaje-supervisado.pdf) contiene la planeación completa.
 El examen del módulo 1 fue enviado el 28 de octubre. El examen del módulo 2 fue enviado el 6 de
-noviembre, antes de la fecha límite. Las prácticas 8 a 13 están listas. Las presentaciones las marcan
-como entregables, aunque todavía no hay fecha ni plataforma confirmadas.
+noviembre, antes de la fecha límite. El examen del módulo 3 está listo para subir. Las prácticas 8
+a 14 están listas. Las presentaciones las marcan como entregables, aunque todavía no hay fecha ni
+plataforma confirmadas.

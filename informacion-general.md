@@ -2,10 +2,10 @@
 
 ## Estado de la materia
 
-- Última clase organizada: **clase 12 - evaluación e hiperparámetros**.
-- Clases organizadas: **1 a 12, sin huecos**.
-- Próxima clase anunciada: **martes 10 de noviembre de 2026**.
-- Tema anunciado: **redes neuronales**.
+- Última clase organizada: **clase 13 - redes neuronales**.
+- Clases organizadas: **1 a 13, sin huecos**.
+- Estado del módulo: **finalizado el 10 de noviembre de 2026**.
+- Siguiente curso anunciado: **martes 17 de noviembre de 2026**.
 - Última entrega enviada: **examen del módulo 2, el 6 de noviembre de 2026**.
 
 ## Dónde está cada cosa
@@ -34,8 +34,9 @@ Solo se registran fechas confirmadas por el profesor o por la plataforma.
 
 ## Pendientes actuales
 
-- Esperar la fecha y el medio de envío de las prácticas 4, 5 y 7 a 13. Ya están resueltas.
-- Confirmar si habrá evaluación final mediante formulario el 12 o 13 de noviembre.
+- Subir el examen del módulo 3 antes del 15 de noviembre a las 23:00. Ya está resuelto.
+- Preparar la evaluación opcional de conocimientos. Puede sumar hasta 5 puntos y solo permite un intento.
+- Esperar la fecha y el medio de envío de las prácticas 4, 5 y 7 a 14. Ya están resueltas.
 - Esperar las instrucciones del miniproyecto de regresión.
 - Esperar las instrucciones del miniproyecto de clasificación.
 

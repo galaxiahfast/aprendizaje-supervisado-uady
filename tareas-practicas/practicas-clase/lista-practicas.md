@@ -15,3 +15,4 @@
 | [Evaluación de fraude](practica-11-evaluacion-fraude/resumen-practica-11.md) | Clase 12 | Resuelta y verificada | Se menciona como entregable. Falta fecha y lugar |
 | [Bagging y Random Forest](practica-12-bagging-random-forest/resumen-practica-12.md) | Clase 11 | Resuelta y verificada | Se menciona como entregable. Falta fecha y lugar |
 | [Boosting para clasificación](practica-13-boosting-clasificacion/resumen-practica-13.md) | Clase 11 | Resuelta y verificada | Se menciona como entregable. Falta fecha y lugar |
+| [Redes neuronales con Fashion-MNIST](practica-14-redes-neuronales/resumen-practica-14.md) | Clase 13 | Resuelta y verificada | Se menciona como entregable. Falta fecha y lugar |

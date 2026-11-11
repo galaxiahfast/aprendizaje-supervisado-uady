@@ -18,13 +18,16 @@ El [examen del módulo 1](tareas-entregables/tarea-01-examen-modulo-01/resumen-t
 fue enviado mediante el formulario el **28 de octubre de 2026**. La confirmación quedó guardada en
 la carpeta de la tarea.
 
-Las prácticas 4 a 13 están resueltas. Las prácticas 4, 5 y 7 a 13 quedaron ejecutadas y verificadas.
+Las prácticas 4 a 14 están resueltas. Las prácticas 4, 5 y 7 a 14 quedaron ejecutadas y verificadas.
 El material oficial las llama entregables, pero todavía no se anunció fecha ni plataforma para
 ellas. La práctica 6 es material de repaso y señala que no hay nada que entregar.
 
 El [examen del módulo 2](tareas-entregables/tarea-02-examen-modulo-02/resumen-tarea-02.md) fue enviado
 mediante el formulario el **6 de noviembre de 2026**. La confirmación quedó guardada en la carpeta de
 la tarea.
+
+El [examen del módulo 3](tareas-entregables/tarea-03-examen-modulo-03/resumen-tarea-03.md) está
+resuelto y listo para subir. La fecha límite es el **15 de noviembre de 2026 a las 23:00**.
 
 ## Antes de entregar una tarea
 
