@@ -6,7 +6,7 @@
 - Clases organizadas: **1 a 13, sin huecos**.
 - Estado del módulo: **finalizado el 10 de noviembre de 2026**.
 - Siguiente curso anunciado: **martes 17 de noviembre de 2026**.
-- Última entrega enviada: **examen del módulo 2, el 6 de noviembre de 2026**.
+- Última entrega enviada: **examen del módulo 3, el 11 de noviembre de 2026**.
 
 ## Dónde está cada cosa
 
@@ -26,7 +26,7 @@ para estudiar.
 
 | Evidencia | Valor | Estado |
 | --- | ---: | --- |
-| Ejercicios de laboratorio | 30 % | Exámenes 1 y 2 enviados |
+| Ejercicios de laboratorio | 30 % | Exámenes 1, 2 y 3 enviados |
 | Miniproyecto de regresión | 35 % | Faltan instrucciones y fecha |
 | Miniproyecto de clasificación | 35 % | Faltan instrucciones y fecha |
 
@@ -34,7 +34,6 @@ Solo se registran fechas confirmadas por el profesor o por la plataforma.
 
 ## Pendientes actuales
 
-- Subir el examen del módulo 3 antes del 15 de noviembre a las 23:00. Ya está resuelto.
 - Preparar la evaluación opcional de conocimientos. Puede sumar hasta 5 puntos y solo permite un intento.
 - Esperar la fecha y el medio de envío de las prácticas 4, 5 y 7 a 14. Ya están resueltas.
 - Esperar las instrucciones del miniproyecto de regresión.

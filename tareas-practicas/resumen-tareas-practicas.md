@@ -26,8 +26,9 @@ El [examen del módulo 2](tareas-entregables/tarea-02-examen-modulo-02/resumen-t
 mediante el formulario el **6 de noviembre de 2026**. La confirmación quedó guardada en la carpeta de
 la tarea.
 
-El [examen del módulo 3](tareas-entregables/tarea-03-examen-modulo-03/resumen-tarea-03.md) está
-resuelto y listo para subir. La fecha límite es el **15 de noviembre de 2026 a las 23:00**.
+El [examen del módulo 3](tareas-entregables/tarea-03-examen-modulo-03/resumen-tarea-03.md) fue enviado
+mediante el formulario el **11 de noviembre de 2026**. La confirmación quedó guardada en la carpeta
+de la tarea.
 
 ## Antes de entregar una tarea
 

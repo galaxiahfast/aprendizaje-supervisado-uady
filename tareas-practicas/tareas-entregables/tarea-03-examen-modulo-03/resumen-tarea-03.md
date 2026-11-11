@@ -3,7 +3,7 @@
 **Tema:** evaluación de modelos con datos desbalanceados  
 **Fecha límite:** domingo 15 de noviembre de 2026 a las 23:00  
 **Entrega:** [formulario oficial](https://forms.gle/2qxkfK9Qv6ApbiiU7)  
-**Estado:** listo para subir
+**Estado:** enviado el 11 de noviembre de 2026
 
 ## Archivo que se entrega
 
@@ -37,11 +37,10 @@ entrega.
 - Las versiones de las librerías aparecen al inicio.
 - El notebook fue ejecutado completo sin errores.
 
-## Antes de enviarlo
+## Entrega registrada
 
-- [ ] Abrir el notebook y revisar que se vean las gráficas.
-- [ ] Subir solamente `Ortiz_Julian_Examen_Modulo3.ipynb`.
-- [ ] Confirmar que el formulario muestre el envío registrado.
-- [ ] Guardar una captura de la confirmación en esta carpeta.
+- Se subió solamente `Ortiz_Julian_Examen_Modulo3.ipynb`.
+- Google Forms mostró el mensaje de respuesta registrada.
+- La [captura de confirmación](evidencia-entrega-examen-modulo-03.png) quedó guardada en esta carpeta.
 
 Los [criterios oficiales](criterios-evaluacion-modulo-03.pdf) están guardados junto al notebook.

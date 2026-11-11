@@ -24,6 +24,6 @@ los lunes, martes, jueves y viernes.
 
 El [programa oficial](programa-oficial-aprendizaje-supervisado.pdf) contiene la planeación completa.
 El examen del módulo 1 fue enviado el 28 de octubre. El examen del módulo 2 fue enviado el 6 de
-noviembre, antes de la fecha límite. El examen del módulo 3 está listo para subir. Las prácticas 8
+noviembre, antes de la fecha límite. El examen del módulo 3 fue enviado el 11 de noviembre. Las prácticas 8
 a 14 están listas. Las presentaciones las marcan como entregables, aunque todavía no hay fecha ni
 plataforma confirmadas.
