@@ -14,7 +14,7 @@
 | --- | --- |
 | [unidades de la materia](unidades-materia/resumen-unidades.md) | Una carpeta por unidad. Dentro está cada clase con sus apuntes y materiales. |
 | [tareas y prácticas](tareas-practicas/resumen-tareas-practicas.md) | Prácticas de clase separadas de las tareas calificables. |
-| [proyectos de la materia](proyectos-materia/resumen-proyectos.md) | Proyectos de regresión y clasificación. |
+| [proyectos de la materia](proyectos-materia/resumen-proyectos.md) | Seguimiento de los componentes anunciados al inicio y de cómo cerró la evaluación. |
 
 El [programa y calendario](programa-y-calendario-aprendizaje-supervisado.md) muestra las sesiones,
 los temas previstos, las fechas confirmadas y la forma de evaluación.
@@ -26,18 +26,18 @@ para estudiar.
 
 | Evidencia | Valor | Estado |
 | --- | ---: | --- |
-| Ejercicios de laboratorio | 30 % | Exámenes 1, 2 y 3 enviados |
-| Miniproyecto de regresión | 35 % | Faltan instrucciones y fecha |
-| Miniproyecto de clasificación | 35 % | Faltan instrucciones y fecha |
+| Preparación de datos | 30 % | Examen del módulo 1 enviado |
+| Modelos de regresión | 35 % | Examen del módulo 2 enviado |
+| Modelos de clasificación | 35 % | Examen del módulo 3 enviado |
 
-Solo se registran fechas confirmadas por el profesor o por la plataforma.
+Aunque el programa inicial llamó miniproyectos a los dos últimos componentes, no se publicó una
+consigna separada. En la última clase el profesor habló de las evaluaciones 1, 2 y 3 como los trabajos
+que faltaba calificar para obtener la nota final.
 
 ## Pendientes actuales
 
 - Preparar la evaluación opcional de conocimientos. Puede sumar hasta 5 puntos y solo permite un intento.
 - Esperar la fecha y el medio de envío de las prácticas 4, 5 y 7 a 14. Ya están resueltas.
-- Esperar las instrucciones del miniproyecto de regresión.
-- Esperar las instrucciones del miniproyecto de clasificación.
 
 ## Nombres
 

@@ -24,7 +24,11 @@ La actividad de SVR es una práctica de repaso. Las tres entregas formales con f
 hasta ahora ya fueron enviadas.
 
 El material oficial llama entregables a las prácticas 4, 5 y 7 a 14. Todas están resueltas. No se
-informó una fecha ni un formulario para esas actividades.
+informó una fecha ni un formulario para esas actividades antes del cierre del curso.
+
+No se publicó una entrega adicional para los miniproyectos mencionados en el programa inicial. En
+la última clase el profesor indicó que la nota final se obtendría después de calificar las tres
+evaluaciones ya registradas.
 
 ## Evaluación opcional
 
