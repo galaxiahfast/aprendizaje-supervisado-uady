@@ -1,7 +1,9 @@
 # Evaluación de conocimientos adquiridos
 
-**Fecha límite:** domingo 15 de noviembre de 2026 a las 23:00  
-**Estado:** enviada el 13 de noviembre de 2026  
+**Fecha límite:** domingo 15 de noviembre de 2026 a las 23:00
+
+**Estado:** enviada el 13 de noviembre de 2026
+
 **Valor:** hasta 5 puntos adicionales
 
 ## Evidencias guardadas
