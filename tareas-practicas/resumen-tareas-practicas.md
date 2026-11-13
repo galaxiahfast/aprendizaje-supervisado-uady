@@ -30,6 +30,10 @@ El [examen del módulo 3](tareas-entregables/tarea-03-examen-modulo-03/resumen-t
 mediante el formulario el **11 de noviembre de 2026**. La confirmación quedó guardada en la carpeta
 de la tarea.
 
+La [evaluación opcional de conocimientos](tareas-entregables/tarea-04-evaluacion-conocimientos/resumen-evaluacion-conocimientos.md)
+fue enviada el **13 de noviembre de 2026**. Se conservaron la confirmación visual y el respaldo de
+las 15 respuestas.
+
 ## Antes de entregar una tarea
 
 - [ ] Confirmar que el profesor la marcó como entregable.

@@ -5,6 +5,7 @@
 | [Tarea 1 - examen del módulo 1](tarea-01-examen-modulo-01/resumen-tarea-01.md) | [`ortiz_julian_examen_modulo1.ipynb`](tarea-01-examen-modulo-01/ortiz_julian_examen_modulo1.ipynb) | [Formulario oficial](https://forms.gle/QnkZYco2EFLUYiuD8) | 31 oct 2026 | Enviada el 28 oct 2026 |
 | [Tarea 2 - examen del módulo 2](tarea-02-examen-modulo-02/resumen-tarea-02.md) | [`Ortiz_Julian_Examen_Modulo2.ipynb`](tarea-02-examen-modulo-02/Ortiz_Julian_Examen_Modulo2.ipynb) | [Formulario oficial](https://forms.gle/4TRwhUbqJoGmpm89A) | 8 nov 2026, 23:00 | Enviada el 6 nov 2026 |
 | [Tarea 3 - examen del módulo 3](tarea-03-examen-modulo-03/resumen-tarea-03.md) | [`Ortiz_Julian_Examen_Modulo3.ipynb`](tarea-03-examen-modulo-03/Ortiz_Julian_Examen_Modulo3.ipynb) | [Formulario oficial](https://forms.gle/2qxkfK9Qv6ApbiiU7) | 15 nov 2026, 23:00 | Enviada el 11 nov 2026 |
+| [Evaluación opcional de conocimientos](tarea-04-evaluacion-conocimientos/resumen-evaluacion-conocimientos.md) | Se respondió en línea | [Sitio oficial](https://clirlab.github.io/supervised-learning-course/examen-final/) | 15 nov 2026, 23:00 | Enviada el 13 nov 2026 |
 
 ## No se sube por ahora
 
@@ -30,12 +31,11 @@ No se publicó una entrega adicional para los miniproyectos mencionados en el pr
 la última clase el profesor indicó que la nota final se obtendría después de calificar las tres
 evaluaciones ya registradas.
 
-## Evaluación opcional
+## Evaluación opcional completada
 
-La [Evaluación de Conocimientos Adquiridos](https://clirlab.github.io/supervised-learning-course/examen-final/)
-puede sumar hasta 5 puntos a la calificación final. Tiene 15 preguntas abiertas con cinco minutos por
-pregunta. Solo permite un intento y no se puede pausar. La fecha límite es el domingo 15 de noviembre
-a las 23:00. Conviene prepararla antes de abrirla.
+La [Evaluación de Conocimientos Adquiridos](tarea-04-evaluacion-conocimientos/resumen-evaluacion-conocimientos.md)
+fue enviada el 13 de noviembre. La confirmación y el respaldo de las 15 respuestas están guardados
+en su carpeta.
 
 El 6 de noviembre el profesor cambió la revisión del examen 2. Decidió omitir la ejecución sobre un
 conjunto privado y revisar los resultados ya guardados en el notebook.

@@ -6,7 +6,7 @@
 - Clases organizadas: **1 a 13, sin huecos**.
 - Estado del módulo: **finalizado el 10 de noviembre de 2026**.
 - Siguiente curso anunciado: **martes 17 de noviembre de 2026**.
-- Última entrega enviada: **examen del módulo 3, el 11 de noviembre de 2026**.
+- Última entrega enviada: **evaluación opcional de conocimientos, el 13 de noviembre de 2026**.
 
 ## Dónde está cada cosa
 
@@ -29,6 +29,7 @@ para estudiar.
 | Preparación de datos | 30 % | Examen del módulo 1 enviado |
 | Modelos de regresión | 35 % | Examen del módulo 2 enviado |
 | Modelos de clasificación | 35 % | Examen del módulo 3 enviado |
+| Evaluación opcional | Hasta 5 puntos extra | Enviada el 13 de noviembre |
 
 Aunque el programa inicial llamó miniproyectos a los dos últimos componentes, no se publicó una
 consigna separada. En la última clase el profesor habló de las evaluaciones 1, 2 y 3 como los trabajos
@@ -36,7 +37,6 @@ que faltaba calificar para obtener la nota final.
 
 ## Pendientes actuales
 
-- Preparar la evaluación opcional de conocimientos. Puede sumar hasta 5 puntos y solo permite un intento.
 - Esperar la fecha y el medio de envío de las prácticas 4, 5 y 7 a 14. Ya están resueltas.
 
 ## Nombres

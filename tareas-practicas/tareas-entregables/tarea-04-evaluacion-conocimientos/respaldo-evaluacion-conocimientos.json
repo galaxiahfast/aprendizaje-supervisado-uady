@@ -1,0 +1,81 @@
+{
+  "nombre": "ORTIZ RIVERO JULIAN EMILIANO",
+  "matricula": "a26216686@alumnos.uady.mx",
+  "respuestas": [
+    {
+      "unidad": "Unidad 1 · EDA",
+      "pregunta": "Una variable de precio tiene varios valores idénticos en un máximo artificial (censura, no un valor real). Explica por qué el boxplot y la regla del IQR, por sí solos, no distinguen esto de un valor atípico genuino.",
+      "respuesta": "El bloxplot y la regla del IQR solo se fijan en la distribución numérica de los datos, usando los cuartiles y la dispersión, sin saber el contexto del negocio ni el límite real de la variable.\n\nComo esos valores altos (aunque estén censurados) se salen de la distancia matemática del IQR, el gráfico y la regla los marca como puntos atípicos cualquiera, sin importar que estén ahí por un tope artificial. "
+    },
+    {
+      "unidad": "Unidad 2 · Preprocesamiento",
+      "pregunta": "Explica, con un ejemplo, qué fuga de datos (data leakage) ocurre si ajustas un imputador o un escalador usando todo el conjunto de datos antes de dividirlo en entrenamiento y prueba.",
+      "respuesta": "Si calculas la media o la escala (como promedio o la deviación estándar) con todo el dataset antes de partirlo, el modelo de entrenamiento ya se \"entera\" de información que pertenece al conjunto de prueba.\n\nPor ejemplo, si normalizas los datos de un sueldo usando el promedio global, parte de la información del dataset de prueba se filtra al entrenamiento, haciendo que el modelo parezca excelente en las pruebas pero luego falle con datos nuevos de verdad."
+    },
+    {
+      "unidad": "Unidad 3 · Selección de variables",
+      "pregunta": "Explica cómo funciona, paso a paso, la Eliminación Recursiva de Variables (RFE), y menciona una desventaja práctica frente a un método de filtro simple (como la correlación).",
+      "respuesta": "EL RFE (Eliminación Recursiva de Variables) arranca entrenando un modelo con todas las variables, revisa cuáles importan menos según sus pesos, borra la por y vuelve a empezar el ciclo hasta quedarse con el número de variables que quieres.\n\nUna desventaja grandísima frente a un filtro simple (como la correlación) es que el RFE es muchísimo más lento y pesado computacionalmente porque tiene que reentrenar el modelo en cada ronda, mientras que el filtro nomás saca una cuenta rápida de una sola pasada. "
+    },
+    {
+      "unidad": "Unidad 4 · Regresión lineal/polinomial",
+      "pregunta": "Un modelo polinomial de grado alto se ajusta casi perfectamente a los datos de entrenamiento, pero su error es mucho mayor en datos nuevos. Nombra este fenómeno y explica, en términos de sesgo y varianza, por qué ocurre.",
+      "respuesta": "Se llama sobreajuste (overfitting). Pasa porque el modelo tiene tanta flexibilidad que tiene un sesgo bajísimo con los datos de entrenamiento, pero una varianza altísima, lo que hace que se equivoque demasiado al ver datos nuevos que no conocía."
+    },
+    {
+      "unidad": "Unidad 5 · Regularización",
+      "pregunta": "Explica por qué Lasso (L1) puede llevar coeficientes exactamente a cero mientras que Ridge (L2) no, y qué efecto práctico tiene esto para la selección de variables.",
+      "respuesta": "Lasso (L1) una la norma L1 (valor absoluto), lo que hace que su región de restricción tenga esquinas o picos en los ejes. Cuando las curvas de error chocan con esas esquinas, es bien fácil que caigan justo en cero, anulando el coeficiente.\n\nEn cambio Ridge (L2) tiene forma de círculo o esfera, sin esquinas, así que los coeficientes se reducen pero nunca llegan a cero.\n\nPor eso Lasso sirve para seleccionar variables porque literalmente borra las que no sirven, mientras que Ridge solo les baja el volumen a todas."
+    },
+    {
+      "unidad": "Unidad 6 · SVR",
+      "pregunta": "En una Support Vector Regression con kernel RBF, explica qué controla el hiperparámetro gamma y qué le pasa al modelo si gamma es demasiado grande.",
+      "respuesta": "Gamma controla qué tan lejos se extiende la influencia de cada punto individual (o sea, el radio o la curvatura del kernel).\n\nSi gamma está demasiado grande, el radio se hace bien pequeño y cada punto manda solo en su área, haciendo que el modelo se sobreajuste y cree una curva demasiado empinada y quebrada que nomás se aprende los puntos de memoria. "
+    },
+    {
+      "unidad": "Unidad 7 · Árboles y validación",
+      "pregunta": "Explica por qué un árbol de decisión sin restricciones (max_depth=None) casi siempre sobreajusta, y nombra una forma concreta de controlarlo.",
+      "respuesta": "Un árbol sin restricciones (max_depth=None) se sigue dividiendo hasta que cada hoja tiene puras muestras puras, por lo que se aprende los datos de memoria (overfitting).\n\nUna forma concreta de controlarlo es poniendo un límite a la profundidad con max_depth o exigiendo un mínimo de muestras por hoja (min_samples_leaf)."
+    },
+    {
+      "unidad": "Unidad 8 · Regresión logística y kNN",
+      "pregunta": "Explica qué es la maldición de la dimensionalidad y por qué afecta particularmente a un clasificador como k vecinos más cercanos (kNN).",
+      "respuesta": "La maldición de la dimensionalidad para cuando le metes demasiadas variables a los datos y el espacio se vuelve tan gigante que los puntos quedan super dispersos y vacíos.\n\nA kNN le afecta porque se basa en medir distancias: con tantas dimensiones, todos los puntos empiezan a verse igual de lejos y pierde el sentido la idea de \"vecinos cercanos\", haciendo que falle."
+    },
+    {
+      "unidad": "Unidad 9 · Naive Bayes y árboles de clasificación",
+      "pregunta": "Explica el supuesto de independencia condicional («naive») detrás de Naive Bayes, y por qué el modelo suele funcionar razonablemente bien en la práctica aunque ese supuesto casi nunca se cumpla exactamente.",
+      "respuesta": "El supuesto \"naive\" (ingenuo) de Naive Bayes es que todas las variables predictoras son totalmente independientes entre sí, dado el valor de la clase, Osea, asume que no hay relación ni dependencia entre las características.\n\nFunciona en la práctica aunque ese puesto casi nunca se cumpla porque, para clasificar, el modelo solo necesita atinarle a qué clase es más probable y no le importa tanto que las probabilidades estén súper exactas. Además, las dependencias a veces se cancelan solas o el modelo es tan robusto que aun así da el resultado."
+    },
+    {
+      "unidad": "Unidad 10 · SVM de clasificación",
+      "pregunta": "Explica qué es el truco del kernel en una SVM y por qué permite separar clases que no son linealmente separables en el espacio original, sin construir explícitamente las variables transformadas.",
+      "respuesta": "EL truco de kernel es impresionante porque permite calcular las relaciones y distancias en un espacio dimensional bien alto (donde los datos ya se pueden separar con una línea) sin tener que mover ni transformar físicamente las variables.\n\nLo hace usando puras funciones matemáticas de producto punto, ahorrando un montón de memoria y tiempo de cómputo porque te salta el paso pesado de calcular las coordenadas nuevas unas por una. "
+    },
+    {
+      "unidad": "Unidad 11 · Redes neuronales (MLP)",
+      "pregunta": "Explica por qué un perceptrón simple no puede resolver el problema XOR, y qué lo hace posible en una red neuronal multicapa (MLP).",
+      "respuesta": "El perceptrón simple no puede con el XOR porque es lineal, o sea, solo tira una línea recta y los puntos del XOR están cruzados y no se pueden separa así.\n\nEn cambio, la multicapa (MLP) mete capas ocultas y funciones de activación no lineales, o que dobla o deforma el espacio y ya puede separar esos puntos sin dificultad."
+    },
+    {
+      "unidad": "Unidad 12 · Evaluación e hiperparámetros",
+      "pregunta": "En un problema de clasificación con clases muy desbalanceadas, explica por qué la exactitud (accuracy) puede ser una métrica engañosa, y qué mide en su lugar el coeficiente kappa de Cohen o el MCC.",
+      "respuesta": "La exactitud (accuracy) engaña cuando los datos están desbalanceados porque si el 99% es de una clase, el modelo con solo adivinar siempre esa clase ya tiene 99% de aciertos aunque no sirva para nada.\n\nEn cambio, el coeficiente Kappa de Cohen y el MCC (Matthews Correlation Coefficient) miden qué tan bueno es el modelo comparado contra una tirada de moneda o una adivinanza al azar, tomando en cuenta todas las celdas de la matriz de confusión (aciertos y errores de ambos lados) para dar una visión real."
+    },
+    {
+      "unidad": "Unidad 13 · Bagging y Random Forest",
+      "pregunta": "Explica por qué el bagging reduce la varianza de un modelo, y qué condición debe cumplirse entre los árboles individuales para que ese beneficio ocurra.",
+      "respuesta": "El bagging baja la varianza porque promedia las predicciones de varios modelos entrenados con diferentes pedazos de los datos (bootstrap), lo que suaviza los errores individuales.\n\nPara que eso funcione, la condición clave es que los árboles individuales sean lo más independientes o descorrelacionados posibles, porque si todos fallan igual, promediarlos no sirve de nada. "
+    },
+    {
+      "unidad": "Unidad 14 · Boosting",
+      "pregunta": "Explica la diferencia fundamental entre cómo construye sus modelos el bagging (en paralelo, de forma independiente) y el boosting (de forma secuencial), y por qué el boosting reduce principalmente el sesgo.",
+      "respuesta": "El baggig arma varios modelos al mismo tiempo y por separado (cada quien hace su trabajo), y al final promedia para bajar la varianza. El boosting los hace uno tras otro de forma secuencial, donde cada modelo nuevo se concentra en corregir los errores o los residuos que dejó el anterior. \n\nComo cada modelo va afinando lo que falta de los pasados, el boosting le pega directo al sesgo y lo reduce demasiado. "
+    },
+    {
+      "unidad": "Retroalimentación del curso",
+      "pregunta": "Para cerrar, nos interesa tu opinión honesta sobre el curso completo: ¿qué te pareció bien (temas, actividades, ritmo, materiales)?, ¿qué te pareció mal o se podría mejorar?, y ¿qué sugerencias concretas harías para las próximas generaciones? Esta pregunta no se califica como conocimiento técnico; responde con la mayor honestidad y detalle posible.",
+      "respuesta": "EL curso estuvo verdaderamente interesante y abarcó temas bien aplicados al día a día. Las actividades y el ritmo se sintió un poco apresurado, porque algunos materiales quedaron algo cortos de ejemplos prácticos.\n\nComo sugerencia para las próximas generaciones, estaría increíble meter más ejercicios de código desde cero o casos de estudio reales para amarrar mejor la teoría. "
+    }
+  ]
+}
